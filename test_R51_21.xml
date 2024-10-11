@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <div type="preamble">
+               <p>Aujourdhuy <date when="1756-01-19">Lundy 19e janvier 1756</date> La Troupe s’est 
+                  assemblée pour déliberer de ses affaires à la maniere 
+                  accoutumée, et les présents à ladite assemblée ont signé pour 
+                  le droit de jetton.</p>
+            </div>
+            <div type="signature">
+               <lb/>
+               <signed corresp="#Dangeville">Dangeville</signed>
+               <lb/>               
+               <signed corresp="#Armand">Armand</signed>
+               <lb/>
+               <signed corresp="#Dubreuil">Dubreüil</signed>
+               <lb/>
+               <signed corresp="#legrand">legrand</signed>
+               <lb/>
+               <signed corresp="#Droüin">Droüin</signed>
+               <lb/>
+               <signed corresp="#Lavoy">Lavoy</signed>
+               <lb/>
+               <signed corresp="#delamott">delamott</signed>
+               <lb/>
+               <signed corresp="#LeKaïn">Le Kaïn</signed>
+               <lb/>
+               <signed corresp="#Dumesnil">Dumesnil</signed>
+               <lb/>
+            </div>
+            <div type="presents" corresp="1756-01-19">
+               <head rend="margin-left">
+                  Presents
+                  <!--<lb/>
+                     Messieurs-->
+               </head>
+               <list>
+                  <lb/>
+                  <item>Messieurs</item>
+                  <item corresp="#Armand">Armand</item>
+                  <item corresp="#Sarrazin">Sarrazin</item>
+                  <item corresp="#Lanoue">Lanoue</item>
+                  <item corresp="#Grandval">Grandval</item>
+                  <item corresp="#Dubreuil">Dubreuïl</item>
+                  <item corresp="#Lathorilliere">Lathorilliére</item>
+                  <item corresp="#Legrand">Legrand</item>
+                  <item corresp="#Bonneval">Bonneval</item>
+                  <item corresp="#Paulin">Paulin</item>
+                  <item corresp="#Dangeville">Dangeville</item>
+               </list>
+               <list>
+                  <item corresp="#Dusmenil">M<hi rend="sup">lles</hi>… Dumésnil</item>
+                  <item corresp="#Lamotte">Lamotte</item>
+                  <item corresp="#Lavoy">Lavoy</item>
+                  <item corresp="#Dangeville">Dangeville</item>
+                  <item corresp="#Grandval">Grandval</item>
+                  <item corresp="#Drouïn">Drouïn</item>
+                  <item corresp="#Brillant">Brillant… 18… P…</item>
+               </list>
+            </div>
+            <div type="absents" corresp="1756-01-19">
+               <head rend="margin-left">absents</head>
+               <list>
+                  <lb/>
+                  <item></item>
+               </list>
+            </div>
+
+               
+               <p>Messieurs… Dubois… absent</p>
+               
+               <p>Bellecourt… à l’amende</p>
+               
+               <p>Préville… à l’amende</p>
+               
+               <p>Mlles… Gaussin… absente</p>
+               
+               <p>Clairon… absente</p>
+               
+               <p>Beauménard… absente</p>
+               
+               <p>Hus… à l’amende</p>
+               
+               <p>Guéant… à l’amende.</p>
+               
+               <p/>
+               
+               <p>18 jettonniers… ont partagé… 5<hi rend="sup">lt</hi>…</p>
+               
+               <p>22. Présents.</p>
+               
+               <p>4. à l’amende.</p>
+               
+               <p>Total… 26.</p>
+               
+               <p/>
+               
+               <p/>
+               
+               <p>Le Billet cy à coté a été rapporté et annullé, attendeu que l’obligation a été convertie en contract de constitution.</p>
+               
+               <p>Le Kaïn</p>
+               
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
