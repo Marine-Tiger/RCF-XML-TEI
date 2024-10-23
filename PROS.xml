@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prospographie</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="liste_acteurs-actrices">
+            <listPerson>
+               <person xml:id="CHAMP1">
+                  <persName>
+                     <reg>Charles Chevillet</reg>
+                     <forename>Charles</forename>
+                     <surname>Chevillet</surname>
+                     <addName>De Champmesle</addName>
+                  </persName>
+                  <occupation corresp="acteur" from="1668" to="1701">Acteur</occupation>
+                  <occupation corresp="societaire" from="1680" to="1701">Societaire</occupation>                 
+               </person>
+               
+               <person xml:id="DESM1">
+                  <persName>
+                     <reg>Mademoiselle Champmesle</reg> <!-- Nom des id a definir -->
+                     <forename>Marie</forename>
+                     <surname>Desmarres</surname>
+                     <surname>Champmesle</surname> <!-- 2 noms a identifier-->
+                     <addName>La Champmesle</addName> <!-- surnom -->
+                  </persName>
+                  <occupation corresp="actrice" from="1668" to="1698">Actrice</occupation>
+                  <occupation corresp="societaire" from="1680" to="1698">Societaire</occupation>
+               </person>
+               <person xml:id="DESM2"> 
+                  <persName>
+                     <reg>Charlotte Desmares</reg> <!-- Nom complet -->
+                     <forename>Charlotte</forename>
+                     <surname>Desmares</surname>
+                  </persName>
+                  <occupation corresp="actrice" from="1698" to="1721">Actrice</occupation>
+                  <occupation from="1699" to="1721">Societaire</occupation>
+               </person>
+            </listPerson>
+            <listRelation>
+               <relation name="epoux" corresp="#CHAMP1 #DESM1" when="1666"/>
+               <relation name="famille" corresp="#DESM1 #DESM2"></relation>
+            </listRelation>
+            
+         </div>
+      </body>
+  </text>
+</TEI>

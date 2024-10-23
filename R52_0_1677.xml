@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Feuillets de l'assemblee 1677-1681</title>
+            <!-- Mettre en place une typologie pour les titres -->
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="01"/>
+         <div type="note">
+            <p>Depuis 1677, (il n'y a qu'une feuille de cette annee), et depuis 1682 jusques et
+               cmprise l'annee 1695 remises en ordre par led Charles de Fieux [Chev?] de Mouhy en
+               mars 1758. il manque toute l'annee 1677 a lexeption d'une seule feuille 1678, 1679,
+               1680, 1681. Le reste est complet pour les annees apres 1696.</p>
+         </div>
+         <pb n="02"/>
+         <pb n="03"/>
+         <div corresp="1677-05-17">
+            <p rend="top-left"><date when="1677-05-17">17 may 1677</date></p>
+            <p>La Compagnie s'estant assemblée ce jour d'hui <date when="1677-05-17">17e may
+                  1677</date>, a délibéré de rassepter <note type="bas_page">Un terme
+                  manquant</note>
+               <measure type="argent" corresp="rente">cent cinquante livres</measure> de rente qui
+               restent deubee a Monsieur Boudet et dix sept cent livres de rente qui luy ont esté
+               constituez le quinziesme juillet mil six cent soixante seize et de lui en payer les
+               arrérages qui en sont deubs depuis le quatre avril mil six cent soixante quinze,
+               montant jusques a ce jourd'huy a la somme de troix cent dix sept livres dix huict
+               soles quatre deniers ; comme aussy, a delibéré de payer a Mademoiselle de Molière les
+               interests des unze mil livres qu'elle a receue de M. de Lully depuis le vingt deux
+               may mil six cent soixante seize jusques au dit jour quinze juillet mile six cent
+               soixante seize montant a la somme de quatre vingt deux livres dix solz. Touttes les
+               dittes sommes, principalle, arrerages et interests, revenants ensemble a celle de
+               troix mil quatre cent livres huict solz quatre deniers417, pour le payement de
+               laquelle, il sera emprunté de l'un dix a mise de Monsieur Hubert, la somme de seize
+               cent cinquante livres et le surplus, montant a dix sept cent cinquante livres huict
+               solz quatre deniers, sera fourny par Monsieur De La Grange tan des deniers qu'il a
+               receus pour la Compagnie que de ceux qu'il recepvra après, laquelle somme de dix sept
+               cinquante livres huict solz quatre deniers sera incessamment remplacée par la
+               Compagnie sur les receptes journallieres, attendu que ces deniers-là sont destinés
+               pour le payement des loges de nostre hostel et autres despenses communes. C.V.
+               DELAGRANGE, HUBERT, DESTRICHET, DE VERNEUIL, ARMANDE GRESINDE BEJART, DU CROISY,
+               D'AUVILLIERS, DE LA ROSE</p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

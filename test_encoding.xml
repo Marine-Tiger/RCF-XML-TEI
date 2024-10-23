@@ -24,12 +24,12 @@
                <lb/>
                <!-- saut de ligne -->
                <p>Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
-                  s'est assemblée a son ordinaire dans la salle commune de son hostel pour y
-                  dellibérer de ses affaires les présens a l'assemblée ont signé avant dix heures
-                  pour le droit de jetton</p>
+                  s'est assemblée a son ordinaire dans la salle commune de son <placeName corresp="HotelComediensOrdinaires">hostel</placeName> pour y
+                  dellibérer de ses affaires les présens a l'assemblée ont signé avant <time>dix heures</time>
+                  pour le droit de <term corresp="jetton">jetton</term></p>
             </div>
-            <div type="signature">
-               <signed corresp="#CharlesDeChampmesle">De Champmeslé</signed>
+            <div type="signature" corresp="1688-01-12">
+               <signed corresp="#DeChampmesle">De Champmeslé</signed>
                <lb/>
                <signed corresp="#LeComte">Le Comte</signed>
                <lb/>
