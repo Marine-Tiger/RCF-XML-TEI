@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Registre cote <date when="1700-12-20"/></title>
+            <!-- Registre R418 annees 1821-1824 -->
+         </titleStmt>
+         <publicationStmt>
+            <p>A etablir. </p>
+            <!-- Edition numerique de la transcription du registre -->
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc source="lien vers portail Lagrange">
+               <!-- Description du registre. Je pense que l'on peut garder un niveau de detail leger puisque nous pouvons renvoyer vers la notice du portail Lagrange -->
+               <msIdentifier>
+                  <institution>Bibliotheque-musee de la Comedie-Francaise</institution>
+                  <repository>Serie/sous-serie</repository>
+                  <idno>cote</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change when="2024-10-24">Creation du fichier, construction du Header.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+   </text>
+</TEI>

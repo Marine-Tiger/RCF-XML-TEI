@@ -48,8 +48,9 @@
                      <addName>Guérin</addName>
                   </persName>
                   <occupation type="acteur" from="1672" to="1717">Acteur</occupation>
-                  <occupation type="societaire" when="1680"></occupation>
+                  <occupation type="societaire" when="1680">Societaire</occupation>
                </person>
+<!--               <personGrp xml:id="CHAMP" corresp="#CHAMP1 #DESM1"/>-->
                <person xml:id="CHAMP1">
                   <persName>
                      <reg>Charles Chevillet</reg>
@@ -71,7 +72,7 @@
                   <occupation type="actrice" from="1668" to="1698">Actrice</occupation>
                   <occupation type="societaire" from="1680" to="1698">Sociétaire</occupation>
                </person>
-               <person xml:id="DESM2"> 
+               <person xml:id="DESM2" source="https://www.comedie-francaise.fr/fr/artiste/charlotte-desmares#"> <!-- Lien vers fiche sur le site de la CF si possible -->
                   <persName>
                      <reg>Charlotte Desmares</reg> <!-- Nom complet -->
                      <forename>Charlotte</forename>
