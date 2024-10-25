@@ -12,50 +12,65 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2024-10-25">Creation de personGrp, commentaires.</change>
+         <change when="2024-10-23">Creation de la prosopographie.</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div type="liste_acteurs-actrices">
             <listPerson>
-               <person xml:id="MOLI1">
+               <!-- <personGrp> est utilisé pour regrouper les familles. 
+                  Cela permettra d'utiliser l'id de la famille et non de la personne pour les signatures lorsqu'il est impossible d'identifier l'auteur.rice-->
+               <personGrp xml:id="CHAM" corresp="#CHAM1 #DESM1"/>
+               <personGrp xml:id="GUER" corresp="#GUER1 #BEJA1"/>
+               <personGrp xml:id="DESM" corresp="#DESM1 #DESM2"/>
+
+               <!--<person xml:id="MOLI1">
                   <persName>
                      <reg>Moliere</reg>
                      <forename>Jean-Baptiste</forename>
                      <surname>Poquelin</surname>
                   </persName>
-               </person>
+               </person>-->
+
                <!--Id à definir. J'ai repris la typologie de LEMDO pour le momemt-->
                <person xml:id="BEJA1">
                   <persName>
-                     <!--<reg>Armande Béjart</reg>-->
+                     <!-- Nom complet -->
+                     <reg>Armande Béjart</reg>
                      <forename>Armande</forename>
                      <!-- Plusieurs noms car mariée. On peut ajouter un attribut @type="nom_jeune_fille" ou similaire pour les identifier  -->
                      <surname>Béjart</surname>
-                     <surname>Guérin</surname>
+                     <surname>Moliere <date from="1662" to="1673"/></surname>
+                     <!--Dans <surname> on peut ajouter @corresp="" qui permettra de dire que cette personne appartient a telle famille de <personGrp>-->
+                     <surname corresp="#GUER">Guérin <date when="1677"/></surname>
                      <!-- Surnoms, alias, épithète, noms de scène -->
                      <addName>Mademoiselle Menou</addName>
                      <addName>Mademoiselle Moliere</addName>
                      <addName>Mademoiselle Guérin</addName>
                   </persName>
-                  <!-- Les differents emplois occupés. J'ai différencié acteur et actrice pour le momemt -->
+                  <!-- Les différents emplois occupés. J'ai différencié acteur et actrice pour le momemt. Plutot que @type, on utilisera @corresp pour renvoyer au mot des registres -->
                   <occupation type="actrice" from="1662" to="1694">Actrice</occupation>
                   <occupation type="societaire" when="1680">Sociétaire</occupation>
                </person>
+
                <person xml:id="GUER1">
                   <persName>
                      <!--<reg>Guérin</reg>-->
                      <forename>Isaac-François</forename>
-                     <surname>Guérin</surname>
+                     <surname corresp="#GUER">Guérin</surname>
                      <addName>Guérin</addName>
                   </persName>
                   <occupation type="acteur" from="1672" to="1717">Acteur</occupation>
                   <occupation type="societaire" when="1680">Societaire</occupation>
                   <occupation type="doyen" from="1692" to="1717">Doyen</occupation>
                </person>
-               <!--               <personGrp xml:id="CHAMP" corresp="#CHAMP1 #DESM1"/>-->
-               <person xml:id="CHAMP1">
+
+               <person xml:id="CHAM1">
                   <persName>
-                     <reg>Charles Chevillet</reg>
+                     <!--<reg>Charles Chevillet</reg>-->
                      <forename>Charles</forename>
                      <surname>Chevillet</surname>
                      <addName>De Champmesle</addName>
@@ -63,26 +78,25 @@
                   <occupation type="acteur" from="1668" to="1701">Acteur</occupation>
                   <occupation type="societaire" from="1680" to="1701">Sociétaire</occupation>
                </person>
+
                <person xml:id="DESM1">
                   <!-- Nom des id a definir -->
                   <persName>
                      <reg>Mademoiselle Champmesle</reg>
                      <forename>Marie</forename>
-                     <surname>Desmarres</surname>
-                     <surname>Champmesle</surname>
-                     <!-- 2 noms a identifier-->
+                     <surname corresp="#DESM">Desmarres</surname>
+                     <surname corresp="#CHAM">Champmesle <date when="1666"/></surname>
                      <addName>La Champmesle</addName>
-                     <!-- surnom -->
                   </persName>
                   <occupation type="actrice" from="1668" to="1698">Actrice</occupation>
                   <occupation type="societaire" from="1680" to="1698">Sociétaire</occupation>
                </person>
+
                <person xml:id="DESM2"
                   source="https://www.comedie-francaise.fr/fr/artiste/charlotte-desmares#">
                   <!-- Lien vers fiche sur le site de la CF si possible -->
                   <persName>
                      <reg>Charlotte Desmares</reg>
-                     <!-- Nom complet -->
                      <forename>Charlotte</forename>
                      <surname>Desmares</surname>
                   </persName>
@@ -90,12 +104,14 @@
                   <occupation type="societaire" from="1699" to="1721">Sociétaire</occupation>
                </person>
             </listPerson>
-            <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit un fichier a part. 
+
+
+            <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit dans un fichier a part. 
                Cela permettrait de renseigner les relations entre des personnes de la CF et hors CF -->
             <listRelation>
                <relation name="epoux" corresp="#MOLI1 #BEJA1" from="1662" to="1673"/>
                <relation name="epoux" corresp="#BEJA1 #GUER1" from="1677" to="1700"/>
-               <relation name="epoux" corresp="#CHAMP1 #DESM1" when="1666"/>
+               <relation name="epoux" corresp="#CHAM1 #DESM1" when="1666"/>
                <relation name="famille" corresp="#DESM1 #DESM2"/>
             </listRelation>
 
