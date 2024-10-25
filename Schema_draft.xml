@@ -6,47 +6,48 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Registre cote <date when="1700-12-20"/></title>
-            <!-- Registre R418 annees 1821-1824 -->
+            <title>Registre coté <date when="1700-12-20"/></title>
+            <!-- Registre R418 années 1821-1824 -->
          </titleStmt>
          <editionStmt>
-            <edition>Transcriptions encode par <name/></edition>
-            <!-- Auteur.rice de l'encodage et edition numerique -->
+            <edition>Transcriptions encodé par <name/></edition>
+            <!-- Auteur.rice de l'encodage et édition numérique -->
             <respStmt>
-               <!-- Credit aux transcripteur.rices -->
-               <resp>Transcriptions produite par / tire du memoire de M1/M2 de</resp>
+               <!-- Crédit aux transcripteur.rices -->
+               <resp>Transcriptions produite par / tire du mémoire de M1/M2 de</resp>
                <name/>
             </respStmt>
          </editionStmt>
          <publicationStmt>
-            <p>A etablir. </p>
+            <p>A établir. </p>
             <!-- Edition numerique de la transcription du registre -->
          </publicationStmt>
          <sourceDesc>
             <msDesc source="lien vers portail Lagrange">
-               <!-- Description du registre. Je pense que l'on peut garder un niveau de detail leger puisque nous pouvons renvoyer vers la notice du portail Lagrange -->
+               <!-- Description du registre. Si on fait le lien vers le portail Lagrange, on peut limiter la description à la provenance, série et cote. -->
                <msIdentifier>
-                  <institution>Bibliotheque-musee de la Comedie-Francaise</institution>
-                  <!-- Utile a preciser notamment pour la fin du 18eme et 19eme siecle car il y a plusieurs types de registres -->
-                  <repository>Serie/sous-serie</repository>
+                  <institution>Bibliothèque-musée de la Comédie-Française</institution>
+                  <!-- La série et sous-série permettra d'identifier le type de registre, notamment pour la fin du 18ème siècle et le 19ème siècle -->
+                  <repository>Série/sous-série</repository>
                   <idno>cote</idno>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
-         <!-- Pas sur que ce soit necessaire. Peut-etre est-ce ici que l'on fera les liens vers les indexes? -->
+         <!-- Le profileDesc est normalement utilisé pour décrire les "participants" dans un texte, définir des termes etc...
+         Pour le moment,je ne sais pas si cela est utile pour nous. -->
       </profileDesc>
       <!--      <encodingDesc>
          <schemaRef></schemaRef>
-         </encodingDesc> Renvoie au fichier XML du schema -->
+         </encodingDesc> Renvoie au fichier XML du schéma -->
       <revisionDesc>
-         <!-- Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un probleme au besoin -->
-         <change when="2024-10-24">Creation du fichier, construction du Header.</change>
+         <!-- Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un problème au besoin -->
+         <change when="2024-10-24">Création du fichier, construction du Header.</change>
       </revisionDesc>
    </teiHeader>
    <text>
-      <!-- On peut mettre un <front> mais les couvertures des registres consistent juste a la date de creation des registres, parfois elle est meme vide. -->
+      <!-- On peut mettre un <front> mais les couvertures des registres consistent juste en la date de création des registres. -->
       <body>
          <p>Some text here.</p>
       </body>

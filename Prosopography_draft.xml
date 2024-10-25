@@ -24,20 +24,20 @@
                      <surname>Poquelin</surname>
                   </persName>
                </person>
-               <!--Id a definir. J'ai repris la typologie de LEMDO pour le momemt-->
+               <!--Id à definir. J'ai repris la typologie de LEMDO pour le momemt-->
                <person xml:id="BEJA1">
                   <persName>
                      <!--<reg>Armande Béjart</reg>-->
                      <forename>Armande</forename>
-                     <!-- Plusieurs noms car mariees. On peut ajouter un attribut @type="nom_jeune_fille" ou similaire pour les identifier  -->
+                     <!-- Plusieurs noms car mariée. On peut ajouter un attribut @type="nom_jeune_fille" ou similaire pour les identifier  -->
                      <surname>Béjart</surname>
                      <surname>Guérin</surname>
-                     <!-- Surnoms, alias, epithete, noms de scene -->
+                     <!-- Surnoms, alias, épithète, noms de scène -->
                      <addName>Mademoiselle Menou</addName>
                      <addName>Mademoiselle Moliere</addName>
                      <addName>Mademoiselle Guérin</addName>
                   </persName>
-                  <!-- Les differents emplois occupes. J'ai differencie acteur et actrice pour le momemt -->
+                  <!-- Les differents emplois occupés. J'ai différencié acteur et actrice pour le momemt -->
                   <occupation type="actrice" from="1662" to="1694">Actrice</occupation>
                   <occupation type="societaire" when="1680">Sociétaire</occupation>
                </person>
