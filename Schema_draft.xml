@@ -9,6 +9,15 @@
             <title>Registre cote <date when="1700-12-20"/></title>
             <!-- Registre R418 annees 1821-1824 -->
          </titleStmt>
+         <editionStmt>
+            <edition>Transcriptions encode par <name/></edition>
+            <!-- Auteur.rice de l'encodage et edition numerique -->
+            <respStmt>
+               <!-- Credit aux transcripteur.rices -->
+               <resp>Transcriptions produite par / tire du memoire de M1/M2 de</resp>
+               <name/>
+            </respStmt>
+         </editionStmt>
          <publicationStmt>
             <p>A etablir. </p>
             <!-- Edition numerique de la transcription du registre -->
@@ -18,17 +27,26 @@
                <!-- Description du registre. Je pense que l'on peut garder un niveau de detail leger puisque nous pouvons renvoyer vers la notice du portail Lagrange -->
                <msIdentifier>
                   <institution>Bibliotheque-musee de la Comedie-Francaise</institution>
+                  <!-- Utile a preciser notamment pour la fin du 18eme et 19eme siecle car il y a plusieurs types de registres -->
                   <repository>Serie/sous-serie</repository>
                   <idno>cote</idno>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <profileDesc>
+         <!-- Pas sur que ce soit necessaire. Peut-etre est-ce ici que l'on fera les liens vers les indexes? -->
+      </profileDesc>
+      <!--      <encodingDesc>
+         <schemaRef></schemaRef>
+         </encodingDesc> Renvoie au fichier XML du schema -->
       <revisionDesc>
+         <!-- Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un probleme au besoin -->
          <change when="2024-10-24">Creation du fichier, construction du Header.</change>
       </revisionDesc>
    </teiHeader>
    <text>
+      <!-- On peut mettre un <front> mais les couvertures des registres consistent juste a la date de creation des registres, parfois elle est meme vide. -->
       <body>
          <p>Some text here.</p>
       </body>
