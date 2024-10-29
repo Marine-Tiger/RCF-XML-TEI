@@ -35,7 +35,7 @@
                   </persName>
                </person>-->
 
-               <!--Id à definir. J'ai repris la typologie de LEMDO pour le momemt-->
+               <!--Id à definir. J'ai repris la typologie de LEMDO pour le momemt. On pourrait utiliser les ids des bases de données, mais nous n'avons pas d'ids pour l'ensemble des membres de la CF. Afin d'être cohérent dans les nommages des ids, je pense qu'il faut qu'on en crée spécifiquement pour la TEI.-->
                <person xml:id="BEJA1">
                   <persName>
                      <!-- Nom complet -->
@@ -80,7 +80,7 @@
                </person>
 
                <person xml:id="DESM1">
-                  <!-- Nom des id a definir -->
+                  <!-- Nom des id à définir -->
                   <persName>
                      <reg>Mademoiselle Champmesle</reg>
                      <forename>Marie</forename>

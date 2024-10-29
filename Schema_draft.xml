@@ -48,7 +48,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <!-- On peut mettre un <front> mais les couvertures des registres consistent juste en la date de création des registres. -->
+      <!-- On peut mettre un <front> qui sert à décrire la page de garde, mais les couvertures des registres consistent juste en la date de création des registres. -->
       <body>
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ?-->
          <div type="type_assemblee" corresp="date">
@@ -56,14 +56,14 @@
             <head>Comite/Seance du <date>date</date></head>
             <!-- S'il y a un preambule (17e-18e) -->
             <div type="preambule"/>
-            <!-- Presents et absents (17e-18e) -->
+            <!-- Présents et absents (17e-18e) -->
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
             <!-- Liste des absents s'il y en a -->
             <div type="abs" corresp="date">
                <head>texte</head>
-               <!-- Dans les registres du 17e-18e, les absents sont divises entre les hommes et les femmes, donc on aura deux listes -->
+               <!-- Dans les registres du 17e-18e, les absents sont divisés entre les hommes et les femmes, donc on aura deux listes -->
                <list>
                   <head>Mrs</head>
                   <item corresp="id_nom">Nom</item>
@@ -73,17 +73,17 @@
                   <item corresp="id_nom">Nom</item>
                </list>
             </div>
-            <!-- Dans le cas ou il y a un paragraphe par decisions, chaque paragraphe sera dans une div avec un @corresp="sujet" -->
+            <!-- Dans le cas ou il y a un paragraphe par décisions, chaque paragraphe sera dans une div avec un @corresp="sujet" qui renverra à l'index de thématiques-->
             <div type="decision" corresp="sujet">
                <!-- S'il y a un titre -->
                <head type="agenda">Assemblee pour ... </head>
-               <!-- Si l'ordre du jour est dans la marge, on respecte les regles de transcription etablies, on peut le mettre dans <head> -->
+               <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies, on peut le mettre dans <head> -->
                <head type="agenda">[Signification de ...]</head>
                <p>Texte</p>
             </div>
-            <!-- Pour le 17eme et 18eme siecles -->
+            <!-- Pour le 17eme et 18eme siècles -->
             <div type="decisions" corresp="sujet"/>
-            <!-- S'il y a a nouveau des signatures -->
+            <!-- S'il y a à nouveau des signatures -->
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
