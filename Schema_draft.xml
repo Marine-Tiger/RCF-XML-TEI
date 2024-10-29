@@ -13,7 +13,7 @@
             <edition>Transcriptions encodé par <name/></edition>
             <!-- Auteur.rice de l'encodage et édition numérique -->
             <respStmt>
-               <!-- Crédit aux transcripteur.rices -->
+               <!-- Crédit aux transcripteur.rices, on peut qjouter @ref pour faire un lien vers le memoire -->
                <resp>Transcriptions produite par / tire du mémoire de M1/M2 de</resp>
                <name/>
             </respStmt>
@@ -26,6 +26,7 @@
             <msDesc source="lien vers portail Lagrange">
                <!-- Description du registre. Si on fait le lien vers le portail Lagrange, on peut limiter la description à la provenance, série et cote. -->
                <msIdentifier>
+                  <!-- dans <msIdentifier> on peut ajouter un @facs pour mettre le lien vers le registre numerise (Lagrange ou RCF) -->
                   <institution>Bibliothèque-musée de la Comédie-Française</institution>
                   <!-- La série et sous-série permettra d'identifier le type de registre, notamment pour la fin du 18ème siècle et le 19ème siècle -->
                   <repository>Série/sous-série</repository>
@@ -37,6 +38,8 @@
       <profileDesc>
          <!-- Le profileDesc est normalement utilisé pour décrire les "participants" dans un texte, définir des termes etc...
          Pour le moment,je ne sais pas si cela est utile pour nous. -->
+         <!-- <particDesc> -->
+         <!-- <calendarDesc> pour le registre avec le calendrier republicain? -->
       </profileDesc>
       <!--      <encodingDesc>
          <schemaRef></schemaRef>
@@ -50,16 +53,21 @@
    <text>
       <!-- On peut mettre un <front> qui sert à décrire la page de garde, mais les couvertures des registres consistent juste en la date de création des registres. -->
       <body>
+         
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ?-->
          <div type="type_assemblee" corresp="date">
+            
             <!-- Titre pour la fin du 18eme et 19eme -->
             <head>Comite/Seance du <date>date</date></head>
+            
             <!-- S'il y a un preambule (17e-18e) -->
             <div type="preambule"/>
+            
             <!-- Présents et absents (17e-18e) -->
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
+            
             <!-- Liste des absents s'il y en a -->
             <div type="abs" corresp="date">
                <head>texte</head>
@@ -73,6 +81,7 @@
                   <item corresp="id_nom">Nom</item>
                </list>
             </div>
+            
             <!-- Dans le cas ou il y a un paragraphe par décisions, chaque paragraphe sera dans une div avec un @corresp="sujet" qui renverra à l'index de thématiques-->
             <div type="decision" corresp="sujet">
                <!-- S'il y a un titre -->
@@ -81,8 +90,40 @@
                <head type="agenda">[Signification de ...]</head>
                <p>Texte</p>
             </div>
+            
             <!-- Pour le 17eme et 18eme siècles -->
-            <div type="decisions" corresp="sujet"/>
+            <div type="decision" corresp="sujet"/>
+            
+            <!-- Pour la lecture du repertoire que l'on retrouve dans les registres du 17eme-18eme -->
+            <div type="decision" corresp="repertoire">
+               <list>
+                  <head>Repertoire</head>
+                  <!-- Exemple tire du R52_0_1681 -->
+                  <item><date>29 mardy</date><title corresp="id_piece">Andromede</title></item>
+                  <!-- Dans le cas ou une piece est barree -->
+                  <item><date>7 mercredy</date>
+                     <!-- l'element <del> permet d'encoder les suppressions dans le texte. Avec le @type, on peut preciser que c'est du texte barre, et on pourra l'afficher comme tel grace au CSS -->
+                     <del type="barre"><title corresp="id_piece">La
+                     Jalouse d'elle-meme</title></del> <title corresp="id_piece">La Devineresse</title></item>
+               </list>
+            </div>
+            <!-- Pour la distribution des roles -->
+            <div type="distribution" corresp="id_piece">
+               <!-- Exemple tire du R52_4 -->
+               <head>Disposition de <title corresp="id_piece">La Princesse d'Elide</title></head>
+               <!-- Je pense que l'on peut utiliser <castList>, cela permet d'utiliser les elements <role> et <actor> -->
+               <castList corresp="date">
+                  <castItem>
+                     <role corresp="id_role">La Princesse d'Elide</role>
+                     <actor corresp="id_nom">Mlle. Desmares</actor>
+                  </castItem>
+                  <castItem>
+                     <role corresp="id_role">Philis</role>
+                     <actor corresp="id_nom">Mlle. Mimy</actor>
+                  </castItem>
+               </castList>
+            </div>
+            
             <!-- S'il y a à nouveau des signatures -->
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>

@@ -103,6 +103,19 @@
                   <occupation type="actrice" from="1698" to="1721">Actrice</occupation>
                   <occupation type="societaire" from="1699" to="1721">Sociétaire</occupation>
                </person>
+
+               <person xml:id="FLEU1">
+                  <!-- S'il y a un id dans une base de donnee, on peut utiliser l'element <idno> avec @type pour preciser l'id et la base de donnees en question -->
+                  <idno type="id_feux">223</idno>
+                  <persName>
+                     <reg>Mademoiselle Fleury</reg>
+                     <forename>Marie-Anne Florence</forename>
+                     <surname>Bernady Nones</surname>
+                     <addName>Fleury Bernadi</addName>
+                  </persName>
+                  <occupation type="actrice" from="1783" to="1807">Actrice</occupation>
+                  <occupation type="societaire" from="1791" to="1807">Societaire</occupation>
+               </person>
             </listPerson>
 
 
