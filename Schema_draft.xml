@@ -46,6 +46,8 @@
          </encodingDesc> Renvoie au fichier XML du schéma -->
       <revisionDesc>
          <!-- Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un problème au besoin -->
+         <change when="2024-10-30">Reorganisation du bodym ajout votes.</change>
+         <change when="2024-10-29">Ajout de castList er repertoire</change>
          <change when="2024-10-25">Header, construction du body.</change>
          <change when="2024-10-24">Création du fichier, construction du Header.</change>
       </revisionDesc>
@@ -53,21 +55,31 @@
    <text>
       <!-- On peut mettre un <front> qui sert à décrire la page de garde, mais les couvertures des registres consistent juste en la date de création des registres. -->
       <body>
-         
+
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ?-->
          <div type="type_assemblee" corresp="date">
-            
+
             <!-- Titre pour la fin du 18eme et 19eme -->
             <head>Comite/Seance du <date>date</date></head>
-            
-            <!-- S'il y a un preambule (17e-18e) -->
-            <div type="preambule"/>
-            
-            <!-- Présents et absents (17e-18e) -->
+
+            <!-- S'il y a un preambule -->
+            <div type="preambule">
+               <!-- Exemple tire de Spinec, R52_0_1692 -->
+               <p>Ce jour d'huy <date when="1692-01-06">dimanche 6me janvier 1692</date> la
+                  Compagnie s'est assemblée extraordint <!-- est-ce que l'on reproduit les abbreviations, ou est-ce que l'on utilise seulement le mot entier? les deux sont possibles -->
+                  <!--<choice>
+                     <expan>extraordinairement</expan>
+                     <abbr>extraordint.</abbr>
+                  </choice>--> pour dellibérer de plusieurs affaires les présens a
+                  l'assemblée ont signé avant <time when="10:00:00">dix heures</time> pour le droit
+                  de jetton</p>
+            </div>
+
+            <!-- Présents et absents -->
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
-            
+
             <!-- Liste des absents s'il y en a -->
             <div type="abs" corresp="date">
                <head>texte</head>
@@ -81,7 +93,7 @@
                   <item corresp="id_nom">Nom</item>
                </list>
             </div>
-            
+
             <!-- Dans le cas ou il y a un paragraphe par décisions, chaque paragraphe sera dans une div avec un @corresp="sujet" qui renverra à l'index de thématiques-->
             <div type="decision" corresp="sujet">
                <!-- S'il y a un titre -->
@@ -89,24 +101,58 @@
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies, on peut le mettre dans <head> -->
                <head type="agenda">[Signification de ...]</head>
                <p>Texte</p>
+               
+               <!-- Notes de transcriptions -->
+               <p><del type="barre">texte barre</del></p>
+               <p><add>texte ajoute</add></p>
+               <p><gap reason="illisible"/>Texte illisible</p>
             </div>
-            
-            <!-- Pour le 17eme et 18eme siècles -->
-            <div type="decision" corresp="sujet"/>
-            
-            <!-- Pour la lecture du repertoire que l'on retrouve dans les registres du 17eme-18eme -->
+
+            <!-- Pour la lecture du repertoire que l'on peut retrouver dans les registres du 17eme-18eme -->
             <div type="decision" corresp="repertoire">
                <list>
                   <head>Repertoire</head>
-                  <!-- Exemple tire du R52_0_1681 -->
+                  <!-- Exemple tire de Spinec du R52_0_1681 -->
                   <item><date>29 mardy</date><title corresp="id_piece">Andromede</title></item>
                   <!-- Dans le cas ou une piece est barree -->
                   <item><date>7 mercredy</date>
                      <!-- l'element <del> permet d'encoder les suppressions dans le texte. Avec le @type, on peut preciser que c'est du texte barre, et on pourra l'afficher comme tel grace au CSS -->
-                     <del type="barre"><title corresp="id_piece">La
-                     Jalouse d'elle-meme</title></del> <title corresp="id_piece">La Devineresse</title></item>
+                     <del type="barre"><title corresp="id_piece">La Jalouse
+                        d'elle-meme</title></del>
+                     <title corresp="id_piece">La Devineresse</title></item>
                </list>
             </div>
+
+            <!-- Pour les votes retranscrits dans les registres en deux colonnes -->
+            <div type="vote" corresp="id_sujet">
+               <!-- exemple tire de la seance du 07 janvier 1692, l'assemblee vote pour la lecture de la tragedie des Heraclides -->
+               <cb n="1"/>
+               <list type="vote_pour">
+                  <head>la pièce est joüable</head>
+                  <item corresp="id_nom">Du Perier, en la racomodant</item>
+                  <item corresp="id_nom">Poisson Jouable</item>
+                  <item corresp="id_nom"> La pièce est jouable en la racomodant Beauval</item>
+                  <item corresp="id_nom">Je la trouve jouable en la corigeant Delathorilliere</item>
+                  <item corresp="id_nom">Je trouve que la pièce peut estre joüée en changeant
+                     quelques scènes et quelque chose dans la disposition de la pièce Le
+                     Comte</item>
+                  <item corresp="id_nom">Devilliers Je trouve que la pièce est jouable en racomodan
+                     quelque chozze</item>
+               </list>
+               <cb n="2"/>
+               <list type="vote_contre">
+                  <head>elle n'est pas jouable</head>
+                  <item corresp="id_nom">De Beaubour elle n'est point jouable en l'estat qu'elle est </item>
+                  <item corresp="id_nom">Guérin</item>
+                  <item corresp="id_nom"> La pièce des Eraclides ne me paroist point jouable en
+                     l'estat quelle est. Du reste je ne suis pas assez éclairé pour sçavoir ce qu'il
+                     y a ay raccomoder De Rosélis</item>
+                  <item corresp="id_nom">Raisin</item>
+                  <item corresp="id_nom">elle n'est point jouable Desmare</item>
+               </list>
+            </div>
+
+
             <!-- Pour la distribution des roles -->
             <div type="distribution" corresp="id_piece">
                <!-- Exemple tire du R52_4 -->
@@ -123,11 +169,12 @@
                   </castItem>
                </castList>
             </div>
-            
+
             <!-- S'il y a à nouveau des signatures -->
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
+
          </div>
       </body>
    </text>
