@@ -13,7 +13,7 @@
             <edition>Transcriptions encodé par <name/></edition>
             <!-- Auteur.rice de l'encodage et édition numérique -->
             <respStmt>
-               <!-- Crédit aux transcripteur.rices, on peut qjouter @ref pour faire un lien vers le memoire -->
+               <!-- Crédit aux transcripteur.rices, on peut ajouter @ref pour faire un lien vers le memoire -->
                <resp>Transcriptions produite par / tire du mémoire de M1/M2 de</resp>
                <name/>
             </respStmt>
@@ -46,14 +46,17 @@
          </encodingDesc> Renvoie au fichier XML du schéma -->
       <revisionDesc>
          <!-- Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un problème au besoin -->
-         <change when="2024-10-30">Reorganisation du bodym ajout votes.</change>
+         <change when="2024-10-30">Reorganisation du body, ajout votes.</change>
          <change when="2024-10-29">Ajout de castList er repertoire</change>
          <change when="2024-10-25">Header, construction du body.</change>
          <change when="2024-10-24">Création du fichier, construction du Header.</change>
       </revisionDesc>
    </teiHeader>
    <text>
-      <!-- On peut mettre un <front> qui sert à décrire la page de garde, mais les couvertures des registres consistent juste en la date de création des registres. -->
+      <!-- On peut mettre un <front> qui sert à décrire la page de garde. -->
+      <!--      <front facs="https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=23875#page/4/mode/2up">
+         
+      </front>-->
       <body>
 
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ?-->
@@ -61,6 +64,12 @@
 
             <!-- Titre pour la fin du 18eme et 19eme -->
             <head>Comite/Seance du <date>date</date></head>
+            
+            <!-- Notes de transcriptions -->
+            <p><del type="barre">texte barre</del></p>
+            <p><add>texte ajoute</add></p>
+            <p><gap reason="illisible"/>Texte illisible</p>
+            
 
             <!-- S'il y a un preambule -->
             <div type="preambule">
@@ -101,11 +110,6 @@
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies, on peut le mettre dans <head> -->
                <head type="agenda">[Signification de ...]</head>
                <p>Texte</p>
-               
-               <!-- Notes de transcriptions -->
-               <p><del type="barre">texte barre</del></p>
-               <p><add>texte ajoute</add></p>
-               <p><gap reason="illisible"/>Texte illisible</p>
             </div>
 
             <!-- Pour la lecture du repertoire que l'on peut retrouver dans les registres du 17eme-18eme -->
@@ -168,6 +172,12 @@
                      <actor corresp="id_nom">Mlle. Mimy</actor>
                   </castItem>
                </castList>
+            </div>
+            
+            <!-- Pour les pieces recues -->
+            <div type="pieces_recues" corresp="date?">
+               <head></head>
+               <p></p>
             </div>
 
             <!-- S'il y a à nouveau des signatures -->
