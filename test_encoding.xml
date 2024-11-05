@@ -66,9 +66,9 @@
                </list>
             </div>
             <div type="decision">
-               <p>On a nommé pour <roleName type="emploi" corresp="#quinzainier">quinzainiers
+               <p>On a nommé pour <term type="emploi" corresp="#quinzainier">quinzainiers
                         Mrs<persName corresp="#DeLaGrange">De la Grange</persName> et <persName
-                        corresp="#Delathorilliere">La Torilière</persName></roleName>. On a fait un
+                        corresp="#Delathorilliere">La Torilière</persName></term>. On a fait un
                   répertoire. On a dellibéré de <del rend="overstrike"> desdomager Monsieur dancourt
                      de la peine qu'il a fait aprez Pasues en ce que</del> faire un présent a
                   Monsieur <persName corresp="Dancourt">Dancourt</persName> de <measure

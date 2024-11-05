@@ -59,8 +59,8 @@
       </front>-->
       <body>
 
-         <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ?-->
-         <div type="type_assemblee" corresp="date">
+         <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ? C'est risque, surtout si on a des seances sans date-->
+         <div type="type_assemblee">
 
             <!-- Titre pour la fin du 18eme et 19eme -->
             <head>Comite/Seance du <date>date</date></head>
@@ -82,6 +82,10 @@
                   </choice>--> pour dellibérer de plusieurs affaires les présens a
                   l'assemblée ont signé avant <time when="10:00:00">dix heures</time> pour le droit
                   de jetton</p>
+            </div>
+            
+            <div>
+               <p><term type="thematique" corresp="id_mot"></term></p>
             </div>
 
             <!-- Présents et absents -->
