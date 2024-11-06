@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
             <title>Title</title>
@@ -15,27 +15,16 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+   </teiHeader>
+   <text>
       <body>
          <div>
-            <listBibl>
-               <bibl>
-                  <!-- id -->
-                  <idno></idno>
-                  <!-- title -->
-                  <title></title>
-                  <!-- author -->
-                  <author></author>
-               </bibl>
-            </listBibl>
-           <!-- <castList>
-               <castItem>
-                  <role></role>
-               </castItem>
-            </castList>-->
+            <list>
+               <!-- comme il y a deja les mots des registres pour certaines definitions, est-ce que l'on met seulement le lien comme ci-dessous? -->
+               <item xml:id="Affiche"
+                  source="https://www.cfregisters.org/#!/encyclopedie/mots/a/affiches"> </item>
+            </list>
          </div>
-         
       </body>
-  </text>
+   </text>
 </TEI>
