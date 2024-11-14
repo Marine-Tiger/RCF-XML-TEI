@@ -10,11 +10,11 @@
             <!-- Registre R418 années 1821-1824 -->
          </titleStmt>
          <editionStmt>
-            <edition>Transcriptions encodé par <name/></edition>
+            <edition>Transcription encodée par <name/></edition>
             <!-- Auteur.rice de l'encodage et édition numérique -->
             <respStmt>
                <!-- Crédit aux transcripteur.rices, on peut ajouter @ref pour faire un lien vers le memoire -->
-               <resp>Transcriptions produite par / tire du mémoire de M1/M2 de</resp>
+               <resp>Transcription produite par / tiree du mémoire de M1/M2 de</resp>
                <name/>
             </respStmt>
          </editionStmt>
@@ -131,8 +131,11 @@
                </list>
             </div>
 
+<!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
+         
+            
             <!-- Pour les votes retranscrits dans les registres en deux colonnes -->
-            <div type="vote" corresp="id_sujet">
+            <div type="decision" corresp="id_sujet">
                <!-- exemple tire de la seance du 07 janvier 1692, l'assemblee vote pour la lecture de la tragedie des Heraclides -->
                <cb n="1"/>
                <list type="vote_pour">
