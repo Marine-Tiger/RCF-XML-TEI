@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A TEI file automatically converted from CSV</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>No publication statement</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file automatically converted from a CSV file.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="glossaire">
+            <list>
+               <item xml:id="AFFI">
+                  <label>Affiches</label>
+                  <ref target="https://www.cfregisters.org/#!/encyclopedie/mots/a/affiches"/>
+               </item>
+               <item>
+                  <label n="1">Agrément (pièce d')</label>
+                  
+               </item>
+               <item>
+                  <label n="1">Ailes (du théâtre)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">24</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9">surlignement jaune</label>
+                  <label n="10">entrée réalisée mais non relue&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Amendes</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">25</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9">surlignement vert </label>
+                  <label n="10">entrée réalisée et relue&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Amphithéâtre</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">138</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Agathe S. et Charline</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9">surlignement purple</label>
+                  <label n="10">entrée basculée sur le site RCF mais lien(s) à une/des autre(s)
+                     définition(s) à insérer&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Archer</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">28</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9">Sulignement bleu</label>
+                  <label n="10">entrée basculée sur le site RCF&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Arrérages</label>
+                  <label n="2">Manque lien "pensions"</label>
+                  <label n="3">30</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès L.</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Artisan</label>
+                  <label n="2">Manque lien "tailleur"</label>
+                  <label n="3">31</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Tom Eulry</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Assemblée</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">32</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Assistant (parlant/muet, domestique)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">29</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès L.</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Aumône</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">140</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Baignoire</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">180</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Annick</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Balcon</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">156</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ballet</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">34</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Matthieu Franchin </label>
+                  <label n="7">Judith </label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Barbier</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">41</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès L.</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Billet</label>
+                  <label n="2">Manque lien "théâtre"</label>
+                  <label n="3">40</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Bois</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">35</label>
+                  <label n="4"/>
+                  <label n="5">OUI</label>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Boues et lanternes</label>
+                  <label n="2">publiée</label>
+                  <label n="3">39</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Bougie</label>
+                  <label n="2">publiée</label>
+                  <label n="3">36</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Caissier, caissière</label>
+                  <label n="2">publiée</label>
+                  <label n="3">70</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Carrosse (frais de)</label>
+                  <label n="2">Voir voiture</label>
+                  <label n="3">42</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Cérémonie (du Malade imaginaire)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">44</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Chaise (frais de)</label>
+                  <label n="2">Voir voiture</label>
+                  <label n="3">43</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Chambrée</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">45</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Chandelle (ordinaire, extraordinaire, des acteurs…)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">26</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Chandelle des religieux</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">46</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Agnès</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Charpentier</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">47</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Cheminées (ramonage des)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">48</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Cintre </label>
+                  <label n="2">Manque lien "théâtre"</label>
+                  <label n="3">49</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Clôture (du théâtre)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">50</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Cocher</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">51</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Comédie</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">135</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Pierre</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Comédie-ballet</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">52</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Judith</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Comédie-Française</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">15</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Comédien-Français ou comédien ordinaire du roi</label>
+                  <label n="2">Manquent liens : occasionnel, pension des comédiens retirés, début,
+                     pension royale</label>
+                  <label n="3">148</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Comité d'assemblée</label>
+                  <label n="2">Manquent liens "ordre de début" et "ordre d'essai"</label>
+                  <label n="3">141</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Comité de lecture </label>
+                  <label n="2">Publiée</label>
+                  <label n="3">142</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Compagnie</label>
+                  <label n="2">publiée</label>
+                  <label n="3">53</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Compliment d’ouverture </label>
+                  <label n="2">Manque lien "orateur"</label>
+                  <label n="3">54</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Compliment de clôture </label>
+                  <label n="2">Publiée / Voir compliment d'ouverture</label>
+                  <label n="3">55</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Concierge</label>
+                  <label n="2">publiée</label>
+                  <label n="3">72</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Confident, confidente</label>
+                  <label n="2">publiée</label>
+                  <label n="3">56</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Congé </label>
+                  <label n="2">publiée</label>
+                  <label n="3">143</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Contremarque</label>
+                  <label n="2">publiée / Voir receveur</label>
+                  <label n="3">159</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Contrôleur, contrôleuse</label>
+                  <label n="2">publiée / Voir receveur</label>
+                  <label n="3">160</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Copies des rôles </label>
+                  <label n="2">Manque lien "souffleur"</label>
+                  <label n="3">57</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Cotret</label>
+                  <label n="2">publiée</label>
+                  <label n="3">58</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Création</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">?</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Crocheteur</label>
+                  <label n="2">publiée</label>
+                  <label n="3">59</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès L.</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Danseur, danseuse</label>
+                  <label n="2">publiée</label>
+                  <label n="3">161</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Début (second début)</label>
+                  <label n="2"/>
+                  <label n="3">3</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Sara</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Décorateur</label>
+                  <label n="2">publiée</label>
+                  <label n="3">73</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sophie Mentzel</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Défalque</label>
+                  <label n="2">publiée</label>
+                  <label n="3">60</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Denier</label>
+                  <label n="2">Voir monnaie</label>
+                  <label n="3">62</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Dépenses</label>
+                  <label n="2">Manquent liens "tailleur", "occasionnel (acteur)", "souffleur",
+                     "droit des auteurs", "pensions des comédiens retirés"</label>
+                  <label n="3">65</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Dette</label>
+                  <label n="2">publiée</label>
+                  <label n="3">144</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Double / doublé / faire payer au double</label>
+                  <label n="2">publiée</label>
+                  <label n="3">66</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Doyen </label>
+                  <label n="2">publiée</label>
+                  <label n="3">67</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline Ponthieux</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Dragon</label>
+                  <label n="2">publiée</label>
+                  <label n="3">74</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Drame</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Annick ?</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Droits des auteurs </label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Virginie</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Droits des pauvres</label>
+                  <label n="2">publiée</label>
+                  <label n="3">68</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline/Charlotte</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Dû aux frais</label>
+                  <label n="2">publiée</label>
+                  <label n="3">69</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Dario Nicolosi </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Emploi</label>
+                  <label n="2">publiée</label>
+                  <label n="3">75</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Florence F / Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Emprunt</label>
+                  <label n="2">publiée</label>
+                  <label n="3">145</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Enfant</label>
+                  <label n="2">Voir Feu(x) d'acteur et feux d'enfant</label>
+                  <label n="3">149</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Entrée</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">146</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Erreur dans les comptes</label>
+                  <label n="2">publiée</label>
+                  <label n="3">76</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Établissement</label>
+                  <label n="2">publiée</label>
+                  <label n="3">181</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Etrennes</label>
+                  <label n="2">Manque lien "pension"</label>
+                  <label n="3">173</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Fagot</label>
+                  <label n="2">publiée</label>
+                  <label n="3">77</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ferblantier</label>
+                  <label n="2">publiée</label>
+                  <label n="3">78</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina (Dario Nicolosi pour 1e version)</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Feu(x) d'acteur (feux d'enfant)</label>
+                  <label n="2">Manque lien "pension des comédiens retirés"</label>
+                  <label n="3">136</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Foire (seulement ce qui est en lien avec les registres)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">79</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Judith</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Frais de la pièce</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">174</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Frais extraordinaires</label>
+                  <label n="2">Manque lien "pièce à machines"</label>
+                  <label n="3">80</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Frais ordinaires</label>
+                  <label n="2">Manque lien "pension"</label>
+                  <label n="3">81</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Frotteur</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">101</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline/Nina</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Gages (appointements)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">38</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Gagiste</label>
+                  <label n="2">Publiée / Voir gages</label>
+                  <label n="3">82</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Galerie</label>
+                  <label n="2">publiée</label>
+                  <label n="3">157</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Garçon (de théâtre)</label>
+                  <label n="2">publiée</label>
+                  <label n="3">37</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Garde militaire/ garde française</label>
+                  <label n="2">Manque lien "pension"</label>
+                  <label n="3">175</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès L</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Gont (Gon / Gond)</label>
+                  <label n="2">publiée</label>
+                  <label n="3">83</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès L</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Guide</label>
+                  <label n="2">publiée</label>
+                  <label n="3">84</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Habits / hardes / habits extraordinaires </label>
+                  <label n="2">publiée</label>
+                  <label n="3">85</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Hôtel-Dieu (neuvième de, dixième de)</label>
+                  <label n="2">Publiée / Voir droit des pauvres</label>
+                  <label n="3">86</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Instrumentiste </label>
+                  <label n="2">Publiée / Voir Symphoniste</label>
+                  <label n="3">129</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Intendant des Menus Plaisirs</label>
+                  <label n="2">publiée</label>
+                  <label n="3">182</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Pauline Lemaigre-Gaffier</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Jeton (d’assemblée, des semainiers, de lecture, de comité), ou jeton
+                     de présence</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">87</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Lampions</label>
+                  <label n="2">publiée</label>
+                  <label n="3">162</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Lecture </label>
+                  <label n="2">Publiée</label>
+                  <label n="3">88</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Pierre</label>
+                  <label n="7">Charlotte/Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Lieutenant général de police</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">89</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Laurence Macé</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Livre</label>
+                  <label n="2">publiée + Voir monnaie</label>
+                  <label n="3">63</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Loge d’acteur </label>
+                  <label n="2">publiée</label>
+                  <label n="3">91</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Loge de la limonade </label>
+                  <label n="2">publiée</label>
+                  <label n="3">92</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Loges (premières, deuxièmes, basses, hautes...)</label>
+                  <label n="2">publiée</label>
+                  <label n="3">90</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charlotte</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Loges louées sur abonnement (petites loges)</label>
+                  <label n="2">Manque lien "théâtre (places sur le)"</label>
+                  <label n="3">93</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charlotte</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Loyer</label>
+                  <label n="2">publiée</label>
+                  <label n="3">176</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Lustres et décorations</label>
+                  <label n="2">publiée</label>
+                  <label n="3">94</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Machines (Pièce à)</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Annick ? (Jan Clarke ?)</label>
+                  <label n="7">Judith</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Machiniste</label>
+                  <label n="2">publiée</label>
+                  <label n="3">95</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Tom Eulry</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Magasin de costumes </label>
+                  <label n="2">publiée</label>
+                  <label n="3">184</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Magasin des décors </label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Maître de ballet</label>
+                  <label n="2">publiée</label>
+                  <label n="3">96</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Matthieu Franchin</label>
+                  <label n="7">Judith</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Maladies non permises </label>
+                  <label n="2">publiée</label>
+                  <label n="3">185</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Marcheur, marcheuse</label>
+                  <label n="2">publiée / renvoi à danseur</label>
+                  <label n="3">163</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Mémoire</label>
+                  <label n="2">Manque lien "répertoire"</label>
+                  <label n="3">97</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Menuisier</label>
+                  <label n="2">publiée</label>
+                  <label n="3">98</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sophie Mentzel</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Menus frais</label>
+                  <label n="2">publiée</label>
+                  <label n="3">177</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Mère</label>
+                  <label n="2">publiée</label>
+                  <label n="3">99</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Mise à l’étude </label>
+                  <label n="2">publiée</label>
+                  <label n="3">147</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Emilie G</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Monnaie</label>
+                  <label n="2">publiée</label>
+                  <label n="3">61</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Musicien, musicienne / chanteur, chanteuse</label>
+                  <label n="2">publiée</label>
+                  <label n="3">164</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Notaire</label>
+                  <label n="2">Manque lien "pension"</label>
+                  <label n="3">100</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Occasionnel (acteur)</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sara</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Oing (vieux)</label>
+                  <label n="2">publiée</label>
+                  <label n="3">102</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Opéra</label>
+                  <label n="2">publiée</label>
+                  <label n="3">103</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Judith</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Orateur</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sara</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Orchestre</label>
+                  <label n="2">publiée</label>
+                  <label n="3">186</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Annick</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ordre d’essai </label>
+                  <label n="2">En cours de rédaction</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sara</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ordre de début </label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sara</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ordre de réception </label>
+                  <label n="2">En cours de rédaction</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sara</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ordre des pièces</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">137</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ouverture (du théâtre)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">104</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ouvreur, ouvreuse</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">105</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G et Nina Laizé</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Ouvrier, ouvrière</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">165</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Palais-Royal (frais du)</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Définition</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Paradis</label>
+                  <label n="2">publiée</label>
+                  <label n="3">6</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Parquet</label>
+                  <label n="2">Voir parterre</label>
+                  <label n="3">155</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Part / demi-part / quart de part </label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Part d’acteur</label>
+                  <label n="2">Manquent liens "part/demi-part" et "pensions des comédiens
+                     retirés"</label>
+                  <label n="3">7</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Part d’auteur</label>
+                  <label n="2">publiée</label>
+                  <label n="3">9</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Part de l'année</label>
+                  <label n="2">publiée/ Voir part d'acteur</label>
+                  <label n="3">151</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Part des pauvres</label>
+                  <label n="2">publié / Voir droit des pauvres</label>
+                  <label n="3">106</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Part du mois</label>
+                  <label n="2">publiée/ Voir part d'acteur</label>
+                  <label n="3">150</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Parterre</label>
+                  <label n="2">publiée</label>
+                  <label n="3">8</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline/ Jeff</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Pension</label>
+                  <label n="2">Manque lien "début"</label>
+                  <label n="3">187</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Virginie</label>
+                  <label n="7">Charlotte/Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Pension des comédiens retirés </label>
+                  <label n="2">publiée</label>
+                  <label n="3">189</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Virginie</label>
+                  <label n="7">Charlotte/Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Pension royale</label>
+                  <label n="2">publiée</label>
+                  <label n="3">188</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Virginie</label>
+                  <label n="7">Charlotte/Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Pensionnaire </label>
+                  <label n="2">Manque lien "ordre de début"</label>
+                  <label n="3">107</label>
+                  <label n="4"/>
+                  <label n="5">OUI</label>
+                  <label n="6">Apolline Ponthieux/Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Petite oye </label>
+                  <label n="2">Publiée</label>
+                  <label n="3">108</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Petites loges</label>
+                  <label n="2">Publiée / renvoi à loges louées sur abonnement</label>
+                  <label n="3">139</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Pièce</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">109</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Pierre</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Place</label>
+                  <label n="2">Manquent 2 liens "théâtre (places sur le)"</label>
+                  <label n="3">10</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charlotte / Jeff</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Porte-flambeau</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">166</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Portes et bureau</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">178</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Portier</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">110</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe G </label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Postes surnuméraires et monnaie</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">179</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Préciput</label>
+                  <label n="2">Manque lien "pension royale"</label>
+                  <label n="3">111</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Premiers Gentilshommes de la Chambre</label>
+                  <label n="2">publiée</label>
+                  <label n="3">183</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Pauline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Preuve</label>
+                  <label n="2">publiée</label>
+                  <label n="3">112</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Quart des pauvres</label>
+                  <label n="2">Publiée / Voir droit des pauvres</label>
+                  <label n="3">113</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Recettes</label>
+                  <label n="2">publiée</label>
+                  <label n="3">11</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Receveur, receveuse</label>
+                  <label n="2">publiée</label>
+                  <label n="3">158</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Registre journalier (registre double)</label>
+                  <label n="2">publiée</label>
+                  <label n="3">114</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Règlement(s)</label>
+                  <label n="2">publiée</label>
+                  <label n="3">33</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Relâche</label>
+                  <label n="2">publiée</label>
+                  <label n="3">115</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Religieux</label>
+                  <label n="2">Publiée / voir chandelles des religieux</label>
+                  <label n="3">116</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Répertoire : faire le répertoire, répertoire de la semaine,
+                     répertoire général</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Répétition</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">?</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Représentation</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">117</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Reprise</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">?</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Reste</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">118</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Dario Nicolosi</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Rôle à manteau </label>
+                  <label n="2">Publiée</label>
+                  <label n="3">119</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline Ponthieux</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Rôle d'homme (jeune premier rôle d'homme)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">121</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline Ponthieux</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Rôle d'homme (premier rôle d'homme)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">120</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline Ponthieux</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Saison</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">122</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Salle</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">123</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Sauteur</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">171</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès Lamy et Jan Clarke</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Savoyard</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">124</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Semainier</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">12</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Signature</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">13</label>
+                  <label n="4">OUI</label>
+                  <label n="5"/>
+                  <label n="6">Charlotte</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Sixième des pauvres</label>
+                  <label n="2">Publiée / Voir droit des pauvres</label>
+                  <label n="3">125</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Sociétaire </label>
+                  <label n="2">Publiée</label>
+                  <label n="3">126</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Apolline Ponthieux / Agnès</label>
+                  <label n="7">Florence F</label>
+                  <label n="8">La définition manque-t-elle de quelques informations concernant le
+                     18e ?</label>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Soirée</label>
+                  <label n="2">Voir Représentation, Pièce et Ordre des pièces.</label>
+                  <label n="3">152</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Sol</label>
+                  <label n="2">Voir Monnaie</label>
+                  <label n="3">64</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Soldat (ou garde) assistant</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">167</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Souffleur/souffleuse </label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7">Florence F</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Stalle</label>
+                  <label n="2">Voir places</label>
+                  <label n="3">154</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Suif</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">127</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charline</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Symphoniste</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">128</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Matthieu Franchin</label>
+                  <label n="7">Judith</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Tailleur (costumier)</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Tapissier</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">130</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Sophie Mentzel</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Théâtre (places sur le)</label>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agathe S.</label>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Tomber dans les règles </label>
+                  <label n="2">Voir Part d'auteur</label>
+                  <label n="3">153</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Tragédie</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">131</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Pierre</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Valet</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">133</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Nina</label>
+                  <label n="7">Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Violon</label>
+                  <label n="2">Publiée / Voir Symphoniste</label>
+                  <label n="3">134</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Voiture (frais de)</label>
+                  <label n="2">Manque lien "répertoire"</label>
+                  <label n="3">27</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Charlotte</label>
+                  <label n="7">Charline</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Voyages à la cour</label>
+                  <label n="2">Manque lien "répertoire"</label>
+                  <label n="3">168</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Voyages à la cour (frais des)</label>
+                  <label n="2">Publiée</label>
+                  <label n="3">169</label>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6">Agnès</label>
+                  <label n="7">Charline/Charlotte</label>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1"/>
+                  <label n="2"/>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1">Chiffres : </label>
+                  <label n="2">192 entrées prévues</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1"/>
+                  <label n="2">25 entrées sont des renvois</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1"/>
+                  <label n="2">167 définitions prévues</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1"/>
+                  <label n="2">Il en manque 23 pour l'instant (05/01)</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10">&#xD;</label>
+               </item>
+               <item>
+                  <label n="1"/>
+                  <label n="2">144 définitions rédigées et publiées (05/01) + 25 renvois</label>
+                  <label n="3"/>
+                  <label n="4"/>
+                  <label n="5"/>
+                  <label n="6"/>
+                  <label n="7"/>
+                  <label n="8"/>
+                  <label n="9"/>
+                  <label n="10"/>
+               </item>
+            </list>
+
+         </div>
+      </body>
+   </text>
+</TEI>

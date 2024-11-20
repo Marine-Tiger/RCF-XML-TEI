@@ -19,7 +19,7 @@
    </teiHeader>
    <text>
       <body>
-         <div type="liste_acteurs-actrices">
+         <div type="acteurs-actrices">
             <listPerson>
                <!-- <personGrp> est utilisé pour regrouper les familles. 
                   Cela permettra d'utiliser l'id de la famille et non de la personne pour les signatures lorsqu'il est impossible d'identifier l'auteur.rice-->

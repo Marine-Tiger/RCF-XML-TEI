@@ -64,12 +64,12 @@
 
             <!-- Titre pour la fin du 18eme et 19eme -->
             <head>Comite/Seance du <date>date</date></head>
-            
-            <!-- Notes de transcriptions -->
+
+            <!-- Notes de transcription -->
             <p><del type="barre">texte barre</del></p>
             <p><add>texte ajoute</add></p>
             <p><gap reason="illisible"/>Texte illisible</p>
-            
+
 
             <!-- S'il y a un preambule -->
             <div type="preambule">
@@ -83,9 +83,9 @@
                   l'assemblée ont signé avant <time when="10:00:00">dix heures</time> pour le droit
                   de jetton</p>
             </div>
-            
+
             <div>
-               <p><term type="thematique" corresp="id_mot"></term></p>
+               <p><term type="thematique" corresp="id_mot"/></p>
             </div>
 
             <!-- Présents et absents -->
@@ -108,11 +108,13 @@
             </div>
 
             <!-- Dans le cas ou il y a un paragraphe par décisions, chaque paragraphe sera dans une div avec un @corresp="sujet" qui renverra à l'index de thématiques-->
+            <!-- Est-ce que pour le 19e, met @corresp dans le <head>? plutot qu'une div par decisions? -->
             <div type="decision" corresp="sujet">
                <!-- S'il y a un titre -->
                <head type="agenda">Assemblee pour ... </head>
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies, on peut le mettre dans <head> -->
-               <head type="agenda">[Signification de ...]</head>
+               <!--               Peut-etre que l'on peut ajouter un @corresp avec des id, est-ce que cela faciliterait la recherche? Ou c'est inutile dans le cas ou on envisage de la recherche plein texte?-->
+               <head type="agenda" corresp="id">[Signification de ...]</head>
                <p>Texte</p>
             </div>
 
@@ -131,9 +133,9 @@
                </list>
             </div>
 
-<!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
-         
-            
+            <!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
+
+
             <!-- Pour les votes retranscrits dans les registres en deux colonnes -->
             <div type="decision" corresp="id_sujet">
                <!-- exemple tire de la seance du 07 janvier 1692, l'assemblee vote pour la lecture de la tragedie des Heraclides -->
@@ -180,11 +182,11 @@
                   </castItem>
                </castList>
             </div>
-            
+
             <!-- Pour les pieces recues -->
             <div type="pieces_recues" corresp="date?">
-               <head></head>
-               <p></p>
+               <head/>
+               <p/>
             </div>
 
             <!-- S'il y a à nouveau des signatures -->
