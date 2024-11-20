@@ -183,8 +183,8 @@
                </castList>
             </div>
 
-            <!-- Pour les pieces recues -->
-            <div type="pieces_recues" corresp="date?">
+            <!-- Pour les requetes -->
+            <div type="requete" corresp="id_sujet">
                <head/>
                <p/>
             </div>

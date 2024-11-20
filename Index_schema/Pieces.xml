@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="repertoire">
+            <list>
+               <item xml:id="TITRE1">
+                  <bibl>
+                     <!-- id base de donnees -->
+                     <idno/>
+                     <!-- title -->
+                     <title/>
+                     <!-- author -->
+                     <author/>
+                  </bibl>
+                  <!-- Liste des roles -->
+                  <castList>
+                     <castItem xml:id="NOM">
+                        <!-- id base de donnees -->
+                        <idno></idno>
+                        <role/>
+                     </castItem>
+                  </castList>
+               </item>
+            </list>
+         </div>
+         
+         <div type="pieces_refusees">
+            <list>
+               <item xml:id="TITRE2">
+                  <bibl>
+                     <title></title>
+                     <author></author>
+                     <!-- Je n'ai pas trouve d'element pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
+                     <note type="genre"></note>
+                  </bibl>
+               </item>
+            </list>
+         </div>
+
+      </body>
+   </text>
+</TEI>

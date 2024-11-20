@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prospographie pour les artistes n'appartenant pas a la Comedie-Francaise</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <listPerson>
+               <!-- si existe dans une base de donnees -->
+               <person xml:id="NOM1">
+                  <idno type="id_base"></idno>
+                  <persName>
+                     <surname></surname>
+                     <forename></forename>
+                  </persName>
+               </person>
+               <!-- Si n'existe pas dans une base de donnees -->
+               <person xml:id="NOM2">
+                  <persName>
+                     <surname></surname>
+                     <forename></forename>
+                  </persName>
+                  <occupation type="titre"></occupation>
+               </person>
+            </listPerson>
+         </div>
+      </body>
+  </text>
+</TEI>

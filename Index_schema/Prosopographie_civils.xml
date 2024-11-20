@@ -6,7 +6,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Prosopographie des personnes de la societe civile</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -18,24 +18,17 @@
   </teiHeader>
   <text>
       <body>
-         <div>
-            <listBibl>
-               <bibl>
-                  <!-- id -->
-                  <idno></idno>
-                  <!-- title -->
-                  <title></title>
-                  <!-- author -->
-                  <author></author>
-               </bibl>
-            </listBibl>
-           <!-- <castList>
-               <castItem>
-                  <role></role>
-               </castItem>
-            </castList>-->
-         </div>
-         
+         <listPerson>
+            <person xml:id="NOM">
+               <persName>
+                  <surname></surname>
+                  <forename></forename>
+                  <!-- <roleName> pour decrire les roles? Ou juste <occupation>  -->
+               </persName>
+               <!-- Fonctions -->
+               <occupation type="titre" when="1700"></occupation>
+            </person>
+         </listPerson>
       </body>
   </text>
 </TEI>
