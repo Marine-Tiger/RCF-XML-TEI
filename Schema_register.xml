@@ -60,18 +60,13 @@
       <body>
 
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ? C'est risque, surtout si on a des seances sans date-->
-         <div type="type_assemblee">
+         <div type="type_assemblee" corresp="1700-01-01">
 
-            <!-- Titre pour la fin du 18eme et 19eme -->
-            <head>Comite/Seance du <date>date</date></head>
-
-            <!-- Notes de transcription -->
-            <p><del type="barre">texte barre</del></p>
-            <p><add>texte ajoute</add></p>
-            <p><gap reason="illisible"/>Texte illisible</p>
+            <!-- I. TITRE (optionnel) -->
+            <head>Comite/Seance du <date when="1800-01-01">date</date></head>
 
 
-            <!-- S'il y a un preambule -->
+            <!-- II. PREAMBULE (optionnel) -->
             <div type="preambule">
                <!-- Exemple tire de Spinec, R52_0_1692 -->
                <p>Ce jour d'huy <date when="1692-01-06">dimanche 6me janvier 1692</date> la
@@ -88,12 +83,13 @@
                <p><term type="thematique" corresp="id_mot"/></p>
             </div>
 
-            <!-- Présents et absents -->
-            <div type="signature" corresp="date">
+            <!-- III. PRESENTS ET ABSENTS (optionnel) -->
+            <!-- A. Signatures -->
+            <div type="signatures" corresp="1700-01-01">
                <signed corresp="id_nom">Nom</signed>
             </div>
 
-            <!-- Liste des absents s'il y en a -->
+            <!-- B. Absents (optionnel) -->
             <div type="abs" corresp="date">
                <head>texte</head>
                <!-- Dans les registres du 17e-18e, les absents sont divisés entre les hommes et les femmes, donc on aura deux listes -->
@@ -107,22 +103,35 @@
                </list>
             </div>
 
-            <!-- Dans le cas ou il y a un paragraphe par décisions, chaque paragraphe sera dans une div avec un @corresp="sujet" qui renverra à l'index de thématiques-->
-            <!-- Est-ce que pour le 19e, met @corresp dans le <head>? plutot qu'une div par decisions? -->
-            <div type="decision" corresp="sujet">
-               <!-- S'il y a un titre -->
+            <!-- IV. DECISIONS (optionnel pour le 18eme) -->
+            <!-- Un element <div> pour chaque decisions avec un @corresp et l'id du sujet aborde-->
+            <div type="decision" corresp="id_sujet">
+               
+               <!-- A. Ordre du jour (optionnel) -->
                <head type="agenda">Assemblee pour ... </head>
-               <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies, on peut le mettre dans <head> -->
-               <!--               Peut-etre que l'on peut ajouter un @corresp avec des id, est-ce que cela faciliterait la recherche? Ou c'est inutile dans le cas ou on envisage de la recherche plein texte?-->
-               <head type="agenda" corresp="id">[Signification de ...]</head>
-               <p>Texte</p>
+               <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
+               <div type="decision" corresp="id_sujet">
+                  <!-- Exemple avec comite du 29/04/1830 (R420) -->
+                  <head type="agenda">[Signification de <persName corresp="id_nom">Mlle Ross
+                        Despréaux</persName>]</head>
+                  <p>Le comité arrête que la signification faite à la <orgName corresp="id_org"
+                        >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom"
+                        >M. Michelot</persName>, l’un des membres du comité, à la requête que
+                        <persName corresp="id_nom">Mlle Ross Despréaux</persName>, actrice
+                     pensionnaire de la dite signification, en date du <date>28 mai</date> sera, vu
+                     l’absence de <persName corresp="id_nom">M. De Normandie</persName> avoué membre
+                     du conseil, envoyée à <persName corresp="id_nom">M. Dejoly</persName>,
+                     président du conseil, qui sera prié de vouloir bien prendre la peine de mettre
+                     la <orgName corresp="id_org">Comédie</orgName> en règle à cet égard par la voie
+                     convenable. </p>
+               </div>
             </div>
 
-            <!-- Pour la lecture du repertoire que l'on peut retrouver dans les registres du 17eme-18eme -->
-            <div type="decision" corresp="repertoire">
+            <!-- B. Lecture du repertoire (17eme-18eme) -->
+            <div type="decision" corresp="id_sujet">
+               <!-- Exemple tire de Spinec du R52_0_1681 -->
                <list>
                   <head>Repertoire</head>
-                  <!-- Exemple tire de Spinec du R52_0_1681 -->
                   <item><date>29 mardy</date><title corresp="id_piece">Andromede</title></item>
                   <!-- Dans le cas ou une piece est barree -->
                   <item><date>7 mercredy</date>
@@ -136,8 +145,8 @@
             <!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
 
 
-            <!-- Pour les votes retranscrits dans les registres en deux colonnes -->
-            <div type="decision" corresp="id_sujet">
+            <!-- V. VOTES -->
+            <div type="vote" corresp="id_sujet, id_piece">
                <!-- exemple tire de la seance du 07 janvier 1692, l'assemblee vote pour la lecture de la tragedie des Heraclides -->
                <cb n="1"/>
                <list type="vote_pour">
@@ -164,10 +173,9 @@
                   <item corresp="id_nom">elle n'est point jouable Desmare</item>
                </list>
             </div>
-
-
-            <!-- Pour la distribution des roles -->
-            <div type="distribution" corresp="id_piece">
+            
+            <!-- V. DISTRIBUTION DES ROLES (optionnel, 18eme: quand sont separees des comites) -->
+            <div type="distribution_roles" corresp="id_piece, date">
                <!-- Exemple tire du R52_4 -->
                <head>Disposition de <title corresp="id_piece">La Princesse d'Elide</title></head>
                <!-- Je pense que l'on peut utiliser <castList>, cela permet d'utiliser les elements <role> et <actor> -->
@@ -183,7 +191,7 @@
                </castList>
             </div>
 
-            <!-- Pour les requetes -->
+            <!-- VI. REQUETES (Optionnel) -->
             <div type="requete" corresp="id_sujet">
                <head/>
                <p/>
@@ -193,7 +201,30 @@
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
+            
+      <!-- Assemblee de lectures (optionnel)-->
+            <div type="ass_lectures" corresp="1700-01-01">
+               <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
+               <head>Assemblée pour Lectures.</head>
+            <div type="vote" corresp="id_piece">
+               <p><!--______-->
+                  <title corresp="id_titre">Le Couronnement de Télemaque</title>, Comédie en un Acte, en Vers
+                  De M. 
+                  <list>
+                     <item>15 voix d’acceptation.</item>
+                     <item>1 Voix de Corrections.</item>
+                     <item>3. Voix de Refus.</item>
+                  </list>} Reçue
+               </p>
+            </div>
+               
+            </div>
 
+            <!-- Notes de transcription 
+            <p><del type="barre">texte barre</del></p>
+            <p><add>texte ajoute</add></p>
+            <p><gap reason="illisible"/>Texte illisible</p>
+-->
          </div>
       </body>
    </text>
