@@ -106,7 +106,7 @@
             <!-- IV. DECISIONS (optionnel pour le 18eme) -->
             <!-- Un element <div> pour chaque decisions avec un @corresp et l'id du sujet aborde-->
             <div type="decision" corresp="id_sujet">
-               
+
                <!-- A. Ordre du jour (optionnel) -->
                <head type="agenda">Assemblee pour ... </head>
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
@@ -144,6 +144,37 @@
 
             <!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
 
+            <!--Ce Jourd’huy
+	La Troupe s’est assemblée et apres avoir examinée ses affaires par raport à l’établissement, dont le fond monte à trois cent deux mille sept livres cinq sols divisé en vingt trois parts qui composent la societé, a trouvé qu’il en appartient à Monsieur Le Grand une part entiere montant à treize mille cent trente livres quinze sols qu’il a acquis cy... 13130lt.15s.
+
+Mrs.
+De La Thorilliere, Id. ... 13130. 15.
+Armand, Id. ... 13130. 15.
+Dubreüil, Id. ... 13130. 15.
+Sarrazin, Id. ... 13130. 15.
+Grandval, Id. ... 13130. 15.
+Dangeville, Id. ... 130130. 15.
+Dubois, ... 9280. 17. 6.
+De Bonneval, ... 8750. 8. 3.
+De La Nouë, ... 13130. 15.
+Paulin, ... 8553. 18. 7.
+Le Kain, ... 4832. 16. 8.
+De Bellecourt, ... 5444. 16. 5.
+Preville, ... 13130. 15.
+Melles.
+De La Motte, ... 13130. 15.
+Dangeville Id, ... 13130. 15.
+Gaussin, Id. ... 13130. 15.
+Grandval, Id. ... 13130. 15.
+Du Mesnil, Id. ... 13130. 15.
+La Voy, ... 11353. 16. 10.
+Droüin, ... 13130. 15.
+De La Tude, ... 13130. 15.
+Brillant, ... 6565. 7. 6.
+Hus, ... 6565. 7. 6.
+Gueant, ... 6565. 7. 6.
+				266307lt. 19s. 8d.
+-->
 
             <!-- V. VOTES -->
             <div type="vote" corresp="id_sujet, id_piece">
@@ -173,7 +204,7 @@
                   <item corresp="id_nom">elle n'est point jouable Desmare</item>
                </list>
             </div>
-            
+
             <!-- V. DISTRIBUTION DES ROLES (optionnel, 18eme: quand sont separees des comites) -->
             <div type="distribution_roles" corresp="id_piece, date">
                <!-- Exemple tire du R52_4 -->
@@ -201,24 +232,24 @@
             <div type="signature" corresp="date">
                <signed corresp="id_nom">Nom</signed>
             </div>
-            
-      <!-- Assemblee de lectures (optionnel)-->
-            <div type="ass_lectures" corresp="1700-01-01">
+
+            <!-- R52_25-->
+            <div type="ass_lectures" corresp="id_sujet 1775-05-21">
                <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
                <head>Assemblée pour Lectures.</head>
-            <div type="vote" corresp="id_piece">
-               <p><!--______-->
-                  <title corresp="id_titre">Le Couronnement de Télemaque</title>, Comédie en un Acte, en Vers
-                  De M. 
-                  <list>
-                     <item>15 voix d’acceptation.</item>
-                     <item>1 Voix de Corrections.</item>
-                     <item>3. Voix de Refus.</item>
-                  </list>} Reçue
-               </p>
+               <div type="vote" corresp="id_piece">
+                  <p><!--______-->
+                     <title corresp="id_titre">Le Couronnement de Télemaque</title>, Comédie en un
+                     Acte, en Vers De M. <list>
+                        <item>15 voix d’acceptation.</item>
+                        <item>1 Voix de Corrections.</item>
+                        <item>3. Voix de Refus.</item>
+                     </list>} Reçue </p>
+               </div>
+
             </div>
-               
-            </div>
+
+
 
             <!-- Notes de transcription 
             <p><del type="barre">texte barre</del></p>
