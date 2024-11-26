@@ -207,7 +207,7 @@ Gueant, ... 6565. 7. 6.
 
             <!-- V. DISTRIBUTION DES ROLES (optionnel, 18eme: quand sont separees des comites) -->
             <div type="distribution_roles" corresp="id_piece, date">
-               <!-- Exemple tire du R52_4 -->
+               <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/255/mode/1up-->
                <head>Disposition de <title corresp="id_piece">La Princesse d'Elide</title></head>
                <!-- Je pense que l'on peut utiliser <castList>, cela permet d'utiliser les elements <role> et <actor> -->
                <castList corresp="date">
