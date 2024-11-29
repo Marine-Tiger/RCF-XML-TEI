@@ -187,21 +187,20 @@
             </div>
          </div>
 
-
-         <!-- Dans le cas ou il n'y a pas de decoupage precis sans preambule ou de paragraphes distincts, on peut mettre la thematique directement dans @corresp de <div>-->
+        
          <!-- COMPTABILITE/FINANCES-->
          <!--         exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
          <!--         autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
          <div type="type_assemblee" corresp="id_sujet date">
-            <div type="parts_distribuees" corresp="id_glossaire">
+            <!-- <div type="parts_distribuees" corresp="id_sujet"> -->
                <p>Ce Jourd’huy La Troupe s’est assemblée et apres avoir examinée ses affaires par
                   raport à l’établissement, dont le fond monte à <measure type="total"
-                     corresp="id_sujet">trois cent deux mille sept livres cinq sols</measure> divisé en
-                  vingt trois parts qui composent la societé, a trouvé qu’il en appartient à <persName
+                     corresp="pension">trois cent deux mille sept livres cinq sols</measure> divisé en
+                     vingt trois parts qui composent la societé, a trouvé qu’il en appartient à <persName
                      corresp="id_nom">Monsieur Le Grand</persName> une part entiere montant à <measure
                         type="montant" corresp="id_sujet">treize mille cent trente livres quinze sols</measure>
                   qu’il a acquis cy... <measure type="montant" corresp="id_sujet">13130lt.15s.</measure></p>
-               <list>
+               <list type="parts" corresp="pension">
                   <head>Mrs.</head>
                   <item corresp="id_nom">De La Thorilliere, Id. ... <measure type="montant"
                      corresp="id_sujet">13130. 15.</measure></item>
@@ -257,16 +256,16 @@
                </list>
                <p rend="margin-right"><measure type="total" corresp="id_sujet">266307lt. 19s.
                   8d.</measure></p>
-            </div>
+            <!-- </div> -->
 
 
          </div>
          <!-- VII. LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
-         <div type="type_assemblee" corresp="date">
+         <div type="type_assemblee" corresp="id_sujet date">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
-            <head>Asssemblée pour les <term corresp="id_glossaire">Comptes</term>.</head>
-            <div type="lettre_recue" corresp="id_sujet id_nom">
+            <head>Asssemblée pour les <term corresp="id_sujet">Comptes</term>.</head>
+            <div type="lettre_reçue" corresp="id_sujet id_nom">
                <head>Lettre de <persName corresp="id_nom">M.e Vestris</persName>.</head>
                <p>Mes chers Camarades, j’ai eu la fièvre toute la nuit : la douleur de côté que j’ai
                   depuis trois Semaines est si fort augmentée que l’on sera peut être obligé de me
@@ -284,9 +283,9 @@
                   <placeName corresp="id_lieux">Paris</placeName>, ce <date when="1784-03-03"
                      >mercredi 3 mars 1784</date>.</closer>
             </div>
-            <div type="lettre_envoyee" corresp="id_sujet id_nom">
+            <div type="lettre_envoyée" corresp="id_sujet id_nom">
                <head>Réponse de la <orgName corresp="id_org">Comédie</orgName> à <persName
-                     corresp="id_nome">M.e Vestris</persName> faite à la d.e assemblée et signée des
+                     corresp="id_nom">M.e Vestris</persName> faite à la d.e assemblée et signée des
                   présents.</head>
                <opener>Madame et chère Camarade,</opener>
                <p>Nous partageons tous votre chagrin. Si nous avons entendu hier avec douleur
@@ -303,37 +302,15 @@
             </div>
          </div>
 
-         <!--           
-
-
-
-
--->
-
-
-
-
-         <!-- R52_25-->
-         <div type="type_assemblée" corresp="id_sujet 1775-05-21">
-            <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
-            <head>Assemblée pour <term corresp="id_glossaire">Lectures</term>.</head>
-            <div type="vote" corresp="id_piece">
-               <p><!--______-->
-                  <title corresp="id_titre">Le Couronnement de Télemaque</title>, Comédie en un
-                  Acte, en Vers De M. <list>
-                     <item>15 voix d’acceptation.</item>
-                     <item>1 Voix de Corrections.</item>
-                     <item>3. Voix de Refus.</item>
-                  </list>} Reçue </p>
-            </div>
-         </div>
-
          <!-- Notes de transcription 
             <p><del type="barre">texte barre</del></p>
             <p><add>texte ajoute</add></p>
             <p><gap reason="illisible"/>Texte illisible</p>-->
 
          <!-- CAS PARTICULIERS -->
+
+         <!-- Dans le cas où il n'y a pas de découpage précis sans préambule ou de paragraphes distincts, on peut mettre la thématique directement dans @corresp de <div>-->
+        
 
          <!-- I. DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
          <div type="distribution_roles" corresp="id_piece, date">
@@ -350,6 +327,21 @@
                   <actor corresp="id_nom">Mlle. Mimy</actor>
                </castItem>
             </castList>
+         </div>
+
+          <!-- R52_25-->
+         <div type="type_assemblée" corresp="id_sujet 1775-05-21">
+            <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
+            <head>Assemblée pour <term corresp="id_glossaire">Lectures</term>.</head>
+            <div type="vote" corresp="id_piece">
+               <p><!--______-->
+                  <title corresp="id_titre">Le Couronnement de Télemaque</title>, Comédie en un
+                  Acte, en Vers De M. <list>
+                     <item>15 voix d’acceptation.</item>
+                     <item>1 Voix de Corrections.</item>
+                     <item>3. Voix de Refus.</item>
+                  </list>} Reçue </p>
+            </div>
          </div>
 
       </body>

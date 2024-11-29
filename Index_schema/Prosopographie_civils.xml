@@ -23,7 +23,7 @@
                <persName>
                   <surname></surname>
                   <forename></forename>
-                  <!-- <roleName> pour decrire les roles? Ou juste <occupation>  -->
+                  <roleName></roleName>
                </persName>
                <!-- Fonctions -->
                <occupation type="titre" when="1700"></occupation>
