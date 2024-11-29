@@ -112,7 +112,23 @@
                <lb/>
             </div>
             
-            <!-- 2.  -->
+            <!-- 2.  Liste de présents (fin du 19ème)-->
+            <!-- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -->
+            <div type="type_assemblee" corresp="id_sujet 1888-08-01">
+            <head>Auditions annuelles</head>
+            <head>Séance du mercredi 1er août 1888</head>
+            <p>À une heure et demie, le comité d’administration, présidé par M. J. Claretie, administrateur général, et composé de MM.</p>
+            <list type="presents" corresp="date">
+               <item corresp="id_nom">Got,</item>
+               <item corresp="id_nom">Thiron,</item>
+               <item corresp="id_nom">Mounet-Sully,</item>
+               <item corresp="id_nom">La Roche,</item>
+               <item corresp="id_nom">Coquelin cadet</item>
+               <item corresp="id_nom">Prud’hon*</item>
+               <item corresp="id_nom">Silvain*</item>
+            </list>
+            <p>*Adjoints en qualité de semainiers.</p>
+         </div>
 
             <!-- B. Absents (optionnel) -->
             <div type="abs" corresp="date">
@@ -127,8 +143,6 @@
                   <item corresp="id_nom">Nom</item>
                </list>-->
             </div>
-            
-            <!-- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -->
             
 
             <!-- IV. DELIBERATION (optionnel pour le 18eme) -->
@@ -230,37 +244,28 @@
             <head>Auditions annuelles</head>
             <head>Séance du mercredi 1er août 1888</head>
             <p>À une heure et demie, le comité d’administration, présidé par M. J. Claretie, administrateur général, et composé de MM.</p>
-            <list type="presents">
-               <item></item>
+            <list type="presents" corresp="date">
+               <item corresp="id_nom">Got,</item>
+               <item corresp="id_nom">Thiron,</item>
+               <item corresp="id_nom">Mounet-Sully,</item>
+               <item corresp="id_nom">La Roche,</item>
+               <item corresp="id_nom">Coquelin cadet</item>
+               <item corresp="id_nom">Prud’hon*</item>
+               <item corresp="id_nom">Silvain*</item>
             </list>
-            
+            <p>*Adjoints en qualité de semainiers.</p>
+            <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les noms suivent :</p>
+            <list type="candidats" corresp="audition, date">
+            <item corresp="id_nom, id_piece">1° M. Rouvenat
+	Le Lion amoureux – acte II, scène dernière – Humbert</item>
+            <item corresp="id_nom id_piece">2° M. Malbert
+	Le Misanthrope – acte IV, scène 3 – Alceste</item>
+            <item corresp="id_nom id_piece">3° Mlle de Rudeni
+	Britannicus – acte IV, scènes 1 et 2 – Agrippine
+	Rodogune – Cléopâtre</item>
+            </list>
          </div>
          
-
-         <!--        
-
-
-
-
-		Got,
-		Thiron,
-		Mounet-Sully,
-		La Roche,
-		Coquelin cadet
-		Prud’hon*
-		Silvain*
-*Adjoints en qualité de semainiers.
-	S’est transporté dans la salle pour procéder à l’audition des aspirants dont les noms suivent :
-
-	1° M. Rouvenat
-	Le Lion amoureux – acte II, scène dernière – Humbert
-
-	2° M. Malbert
-	Le Misanthrope – acte IV, scène 3 – Alceste
-
-	3° Mlle de Rudeni
-	Britannicus – acte IV, scènes 1 et 2 – Agrippine
-	Rodogune – Cléopâtre-->
 
          <!-- COMPTABILITE/FINANCES-->
          <!--         exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
@@ -335,7 +340,7 @@
 
 
 
-         <!-- VII. LETTRES -->
+         <!-- LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
          <div type="type_assemblee" corresp="id_sujet date">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
