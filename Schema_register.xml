@@ -59,11 +59,14 @@
          <!-- ENCODAGE D'UNE SEANCE DE COMITE -->
 
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ? C'est risqué, surtout si on a des séances sans date-->
-         <div type="type_assemblee" corresp="1700-01-01">
+         <!-- don't use date in corresp because it could don't work for the validation -->
+          <div type="type_assemblee">
+         <!--<opener when="1700"></opener> -->
+         
 
             <!-- I. TITRE (optionnel) -->
             <head>Comité/Séance du <date when="1800-01-01">date</date></head>
-
+            <!-- <date when="1700"/> -->
 
             <!-- II. PREAMBULE (optionnel) -->
             <div type="preambule">
