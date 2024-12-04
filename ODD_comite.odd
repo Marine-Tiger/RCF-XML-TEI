@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Schéma d'encodage pour les registres de comités de la Comédie-française (1680-1913)</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Ce schéma d'encodage en XML-TEI est produit dans le cadre du doctorat en humanités numériques à la Sorbonne-université et l'université de Victoria.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="RCF_comité" start="TEI">
+        <moduleRef key="header"
+          include="calendar calendarDesc edition editionStmt encodingDesc fileDesc idno listChange namespace profileDesc publicationStmt rendition revisionDesc schemaRef sourceDesc teiHeader titleStmt"/>
+        <moduleRef key="msdescription"/>
+        
+        <moduleRef key="core"
+          include="abbr add author bibl choice date del expan head item list measure name note noteGrp p pb ref resp respStmt term title unclear unit"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="TEI body back div front opener signed text text titlePage"/>
+        <moduleRef key="namesdates"/>
+        <elementSpec ident="div" mode="change">
+          <classes>
+            <memberOf mode="add" key="att.datable"/>
+          </classes>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="./ODD_comite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="./ODD_comite.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -24,7 +24,7 @@
          </publicationStmt>
          <sourceDesc>
             <!-- Description du registre. Lien vers le registre numérisé. -->
-            <msDesc facs="lien vers version numérisée">
+            <msDesc source="lien vers version numérisée">
                <!-- On peut mettre un lien vers la description du registre sur le portail Lagrange -->
                <msIdentifier source="lien vers portail Lagrange">
                   <institution>Bibliothèque-musée de la Comédie-Française</institution>
@@ -60,68 +60,69 @@
 
          <!--On ne peut pas mettre @when dans les div. Est-ce que l'on crée un id pour les dates ? C'est risqué, surtout si on a des séances sans date-->
          <!-- don't use date in corresp because it could don't work for the validation -->
-          <div type="type_assemblee">
-         <!--<opener when="1700"></opener> -->
-         
+         <div type="type_assemblee" when="1700">
 
             <!-- I. TITRE (optionnel) -->
             <head>Comité/Séance du <date when="1800-01-01">date</date></head>
-            <!-- <date when="1700"/> -->
 
             <!-- II. PREAMBULE (optionnel) -->
-            <div type="preambule">
+            <!-- L'element <opener> permet d'aller chercher la date plus facilement que si on avait englobe le preambule dans un <div> et un <p>  -->
+            <opener>
                <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
-               <p rendition="italic">21eme</p>
-               <lb/>
-               <!-- saut de ligne -->
-               <p>Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
-                  s'est assemblée a son ordinaire dans la salle commune de son <placeName
-                     corresp="id_lieux">hostel</placeName> pour y dellibérer de ses affaires les
-                  présens a l'assemblée ont signé avant <time>dix heures</time> pour le droit de
-                     <term corresp="id_sujet">jetton</term></p>
-            </div>
+               Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
+               s'est assemblée a son ordinaire dans la salle commune de son <placeName
+                  corresp="id_lieux">hostel</placeName> pour y dellibérer de ses affaires les
+               présens a l'assemblée ont signé avant <!-- avant = notAfter, ISO 8601 --><time
+                  notAfter="10:00:00">dix heures</time> pour le droit de <term corresp="id_sujet"
+                  >jetton</term>
+            </opener>
 
             <!-- III. PRESENTS ET ABSENTS (optionnel) -->
             <!-- A. Signatures -->
             <!-- 1. Dans les registres de la fin du 17eme au fin du 18eme -->
-            <div type="signature" corresp="1688-01-12">
-               <signed corresp="id_nom">De Champmeslé</signed>
-               <lb/>
-               <signed corresp="id_nom">Le Comte</signed>
-               <lb/>
-               <signed corresp="id_nom">De la Grange</signed>
-               <lb/>
-               <signed corresp="id_nom">Dancourt</signed>
-               <lb/>
-               <signed corresp="id_nom">Devilliers</signed>
-               <lb/>
-               <signed corresp="id_nom">Guérin</signed>
-               <lb/>
-               <signed corresp="id_nom">La Tuillerie</signed>
-               <lb/>
-               <signed corresp="id_nom">Du Perier</signed>
-               <lb/>
-               <signed corresp="id_nom">Dauvilliers</signed>
-               <lb/>
-               <signed corresp="id_nom">Raisin</signed>
-               <lb/>
-               <signed corresp="id_nom">Du Croisy</signed>
-               <lb/>
-               <signed corresp="id_nom">Beauval</signed>
-               <lb/>
-               <signed corresp="id_nom">Delathorilliere</signed>
-               <lb/>
-               <signed corresp="id_nom">Raisin</signed>
-               <lb/>
-            </div>
-            
+            <signed>
+               <!--<date when="1688-01-12"/>-->
+               <list type="signature">
+                  <item corresp="id_nom">De Champmeslé</item>
+                  <lb/>
+                  <item corresp="id_nom">Le Comte</item>
+                  <lb/>
+                  <item corresp="id_nom">De la Grange</item>
+                  <lb/>
+                  <item corresp="id_nom">Dancourt</item>
+                  <lb/>
+                  <item corresp="id_nom">Devilliers</item>
+                  <lb/>
+                  <item corresp="id_nom">Guérin</item>
+                  <lb/>
+                  <item corresp="id_nom">La Tuillerie</item>
+                  <lb/>
+                  <item corresp="id_nom">Du Perier</item>
+                  <lb/>
+                  <item corresp="id_nom">Dauvilliers</item>
+                  <lb/>
+                  <item corresp="id_nom">Raisin</item>
+                  <lb/>
+                  <item corresp="id_nom">Du Croisy</item>
+                  <lb/>
+                  <item corresp="id_nom">Beauval</item>
+                  <lb/>
+                  <item corresp="id_nom">Delathorilliere</item>
+                  <lb/>
+                  <item corresp="id_nom">Raisin</item>
+                  <lb/>
+               </list>
+            </signed>
+
             <!-- 2.  Liste de présents (fin du 19ème)-->
             <!-- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -->
-            <div type="type_assemblee" corresp="id_sujet 1888-08-01">
-            <head>Auditions annuelles</head>
-            <head>Séance du mercredi 1er août 1888</head>
-            <p>À une heure et demie, le comité d’administration, présidé par M. J. Claretie, administrateur général, et composé de MM.</p>
-            <list type="presents" corresp="date">
+            <!--<div type="type_assemblee" corresp="id_sujet">
+               <head>Auditions annuelles</head>
+               <head>Séance du mercredi <date when="1888-08-01">1er août 1888</date></head>
+               <opener>À <time when="13:30:00">une heure et demie</time>, le comité
+                  d’administration, présidé par M. J. Claretie, administrateur général, et composé
+                  de MM.</opener>-->
+            <list type="presents">
                <item corresp="id_nom">Got,</item>
                <item corresp="id_nom">Thiron,</item>
                <item corresp="id_nom">Mounet-Sully,</item>
@@ -131,10 +132,10 @@
                <item corresp="id_nom">Silvain*</item>
             </list>
             <p>*Adjoints en qualité de semainiers.</p>
-         </div>
+            <!--</div>-->
 
             <!-- B. Absents (optionnel) -->
-            <div type="abs" corresp="date">
+            <div type="absents">
                <head>Mrs</head>
                <!-- Dans les registres du 17e-18e, les absents sont divisés entre les hommes et les femmes, donc on aura deux listes -->
                <list>
@@ -146,7 +147,7 @@
                   <item corresp="id_nom">Nom</item>
                </list>-->
             </div>
-            
+
 
             <!-- IV. DELIBERATION (optionnel pour le 18eme) -->
             <!-- Un élément <div> pour chaque deliberation avec un @corresp et l'id du sujet abordé-->
@@ -227,9 +228,9 @@
 
 
          <!-- ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
-         
+
          <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
-         <div type="type_assemblée" corresp="id_sujet 1775-05-21">
+         <div type="type_assemblée" corresp="id_sujet">
             <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
             <head>Assemblée pour <term corresp="id_sujet">Lectures</term>.</head>
             <div type="vote" corresp="id_piece">
@@ -242,12 +243,13 @@
                   </list>} Reçue </p>
             </div>
          </div>
-         
-         <div type="type_assemblee" corresp="id_sujet 1888-08-01">
+
+         <div type="type_assemblee" corresp="id_sujet">
             <head>Auditions annuelles</head>
-            <head>Séance du mercredi 1er août 1888</head>
-            <p>À une heure et demie, le comité d’administration, présidé par M. J. Claretie, administrateur général, et composé de MM.</p>
-            <list type="presents" corresp="date">
+            <head>Séance du mercredi <date when="1888-08-01">1er août 1888</date></head>
+            <opener>À <time when="13:30:00">une heure et demie</time>, le comité d’administration,
+               présidé par M. J. Claretie, administrateur général, et composé de MM.</opener>
+            <list type="presents">
                <item corresp="id_nom">Got,</item>
                <item corresp="id_nom">Thiron,</item>
                <item corresp="id_nom">Mounet-Sully,</item>
@@ -257,23 +259,26 @@
                <item corresp="id_nom">Silvain*</item>
             </list>
             <p>*Adjoints en qualité de semainiers.</p>
-            <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les noms suivent :</p>
+            <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les noms
+               suivent :</p>
             <list type="candidats" corresp="audition, date">
-            <item corresp="id_nom, id_piece">1° M. Rouvenat
-	Le Lion amoureux – acte II, scène dernière – Humbert</item>
-            <item corresp="id_nom id_piece">2° M. Malbert
-	Le Misanthrope – acte IV, scène 3 – Alceste</item>
-            <item corresp="id_nom id_piece">3° Mlle de Rudeni
-	Britannicus – acte IV, scènes 1 et 2 – Agrippine
-	Rodogune – Cléopâtre</item>
+               <item corresp="id_nom, id_piece">1° M. Rouvenat Le Lion amoureux – acte II, scène
+                  dernière – Humbert</item>
+               <item corresp="id_nom id_piece">2° M. Malbert Le Misanthrope – acte IV, scène 3 –
+                  Alceste</item>
+               <item corresp="id_nom id_piece">3° Mlle de Rudeni Britannicus – acte IV, scènes 1 et
+                  2 – Agrippine Rodogune – Cléopâtre</item>
             </list>
          </div>
-         
+
 
          <!-- COMPTABILITE/FINANCES-->
+         
          <!--         exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
          <!--         autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
-         <div type="type_assemblee" corresp="id_sujet date">
+         <div type="type_assemblee" corresp="id_sujet">
+            <!-- Cette seance n'est pas datee, peut-etre mettre @notBefore date de la precedente seance et @notAfter date de la suivante-->
+            <opener><date notBefore="1756-04-30" notAfter="1756-05-03"/></opener>
             <!-- Dans cet exemple particulier du r52_21, iln'y a pas de decoupage par thematique, il est decide de ne pas mettre de <div> -->
             <p>Ce Jourd’huy La Troupe s’est assemblée et apres avoir examinée ses affaires par
                raport à l’établissement, dont le fond monte à <measure type="total"
@@ -345,7 +350,7 @@
 
          <!-- LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
-         <div type="type_assemblee" corresp="id_sujet date">
+         <div type="type_assemblee" corresp="id_sujet">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
             <head>Asssemblée pour les <term corresp="id_sujet">Comptes</term>.</head>
             <div type="lettre_reçue" corresp="id_sujet id_nom">
@@ -393,7 +398,7 @@
 
 
          <!-- I. DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
-         <div type="distribution_roles" corresp="id_piece, date">
+         <div type="distribution_roles" corresp="id_piece">
             <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/255/mode/1up-->
             <head>Disposition de <title corresp="id_piece">La Princesse d'Elide</title></head>
             <!-- Je pense que l'on peut utiliser <castList>, cela permet d'utiliser les elements <role> et <actor> -->
