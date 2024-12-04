@@ -19,7 +19,7 @@
   <text>
       <body>
          <listPerson>
-            <person>
+            <person xml:id="NOM1">
                <persName>
                   <!-- id -->
                   <idno></idno>
