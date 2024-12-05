@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit dans un fichier a part. 
+               Cela permettrait de renseigner les relations entre des personnes de la CF et hors CF -->
+         <listRelation>
+            <relation name="epoux" passive="id_nom" active="id_nom" from="1700" to="1800"/>
+            <relation name="pere" passive="id_nom" active="id_nom"/>
+            <relation name="mere" passive="id_nom" active="id_nom"/>
+            <relation name="tante" passive="id_nom" active="id_nom"/>
+            <relation name="oncle" passive="id_nom" active="id_nom"/>
+            <relation name="frere" passive="id_nom" active="id_nom"/>
+            <relation name="soeur" passive="id_nom" active="id_nom"/>
+            <relation name="cousin" passive="id_nom" active="id_nom"/>
+         </listRelation>
+      </body>
+  </text>
+</TEI>

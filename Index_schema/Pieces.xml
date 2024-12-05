@@ -15,6 +15,7 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
+      <!-- import des auteurs? -->
    </teiHeader>
    <text>
       <body>
@@ -23,11 +24,12 @@
                <item xml:id="TITRE1">
                   <bibl>
                      <!-- id base de donnees -->
-                     <idno/>
+                     <idno type="base_unifiee"></idno>
                      <!-- title -->
-                     <title/>
-                     <!-- author -->
-                     <author/> 
+                     <title></title>
+                     <!-- author? -->
+                     <!-- Je n'ai pas trouve d'element pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
+                     <note type="genre"></note>
                   </bibl>
                   <!-- Liste des roles -->
                   <castList>

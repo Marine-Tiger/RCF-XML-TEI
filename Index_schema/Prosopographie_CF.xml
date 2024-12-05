@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+  <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prospographie des membres de la Comedie-Francaise</title>
+            <title>Title</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -12,123 +15,35 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-      <revisionDesc>
-         <change when="2024-10-25">Creation de personGrp, commentaires.</change>
-         <change when="2024-10-23">Creation de la prosopographie.</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
+  </teiHeader>
+  <text>
       <body>
-         <div type="acteurs-actrices">
-            <listPerson>
-               <!-- <personGrp> est utilisé pour regrouper les familles. 
-                  Cela permettra d'utiliser l'id de la famille et non de la personne pour les signatures lorsqu'il est impossible d'identifier l'auteur.rice-->
-               <personGrp xml:id="CHAM" corresp="#CHAM1 #DESM1"/>
-               <personGrp xml:id="GUER" corresp="#GUER1 #BEJA1"/>
-               <personGrp xml:id="DESM" corresp="#DESM1 #DESM2"/>
-
-               <!--<person xml:id="MOLI1">
-                  <persName>
-                     <reg>Moliere</reg>
-                     <forename>Jean-Baptiste</forename>
-                     <surname>Poquelin</surname>
-                  </persName>
-               </person>-->
-
-               <!--Id à definir. J'ai repris la typologie de LEMDO pour le momemt. On pourrait utiliser les ids des bases de données, mais nous n'avons pas d'ids pour l'ensemble des membres de la CF. Afin d'être cohérent dans les nommages des ids, je pense qu'il faut qu'on en crée spécifiquement pour la TEI.-->
-               <person xml:id="BEJA1">
-                  <persName>
-                     <!-- Nom complet -->
-                     <reg>Armande Béjart</reg>
-                     <forename>Armande</forename>
-                     <!-- Plusieurs noms car mariée. On peut ajouter un attribut @type="nom_jeune_fille" ou similaire pour les identifier  -->
-                     <surname>Béjart</surname>
-                     <surname>Moliere <date from="1662" to="1673"/></surname>
-                     <!--Dans <surname> on peut ajouter @corresp="" qui permettra de dire que cette personne appartient a telle famille de <personGrp>-->
-                     <surname corresp="#GUER">Guérin <date when="1677"/></surname>
-                     <!-- Surnoms, alias, épithète, noms de scène -->
-                     <addName>Mademoiselle Menou</addName>
-                     <addName>Mademoiselle Moliere</addName>
-                     <addName>Mademoiselle Guérin</addName>
-                  </persName>
-                  <!-- Les différents emplois occupés. J'ai différencié acteur et actrice pour le momemt. Plutot que @type, on utilisera @corresp pour renvoyer au mot des registres -->
-                  <occupation type="actrice" from="1662" to="1694">Actrice</occupation>
-                  <occupation type="societaire" when="1680">Sociétaire</occupation>
-               </person>
-
-               <person xml:id="GUER1">
-                  <persName>
-                     <!--<reg>Guérin</reg>-->
-                     <forename>Isaac-François</forename>
-                     <surname corresp="#GUER">Guérin</surname>
-                     <addName>Guérin</addName>
-                  </persName>
-                  <occupation type="acteur" from="1672" to="1717">Acteur</occupation>
-                  <occupation type="societaire" when="1680">Societaire</occupation>
-                  <occupation type="doyen" from="1692" to="1717">Doyen</occupation>
-               </person>
-
-               <person xml:id="CHAM1">
-                  <persName>
-                     <!--<reg>Charles Chevillet</reg>-->
-                     <forename>Charles</forename>
-                     <surname>Chevillet</surname>
-                     <addName>De Champmesle</addName>
-                  </persName>
-                  <occupation type="acteur" from="1668" to="1701">Acteur</occupation>
-                  <occupation type="societaire" from="1680" to="1701">Sociétaire</occupation>
-               </person>
-
-               <person xml:id="DESM1">
-                  <!-- Nom des id à définir -->
-                  <persName>
-                     <reg>Mademoiselle Champmesle</reg>
-                     <forename>Marie</forename>
-                     <surname corresp="#DESM">Desmarres</surname>
-                     <surname corresp="#CHAM">Champmesle <date when="1666"/></surname>
-                     <addName>La Champmesle</addName>
-                  </persName>
-                  <occupation type="actrice" from="1668" to="1698">Actrice</occupation>
-                  <occupation type="societaire" from="1680" to="1698">Sociétaire</occupation>
-               </person>
-
-               <person xml:id="DESM2"
-                  source="https://www.comedie-francaise.fr/fr/artiste/charlotte-desmares#">
-                  <!-- Lien vers fiche sur le site de la CF si possible -->
-                  <persName>
-                     <reg>Charlotte Desmares</reg>
-                     <forename>Charlotte</forename>
-                     <surname>Desmares</surname>
-                  </persName>
-                  <occupation type="actrice" from="1698" to="1721">Actrice</occupation>
-                  <occupation type="societaire" from="1699" to="1721">Sociétaire</occupation>
-               </person>
-
-               <person xml:id="FLEU1">
-                  <!-- S'il y a un id dans une base de donnee, on peut utiliser l'element <idno> avec @type pour preciser l'id et la base de donnees en question -->
-                  <idno type="id_feux">223</idno>
-                  <persName>
-                     <reg>Mademoiselle Fleury</reg>
-                     <forename>Marie-Anne Florence</forename>
-                     <surname>Bernady Nones</surname>
-                     <addName>Fleury Bernadi</addName>
-                  </persName>
-                  <occupation type="actrice" from="1783" to="1807">Actrice</occupation>
-                  <occupation type="societaire" from="1791" to="1807">Societaire</occupation>
-               </person>
-            </listPerson>
-
-
-            <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit dans un fichier a part. 
-               Cela permettrait de renseigner les relations entre des personnes de la CF et hors CF -->
-            <listRelation>
-               <relation name="epoux" corresp="#MOLI1 #BEJA1" from="1662" to="1673"/>
-               <relation name="epoux" corresp="#BEJA1 #GUER1" from="1677" to="1700"/>
-               <relation name="epoux" corresp="#CHAM1 #DESM1" when="1666"/>
-               <relation name="famille" corresp="#DESM1 #DESM2"/>
-            </listRelation>
-
-         </div>
+         <!-- Quid des familles? avec <personGroup>? -->
+         <listPerson>
+            <person xml:id="NOM1">
+               <persName>
+                  <!-- id -->
+                  <idno type="base_unifiee"></idno>
+                  <!-- pseudonym -->
+                  <reg></reg>
+                  <!-- prenom -->
+                  <forename></forename>
+                  <!-- nom -->
+                  <surname></surname>
+                  <!-- titre -->
+                  <addName></addName>
+               </persName>
+               <!-- feminin -->
+               <gender></gender>
+               <!-- statut -->
+               <occupation></occupation>
+               <!-- entree et depart -->
+               <occupation from="1700" to="1700"/>
+               <!-- societariat -->
+               <occupation when="1680"/>
+            </person>
+         </listPerson>
+         
       </body>
-   </text>
+  </text>
 </TEI>

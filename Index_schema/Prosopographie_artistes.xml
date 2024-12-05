@@ -22,19 +22,19 @@
             <listPerson>
                <!-- si existe dans une base de donnees -->
                <person xml:id="NOM1">
-                  <idno type="id_base"></idno>
+                  <idno type="base_unifiee"></idno>
                   <persName>
+                     <!-- pseudonyme -->
+                     <reg></reg>
+                     <!-- nom -->
                      <surname></surname>
+                     <!-- prenom -->
                      <forename></forename>
                   </persName>
-               </person>
-               <!-- Si n'existe pas dans une base de donnees -->
-               <person xml:id="NOM2">
-                  <persName>
-                     <surname></surname>
-                     <forename></forename>
-                  </persName>
-                  <occupation type="titre"></occupation>
+                  <!-- feminin -->
+                  <gender></gender>
+                  <!-- statut -->
+                  <occupation></occupation>
                </person>
             </listPerson>
          </div>

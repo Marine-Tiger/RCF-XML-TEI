@@ -62,7 +62,7 @@
             <!-- I. TITRE (optionnel) -->
             <head>Comité/Séance du <date when="1800-01-01">date</date></head>
             <!-- II. PREAMBULE (optionnel) -->
-            
+
             <div type="preambule">
                <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
                <p>Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
@@ -147,6 +147,7 @@
             </div>
             <!-- IV. DELIBERATION (optionnel pour le 18eme) -->
             <!-- Un élément <div> pour chaque deliberation avec un @corresp et l'id du sujet abordé-->
+
             <!-- A. Ordre du jour (optionnel) -->
             <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
             <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
@@ -181,10 +182,17 @@
 
                <!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
 
+
                <!-- V. VOTES -->
+
+               <!-- https://flipbooks.cfregisters.org/R52_0_1692/index.html#page/5/mode/1up-->
+               <div type="preambule">
+                  <p>Aujourd'huy <date when="1692-01-07">7me janvier 1692</date>: la compagnie s'est
+                     assemblée pour rendre reponse a <persName corresp="id_nom">monsieur de
+                        Brie</persName> sur la lecture de la tragédie des <title corresp="id_piece"
+                        >Heraclides</title>, les voix recüeilluye comme il en suit:</p>
+               </div>
                <div type="vote" corresp="id_sujet, id_piece">
-                  <!-- exemple tiré de la séance du 07 janvier 1692, l'assemblée vote pour la lecture de la tragédie des Heraclides -->
-                  <!-- https://flipbooks.cfregisters.org/R52_0_1692/index.html#page/5/mode/1up-->
                   <cb n="1"/>
                   <list type="vote_pour">
                      <head>la pièce est joüable</head>
@@ -224,23 +232,24 @@
          <!-- ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
 
          <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
-         <div type="type_assemblée" corresp="id_sujet">
+         <div type="type_assemblée" when="1775-05-21" corresp="id_sujet">
             <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
             <head>Assemblée pour <term corresp="id_sujet">Lectures</term>.</head>
             <div type="vote" corresp="id_piece">
-               <p><!--______-->
-                  <title corresp="id_titre">Le Couronnement de Télemaque</title>, Comédie en un
+               <p>
+                  <title corresp="id_piece">Le Couronnement de Télemaque</title>, Comédie en un
                   Acte, en Vers De M. <list>
                      <item>15 voix d’acceptation.</item>
                      <item>1 Voix de Corrections.</item>
                      <item>3. Voix de Refus.</item>
-                  </list>} Reçue </p>
+                  </list>} Reçue 
+                  <lb/>__________</p>
             </div>
          </div>
 
-         <div type="type_assemblee" corresp="id_sujet">
+         <div type="type_assemblee" when="1888-08-01" corresp="id_sujet">
             <head>Auditions annuelles</head>
-            <head>Séance du mercredi <date when="1888-08-01">1er août 1888</date></head>
+            <head>Séance du <date when="1888-08-01">mercredi 1er août 1888</date></head>
             <opener>À <time when="13:30:00">une heure et demie</time>, le comité d’administration,
                présidé par M. J. Claretie, administrateur général, et composé de MM.</opener>
             <list type="presents">
@@ -270,9 +279,10 @@
 
          <!--         exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
          <!--         autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
-         <div type="type_assemblee" corresp="id_sujet">
-            <!-- Cette seance n'est pas datee, peut-etre mettre @notBefore date de la precedente seance et @notAfter date de la suivante-->
-            <opener><date notBefore="1756-04-30" notAfter="1756-05-03"/></opener>
+         
+         
+         <!-- Cette seance n'est pas datee, peut-etre mettre @notBefore date de la precedente seance et @notAfter date de la suivante-->
+         <div type="type_assemblee" notBefore="1756-04-30" notAfter="1756-05-03" corresp="id_sujet">
             <!-- Dans cet exemple particulier du r52_21, iln'y a pas de decoupage par thematique, il est decide de ne pas mettre de <div> -->
             <p>Ce Jourd’huy La Troupe s’est assemblée et apres avoir examinée ses affaires par
                raport à l’établissement, dont le fond monte à <measure type="total"
