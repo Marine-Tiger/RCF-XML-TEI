@@ -1,0 +1,1548 @@
+{
+"select *\nfrom auteurs\nwhere nom not in ('Desforges', 'Bellecour', 'Gaultier')": [
+	{
+		"id" : 258,
+		"nom" : "Fontenelle, Bernard le Bouvier de",
+		"féminin" : false
+	},
+	{
+		"id" : 259,
+		"nom" : "Pacarony, chevalier de",
+		"féminin" : false
+	},
+	{
+		"id" : 255,
+		"nom" : "Abeille, Gaspard, abbé",
+		"féminin" : false
+	},
+	{
+		"id" : 31,
+		"nom" : "Duché de Vancy, Joseph-François",
+		"féminin" : false
+	},
+	{
+		"id" : 26,
+		"nom" : "Rousseau, Pierre de Toulouse",
+		"féminin" : false
+	},
+	{
+		"id" : 97,
+		"nom" : "Riupeirous, Théodore de",
+		"féminin" : false
+	},
+	{
+		"id" : 177,
+		"nom" : "Alliot",
+		"féminin" : false
+	},
+	{
+		"id" : 298,
+		"nom" : "Gillet de La Tessonerie",
+		"féminin" : false
+	},
+	{
+		"id" : 69,
+		"nom" : "Rowe, Nicholas, auteur \/ Laplace, Pierre-Antoine de, ou Séran de La Tour, abbé, ou Mauprié, marquis de, traducteur",
+		"féminin" : false
+	},
+	{
+		"id" : 44,
+		"nom" : "Ximénès, Augustin-Louis de",
+		"féminin" : false
+	},
+	{
+		"id" : 48,
+		"nom" : "Mauger",
+		"féminin" : false
+	},
+	{
+		"id" : 53,
+		"nom" : "Portelance, Michel",
+		"féminin" : false
+	},
+	{
+		"id" : 55,
+		"nom" : "Baragué",
+		"féminin" : false
+	},
+	{
+		"id" : 63,
+		"nom" : "Boistel d'Welles, Jean-Baptiste-Robert (ou Robert)",
+		"féminin" : false
+	},
+	{
+		"id" : 307,
+		"nom" : "Aunillon, Pierre-Charles-Fabiot",
+		"féminin" : false
+	},
+	{
+		"id" : 188,
+		"nom" : "Landon, Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 172,
+		"nom" : "Laus de Boissy, Louis de",
+		"féminin" : false
+	},
+	{
+		"id" : 196,
+		"nom" : "Du Bocage, Anne-Marie",
+		"féminin" : true
+	},
+	{
+		"id" : 283,
+		"nom" : "Desmarres",
+		"féminin" : false
+	},
+	{
+		"id" : 291,
+		"nom" : "Belin, François",
+		"féminin" : false
+	},
+	{
+		"id" : 279,
+		"nom" : "Brécourt, Guillaume Marcoureau, sieur de Brécourt, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 293,
+		"nom" : "L'Affichard, Thomas",
+		"féminin" : false
+	},
+	{
+		"id" : 273,
+		"nom" : "Palaprat, Jean de, sieur de Bigot",
+		"féminin" : false
+	},
+	{
+		"id" : 94,
+		"nom" : "Renout, Jean-Julien-Constantin",
+		"féminin" : false
+	},
+	{
+		"id" : 296,
+		"nom" : "Rousseau, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 256,
+		"nom" : "Barbier, Marie-Anne",
+		"féminin" : true
+	},
+	{
+		"id" : 302,
+		"nom" : "Raisin, Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 103,
+		"nom" : "Marin, François-Louis-Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 268,
+		"nom" : "Gilbert, Gabriel",
+		"féminin" : false
+	},
+	{
+		"id" : 80,
+		"nom" : "Maillet-Duclairon, Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 295,
+		"nom" : "Auvigny, Jean du Castre d'",
+		"féminin" : false
+	},
+	{
+		"id" : 292,
+		"nom" : "Guérin d'Estriché, Nicolas-Armand-Martial",
+		"féminin" : false
+	},
+	{
+		"id" : 304,
+		"nom" : "La Grange (ou Lagrange), Nicolas de",
+		"féminin" : false
+	},
+	{
+		"id" : 43,
+		"nom" : "Linant, Nicolas-Michel",
+		"féminin" : false
+	},
+	{
+		"id" : 297,
+		"nom" : "Grandval, Nicolas Racot de",
+		"féminin" : false
+	},
+	{
+		"id" : 269,
+		"nom" : "Pesselier, Charles-Étienne",
+		"féminin" : false
+	},
+	{
+		"id" : 310,
+		"nom" : "Montauban, Jacques Pousset de",
+		"féminin" : false
+	},
+	{
+		"id" : 312,
+		"nom" : "Le Clerc de La Bruère, Charles-Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 266,
+		"nom" : "Danchet, Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 309,
+		"nom" : "Roy, Pierre-Charles",
+		"féminin" : false
+	},
+	{
+		"id" : 163,
+		"nom" : "Lattaignant de Bainville",
+		"féminin" : false
+	},
+	{
+		"id" : 125,
+		"nom" : "Autreau, Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 112,
+		"nom" : "La Morlière, Jacques Rochette de",
+		"féminin" : false
+	},
+	{
+		"id" : 119,
+		"nom" : "Yon",
+		"féminin" : false
+	},
+	{
+		"id" : 137,
+		"nom" : "Bernis, François-Joachim de Pierres, cardinal de",
+		"féminin" : false
+	},
+	{
+		"id" : 120,
+		"nom" : "Colomb de Seillans",
+		"féminin" : false
+	},
+	{
+		"id" : 117,
+		"nom" : "Beauharnais, Fanny de",
+		"féminin" : true
+	},
+	{
+		"id" : 70,
+		"nom" : "Graffigny, Françoise de",
+		"féminin" : true
+	},
+	{
+		"id" : 132,
+		"nom" : "Lourdet de Santerre, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 160,
+		"nom" : "Picard, Louis-Benoît",
+		"féminin" : false
+	},
+	{
+		"id" : 288,
+		"nom" : "Audierne, Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 133,
+		"nom" : "Martel",
+		"féminin" : false
+	},
+	{
+		"id" : 274,
+		"nom" : "Charles Chevillet",
+		"féminin" : false
+	},
+	{
+		"id" : 170,
+		"nom" : "Bastide, Jean-François de",
+		"féminin" : false
+	},
+	{
+		"id" : 181,
+		"nom" : "Marchadier, abbé",
+		"féminin" : false
+	},
+	{
+		"id" : 178,
+		"nom" : "Pellegrin, Simon-Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 193,
+		"nom" : "Patu, Claude-Pierre",
+		"féminin" : false
+	},
+	{
+		"id" : 98,
+		"nom" : "La Motte, Antoine Houdar de",
+		"féminin" : false
+	},
+	{
+		"id" : 182,
+		"nom" : "Boindin, Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 356,
+		"nom" : "Villaret, Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 357,
+		"nom" : "Godard d’Aucour, Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 200,
+		"nom" : "Simon, Claude-François",
+		"féminin" : false
+	},
+	{
+		"id" : 254,
+		"nom" : "Saint-Gilles Lenfant, de",
+		"féminin" : false
+	},
+	{
+		"id" : 308,
+		"nom" : "Saint-Glas, Pierre de, abbé de Saint-Ussans",
+		"féminin" : false
+	},
+	{
+		"id" : 277,
+		"nom" : "Jolly, François Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 204,
+		"nom" : "Devaux, François-Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 275,
+		"nom" : "La Valette",
+		"féminin" : false
+	},
+	{
+		"id" : 221,
+		"nom" : "Lemercier, Louis-Népomucène",
+		"féminin" : false
+	},
+	{
+		"id" : 203,
+		"nom" : "Du Roullet, François-Louis Gand Le Bland, bailli",
+		"féminin" : false
+	},
+	{
+		"id" : 213,
+		"nom" : "Vadé, Jean-Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 201,
+		"nom" : "Dancourt, Louis Hurtaut",
+		"féminin" : false
+	},
+	{
+		"id" : 211,
+		"nom" : "Valois d'Orville, Adrien-Joseph de",
+		"féminin" : false
+	},
+	{
+		"id" : 217,
+		"nom" : "Dufaut",
+		"féminin" : false
+	},
+	{
+		"id" : 264,
+		"nom" : "Hénault, Charles-Jean-François",
+		"féminin" : false
+	},
+	{
+		"id" : 246,
+		"nom" : "Leblanc, Jean-Bernard, abbé",
+		"féminin" : false
+	},
+	{
+		"id" : 267,
+		"nom" : "La Chazette, de",
+		"féminin" : false
+	},
+	{
+		"id" : 248,
+		"nom" : "Pralard, René",
+		"féminin" : false
+	},
+	{
+		"id" : 243,
+		"nom" : "Cordier de Saint-Firmin, Edmond",
+		"féminin" : false
+	},
+	{
+		"id" : 234,
+		"nom" : "Mailhol, Gabriel",
+		"féminin" : false
+	},
+	{
+		"id" : 250,
+		"nom" : "Aubry, Jean-Baptiste Aubry des Carrières, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 241,
+		"nom" : "Grave, Jean Hyacinthe, vicomte de",
+		"féminin" : false
+	},
+	{
+		"id" : 239,
+		"nom" : "Du Ryer, Pierre",
+		"féminin" : false
+	},
+	{
+		"id" : 265,
+		"nom" : "Ussé, Louis II Bernin de Valentinay d'",
+		"féminin" : false
+	},
+	{
+		"id" : 262,
+		"nom" : "Gomez, Madeleine-Angélique de",
+		"féminin" : true
+	},
+	{
+		"id" : 247,
+		"nom" : "Séguineau, Mr",
+		"féminin" : false
+	},
+	{
+		"id" : 263,
+		"nom" : "Chaligny des Plaines, François de",
+		"féminin" : false
+	},
+	{
+		"id" : 227,
+		"nom" : "Morand, Pierre de",
+		"féminin" : false
+	},
+	{
+		"id" : 230,
+		"nom" : "Thibouville, Henri Lambert d'Herbigny, marquis de",
+		"féminin" : false
+	},
+	{
+		"id" : 245,
+		"nom" : "Donneau de Vizé, Jean",
+		"féminin" : false
+	},
+	{
+		"id" : 249,
+		"nom" : "Boyer (Claude, abbé) pseud : Pader d'Assézan",
+		"féminin" : false
+	},
+	{
+		"id" : 294,
+		"nom" : "Le Mascrier, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 306,
+		"nom" : "Longchamp, Charlotte Legrand, épouse Pitel de",
+		"féminin" : true
+	},
+	{
+		"id" : 9,
+		"nom" : "Michel Procope-Couteaux",
+		"féminin" : false
+	},
+	{
+		"id" : 300,
+		"nom" : "Avisse, Étienne-François",
+		"féminin" : false
+	},
+	{
+		"id" : 276,
+		"nom" : "Rosimond, Claude Rose, sieur de",
+		"féminin" : false
+	},
+	{
+		"id" : 311,
+		"nom" : "Brie, de",
+		"féminin" : false
+	},
+	{
+		"id" : 284,
+		"nom" : "Robbe, Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 285,
+		"nom" : "Nicolas Abeille",
+		"féminin" : false
+	},
+	{
+		"id" : 289,
+		"nom" : "Montfort",
+		"féminin" : false
+	},
+	{
+		"id" : 290,
+		"nom" : "Louvet",
+		"féminin" : false
+	},
+	{
+		"id" : 28,
+		"nom" : "Abbé François Le Métel de Boisrobert",
+		"féminin" : false
+	},
+	{
+		"id" : 278,
+		"nom" : "Boizard de Ponteau, Claude-Florimond",
+		"féminin" : false
+	},
+	{
+		"id" : 301,
+		"nom" : "Beauregard",
+		"féminin" : false
+	},
+	{
+		"id" : 261,
+		"nom" : "Bernard, Catherine",
+		"féminin" : true
+	},
+	{
+		"id" : 287,
+		"nom" : "Tristan L'Hermite",
+		"féminin" : false
+	},
+	{
+		"id" : 303,
+		"nom" : "Launay, De",
+		"féminin" : false
+	},
+	{
+		"id" : 7,
+		"nom" : "Abbé Claude-Henri de Fusée de Voisenon",
+		"féminin" : false
+	},
+	{
+		"id" : 272,
+		"nom" : "Péchantrés, Nicolas de",
+		"féminin" : false
+	},
+	{
+		"id" : 313,
+		"nom" : "Saint-Yon",
+		"féminin" : false
+	},
+	{
+		"id" : 299,
+		"nom" : "Subligny, Adrien-Thomas Perdou de",
+		"féminin" : false
+	},
+	{
+		"id" : 280,
+		"nom" : "Moncrif, François-Augustin Paradis de",
+		"féminin" : false
+	},
+	{
+		"id" : 286,
+		"nom" : "Le Noble, Eustache",
+		"féminin" : false
+	},
+	{
+		"id" : 281,
+		"nom" : "Carcavy, Charles-Alexandre, abbé",
+		"féminin" : false
+	},
+	{
+		"id" : 314,
+		"nom" : "Desmarets de Saint-Sorlin, Jean",
+		"féminin" : false
+	},
+	{
+		"id" : 271,
+		"nom" : "Pradon, Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 315,
+		"nom" : "Nadal, Augustin",
+		"féminin" : false
+	},
+	{
+		"id" : 321,
+		"nom" : "Dupuy",
+		"féminin" : false
+	},
+	{
+		"id" : 323,
+		"nom" : "Parmentier",
+		"féminin" : false
+	},
+	{
+		"id" : 324,
+		"nom" : "Bonnet de Chemillin, Abbé",
+		"féminin" : false
+	},
+	{
+		"id" : 318,
+		"nom" : "Pousset de Montauban, Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 252,
+		"nom" : "Deschamps, François-Michel-Chrétien",
+		"féminin" : false
+	},
+	{
+		"id" : 236,
+		"nom" : "Genest, Charles-Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 327,
+		"nom" : "Morandet",
+		"féminin" : false
+	},
+	{
+		"id" : 322,
+		"nom" : "Landois, Paul",
+		"féminin" : false
+	},
+	{
+		"id" : 316,
+		"nom" : "Tronchin, François",
+		"féminin" : false
+	},
+	{
+		"id" : 326,
+		"nom" : "Raisin, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 319,
+		"nom" : "Richer, Henri",
+		"féminin" : false
+	},
+	{
+		"id" : 325,
+		"nom" : "Sablier, Charles",
+		"féminin" : false
+	},
+	{
+		"id" : 317,
+		"nom" : "Ferrier de la Martinière, Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 328,
+		"nom" : "Madame Ulrich",
+		"féminin" : true
+	},
+	{
+		"id" : 143,
+		"nom" : "Oisemont",
+		"féminin" : false
+	},
+	{
+		"id" : 209,
+		"nom" : "Rousseau, Pierre-Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 2,
+		"nom" : "Molière, Jean-Baptiste Poquelin, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 5,
+		"nom" : "Voltaire, François-Marie Arouet, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 154,
+		"nom" : "Simon-Chauvot",
+		"féminin" : false
+	},
+	{
+		"id" : 54,
+		"nom" : "Voiron",
+		"féminin" : false
+	},
+	{
+		"id" : 95,
+		"nom" : "Rochon de Chabannes, Marc-Antoine-Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 96,
+		"nom" : "Billardon de Sauvigny, Edme-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 229,
+		"nom" : "Desaudras",
+		"féminin" : false
+	},
+	{
+		"id" : 14,
+		"nom" : "Dancourt, Florent Carton, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 30,
+		"nom" : "Sauvigny, Edme-Louis Billardon de",
+		"féminin" : false
+	},
+	{
+		"id" : 109,
+		"nom" : "Boyron, Michel",
+		"féminin" : false
+	},
+	{
+		"id" : 33,
+		"nom" : "Dudoyer de Gastels, Gérard",
+		"féminin" : false
+	},
+	{
+		"id" : 36,
+		"nom" : "Laignelot, Joseph François",
+		"féminin" : false
+	},
+	{
+		"id" : 41,
+		"nom" : "Lonvay de La Saussaye, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 42,
+		"nom" : "Fallet, Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 59,
+		"nom" : "Colardeau, Charles-Pierre",
+		"féminin" : false
+	},
+	{
+		"id" : 60,
+		"nom" : "Châteaubrun, Jean-Baptiste Vivien de",
+		"féminin" : false
+	},
+	{
+		"id" : 61,
+		"nom" : "Richerolle d'Avallon",
+		"féminin" : false
+	},
+	{
+		"id" : 66,
+		"nom" : "Manteufel, Ernest de",
+		"féminin" : false
+	},
+	{
+		"id" : 38,
+		"nom" : "Poinsinet de Sivry, Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 68,
+		"nom" : "Gudin de La Brenellerie, Paul-Philippe",
+		"féminin" : false
+	},
+	{
+		"id" : 67,
+		"nom" : "Chénier, Marie-Joseph de",
+		"féminin" : false
+	},
+	{
+		"id" : 74,
+		"nom" : "Riouffé, Honoré",
+		"féminin" : false
+	},
+	{
+		"id" : 75,
+		"nom" : "Lefèvre, Pierre-François-Alexandre",
+		"féminin" : false
+	},
+	{
+		"id" : 76,
+		"nom" : "La Tuillerie, Jean-François Juvenon de La Tuillerie, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 77,
+		"nom" : "Hauteroche, Noël Lebreton, sieur de",
+		"féminin" : false
+	},
+	{
+		"id" : 1,
+		"nom" : "Regnard, Jean-François",
+		"féminin" : false
+	},
+	{
+		"id" : 82,
+		"nom" : "Le Franc de Pompignan, Jean-Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 57,
+		"nom" : "Marmontel, Jean-François",
+		"féminin" : false
+	},
+	{
+		"id" : 87,
+		"nom" : "Chabanon, Michel Paul Guy de",
+		"féminin" : false
+	},
+	{
+		"id" : 93,
+		"nom" : "Raucourt, Françoise-Marie-Antoinette-Josèphe Saucerotte dite Mademoiselle",
+		"féminin" : true
+	},
+	{
+		"id" : 58,
+		"nom" : "Le Mierre, Antoine-Marin",
+		"féminin" : false
+	},
+	{
+		"id" : 45,
+		"nom" : "La Grange-Chancel, François-Joseph de",
+		"féminin" : false
+	},
+	{
+		"id" : 99,
+		"nom" : "Guimond de La Touche, Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 101,
+		"nom" : "Genlis, Stéphanie-Félicité du Crest, comtesse de",
+		"féminin" : true
+	},
+	{
+		"id" : 102,
+		"nom" : "Denon, Dominique-Vivant",
+		"féminin" : false
+	},
+	{
+		"id" : 106,
+		"nom" : "Villemain d’Abancourt, François-Jean",
+		"féminin" : false
+	},
+	{
+		"id" : 81,
+		"nom" : "Saint-Foix, Germain-François Poullain de",
+		"féminin" : false
+	},
+	{
+		"id" : 107,
+		"nom" : "Montesson, Charlotte-Jeanne Béraud de La Haie de Riou, comtesse de",
+		"féminin" : true
+	},
+	{
+		"id" : 108,
+		"nom" : "La Noue, Jean-Baptiste Simon Sauvé de La Noue, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 111,
+		"nom" : "Champmeslé, Charles Chevillet, sieur de Champmeslé, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 113,
+		"nom" : "Moline, Pierre-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 49,
+		"nom" : "La Chaussée, Pierre-Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 20,
+		"nom" : "Destouches, Philippe Néricault",
+		"féminin" : false
+	},
+	{
+		"id" : 124,
+		"nom" : "Harny de Guerville",
+		"féminin" : false
+	},
+	{
+		"id" : 126,
+		"nom" : "Mercier, Louis-Sebastien",
+		"féminin" : false
+	},
+	{
+		"id" : 127,
+		"nom" : "Barthe, Nicolas-Thomas",
+		"féminin" : false
+	},
+	{
+		"id" : 128,
+		"nom" : "Legouvé, Gabriel-Marie",
+		"féminin" : false
+	},
+	{
+		"id" : 180,
+		"nom" : "Cérou, Pierre",
+		"féminin" : false
+	},
+	{
+		"id" : 122,
+		"nom" : "Cubières-Palmézeaux, Michel de",
+		"féminin" : false
+	},
+	{
+		"id" : 129,
+		"nom" : "La Montagne, Pierre, baron de",
+		"féminin" : false
+	},
+	{
+		"id" : 18,
+		"nom" : "Fagan, Barthélemy-Christophe",
+		"féminin" : false
+	},
+	{
+		"id" : 134,
+		"nom" : "Moissy, Alexandre-Guillaume de",
+		"féminin" : false
+	},
+	{
+		"id" : 86,
+		"nom" : "Collé, Charles",
+		"féminin" : false
+	},
+	{
+		"id" : 104,
+		"nom" : "Vigée, Louis-Jean-Baptiste-Étienne",
+		"féminin" : false
+	},
+	{
+		"id" : 72,
+		"nom" : "Boutet de Monvel, Jacques-Marie",
+		"féminin" : false
+	},
+	{
+		"id" : 100,
+		"nom" : "Laya, Jean-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 136,
+		"nom" : "Falconnet, Françoise-Cécile",
+		"féminin" : true
+	},
+	{
+		"id" : 138,
+		"nom" : "Dufrénoy, Adélaïde-Gillette Billet",
+		"féminin" : false
+	},
+	{
+		"id" : 139,
+		"nom" : "Favart, Charles-Simon",
+		"féminin" : false
+	},
+	{
+		"id" : 141,
+		"nom" : "Lesur, Charles-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 142,
+		"nom" : "Lebeau de Schosne, Augustin-Théodore-Vincent",
+		"féminin" : false
+	},
+	{
+		"id" : 146,
+		"nom" : "Fournelle, Jean-Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 149,
+		"nom" : "Pilhes, Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 150,
+		"nom" : "Dampierre de la Salle",
+		"féminin" : false
+	},
+	{
+		"id" : 151,
+		"nom" : "Goldoni, Carlo",
+		"féminin" : false
+	},
+	{
+		"id" : 152,
+		"nom" : "Artaud, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 153,
+		"nom" : "Poinsinet, Antoine-Alexandre-Henri",
+		"féminin" : false
+	},
+	{
+		"id" : 155,
+		"nom" : "Pont-de-Veyle, Antoine de Fériol, comte de",
+		"féminin" : false
+	},
+	{
+		"id" : 156,
+		"nom" : "Arnaud, François-Thomas-Marie de Baculard d'",
+		"féminin" : false
+	},
+	{
+		"id" : 135,
+		"nom" : "Cahusac, Louis de",
+		"féminin" : false
+	},
+	{
+		"id" : 157,
+		"nom" : "Palaprat, Jean de",
+		"féminin" : false
+	},
+	{
+		"id" : 158,
+		"nom" : "Demoustier, Charles-Albert",
+		"féminin" : false
+	},
+	{
+		"id" : 159,
+		"nom" : "Guyot de Merville, Michel",
+		"féminin" : false
+	},
+	{
+		"id" : 161,
+		"nom" : "Montanclos, Marie-Émilie de",
+		"féminin" : true
+	},
+	{
+		"id" : 162,
+		"nom" : "Fenouillot de Falbaire de Quingey, Charles-Georges",
+		"féminin" : false
+	},
+	{
+		"id" : 164,
+		"nom" : "Simonet de Maisonneuve, Louis-Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 165,
+		"nom" : "Vaure, Jacques du",
+		"féminin" : false
+	},
+	{
+		"id" : 167,
+		"nom" : "Diderot, Denis",
+		"féminin" : false
+	},
+	{
+		"id" : 110,
+		"nom" : "La Fontaine, Jean de",
+		"féminin" : false
+	},
+	{
+		"id" : 169,
+		"nom" : "Dussieux, Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 116,
+		"nom" : "Imbert, Barthélemy",
+		"féminin" : false
+	},
+	{
+		"id" : 171,
+		"nom" : "Aude, Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 32,
+		"nom" : "Dorat, Claude-Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 174,
+		"nom" : "Lemonnier, Pierre-René",
+		"féminin" : false
+	},
+	{
+		"id" : 145,
+		"nom" : "Brousse-Desfaucherets, Jean-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 179,
+		"nom" : "Collot d'Herbois",
+		"féminin" : false
+	},
+	{
+		"id" : 65,
+		"nom" : "Fabre d’Églantine, Philippe-François-Nazaire",
+		"féminin" : false
+	},
+	{
+		"id" : 183,
+		"nom" : "Parisau, Pierre-Germain",
+		"féminin" : false
+	},
+	{
+		"id" : 185,
+		"nom" : "Molé, François-René",
+		"féminin" : false
+	},
+	{
+		"id" : 140,
+		"nom" : "André-Murville, Pierre-Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 173,
+		"nom" : "Carbon de Flins Des Oliviers, Claude-Marie-Louis-Emmanuel",
+		"féminin" : false
+	},
+	{
+		"id" : 118,
+		"nom" : "Boissy, Louis de",
+		"féminin" : false
+	},
+	{
+		"id" : 187,
+		"nom" : "Bièvre, François-Georges Maréchal, marquis de",
+		"féminin" : false
+	},
+	{
+		"id" : 105,
+		"nom" : "Desfontaines, François-Georges",
+		"féminin" : false
+	},
+	{
+		"id" : 35,
+		"nom" : "La Place, Pierre-Antoine de",
+		"féminin" : false
+	},
+	{
+		"id" : 189,
+		"nom" : "Collin d’Harleville, Jean-François",
+		"féminin" : false
+	},
+	{
+		"id" : 50,
+		"nom" : "Campistron, Jean Galbert de",
+		"féminin" : false
+	},
+	{
+		"id" : 192,
+		"nom" : "Grouvelle, Philippe-Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 194,
+		"nom" : "Beaugeard, Jean-Simon Férréol",
+		"féminin" : false
+	},
+	{
+		"id" : 195,
+		"nom" : "Saint-Chamond, Claire-Marie Mazarelli, marquise de",
+		"féminin" : true
+	},
+	{
+		"id" : 191,
+		"nom" : "Pieyre, Alexandre",
+		"féminin" : false
+	},
+	{
+		"id" : 198,
+		"nom" : "Peyraud de Beaussol",
+		"féminin" : false
+	},
+	{
+		"id" : 73,
+		"nom" : "La Harpe, Jean François de",
+		"féminin" : false
+	},
+	{
+		"id" : 199,
+		"nom" : "Bauvin, Jean-Grégoire",
+		"féminin" : false
+	},
+	{
+		"id" : 168,
+		"nom" : "Lantier, Étienne François de",
+		"féminin" : false
+	},
+	{
+		"id" : 90,
+		"nom" : "Beaumarchais, Pierre-Augustin Caron de",
+		"féminin" : false
+	},
+	{
+		"id" : 202,
+		"nom" : "Dubois de Rochefort, Guillaume",
+		"féminin" : false
+	},
+	{
+		"id" : 130,
+		"nom" : "Forgeot, Nicolas-Julien",
+		"féminin" : false
+	},
+	{
+		"id" : 51,
+		"nom" : "Marivaux, Pierre de",
+		"féminin" : false
+	},
+	{
+		"id" : 207,
+		"nom" : "Robert",
+		"féminin" : false
+	},
+	{
+		"id" : 84,
+		"nom" : "Montfleury",
+		"féminin" : false
+	},
+	{
+		"id" : 208,
+		"nom" : "Desforges, Pierre-Jean-Baptiste Choudard",
+		"féminin" : false
+	},
+	{
+		"id" : 205,
+		"nom" : "Dorvigny",
+		"féminin" : false
+	},
+	{
+		"id" : 210,
+		"nom" : "Brunet, Pierre-Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 186,
+		"nom" : "Palissot de Montenoy, Charles",
+		"féminin" : false
+	},
+	{
+		"id" : 212,
+		"nom" : "Dezède, Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 214,
+		"nom" : "Gouges, Olympe de",
+		"féminin" : true
+	},
+	{
+		"id" : 215,
+		"nom" : "Rozet, Madame",
+		"féminin" : true
+	},
+	{
+		"id" : 3,
+		"nom" : "Collet de Messine, Jean-Baptiste",
+		"féminin" : false
+	},
+	{
+		"id" : 216,
+		"nom" : "Desmahis, Joseph-François-Edouard de Corsembleu",
+		"féminin" : false
+	},
+	{
+		"id" : 13,
+		"nom" : "Laujon, Pierre",
+		"féminin" : false
+	},
+	{
+		"id" : 218,
+		"nom" : "La Salle, Adrien-Nicolas",
+		"féminin" : false
+	},
+	{
+		"id" : 88,
+		"nom" : "Dubois-Fontanelle, Joseph-Gaspard",
+		"féminin" : false
+	},
+	{
+		"id" : 219,
+		"nom" : "Longueil, Charles-Henri de",
+		"féminin" : false
+	},
+	{
+		"id" : 220,
+		"nom" : "Ronsin, Charles-Philippe",
+		"féminin" : false
+	},
+	{
+		"id" : 222,
+		"nom" : "Arnault, Antoine Vincent",
+		"féminin" : false
+	},
+	{
+		"id" : 46,
+		"nom" : "Ducis, Jean-François",
+		"féminin" : false
+	},
+	{
+		"id" : 40,
+		"nom" : "Le Blanc de Guillet, Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 144,
+		"nom" : "Aigueberre, Jean Dumas d'",
+		"féminin" : false
+	},
+	{
+		"id" : 223,
+		"nom" : "La Fosse, Antoine de",
+		"féminin" : false
+	},
+	{
+		"id" : 224,
+		"nom" : "Caux de Montlebert, Gilles de",
+		"féminin" : false
+	},
+	{
+		"id" : 225,
+		"nom" : "Longepierre, Hilaire-Bernard de",
+		"féminin" : false
+	},
+	{
+		"id" : 226,
+		"nom" : "Clément, Jean Marie Bernard",
+		"féminin" : false
+	},
+	{
+		"id" : 228,
+		"nom" : "Lemercier, Népomucène-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 197,
+		"nom" : "Fuzelier, Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 123,
+		"nom" : "Chamfort, Sébastien-Roch-Nicolas de",
+		"féminin" : false
+	},
+	{
+		"id" : 39,
+		"nom" : "Dubuisson, Pierre-Ulric",
+		"féminin" : false
+	},
+	{
+		"id" : 231,
+		"nom" : "Rousseau, Jean-Jacques",
+		"féminin" : false
+	},
+	{
+		"id" : 19,
+		"nom" : "La Font, Joseph de",
+		"féminin" : false
+	},
+	{
+		"id" : 232,
+		"nom" : "Blin de Sainmore, Adrien-Michel-Hyacinthe",
+		"féminin" : false
+	},
+	{
+		"id" : 235,
+		"nom" : "Claret de Fleurieu, Aglaé Deslacs, comtesse",
+		"féminin" : true
+	},
+	{
+		"id" : 92,
+		"nom" : "Belloy, Pierre Laurent de",
+		"féminin" : false
+	},
+	{
+		"id" : 237,
+		"nom" : "Mauduit-Larive, Jean",
+		"féminin" : false
+	},
+	{
+		"id" : 114,
+		"nom" : "Bret, Antoine ; Godard d’Aucour, Claude ; Villaret, Claude",
+		"féminin" : false
+	},
+	{
+		"id" : 121,
+		"nom" : "Sedaine, Michel-Jean",
+		"féminin" : false
+	},
+	{
+		"id" : 238,
+		"nom" : "Durosoy, Barnabé Farmian",
+		"féminin" : false
+	},
+	{
+		"id" : 71,
+		"nom" : "Corneille, Pierre",
+		"féminin" : false
+	},
+	{
+		"id" : 85,
+		"nom" : "Ségur, Joseph-Alexandre de",
+		"féminin" : false
+	},
+	{
+		"id" : 240,
+		"nom" : "Renou, Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 79,
+		"nom" : "Lesage, Alain-René",
+		"féminin" : false
+	},
+	{
+		"id" : 242,
+		"nom" : "Rotrou, Jean de",
+		"féminin" : false
+	},
+	{
+		"id" : 52,
+		"nom" : "Doigny du Ponceau",
+		"féminin" : false
+	},
+	{
+		"id" : 244,
+		"nom" : "Marignié, Jean-Étienne-François",
+		"féminin" : false
+	},
+	{
+		"id" : 251,
+		"nom" : "La Chapelle, Jean de",
+		"féminin" : false
+	},
+	{
+		"id" : 37,
+		"nom" : "Quinault, Philippe",
+		"féminin" : false
+	},
+	{
+		"id" : 175,
+		"nom" : "Gresset, Jean-Baptiste-Louis",
+		"féminin" : false
+	},
+	{
+		"id" : 270,
+		"nom" : "Anonyme",
+		"féminin" : false
+	},
+	{
+		"id" : 83,
+		"nom" : "Scarron, Paul",
+		"féminin" : false
+	},
+	{
+		"id" : 147,
+		"nom" : "Brueys, David-Augustin de",
+		"féminin" : false
+	},
+	{
+		"id" : 190,
+		"nom" : "Allainval, Léonor-Jean-Christine Soulas d'",
+		"féminin" : false
+	},
+	{
+		"id" : 21,
+		"nom" : "Du Fresny, Charles",
+		"féminin" : false
+	},
+	{
+		"id" : 184,
+		"nom" : "Poisson, Philippe",
+		"féminin" : false
+	},
+	{
+		"id" : 115,
+		"nom" : "Legrand, Marc-Antoine",
+		"féminin" : false
+	},
+	{
+		"id" : 148,
+		"nom" : "Poisson, Raymond",
+		"féminin" : false
+	},
+	{
+		"id" : 89,
+		"nom" : "Boursault, Edme",
+		"féminin" : false
+	},
+	{
+		"id" : 257,
+		"nom" : "Boyer, Claude - Le Clerc, Michel",
+		"féminin" : false
+	},
+	{
+		"id" : 56,
+		"nom" : "Corneille, Thomas",
+		"féminin" : false
+	},
+	{
+		"id" : 64,
+		"nom" : "Crébillon, Prosper Jolyot de",
+		"féminin" : false
+	},
+	{
+		"id" : 47,
+		"nom" : "Saurin, Bernard-Joseph",
+		"féminin" : false
+	},
+	{
+		"id" : 16,
+		"nom" : "Cailhava d’Estendoux, Jean-François",
+		"féminin" : false
+	},
+	{
+		"id" : 15,
+		"nom" : "Racine, Jean",
+		"féminin" : false
+	},
+	{
+		"id" : 91,
+		"nom" : "Piron, Alexis",
+		"féminin" : false
+	},
+	{
+		"id" : 329,
+		"nom" : "Feulie, Louis-Henri",
+		"féminin" : false
+	},
+	{
+		"id" : 330,
+		"nom" : "Vallier, Louis Tolmer, dit",
+		"féminin" : false
+	},
+	{
+		"id" : 331,
+		"nom" : "Guibert, Jacques-Antoine-Hippolyte de",
+		"féminin" : false
+	},
+	{
+		"id" : 332,
+		"nom" : "Riccoboni, Marie-Jeanne",
+		"féminin" : true
+	},
+	{
+		"id" : 320,
+		"nom" : "Lebrun, Denise",
+		"féminin" : true
+	}
+]}
