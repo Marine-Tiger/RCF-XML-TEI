@@ -55,16 +55,14 @@
       </front>-->
       <body>
 
+         <!-- ENCODAGE D'UNE SEANCE DE COMITE "TYPE" DU 18EME SIECLE-->
 
-         <!-- ENCODAGE D'UNE SEANCE DE COMITE -->
+         <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
+         <div type="type_assemblee" when="1688-01-12">
 
-         <div type="type_assemblee" when="1800-01-01">
-            <!-- I. TITRE (optionnel) -->
-            <head>Comité/Séance du <date when="1800-01-01">date</date></head>
-            <!-- II. PREAMBULE (optionnel) -->
+            <!-- PREAMBULE (optionnel) -->
 
             <div type="preambule">
-               <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
                <p>Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
                   s'est assemblée a son ordinaire dans la salle commune de son <placeName
                      corresp="id_lieux">hostel</placeName> pour y dellibérer de ses affaires les
@@ -72,10 +70,9 @@
                      notAfter="10:00:00">dix heures</time> pour le droit de <term corresp="id_sujet"
                      >jetton</term></p>
             </div>
-            <!-- III. PRESENTS ET ABSENTS (optionnel) -->
+
+            <!-- PRESENTS ET ABSENTS (optionnel) -->
             <!-- A. Présents -->
-            <!-- Lorsque les présents aux comités sont nommés; deux cas de figures possibles:-->
-            <!-- 1. Dans les registres de la fin du 17eme au fin du 18eme -->
             <div type="signature">
                <signed corresp="id_nom">De Champmeslé</signed>
                <lb/>
@@ -106,11 +103,9 @@
                <signed corresp="id_nom">Raisin</signed>
                <lb/>
             </div>
-
-
-            <!-- 2.  Liste de présents (fin du 19ème)-->
-            <!-- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -->
-            <!-- Extrait du registre R425, séance du jeudi 16 février 1688 -->
+            <!--  <!-\- 2.  Liste de présents (fin du 19ème)-\->
+            <!-\- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -\->
+            <!-\- Extrait du registre R425, séance du jeudi 16 février 1688 -\->
             <div type="preambule">
                <p>À <time when="16:15:00">quatre heures et un quart</time>, les membres du comité
                   d’administration se sont réunis, sous la présidence de <persName corresp="id_nom"
@@ -129,9 +124,7 @@
                <p>La séance est ouverte. Le procès-verbal de la séance du <date when="1688-02-08"
                      >mercredi 8 février</date> est lu et adopté. </p>
             </div>
-
-
-
+-->
             <!-- B. Absents (optionnel) -->
             <div type="absents">
                <head>Mrs</head>
@@ -145,145 +138,171 @@
                   <item corresp="id_nom">Nom</item>
                </list>-->
             </div>
-            <!-- IV. DELIBERATION (optionnel pour le 18eme) -->
-            <!-- Un élément <div> pour chaque deliberation avec un @corresp et l'id du sujet abordé-->
 
-            <!-- A. Ordre du jour (optionnel) -->
-            <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
-            <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
+            <!-- DELIBERATION (optionnel pour le 18eme) -->
+            <!-- Un élément <div> pour chaque deliberation avec un @corresp et l'id du sujet abordé. On peut indiqué plusieurs thématiques-->
+            <div type="délibération" corresp="id_sujet">
+               <p>On a nommé pour <term corresp="id_glossaire">quinzainiers</term> Mrs<persName
+                     corresp="id_nom">De la Grange</persName> et <persName corresp="id_nom">La
+                     Torilière</persName>. On a fait un répertoire. On a dellibéré de <del
+                     rend="overstrike"> desdomager Monsieur dancourt de la peine qu'il a fait aprez
+                     Pasues en ce que</del> faire un présent a Monsieur <persName corresp="id_nom"
+                     >Dancourt</persName> de <measure type="somme" corresp="id_sujet">quinze louis
+                     d'or</measure>, pour la pièce <title type="piece" corresp="id_piece"
+                     rendition="italic">des Joueuses</title> qui a esté interrompue par le voyage de
+                     <placeName corresp="id_lieu">Fontainebleau</placeName>, laquelle demeurera<note
+                     type="marge" rend="margin-left">Les <measure type="somme">15 louis
+                        d'or</measure> ont esté payer a Mr <persName corresp="id_nom">de
+                        Champmeslé</persName> par <persName corresp="id_nom">De la Grange</persName>
+                     le <date when="1687-01-27">21 janvier 1687</date></note> tourner a la troupe
+                  pour la jouer quand il luy plaira, sans que Mr <persName corresp="id_nom"
+                     >Dancourt</persName> ayt plus de part d'autheur. On a résolu de donner des
+                     <term corresp="id_glossaire">billets</term> a toutes pièces a l'avenir, a moins
+                  qu'il n'y ayt quelque délibération contraire de <orgName corresp="id_org">la
+                     Compagnie</orgName> assemblée et lorsqu'il y aura quelque délibération de
+                  l'assemblée qu'elle ne pourra estre révoquée que dans une autre assemblée et non
+                  pas par des délibérations particulières. La première classe commence
+                  aujourd'huy.</p>
+               <lb/>
+               <p>Arresté en présence et du consentement de <orgName corresp="id_org">la
+                     Compagnie</orgName></p>
+            </div>
+            <!-- Parfois signature pour conclure la séance-->
+            <div type="signature">
+               <lb/>
+               <signed corresp="id_nom">De la Grange</signed>
+               <lb/>
+               <signed corresp="id_nom">Delathorilliere</signed>
+               <lb/>
+               <signed corresp="id_nom">Dauvilliers</signed>
+               <lb/>
+               <p><measure type="total" corresp="id_glossaire">28 <term corresp="id_glossaire"
+                        >Jettons</term></measure></p>
+            </div>
+         </div>
+
+         <!-- ______________________________________________ -->
+
+         <!-- LECTURE DU REPERTOIRE (17ème-18ème) -->
+
+         <!-- Exemple tiré de Spinec du R52_0_1681  https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/5/mode/1up-->
+         <div type="type_assemblee" when="1682-09-28">
+            <div type="preambule">
+               <p>Ce jour d'huy <date when="1682-09-28">lundy 28 septembre</date>, la Trouppe s'est
+                  assemblée ; les présens sont :</p>
+            </div>
+            <div type="signature">
+               <signed corresp="id_nom">Hubert</signed>
+               <lb/>
+               <signed corresp="id_nom">De Champmeslé</signed>
+               <lb/>
+               <signed corresp="id_nom">De la Grange</signed>
+               <lb/>
+               <signed corresp="id_nom">De Verneuil</signed>
+               <lb/>
+               <signed corresp="id_nom">Brecourt</signed>
+               <lb/>
+               <signed corresp="id_nom">Le Comte</signed>
+               <lb/>
+               <signed corresp="id_nom">Le Conte</signed>
+               <lb/>
+               <signed corresp="id_nom">Lagrange</signed>
+               <lb/>
+               <signed corresp="id_nom">Baron</signed>
+               <lb/>
+               <signed corresp="id_nom">Debrie</signed>
+               <lb/>
+               <signed corresp="id_nom">Baron</signed>
+               <lb/>
+               <signed corresp="id_nom">De Hauteroche</signed>
+               <lb/>
+               <signed corresp="id_nom">Poisson</signed>
+               <lb/>
+               <signed corresp="id_nom">Beauval</signed>
+               <lb/>
+               <signed corresp="id_nom">Chemesle</signed>
+               <lb/>
+               <signed corresp="id_nom">La Tuillerie</signed>
+               <lb/>
+               <signed corresp="id_nom">Louise Jacob</signed>
+               <lb/>
+               <signed corresp="id_nom">Dennebault</signed>
+               <lb/>
+               <signed corresp="id_nom">Guérin</signed>
+               <lb/>
+               <signed corresp="id_nom">Dauvilliers</signed>
+               <lb/>
+               <signed corresp="id_nom">Béjard</signed>
+               <lb/>
+               <signed corresp="id_nom">Rosimonde</signed>
+               <lb/>
+               <signed corresp="id_nom">Raisin</signed>
+               <lb/>
+               <signed corresp="id_nom">Bauvall</signed>
+               <lb/>
+               <signed corresp="id_nom">La raisin</signed>
+               <lb/>
+               <p>Présens a l'assemblée <time notAfter="10:00:00">avant dix heures</time> au nombre
+                  de <measure type="total" corresp="id_glossaire">25</measure></p>
+            </div>
             <div type="deliberation" corresp="id_sujet">
-               <head type="agenda">[Signification de <persName corresp="id_nom">Mlle Ross
-                     Despréaux</persName>]</head>
-               <p>Le comité arrête que la signification faite à la <orgName corresp="id_org"
-                     >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom">M.
-                     Michelot</persName>, l’un des membres du comité, à la requête que <persName
-                     corresp="id_nom">Mlle Ross Despréaux</persName>, actrice pensionnaire de la
-                  dite signification, en date du <date>28 mai</date> sera, vu l’absence de <persName
-                     corresp="id_nom">M. De Normandie</persName> avoué membre du conseil, envoyée à
-                     <persName corresp="id_nom">M. Dejoly</persName>, président du conseil, qui sera
-                  prié de vouloir bien prendre la peine de mettre la <orgName corresp="id_org"
-                     >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
+               <list>
+                  <head>Repertoire</head>
+                  <item><date when="1682-09-29">29 mardy</date>
+                     <title corresp="id_piece">Andromede</title></item>
+                  <item><date when="1682-09-30">30 mercredy</date>
+                     <title corresp="id_piece">Agamemnon</title>, <title corresp="id_piece">Crispin
+                        bel esprit</title></item>
+                  <item><date when="1682-10-01">1 jeudy</date>
+                     <title corresp="id_piece">Misanthrope</title></item>
+                  <item><date when="1682-10-02">2 vendredy</date>
+                     <title corresp="id_piece">Othon</title>, <title corresp="id_piece"
+                        >Carrosses</title> ou <title corresp="id_piece">Andromede</title></item>
+                  <item><date when="1682-10-03">3 samedy</date>
+                     <title corresp="id_piece">L’Étourdi</title></item>
+                  <item><date when="1682-10-04">4 dimanche</date>
+                     <title corresp="id_piece">Othon</title>, <title corresp="id_piece"
+                        >Carrosses</title> ou <title corresp="id_piece">Andromede</title></item>
+                  <item><date when="1682-10-05">5 lundi</date>
+                     <title corresp="id_piece">Le Menteur</title></item>
+                  <item><date when="1682-10-06">6 mardy</date>
+                     <title corresp="id_piece">Hercule</title> et <title corresp="id_piece">le
+                        Deuil</title></item>
 
-               <!-- B. Lecture du répertoire (17ème-18ème) -->
-               <div type="deliberation" corresp="id_sujet">
-                  <!-- Exemple tiré de Spinec du R52_0_1681  https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/5/mode/1up-->
-                  <list>
-                     <head>Repertoire</head>
-                     <item><date>29 mardy</date><title corresp="id_piece">Andromede</title></item>
-                     <!-- Dans le cas d'une piece est râturée -->
-                     <item><date>7 mercredy</date>
-                        <!-- l'élément <del> permet d'encoder les suppressions dans le texte. Avec le @type, on peut preciser que c'est du texte barré, et on pourra l'afficher comme tel grâce au CSS -->
-                        <del type="barre"><title corresp="id_piece">La Jalouse
-                           d'elle-meme</title></del>
-                        <title corresp="id_piece">La Devineresse</title></item>
-                  </list>
-               </div>
-
-
-               <!-- Trouver comment encoder les parties comptables, et permettre d'ajouter les exceptions comme les amendes de la semaine pour un registre, les places dans l'assemblee etc...-->
-
-
-               <!-- V. VOTES -->
-
-               <!-- https://flipbooks.cfregisters.org/R52_0_1692/index.html#page/5/mode/1up-->
-               <div type="preambule">
-                  <p>Aujourd'huy <date when="1692-01-07">7me janvier 1692</date>: la compagnie s'est
-                     assemblée pour rendre reponse a <persName corresp="id_nom">monsieur de
-                        Brie</persName> sur la lecture de la tragédie des <title corresp="id_piece"
-                        >Heraclides</title>, les voix recüeilluye comme il en suit:</p>
-               </div>
-               <div type="vote" corresp="id_sujet, id_piece">
-                  <cb n="1"/>
-                  <list type="vote_pour">
-                     <head>la pièce est joüable</head>
-                     <item corresp="id_nom">Du Perier, en la racomodant</item>
-                     <item corresp="id_nom">Poisson Jouable</item>
-                     <item corresp="id_nom"> La pièce est jouable en la racomodant Beauval</item>
-                     <item corresp="id_nom">Je la trouve jouable en la corigeant
-                        Delathorilliere</item>
-                     <item corresp="id_nom">Je trouve que la pièce peut estre joüée en changeant
-                        quelques scènes et quelque chose dans la disposition de la pièce Le
-                        Comte</item>
-                     <item corresp="id_nom">Devilliers Je trouve que la pièce est jouable en
-                        racomodan quelque chozze</item>
-                  </list>
-                  <cb n="2"/>
-                  <list type="vote_contre">
-                     <head>elle n'est pas jouable</head>
-                     <item corresp="id_nom">De Beaubour elle n'est point jouable en l'estat qu'elle
-                        est </item>
-                     <item corresp="id_nom">Guérin</item>
-                     <item corresp="id_nom"> La pièce des Eraclides ne me paroist point jouable en
-                        l'estat quelle est. Du reste je ne suis pas assez éclairé pour sçavoir ce
-                        qu'il y a ay raccomoder De Rosélis</item>
-                     <item corresp="id_nom">Raisin</item>
-                     <item corresp="id_nom">elle n'est point jouable Desmare</item>
-                  </list>
-               </div>
-
-               <!-- S'il y a à nouveau des signatures -->
-               <div type="signature" corresp="date">
-                  <signed corresp="id_nom">Nom</signed>
-               </div>
+                  <!-- Dans le cas d'une piece est râturée -->
+                  <item><date>7 mercredy</date>
+                     <!-- l'élément <del> permet d'encoder les suppressions dans le texte. Avec le @type, on peut preciser que c'est du texte barré, et on pourra l'afficher comme tel grâce au CSS -->
+                     <del type="barre"><title corresp="id_piece">La Jalouse
+                        d'elle-meme</title></del>
+                     <title corresp="id_piece">La Devineresse</title></item>
+                  <item><date when="1682-10-08"> 8 jeudy</date>
+                     <title corresp="id_piece">Othon</title> ou <title corresp="id_piece"
+                        >Cinna</title> et <title corresp="id_piece">le Cocu
+                     imaginaire</title></item>
+                  <item><date when="1682-10-09">9 vendredy</date>
+                     <title corresp="id_piece">La Devineresse</title></item>
+                  <item><date when="1682-10-10">10 <del type="barre">dimanche</del>samedy</date>
+                     <title corresp="id_piece">La Jalouse d'elle même</title></item>
+                  <item><date when="1682-10-11">11 dimanche</date>
+                     <title corresp="id_piece">Othon</title> ou <title corresp="id_piece">le
+                        Cid</title></item>
+                  <item><date when="1682-10-12">12 lundy</date>
+                     <title corresp="id_piece">La Mère coquette</title></item>
+               </list>
+               <p>[...]</p>
             </div>
          </div>
 
-
-         <!-- ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
-
-         <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
-         <div type="type_assemblée" when="1775-05-21" corresp="id_sujet">
-            <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
-            <head>Assemblée pour <term corresp="id_sujet">Lectures</term>.</head>
-            <div type="vote" corresp="id_piece">
-               <p>
-                  <title corresp="id_piece">Le Couronnement de Télemaque</title>, Comédie en un
-                  Acte, en Vers De M. <list>
-                     <item>15 voix d’acceptation.</item>
-                     <item>1 Voix de Corrections.</item>
-                     <item>3. Voix de Refus.</item>
-                  </list>} Reçue 
-                  <lb/>__________</p>
-            </div>
-         </div>
-
-         <div type="type_assemblee" when="1888-08-01" corresp="id_sujet">
-            <head>Auditions annuelles</head>
-            <head>Séance du <date when="1888-08-01">mercredi 1er août 1888</date></head>
-            <opener>À <time when="13:30:00">une heure et demie</time>, le comité d’administration,
-               présidé par M. J. Claretie, administrateur général, et composé de MM.</opener>
-            <list type="presents">
-               <item corresp="id_nom">Got,</item>
-               <item corresp="id_nom">Thiron,</item>
-               <item corresp="id_nom">Mounet-Sully,</item>
-               <item corresp="id_nom">La Roche,</item>
-               <item corresp="id_nom">Coquelin cadet</item>
-               <item corresp="id_nom">Prud’hon*</item>
-               <item corresp="id_nom">Silvain*</item>
-            </list>
-            <p>*Adjoints en qualité de semainiers.</p>
-            <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les noms
-               suivent :</p>
-            <list type="candidats" corresp="audition, date">
-               <item corresp="id_nom, id_piece">1° M. Rouvenat Le Lion amoureux – acte II, scène
-                  dernière – Humbert</item>
-               <item corresp="id_nom id_piece">2° M. Malbert Le Misanthrope – acte IV, scène 3 –
-                  Alceste</item>
-               <item corresp="id_nom id_piece">3° Mlle de Rudeni Britannicus – acte IV, scènes 1 et
-                  2 – Agrippine Rodogune – Cléopâtre</item>
-            </list>
-         </div>
-
+         <!-- ______________________________________________ -->
 
          <!-- COMPTABILITE/FINANCES-->
 
          <!--         exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
          <!--         autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
-         
-         
-         <!-- Cette seance n'est pas datee, peut-etre mettre @notBefore date de la precedente seance et @notAfter date de la suivante-->
+
+         <!-- Cette séance n'est pas datée, peut-être mettre @notBefore date de la précédente séance et @notAfter date de la suivante-->
          <div type="type_assemblee" notBefore="1756-04-30" notAfter="1756-05-03" corresp="id_sujet">
-            <!-- Dans cet exemple particulier du r52_21, iln'y a pas de decoupage par thematique, il est decide de ne pas mettre de <div> -->
+            <!-- Dans cet exemple particulier du r52_21, il n'y a pas de découpage par thématique, il est décidé de ne pas mettre de <div> -->
             <p>Ce Jourd’huy La Troupe s’est assemblée et apres avoir examinée ses affaires par
                raport à l’établissement, dont le fond monte à <measure type="total"
                   corresp="pension">trois cent deux mille sept livres cinq sols</measure> divisé en
@@ -350,11 +369,50 @@
                   8d.</measure></p>
          </div>
 
+         <!-- ______________________________________________ -->
 
+         <!-- VOTES -->
+         <!-- https://flipbooks.cfregisters.org/R52_0_1692/index.html#page/5/mode/1up-->
+         <div type="type_assemblee" when="1692-01-07">
+            <div type="preambule">
+               <p>Aujourd'huy <date when="1692-01-07">7me janvier 1692</date>: la compagnie s'est
+                  assemblée pour rendre reponse a <persName corresp="id_nom">monsieur de
+                     Brie</persName> sur la lecture de la tragédie des <title corresp="id_piece"
+                     >Heraclides</title>, les voix recüeilluye comme il en suit:</p>
+            </div>
+            <div type="vote" corresp="id_sujet, id_piece">
+               <cb n="1"/>
+               <list type="vote_pour">
+                  <head>la pièce est joüable</head>
+                  <item corresp="id_nom">Du Perier, en la racomodant</item>
+                  <item corresp="id_nom">Poisson Jouable</item>
+                  <item corresp="id_nom"> La pièce est jouable en la racomodant Beauval</item>
+                  <item corresp="id_nom">Je la trouve jouable en la corigeant Delathorilliere</item>
+                  <item corresp="id_nom">Je trouve que la pièce peut estre joüée en changeant
+                     quelques scènes et quelque chose dans la disposition de la pièce Le
+                     Comte</item>
+                  <item corresp="id_nom">Devilliers Je trouve que la pièce est jouable en racomodan
+                     quelque chozze</item>
+               </list>
+               <cb n="2"/>
+               <list type="vote_contre">
+                  <head>elle n'est pas jouable</head>
+                  <item corresp="id_nom">De Beaubour elle n'est point jouable en l'estat qu'elle est </item>
+                  <item corresp="id_nom">Guérin</item>
+                  <item corresp="id_nom"> La pièce des Eraclides ne me paroist point jouable en
+                     l'estat quelle est. Du reste je ne suis pas assez éclairé pour sçavoir ce qu'il
+                     y a ay raccomoder De Rosélis</item>
+                  <item corresp="id_nom">Raisin</item>
+                  <item corresp="id_nom">elle n'est point jouable Desmare</item>
+               </list>
+            </div>
+         </div>
+
+         <!-- ______________________________________________ -->
 
          <!-- LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
-         <div type="type_assemblee" corresp="id_sujet">
+         <div type="type_assemblee" when="1784-03-03" corresp="id_sujet">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
             <head>Asssemblée pour les <term corresp="id_sujet">Comptes</term>.</head>
             <div type="lettre_reçue" corresp="id_sujet id_nom">
@@ -395,14 +453,125 @@
          </div>
 
 
+         <!-- _______________________________________________________________________________________ -->
 
+
+         <!-- ENCODAGE SEANCE DE COMITES DU 19EME SIECLE -->
+
+
+         <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
+         <div type="type_assemblee" when="1830-04-29">
+
+            <!-- TITRE -->
+            <head rend="margin-right">Comité du <date when="1830-04-29">jeudi 29 avril
+               1830</date></head>
+
+            <!-- DELIBERATIONS -->
+            <div type="délibération" corresp="id_sujet">
+               <!-- ORDRE DU JOUR (optionnel) -->
+               <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
+               <head type="agenda">[Lettre et remerciements à <persName corresp="id_nom">M. de la
+                     Bouillerie</persName>]</head>
+               <p>Le comité arrête qu’il sera écrit à <persName corresp="id_nom">Son Excellence Mgr
+                     le <roleName type="nobilite">Baron</roleName> de la Bouillerie, <roleName
+                        type="ministre">ministre d’état</roleName>, <roleName type="pair">pair de
+                        France</roleName>, <roleName type="intendant_general">intendant général de
+                        la Maison du Roi</roleName></persName>, pour lui offrir l’hommage des
+                  remerciements de la <orgName corresp="is_org">Comédie-Française</orgName> qui
+                  vient d’apprendre avec reconnaissance par sa lettre en date de ce jour que
+                     <roleName type="nobility" corresp="id_nom">Sa Majesté</roleName> ne refusera
+                  point d’autoriser l’affectation de <measure type="somme" corresp="id_sujet">48 000
+                     F</measure> que la <orgName corresp="id_org">Comédie</orgName> reçoit
+                  annuellement pour la loge royale, à la garantie de l’emprunt de <measure
+                     type="somme" corresp="id_sujet">200 000 F</measure> présentement indispensable
+                  pour que la <orgName corresp="id_org">Comédie</orgName> puisse effectuer le
+                  premier mai son payement qui ne peut être retardé et solder pour <roleName
+                     type="nobility" corresp="id_nom">S. A. Mgr le Duc d’Orléans</roleName>
+                  propriétaire de la salle une somme de <measure type="somme" corresp="id_sujet">25
+                     000 F</measure> exigible depuis le 1er avril. </p>
+            </div>
+            <div type="délibération" corresp="id_sujet">
+               <head type="agenda">[Signification de <persName corresp="id_nom">Mlle Ross
+                     Despréaux</persName>]</head>
+               <p>Le comité arrête que la signification faite à la <orgName corresp="id_org"
+                     >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom">M.
+                     Michelot</persName>, l’un des membres du comité, à la requête que <persName
+                     corresp="id_nom">Mlle Ross Despréaux</persName>, actrice pensionnaire de la
+                  dite signification, en date du <date>28 mai</date> sera, vu l’absence de <persName
+                     corresp="id_nom">M. De Normandie</persName> avoué membre du conseil, envoyée à
+                     <persName corresp="id_nom">M. Dejoly</persName>, président du conseil, qui sera
+                  prié de vouloir bien prendre la peine de mettre la <orgName corresp="id_org"
+                     >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
+            </div>
+            <div type="signature">
+               <lb/>
+               <signed corresp="id_nom">Michelot</signed>
+               <lb/>
+               <signed corresp="id_nom">Desmousseaux</signed>
+               <lb/>
+               <signed corresp="id_nom">Grandville</signed>
+               <lb/>
+               <signed corresp="id_nom">Monrose</signed>
+               <lb/>
+               <signed corresp="id_nom">Joanny</signed>
+               <lb/>
+            </div>
+         </div>
+
+         <!-- ______________________________________________ -->
+
+         <!-- AUDITIONS -->
+
+         <div type="type_assemblee" when="1888-08-01" corresp="id_sujet">
+            <head>Auditions annuelles</head>
+            <head>Séance du <date when="1888-08-01">mercredi 1er août 1888</date></head>
+            <div type="preambule">
+               <p>À <time when="13:30:00">une heure et demie</time>, le comité d’administration,
+                  présidé par M. J. Claretie, administrateur général, et composé de MM.</p>
+               <list type="presents">
+                  <item corresp="id_nom">Got,</item>
+                  <item corresp="id_nom">Thiron,</item>
+                  <item corresp="id_nom">Mounet-Sully,</item>
+                  <item corresp="id_nom">La Roche,</item>
+                  <item corresp="id_nom">Coquelin cadet</item>
+                  <item corresp="id_nom">Prud’hon*</item>
+                  <item corresp="id_nom">Silvain*</item>
+               </list>
+               <p>*Adjoints en qualité de semainiers.</p>
+               <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les
+                  noms suivent :</p>
+            </div>
+            <div type="délibération" corresp="id_sujet">
+               <castList corresp="audition">
+                  <castItem corresp="id_nom id_piece id_role">1° <persName corresp="id_nom">M.
+                     Rouvenat</persName>
+                     <title type="piece" corresp="id_piece">Le Lion amoureux</title> – acte II,
+                     scène dernière – <role corresp="id_role">Humbert</role></castItem>
+                  <castItem corresp="id_nom id_piece id_role">2° <persName>M. Malbert</persName> Le
+                     Misanthrope – acte IV, scène 3 – Alceste</castItem>
+                  <castItem corresp="id_nom id_piece id_role">3° Mlle de Rudeni Britannicus – acte
+                     IV, scènes 1 et 2 – Agrippine Rodogune – Cléopâtre</castItem>
+                  <p>[...]</p>
+               </castList>
+               <p>À <time when="17:00:00">cinq heures</time>, le comité rentre dans la <placeName corresp="id_lieu">salle ordinaire de ses séances</placeName>, et discute
+                  le mérite de quelques-uns des candidats qu’il vient d’entendre. </p>
+               
+               <p>Mlles <persName corresp="id_nom">Kolb</persName> et <persName corresp="id_nom">Lody</persName>
+                  ont été particulièrement remarquées, la première dans les <term type="emploi" corresp="id_glossaire">soubrettes</term>, la seconde
+                  dans les <term type="emploi" corresp="id_glossaire">amoureuses</term>, mais les deux <term corresp="id_glossaire">emplois</term> étant encombrés en ce moment, il n’y a
+                  pas lieu d’engager ces deux artistes.</p>
+            </div>
+         </div>
+
+
+         <!-- _______________________________________________________________________________________ -->
+         
+         
          <!-- CAS PARTICULIERS -->
 
          <!-- Dans le cas où il n'y a pas de découpage précis sans préambule ou de paragraphes distincts, on peut mettre la thématique directement dans @corresp de <div>-->
-
-
-         <!-- I. DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
-         <div type="distribution_roles" corresp="id_piece">
+         <!-- DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
+         <div type="distribution_roles" corresp="id_sujet id_piece">
             <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/255/mode/1up-->
             <head>Disposition de <title corresp="id_piece">La Princesse d'Elide</title></head>
             <!-- Je pense que l'on peut utiliser <castList>, cela permet d'utiliser les elements <role> et <actor> -->
@@ -417,11 +586,25 @@
                </castItem>
             </castList>
          </div>
+         
 
-         <!-- Notes de transcription 
-            <p><del type="barre">texte barre</del></p>
-            <p><add>texte ajoute</add></p>
-            <p><gap reason="illisible"/>Texte illisible</p>-->
+         <!-- ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
+
+         <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
+         <div type="type_assemblée" when="1775-05-21" corresp="id_sujet">
+            <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
+            <head>Assemblée pour <term corresp="id_sujet">Lectures</term>.</head>
+            <div type="vote" corresp="id_piece">
+               <p>
+                  <title corresp="id_piece">Le Couronnement de Télemaque</title>, Comédie en un
+                  Acte, en Vers De M. <list>
+                     <item>15 voix d’acceptation.</item>
+                     <item>1 Voix de Corrections.</item>
+                     <item>3. Voix de Refus.</item>
+                  </list>} Reçue <lb/>__________</p>
+            </div>
+         </div>
+
 
       </body>
    </text>

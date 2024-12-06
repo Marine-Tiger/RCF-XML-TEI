@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Description des pièces de théâtre</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -24,11 +24,11 @@
                <item xml:id="TITRE1">
                   <bibl>
                      <!-- id base de donnees -->
-                     <idno type="base_unifiee"></idno>
+                     <idno type="base_unifiée"></idno>
                      <!-- title -->
                      <title></title>
                      <!-- author? -->
-                     <!-- Je n'ai pas trouve d'element pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
+                     <!-- Je n'ai pas trouvé d'élément pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
                      <note type="genre"></note>
                   </bibl>
                   <!-- Liste des roles -->
