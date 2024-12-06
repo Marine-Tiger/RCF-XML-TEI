@@ -19,7 +19,8 @@
   <text>
       <body>
          <div>
-            <listPerson>
+            <!-- Pour les comédiens externes -->
+            <listPerson type="occasionnel">
                <!-- si existe dans une base de donnees -->
                <person xml:id="NOM1">
                   <idno type="base_unifiee"></idno>
@@ -35,8 +36,13 @@
                   </persName>
                   <!-- feminin -->
                   <gender></gender>
-                  <!-- statut -->
-                  <occupation></occupation>
+               </person>
+            </listPerson>
+            
+            <!-- Pour les auteurs -->
+            <listPerson>
+               <person>
+                  
                </person>
             </listPerson>
          </div>

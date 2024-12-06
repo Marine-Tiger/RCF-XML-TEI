@@ -23,22 +23,30 @@
             <person xml:id="NOM1">
                <persName>
                   <!-- id -->
-                  <idno type="base_unifiee">43</idno>
-                  <!-- pseudonym -->
-                  <reg>Bernault</reg>
+                  <idno type="base_unifiee">475</idno>
+                  <!-- pseudonyme -->
+                  <reg>Villiers (de)</reg>
                   <!-- prenom -->
-                  <forename></forename>
+                  <forename>Catherine</forename>
                   <!-- nom -->
-                  <surname></surname>
-                  <!-- titre -->
-                  <addName></addName>
+                  <surname>Raisin, dite</surname>
+                  <!-- Variations -->
+                  <addName type="variations">Villiers Raisin (de)</addName>
+                  <addName type="titre">Mademoiselle</addName>
                </persName>
-               <!-- feminin -->
-               <gender></gender>
+               <!-- si feminin est "true" -->
+               <gender type="feminin"/>
+               
+               <!-- Si le statut est "occasionnel/pensionnaire" ou "pensionnaire" -->
                <!-- statut dans l'attribut @type, entrée dans l'attribut @from et départ dans l'attribut @to-->
-               <occupation type="pensionnaire" from="1700" to="1700"/>
-               <!-- sociétariat -->
-               <occupation type="sociétariat" when="1680"/>
+               <occupation type="occasionnel/pensionnaire" from="1700" to="1711"/>
+               
+               <!-- Si le statut est "sociétariat" -->
+               <!-- Besoin d'un élément <occupation> pour les dates de début et de fin de carrière qui ne correspondent pas forcément aux dates de sociétariat -->
+               <!-- entrée dans l'attribut @from et départ dans l'attribut @to-->
+               <occupation type="acteur" from="1691" to="1696"/>
+               <!-- statut dans l'attribut @type, sociétariat dans @when -->
+               <occupation type="sociétariat" when="1691"/>
             </person>
          </listPerson>
          
