@@ -499,32 +499,37 @@
 
          <!-- ______________________________________________ -->
 
-         <!--  <!-\- 2.  Liste de présents (fin du 19ème)-\->
-            <!-\- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -\->
-            <!-\- Extrait du registre R425, séance du jeudi 16 février 1688 -\->
+         <!-- VARIATIONS -->
+
+         <!--Liste de présents (fin du 19ème)-->
+         <!-- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -->
+         <!-- Extrait https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24945#page/2/mode/2up-->
+         <div type="type_assemblee" when="1882-01-05">
+            <head>Comité d’administration</head>
+            <head>du <date when="1882-01-05">jeudi 5 janvier 1882</date></head>
             <div type="preambule">
-               <p>À <time when="16:15:00">quatre heures et un quart</time>, les membres du comité
-                  d’administration se sont réunis, sous la présidence de <persName corresp="id_nom"
-                     >M. J. Claretie</persName>, administrateur général, dans la salle ordinaire de
-                  leurs séances. Étaient présents MM.</p>
+               <p>À <time when="15:00:00">3 heures</time> de relevée, les membres du comité
+                  d’administration se sont réunis, sous la présidence de M. <persName
+                     corresp="id_nom">Émile Perrin</persName>, <term corresp="id_glossaire"
+                        >administrateur général</term>, dans la <placeName corresp="id_lieux">salle ordinaire</placeName> de leurs séances.
+                  Étaient présents :</p>
                <list type="presents">
-                  <item corresp="id_nom">Got,</item>
-                  <item corresp="id_nom">Febvre</item>
-                  <item corresp="id_nom">Thiron,</item>
+                  <item corresp="id_nom">MM. Got,</item>
+                  <item corresp="id_nom">Delaunay,</item>
+                  <item corresp="id_nom">Maubant,</item>
+                  <item corresp="id_nom">Coquelin,</item>
+                  <item corresp="id_nom">Febvre,</item>
+                  <item corresp="id_nom">Worms,</item>
                   <item corresp="id_nom">Mounet-Sully,</item>
-                  <item corresp="id_nom">Worms</item>
-                  <item corresp="id_nom">La Roche,</item>
-                  <item corresp="id_nom">Barré</item>
-                  <item corresp="id_nom">Coquelin cadet</item>
+                  <item corresp="id_nom">Laroche.</item>
                </list>
-               <p>La séance est ouverte. Le procès-verbal de la séance du <date when="1688-02-08"
-                     >mercredi 8 février</date> est lu et adopté. </p>
+               <p>La séance est ouverte.</p>
             </div>
--->
+         </div>
 
 
          <!-- ______________________________________________ -->
-         
+
          <!-- AUDITIONS -->
 
          <!-- Extrait du R425: https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24946#page/40/mode/2up -->
@@ -550,7 +555,7 @@
             <div type="délibération" corresp="id_sujet">
                <castList corresp="audition">
                   <castItem corresp="id_nom id_piece id_role">1° <persName corresp="id_nom">M.
-                     Rouvenat</persName>
+                        Rouvenat</persName>
                      <title type="piece" corresp="id_piece">Le Lion amoureux</title> – acte II,
                      scène dernière – <role corresp="id_role">Humbert</role></castItem>
                   <castItem corresp="id_nom id_piece id_role">2° <persName>M. Malbert</persName> Le
@@ -559,28 +564,33 @@
                      IV, scènes 1 et 2 – Agrippine Rodogune – Cléopâtre</castItem>
                   <p>[...]</p>
                </castList>
-               <p>À <time when="17:00:00">cinq heures</time>, le comité rentre dans la <placeName corresp="id_lieu">salle ordinaire de ses séances</placeName>, et discute
-                  le mérite de quelques-uns des candidats qu’il vient d’entendre. </p>
-               
-               <p>Mlles <persName corresp="id_nom">Kolb</persName> et <persName corresp="id_nom">Lody</persName>
-                  ont été particulièrement remarquées, la première dans les <term type="emploi" corresp="id_glossaire">soubrettes</term>, la seconde
-                  dans les <term type="emploi" corresp="id_glossaire">amoureuses</term>, mais les deux <term corresp="id_glossaire">emplois</term> étant encombrés en ce moment, il n’y a
-                  pas lieu d’engager ces deux artistes.</p>
+               <p>À <time when="17:00:00">cinq heures</time>, le comité rentre dans la <placeName
+                     corresp="id_lieu">salle ordinaire de ses séances</placeName>, et discute le
+                  mérite de quelques-uns des candidats qu’il vient d’entendre. </p>
+
+               <p>Mlles <persName corresp="id_nom">Kolb</persName> et <persName corresp="id_nom"
+                     >Lody</persName> ont été particulièrement remarquées, la première dans les
+                     <term type="emploi" corresp="id_glossaire">soubrettes</term>, la seconde dans
+                  les <term type="emploi" corresp="id_glossaire">amoureuses</term>, mais les deux
+                     <term corresp="id_glossaire">emplois</term> étant encombrés en ce moment, il
+                  n’y a pas lieu d’engager ces deux artistes.</p>
             </div>
          </div>
 
 
          <!-- _______________________________________________________________________________________ -->
-         
-         
+
+
          <!-- CAS PARTICULIERS -->
 
          <!-- Dans le cas où il n'y a pas de découpage précis sans préambule ou de paragraphes distincts, on peut mettre la thématique directement dans @corresp de <div>-->
+
          <!-- DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
-         <div type="distribution_roles" corresp="id_sujet id_piece">
-            <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/255/mode/1up-->
+
+         <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/256/mode/1up-->
+         <div type="distribution_roles" notBefore="1716-03-16" notAfter="1716-03-18"
+            corresp="id_sujet id_piece">
             <head>Disposition de <title corresp="id_piece">La Princesse d'Elide</title></head>
-            <!-- Je pense que l'on peut utiliser <castList>, cela permet d'utiliser les elements <role> et <actor> -->
             <castList corresp="date">
                <castItem>
                   <role corresp="id_role">La Princesse d'Elide</role>
@@ -590,9 +600,10 @@
                   <role corresp="id_role">Philis</role>
                   <actor corresp="id_nom">Mlle. Mimy</actor>
                </castItem>
+               <p>[...]</p>
             </castList>
          </div>
-         
+
 
          <!-- ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
 
