@@ -21,8 +21,9 @@
       <body>
          <div type="repertoire">
             <list>
-               <item xml:id="TITRE1">
+               <item xml:id="TITRE1" source="lien Gallica">
                   <bibl>
+                     <!--  -->
                      <!-- id base de donnees -->
                      <idno type="base_unifiée"></idno>
                      <!-- title -->
@@ -43,18 +44,18 @@
             </list>
          </div>
          
-         <div type="pieces_refusees">
+        <!-- <div type="pieces_refusees">
             <list>
                <item xml:id="TITRE2">
                   <bibl>
                      <title></title>
                      <author></author>
-                     <!-- Je n'ai pas trouve d'element pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
+                     <!-\- Je n'ai pas trouve d'element pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -\->
                      <note type="genre"></note>
                   </bibl>
                </item>
             </list>
-         </div>
+         </div>-->
 
       </body>
    </text>

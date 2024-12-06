@@ -30,6 +30,8 @@
                      <surname></surname>
                      <!-- prenom -->
                      <forename></forename>
+                     <!-- variations et alias-->
+                     <addName></addName>
                   </persName>
                   <!-- feminin -->
                   <gender></gender>

@@ -23,9 +23,9 @@
             <person xml:id="NOM1">
                <persName>
                   <!-- id -->
-                  <idno type="base_unifiee"></idno>
+                  <idno type="base_unifiee">43</idno>
                   <!-- pseudonym -->
-                  <reg></reg>
+                  <reg>Bernault</reg>
                   <!-- prenom -->
                   <forename></forename>
                   <!-- nom -->
@@ -35,12 +35,10 @@
                </persName>
                <!-- feminin -->
                <gender></gender>
-               <!-- statut -->
-               <occupation></occupation>
-               <!-- entree et depart -->
-               <occupation from="1700" to="1700"/>
-               <!-- societariat -->
-               <occupation when="1680"/>
+               <!-- statut dans l'attribut @type, entrée dans l'attribut @from et départ dans l'attribut @to-->
+               <occupation type="pensionnaire" from="1700" to="1700"/>
+               <!-- sociétariat -->
+               <occupation type="sociétariat" when="1680"/>
             </person>
          </listPerson>
          
