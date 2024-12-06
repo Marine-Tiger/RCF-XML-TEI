@@ -103,29 +103,8 @@
                <signed corresp="id_nom">Raisin</signed>
                <lb/>
             </div>
-            <!--  <!-\- 2.  Liste de présents (fin du 19ème)-\->
-            <!-\- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -\->
-            <!-\- Extrait du registre R425, séance du jeudi 16 février 1688 -\->
-            <div type="preambule">
-               <p>À <time when="16:15:00">quatre heures et un quart</time>, les membres du comité
-                  d’administration se sont réunis, sous la présidence de <persName corresp="id_nom"
-                     >M. J. Claretie</persName>, administrateur général, dans la salle ordinaire de
-                  leurs séances. Étaient présents MM.</p>
-               <list type="presents">
-                  <item corresp="id_nom">Got,</item>
-                  <item corresp="id_nom">Febvre</item>
-                  <item corresp="id_nom">Thiron,</item>
-                  <item corresp="id_nom">Mounet-Sully,</item>
-                  <item corresp="id_nom">Worms</item>
-                  <item corresp="id_nom">La Roche,</item>
-                  <item corresp="id_nom">Barré</item>
-                  <item corresp="id_nom">Coquelin cadet</item>
-               </list>
-               <p>La séance est ouverte. Le procès-verbal de la séance du <date when="1688-02-08"
-                     >mercredi 8 février</date> est lu et adopté. </p>
-            </div>
--->
-            <!-- B. Absents (optionnel) -->
+
+            <!-- ABSENTS (optionnel) -->
             <div type="absents">
                <head>Mrs</head>
                <!-- Dans les registres du 17e-18e, les absents sont divisés entre les hommes et les femmes, donc on aura deux listes -->
@@ -520,6 +499,32 @@
 
          <!-- ______________________________________________ -->
 
+         <!--  <!-\- 2.  Liste de présents (fin du 19ème)-\->
+            <!-\- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -\->
+            <!-\- Extrait du registre R425, séance du jeudi 16 février 1688 -\->
+            <div type="preambule">
+               <p>À <time when="16:15:00">quatre heures et un quart</time>, les membres du comité
+                  d’administration se sont réunis, sous la présidence de <persName corresp="id_nom"
+                     >M. J. Claretie</persName>, administrateur général, dans la salle ordinaire de
+                  leurs séances. Étaient présents MM.</p>
+               <list type="presents">
+                  <item corresp="id_nom">Got,</item>
+                  <item corresp="id_nom">Febvre</item>
+                  <item corresp="id_nom">Thiron,</item>
+                  <item corresp="id_nom">Mounet-Sully,</item>
+                  <item corresp="id_nom">Worms</item>
+                  <item corresp="id_nom">La Roche,</item>
+                  <item corresp="id_nom">Barré</item>
+                  <item corresp="id_nom">Coquelin cadet</item>
+               </list>
+               <p>La séance est ouverte. Le procès-verbal de la séance du <date when="1688-02-08"
+                     >mercredi 8 février</date> est lu et adopté. </p>
+            </div>
+-->
+
+
+         <!-- ______________________________________________ -->
+         
          <!-- AUDITIONS -->
 
          <div type="type_assemblee" when="1888-08-01" corresp="id_sujet">
