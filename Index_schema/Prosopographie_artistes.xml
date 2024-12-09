@@ -19,9 +19,8 @@
   <text>
       <body>
          <div>
-            <!-- Pour les comédiens externes -->
+            <!-- TABLE COMEDIENS Pour les comédiens externes -->
             <listPerson type="occasionnel">
-               <!-- si existe dans une base de donnees -->
                <person xml:id="NOM1">
                   <idno type="base_unifiee"></idno>
                   <persName>
@@ -39,10 +38,12 @@
                </person>
             </listPerson>
             
-            <!-- Pour les auteurs -->
+            <!-- TABLE AUTEURS Pour les auteurs -->
             <listPerson>
                <person>
-                  
+                  <idno type="base_unifiee_auteurs">
+                     
+                  </idno>
                </person>
             </listPerson>
          </div>

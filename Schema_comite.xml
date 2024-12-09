@@ -55,12 +55,14 @@
       </front>-->
       <body>
 
-         <!-- ENCODAGE D'UNE SEANCE DE COMITE "TYPE" DU 18EME SIECLE-->
+         <!-- ENCODAGE TYPE DES SEANCES DE COMITES (ou du moins le plus récurrent)-->
+         
+         <!-- I. 17EME-18EME SIECLE -->
 
          <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
          <div type="type_assemblee" when="1688-01-12">
 
-            <!-- PREAMBULE (optionnel) -->
+            <!-- A. PREAMBULE (optionnel) -->
 
             <div type="preambule">
                <p>Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
@@ -71,8 +73,8 @@
                      >jetton</term></p>
             </div>
 
-            <!-- PRESENTS ET ABSENTS (optionnel) -->
-            <!-- A. Présents -->
+            <!-- B. PRESENTS ET ABSENTS (optionnel) -->
+            <!-- 1. Présents -->
             <div type="signature">
                <signed corresp="id_nom">De Champmeslé</signed>
                <lb/>
@@ -104,7 +106,7 @@
                <lb/>
             </div>
 
-            <!-- ABSENTS (optionnel) -->
+            <!-- 2. Absents (optionnel) -->
             <div type="absents">
                <head>Mrs</head>
                <!-- Dans les registres du 17e-18e, les absents sont divisés entre les hommes et les femmes, donc on aura deux listes -->
@@ -118,7 +120,7 @@
                </list>-->
             </div>
 
-            <!-- DELIBERATION (optionnel pour le 18eme) -->
+            <!-- C. DELIBERATION (optionnel) -->
             <!-- Un élément <div> pour chaque deliberation avec un @corresp et l'id du sujet abordé. On peut indiqué plusieurs thématiques-->
             <div type="délibération" corresp="id_sujet">
                <p>On a nommé pour <term corresp="id_glossaire">quinzainiers</term> Mrs<persName
@@ -159,10 +161,105 @@
                         >Jettons</term></measure></p>
             </div>
          </div>
-
+         
+         <!-- ____________________________________________ -->
+         
+         <!-- II. 19EME SIECLE (à partir du R415) -->
+         
+         <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
+         <div type="type_assemblee" when="1830-04-29">
+            
+            <!-- A. TITRE -->
+            <head rend="margin-right">Comité du <date when="1830-04-29">jeudi 29 avril
+               1830</date></head>
+            
+            <!-- B. DELIBERATIONS -->
+            <div type="délibération" corresp="id_sujet">
+               <!-- ORDRE DU JOUR (optionnel) -->
+               <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
+               <head type="agenda">[Lettre et remerciements à <persName corresp="id_nom">M. de la
+                  Bouillerie</persName>]</head>
+               <p>Le comité arrête qu’il sera écrit à <persName corresp="id_nom">Son Excellence Mgr
+                  le <roleName type="nobilite">Baron</roleName> de la Bouillerie, <roleName
+                     type="ministre">ministre d’état</roleName>, <roleName type="pair">pair de
+                        France</roleName>, <roleName type="intendant_general">intendant général de
+                           la Maison du Roi</roleName></persName>, pour lui offrir l’hommage des
+                  remerciements de la <orgName corresp="id_org">Comédie-Française</orgName> qui
+                  vient d’apprendre avec reconnaissance par sa lettre en date de ce jour que
+                  <roleName type="nobility" corresp="id_nom">Sa Majesté</roleName> ne refusera
+                  point d’autoriser l’affectation de <measure type="somme" corresp="id_sujet">48 000
+                     F</measure> que la <orgName corresp="id_org">Comédie</orgName> reçoit
+                  annuellement pour la loge royale, à la garantie de l’emprunt de <measure
+                     type="somme" corresp="id_sujet">200 000 F</measure> présentement indispensable
+                  pour que la <orgName corresp="id_org">Comédie</orgName> puisse effectuer le
+                  premier mai son payement qui ne peut être retardé et solder pour <roleName
+                     type="nobility" corresp="id_nom">S. A. Mgr le Duc d’Orléans</roleName>
+                  propriétaire de la salle une somme de <measure type="somme" corresp="id_sujet">25
+                     000 F</measure> exigible depuis le 1er avril. </p>
+            </div>
+            <div type="délibération" corresp="id_sujet">
+               <head type="agenda">[Signification de <persName corresp="id_nom">Mlle Ross
+                  Despréaux</persName>]</head>
+               <p>Le comité arrête que la signification faite à la <orgName corresp="id_org"
+                  >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom">M.
+                     Michelot</persName>, l’un des membres du comité, à la requête que <persName
+                        corresp="id_nom">Mlle Ross Despréaux</persName>, actrice pensionnaire de la
+                  dite signification, en date du <date>28 mai</date> sera, vu l’absence de <persName
+                     corresp="id_nom">M. De Normandie</persName> avoué membre du conseil, envoyée à
+                  <persName corresp="id_nom">M. Dejoly</persName>, président du conseil, qui sera
+                  prié de vouloir bien prendre la peine de mettre la <orgName corresp="id_org"
+                     >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
+            </div>
+            <div type="signature">
+               <lb/>
+               <signed corresp="id_nom">Michelot</signed>
+               <lb/>
+               <signed corresp="id_nom">Desmousseaux</signed>
+               <lb/>
+               <signed corresp="id_nom">Grandville</signed>
+               <lb/>
+               <signed corresp="id_nom">Monrose</signed>
+               <lb/>
+               <signed corresp="id_nom">Joanny</signed>
+               <lb/>
+            </div>
+         </div>
+         
          <!-- ______________________________________________ -->
+         
+         <!-- III. VARIATIONS -->
+         
+         <!--Liste de présents (fin du 19ème)-->
+         <!-- Au 19eme siecle, lorsque les personnes présentes sont rapportées, elles ne signent plus (sauf dans le R415), mais sont sous forme de liste: -->
+         <!-- Extrait https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24945#page/2/mode/2up-->
+         <div type="type_assemblee" when="1882-01-05">
+            <head>Comité d’administration</head>
+            <head>du <date when="1882-01-05">jeudi 5 janvier 1882</date></head>
+            <div type="preambule">
+               <p>À <time when="15:00:00">3 heures</time> de relevée, les membres du comité
+                  d’administration se sont réunis, sous la présidence de M. <persName
+                     corresp="id_nom">Émile Perrin</persName>, <term corresp="id_glossaire"
+                        >administrateur général</term>, dans la <placeName corresp="id_lieux">salle
+                           ordinaire</placeName> de leurs séances. Étaient présents :</p>
+               <list type="presents">
+                  <item corresp="id_nom">MM. Got,</item>
+                  <item corresp="id_nom">Delaunay,</item>
+                  <item corresp="id_nom">Maubant,</item>
+                  <item corresp="id_nom">Coquelin,</item>
+                  <item corresp="id_nom">Febvre,</item>
+                  <item corresp="id_nom">Worms,</item>
+                  <item corresp="id_nom">Mounet-Sully,</item>
+                  <item corresp="id_nom">Laroche.</item>
+               </list>
+               <p>La séance est ouverte.</p>
+            </div>
+         </div>
+         
+         <!-- ______________________________________________________________________________________________________ -->
 
-         <!-- LECTURE DU REPERTOIRE (17ème-18ème) -->
+         <!-- CAS PARTICULIERS -->
+
+         <!-- I. LECTURE DU REPERTOIRE (17ème-18ème) -->
 
          <!-- Exemple tiré de Spinec du R52_0_1681  https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/5/mode/1up-->
          <div type="type_assemblee" when="1682-09-28">
@@ -274,10 +371,10 @@
 
          <!-- ______________________________________________ -->
 
-         <!-- COMPTABILITE/FINANCES-->
+         <!-- II. COMPTABILITE/FINANCES-->
 
-         <!--         exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
-         <!--         autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
+         <!-- exemple R52_21 https://flipbooks.cfregisters.org/R52_21/index.html#page/40/mode/1up-->
+         <!-- autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
 
          <!-- Cette séance n'est pas datée, peut-être mettre @notBefore date de la précédente séance et @notAfter date de la suivante-->
          <div type="type_assemblee" notBefore="1756-04-30" notAfter="1756-05-03" corresp="id_sujet">
@@ -350,7 +447,7 @@
 
          <!-- ______________________________________________ -->
 
-         <!-- VOTES -->
+         <!-- III. VOTES -->
          <!-- https://flipbooks.cfregisters.org/R52_0_1692/index.html#page/5/mode/1up-->
          <div type="type_assemblee" when="1692-01-07">
             <div type="preambule">
@@ -389,7 +486,7 @@
 
          <!-- ______________________________________________ -->
 
-         <!-- LETTRES -->
+         <!-- IV. LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
          <div type="type_assemblee" when="1784-03-03" corresp="id_sujet">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
@@ -429,108 +526,12 @@
                   Camarades sont avec la plus sincère amitié, Madame et chère Camarade, Vos très
                   humbles et très… <date when="1784-03-03">Ce 3 mars 1784</date>.</closer>
             </div>
-         </div>
-
-
-         <!-- _______________________________________________________________________________________ -->
-
-
-         <!-- ENCODAGE SEANCE DE COMITES DU 19EME SIECLE -->
-
-
-         <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
-         <div type="type_assemblee" when="1830-04-29">
-
-            <!-- TITRE -->
-            <head rend="margin-right">Comité du <date when="1830-04-29">jeudi 29 avril
-               1830</date></head>
-
-            <!-- DELIBERATIONS -->
-            <div type="délibération" corresp="id_sujet">
-               <!-- ORDRE DU JOUR (optionnel) -->
-               <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
-               <head type="agenda">[Lettre et remerciements à <persName corresp="id_nom">M. de la
-                     Bouillerie</persName>]</head>
-               <p>Le comité arrête qu’il sera écrit à <persName corresp="id_nom">Son Excellence Mgr
-                     le <roleName type="nobilite">Baron</roleName> de la Bouillerie, <roleName
-                        type="ministre">ministre d’état</roleName>, <roleName type="pair">pair de
-                        France</roleName>, <roleName type="intendant_general">intendant général de
-                        la Maison du Roi</roleName></persName>, pour lui offrir l’hommage des
-                  remerciements de la <orgName corresp="is_org">Comédie-Française</orgName> qui
-                  vient d’apprendre avec reconnaissance par sa lettre en date de ce jour que
-                     <roleName type="nobility" corresp="id_nom">Sa Majesté</roleName> ne refusera
-                  point d’autoriser l’affectation de <measure type="somme" corresp="id_sujet">48 000
-                     F</measure> que la <orgName corresp="id_org">Comédie</orgName> reçoit
-                  annuellement pour la loge royale, à la garantie de l’emprunt de <measure
-                     type="somme" corresp="id_sujet">200 000 F</measure> présentement indispensable
-                  pour que la <orgName corresp="id_org">Comédie</orgName> puisse effectuer le
-                  premier mai son payement qui ne peut être retardé et solder pour <roleName
-                     type="nobility" corresp="id_nom">S. A. Mgr le Duc d’Orléans</roleName>
-                  propriétaire de la salle une somme de <measure type="somme" corresp="id_sujet">25
-                     000 F</measure> exigible depuis le 1er avril. </p>
-            </div>
-            <div type="délibération" corresp="id_sujet">
-               <head type="agenda">[Signification de <persName corresp="id_nom">Mlle Ross
-                     Despréaux</persName>]</head>
-               <p>Le comité arrête que la signification faite à la <orgName corresp="id_org"
-                     >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom">M.
-                     Michelot</persName>, l’un des membres du comité, à la requête que <persName
-                     corresp="id_nom">Mlle Ross Despréaux</persName>, actrice pensionnaire de la
-                  dite signification, en date du <date>28 mai</date> sera, vu l’absence de <persName
-                     corresp="id_nom">M. De Normandie</persName> avoué membre du conseil, envoyée à
-                     <persName corresp="id_nom">M. Dejoly</persName>, président du conseil, qui sera
-                  prié de vouloir bien prendre la peine de mettre la <orgName corresp="id_org"
-                     >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
-            </div>
-            <div type="signature">
-               <lb/>
-               <signed corresp="id_nom">Michelot</signed>
-               <lb/>
-               <signed corresp="id_nom">Desmousseaux</signed>
-               <lb/>
-               <signed corresp="id_nom">Grandville</signed>
-               <lb/>
-               <signed corresp="id_nom">Monrose</signed>
-               <lb/>
-               <signed corresp="id_nom">Joanny</signed>
-               <lb/>
-            </div>
-         </div>
-
-         <!-- ______________________________________________ -->
-
-         <!-- VARIATIONS -->
-
-         <!--Liste de présents (fin du 19ème)-->
-         <!-- Dans le cas du 19eme siecle, lorsque les personnes presentes sont precisees, elles ne signent plus, mais sont rapportees sous forme de liste: -->
-         <!-- Extrait https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24945#page/2/mode/2up-->
-         <div type="type_assemblee" when="1882-01-05">
-            <head>Comité d’administration</head>
-            <head>du <date when="1882-01-05">jeudi 5 janvier 1882</date></head>
-            <div type="preambule">
-               <p>À <time when="15:00:00">3 heures</time> de relevée, les membres du comité
-                  d’administration se sont réunis, sous la présidence de M. <persName
-                     corresp="id_nom">Émile Perrin</persName>, <term corresp="id_glossaire"
-                        >administrateur général</term>, dans la <placeName corresp="id_lieux">salle ordinaire</placeName> de leurs séances.
-                  Étaient présents :</p>
-               <list type="presents">
-                  <item corresp="id_nom">MM. Got,</item>
-                  <item corresp="id_nom">Delaunay,</item>
-                  <item corresp="id_nom">Maubant,</item>
-                  <item corresp="id_nom">Coquelin,</item>
-                  <item corresp="id_nom">Febvre,</item>
-                  <item corresp="id_nom">Worms,</item>
-                  <item corresp="id_nom">Mounet-Sully,</item>
-                  <item corresp="id_nom">Laroche.</item>
-               </list>
-               <p>La séance est ouverte.</p>
-            </div>
-         </div>
+         </div>      
 
 
          <!-- ______________________________________________ -->
 
-         <!-- AUDITIONS -->
+         <!-- V. AUDITIONS -->
 
          <!-- Extrait du R425: https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24946#page/40/mode/2up -->
          <div type="type_assemblee" when="1888-08-01" corresp="id_sujet">
@@ -558,10 +559,10 @@
                         Rouvenat</persName>
                      <title type="piece" corresp="id_piece">Le Lion amoureux</title> – acte II,
                      scène dernière – <role corresp="id_role">Humbert</role></castItem>
-                  <castItem corresp="id_nom id_piece id_role">2° <persName>M. Malbert</persName> Le
-                     Misanthrope – acte IV, scène 3 – Alceste</castItem>
-                  <castItem corresp="id_nom id_piece id_role">3° Mlle de Rudeni Britannicus – acte
-                     IV, scènes 1 et 2 – Agrippine Rodogune – Cléopâtre</castItem>
+                  <castItem corresp="id_nom id_piece id_role">2° <persName corresp="id_nom">M. Malbert</persName> Le
+                     Misanthrope – acte IV, scène 3 – <role corresp="id_role">Alceste</role> </castItem>
+                  <castItem corresp="id_nom id_piece id_role">3° <persName corresp="id_nom">Mlle de Rudeni</persName> <title corresp="id_piece">Britannicus</title> – acte
+                     IV, scènes 1 et 2 – <role corresp="id_role">Agrippine Rodogune</role> – <role corresp="id_role">Cléopâtre</role></castItem>
                   <p>[...]</p>
                </castList>
                <p>À <time when="17:00:00">cinq heures</time>, le comité rentre dans la <placeName
@@ -578,14 +579,9 @@
          </div>
 
 
-         <!-- _______________________________________________________________________________________ -->
+         <!-- ______________________________________________ -->
 
-
-         <!-- CAS PARTICULIERS -->
-
-         <!-- Dans le cas où il n'y a pas de découpage précis sans préambule ou de paragraphes distincts, on peut mettre la thématique directement dans @corresp de <div>-->
-
-         <!-- DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
+         <!-- VI. DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
 
          <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/256/mode/1up-->
          <div type="distribution_roles" notBefore="1716-03-16" notAfter="1716-03-18"
@@ -605,7 +601,7 @@
          </div>
 
 
-         <!-- ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
+         <!-- VII. ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
 
          <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
          <div type="type_assemblée" when="1775-05-21" corresp="id_sujet">

@@ -22,8 +22,8 @@
          <div type="repertoire">
             <list>
                <item xml:id="TITRE1" source="lien Gallica">
+                  <!--TABLE PIECES-->
                   <bibl>
-                     <!--  -->
                      <!-- id base de donnees -->
                      <idno type="base_unifiée"></idno>
                      <!-- title -->
@@ -32,12 +32,14 @@
                      <!-- Je n'ai pas trouvé d'élément pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
                      <note type="genre"></note>
                   </bibl>
-                  <!-- Liste des roles -->
+                  <!-- TABLE ROLES (jointure avec l'id_piece?) -->
                   <castList>
                      <castItem xml:id="NOM">
                         <!-- id base de donnees -->
-                        <idno></idno>
-                        <role/>
+                        <idno type="base_unifiee"></idno>
+                        <!-- nom -->
+                        <role></role>
+                        <!--<roleDesc></roleDesc>-->
                      </castItem>
                   </castList>
                </item>
