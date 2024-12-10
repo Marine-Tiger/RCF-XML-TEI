@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <!-- TABLE COMEDIENS -->
+         <listPerson type="Comédie-française">
+            
+            <listPerson type="pensionnaire_societaire">
+               <person xml:id="NOM1">
+                  <persName>
+                     <!-- id -->
+                     <idno type="base_unifiee">475</idno>
+                     <!-- pseudonyme -->
+                     <reg>Villiers (de)</reg>
+                     <!-- prenom -->
+                     <forename>Catherine</forename>
+                     <!-- nom -->
+                     <surname>Raisin, dite</surname>
+                     <!-- Variations -->
+                     <addName type="variations">Villiers Raisin (de)</addName>
+                     <addName type="titre">Mademoiselle</addName>
+                  </persName>
+                  <!-- si feminin est "true" -->
+                  <gender type="feminin"/>
+                  
+                  <!-- Si le statut est "occasionnel/pensionnaire" ou "pensionnaire" -->
+                  <!-- statut dans l'attribut @type, entrée dans l'attribut @from et départ dans l'attribut @to-->
+                  <occupation type="occasionnel/pensionnaire" from="1700" to="1711"/>
+                  
+                  <!-- Si le statut est "sociétariat" -->
+                  <!-- Besoin d'un élément <occupation> pour les dates de début et de fin de carrière qui ne correspondent pas forcément aux dates de sociétariat -->
+                  <!-- entrée dans l'attribut @from et départ dans l'attribut @to-->
+                  <occupation type="acteur" from="1691" to="1696"/>
+                  <!-- statut dans l'attribut @type, sociétariat dans @when -->
+                  <occupation type="sociétariat" when="1691"/>
+               </person>
+            </listPerson>
+            
+            <listPerson type="occasionnel">
+               <person xml:id="ACTE1">
+                  <idno type="base_unifiee"/>
+                  <persName>
+                     <!-- pseudonyme -->
+                     <reg/>
+                     <!-- nom -->
+                     <surname/>
+                     <!-- prenom -->
+                     <forename/>
+                     <!-- variations et alias-->
+                     <addName/>
+                  </persName>
+                  <!-- feminin -->
+                  <gender/>
+               </person>
+            </listPerson>
+         </listPerson>
+         
+         <listPerson type="hors_CF">
+            <!-- TABLE AUTEURS Pour les auteurs -->
+            <listPerson type="auteur">
+               <person xml:id="AUTE1">
+                  <idno type="base_unifiee_auteurs"></idno>
+                  <persName>
+                     <!-- Nom -->
+                     <reg></reg>
+                  </persName>
+                  <!-- Feminin -->
+                  <gender></gender>
+               </person>
+            </listPerson>
+         </listPerson>
+         
+      </body>
+  </text>
+</TEI>
