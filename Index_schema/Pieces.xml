@@ -28,7 +28,8 @@
                      <idno type="base_unifiée"></idno>
                      <!-- title -->
                      <title></title>
-                     <!-- author? -->
+                     <!-- author? TABLES AUTEUR - ATTRIBUTIONS - PIECES -->
+                     <author></author>
                      <!-- Je n'ai pas trouvé d'élément pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
                      <note type="genre"></note>
                   </bibl>

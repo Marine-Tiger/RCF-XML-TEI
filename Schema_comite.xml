@@ -56,7 +56,7 @@
       <body>
 
          <!-- ENCODAGE TYPE DES SEANCES DE COMITES (ou du moins le plus récurrent)-->
-         
+
          <!-- I. 17EME-18EME SIECLE -->
 
          <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
@@ -161,32 +161,32 @@
                         >Jettons</term></measure></p>
             </div>
          </div>
-         
+
          <!-- ____________________________________________ -->
-         
+
          <!-- II. 19EME SIECLE (à partir du R415) -->
-         
+
          <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
          <div type="type_assemblee" when="1830-04-29">
-            
+
             <!-- A. TITRE -->
             <head rend="margin-right">Comité du <date when="1830-04-29">jeudi 29 avril
                1830</date></head>
-            
+
             <!-- B. DELIBERATIONS -->
             <div type="délibération" corresp="id_sujet">
                <!-- ORDRE DU JOUR (optionnel) -->
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
                <head type="agenda">[Lettre et remerciements à <persName corresp="id_nom">M. de la
-                  Bouillerie</persName>]</head>
+                     Bouillerie</persName>]</head>
                <p>Le comité arrête qu’il sera écrit à <persName corresp="id_nom">Son Excellence Mgr
-                  le <roleName type="nobilite">Baron</roleName> de la Bouillerie, <roleName
-                     type="ministre">ministre d’état</roleName>, <roleName type="pair">pair de
+                     le <roleName type="nobilite">Baron</roleName> de la Bouillerie, <roleName
+                        type="ministre">ministre d’état</roleName>, <roleName type="pair">pair de
                         France</roleName>, <roleName type="intendant_general">intendant général de
-                           la Maison du Roi</roleName></persName>, pour lui offrir l’hommage des
+                        la Maison du Roi</roleName></persName>, pour lui offrir l’hommage des
                   remerciements de la <orgName corresp="id_org">Comédie-Française</orgName> qui
                   vient d’apprendre avec reconnaissance par sa lettre en date de ce jour que
-                  <roleName type="nobility" corresp="id_nom">Sa Majesté</roleName> ne refusera
+                     <roleName type="nobility" corresp="id_nom">Sa Majesté</roleName> ne refusera
                   point d’autoriser l’affectation de <measure type="somme" corresp="id_sujet">48 000
                      F</measure> que la <orgName corresp="id_org">Comédie</orgName> reçoit
                   annuellement pour la loge royale, à la garantie de l’emprunt de <measure
@@ -199,14 +199,14 @@
             </div>
             <div type="délibération" corresp="id_sujet">
                <head type="agenda">[Signification de <persName corresp="id_nom">Mlle Ross
-                  Despréaux</persName>]</head>
+                     Despréaux</persName>]</head>
                <p>Le comité arrête que la signification faite à la <orgName corresp="id_org"
-                  >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom">M.
+                     >Comédie-Française</orgName> sur la personne de <persName corresp="id_nom">M.
                      Michelot</persName>, l’un des membres du comité, à la requête que <persName
-                        corresp="id_nom">Mlle Ross Despréaux</persName>, actrice pensionnaire de la
+                     corresp="id_nom">Mlle Ross Despréaux</persName>, actrice pensionnaire de la
                   dite signification, en date du <date>28 mai</date> sera, vu l’absence de <persName
                      corresp="id_nom">M. De Normandie</persName> avoué membre du conseil, envoyée à
-                  <persName corresp="id_nom">M. Dejoly</persName>, président du conseil, qui sera
+                     <persName corresp="id_nom">M. Dejoly</persName>, président du conseil, qui sera
                   prié de vouloir bien prendre la peine de mettre la <orgName corresp="id_org"
                      >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
             </div>
@@ -224,11 +224,11 @@
                <lb/>
             </div>
          </div>
-         
+
          <!-- ______________________________________________ -->
-         
+
          <!-- III. VARIATIONS -->
-         
+
          <!--Liste de présents (fin du 19ème)-->
          <!-- Au 19eme siecle, lorsque les personnes présentes sont rapportées, elles ne signent plus (sauf dans le R415), mais sont sous forme de liste: -->
          <!-- Extrait https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24945#page/2/mode/2up-->
@@ -239,8 +239,8 @@
                <p>À <time when="15:00:00">3 heures</time> de relevée, les membres du comité
                   d’administration se sont réunis, sous la présidence de M. <persName
                      corresp="id_nom">Émile Perrin</persName>, <term corresp="id_glossaire"
-                        >administrateur général</term>, dans la <placeName corresp="id_lieux">salle
-                           ordinaire</placeName> de leurs séances. Étaient présents :</p>
+                     >administrateur général</term>, dans la <placeName corresp="id_lieux">salle
+                     ordinaire</placeName> de leurs séances. Étaient présents :</p>
                <list type="presents">
                   <item corresp="id_nom">MM. Got,</item>
                   <item corresp="id_nom">Delaunay,</item>
@@ -254,10 +254,10 @@
                <p>La séance est ouverte.</p>
             </div>
          </div>
-         
+
          <!-- ______________________________________________________________________________________________________ -->
 
-         <!-- CAS PARTICULIERS -->
+         <!-- // CAS PARTICULIERS \\ -->
 
          <!-- I. LECTURE DU REPERTOIRE (17ème-18ème) -->
 
@@ -526,7 +526,7 @@
                   Camarades sont avec la plus sincère amitié, Madame et chère Camarade, Vos très
                   humbles et très… <date when="1784-03-03">Ce 3 mars 1784</date>.</closer>
             </div>
-         </div>      
+         </div>
 
 
          <!-- ______________________________________________ -->
@@ -559,10 +559,15 @@
                         Rouvenat</persName>
                      <title type="piece" corresp="id_piece">Le Lion amoureux</title> – acte II,
                      scène dernière – <role corresp="id_role">Humbert</role></castItem>
-                  <castItem corresp="id_nom id_piece id_role">2° <persName corresp="id_nom">M. Malbert</persName> Le
-                     Misanthrope – acte IV, scène 3 – <role corresp="id_role">Alceste</role> </castItem>
-                  <castItem corresp="id_nom id_piece id_role">3° <persName corresp="id_nom">Mlle de Rudeni</persName> <title corresp="id_piece">Britannicus</title> – acte
-                     IV, scènes 1 et 2 – <role corresp="id_role">Agrippine Rodogune</role> – <role corresp="id_role">Cléopâtre</role></castItem>
+                  <castItem corresp="id_nom id_piece id_role">2° <persName corresp="id_nom">M.
+                        Malbert</persName> Le Misanthrope – acte IV, scène 3 – <role
+                        corresp="id_role">Alceste</role>
+                  </castItem>
+                  <castItem corresp="id_nom id_piece id_role">3° <persName corresp="id_nom">Mlle de
+                        Rudeni</persName>
+                     <title corresp="id_piece">Britannicus</title> – acte IV, scènes 1 et 2 – <role
+                        corresp="id_role">Agrippine Rodogune</role> – <role corresp="id_role"
+                        >Cléopâtre</role></castItem>
                   <p>[...]</p>
                </castList>
                <p>À <time when="17:00:00">cinq heures</time>, le comité rentre dans la <placeName
@@ -577,7 +582,6 @@
                   n’y a pas lieu d’engager ces deux artistes.</p>
             </div>
          </div>
-
 
          <!-- ______________________________________________ -->
 
@@ -600,6 +604,7 @@
             </castList>
          </div>
 
+         <!-- ______________________________________________ -->
 
          <!-- VII. ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
 
@@ -616,6 +621,59 @@
                      <item>3. Voix de Refus.</item>
                   </list>} Reçue <lb/>__________</p>
             </div>
+         </div>
+
+         <!-- ______________________________________________ -->
+
+         <!-- VIII. ARRÊTE -->
+         <div type="type_assemblee" when="1813-02-10">
+            <p>[...]</p>
+            <div type="arrêté" corresp="id_sujet">
+               <p>Le <roleName corresp="id_glossaire">commissaire impérial</roleName> notifie au
+                  comité deux arrêtés de <roleName corresp="id_glossaire id_nom">M. le surintendant
+                     des spectacles</roleName> relatifs à <persName corresp="id_nom">M.
+                     Saint-Prix</persName> et à <persName corresp="id_nom">Mlle Devienne</persName>
+                  qui doivent se retirer au <date when="1813-04-01">1er avril</date> prochain.</p>
+               <p>Ces deux arrêtés sont ainsi conçus :</p>
+               <div>
+                  <head>[Arrêté de <roleName corresp="id_glossaire id_nom">M. le
+                        surintendant</roleName> sur la demande de <persName corresp="id_nom">M.
+                        Saint-Prix</persName>. Sa retraite lui est accordée.] </head>
+                  <p>Le <roleName corresp="id_glossaire id_nom">premier chambellan</roleName> de
+                        <roleName corresp="id_glossaire id_nom">S. M. l’Empereur et Roi</roleName>,
+                        <roleName corresp="id_glossaire id_nom">surintendant des
+                        spectacles</roleName>, vu les demandes réitérées de M. Saint-Prix, acteur
+                     sociétaire du Théâtre-Français, tendant à obtenir la retraite, Et cédant avec
+                     regret aux vives instances qui lui ont été faites à cet égard, arrête :</p>
+               </div>
+
+               <!--               
+	
+
+             
+              Article 1er 
+              La demande de retraite de M. Saint-Prix est accordée. 
+              Article 2e 
+              Le commissaire impérial est chargé de l’exécution du présent arrêté. 
+Le surintendant des spectacles. 
+Paris ce 15 janvier 1813.
+Signé, le comte de Rémusat. 
+
+[Arrêté de M. le surintendant sur la demande de Mˡˡᵉ Devienne. Sa retraite lui est accordée.]
+              Le premier chambellan de Sa M. l’Empereur et Roi, surintendant des spectacles, 
+              Vu la demande de Mˡˡᵉ Devienne tendant à obtenir sa retraite, 
+              Regrettant que la santé de cette sociétaire ne lui permette pas de continuer son service au Théâtre-Français, 
+             Arrête 
+             Article 1er 
+             La demande de retraite de Mˡˡᵉ Devienne est accordée, à dater du 1er avril prochain. 
+             Article 2e 
+             Le commissaire impérial est chargé de l’exécution du présent arrêté. 
+Le surintendant des spectacles. 
+Paris ce 15 janvier 1813 
+Signé, le comte de Rémusat. 
+-->
+            </div>
+            <div/>
          </div>
 
 

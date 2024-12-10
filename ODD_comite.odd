@@ -32,11 +32,20 @@
         <moduleRef key="linking"/>
         <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
         <moduleRef key="drama" include="actor castItem castList role"/>
-        <!-- On ajoute l'attribut @when dans l'élément <div> -->
-        <elementSpec ident="div" mode="change">
+        <elementSpec ident="div" mode="change" module="textstructure">
+          <!-- On ajoute l'attribut @when dans l'élément <div> -->
           <classes mode="change">
             <memberOf mode="add" key="att.datable"/>
           </classes>
+          <!--<attList>
+            <attDef ident="type" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem ident="Ass_ord">
+                  <desc>Les assemblées considérées comme ordinaires sont toutes les assemblées qualifiées comme telles</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>-->
         </elementSpec>
       </schemaSpec>
     </body>
