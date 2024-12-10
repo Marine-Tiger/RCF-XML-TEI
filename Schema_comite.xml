@@ -642,20 +642,25 @@
                   <p>Le <roleName corresp="id_glossaire id_nom">premier chambellan</roleName> de
                         <roleName corresp="id_glossaire id_nom">S. M. l’Empereur et Roi</roleName>,
                         <roleName corresp="id_glossaire id_nom">surintendant des
-                        spectacles</roleName>, vu les demandes réitérées de M. Saint-Prix, acteur
+                           spectacles</roleName>, vu les demandes réitérées de <persName corresp="id_nom">M.
+                              Saint-Prix</persName>, acteur
                      sociétaire du Théâtre-Français, tendant à obtenir la retraite, Et cédant avec
                      regret aux vives instances qui lui ont été faites à cet égard, arrête :</p>
+                  <list>
+                     <label>Article 1er</label>
+                     <item>La demande de retraite de M. Saint-Prix est accordée.</item>
+                     <label>Article 2e</label>
+                     <item> Le commissaire impérial est chargé de l’exécution du présent arrêté. 
+                        </item>
+                  </list>
+                  <closer><roleName>Le surintendant des spectacles.</roleName><!--<dateline></dateline>--></closer>
                </div>
 
                <!--               
 	
-
-             
-              Article 1er 
-              La demande de retraite de M. Saint-Prix est accordée. 
-              Article 2e 
-              Le commissaire impérial est chargé de l’exécution du présent arrêté. 
-Le surintendant des spectacles. 
+              
+              
+              
 Paris ce 15 janvier 1813.
 Signé, le comte de Rémusat. 
 
