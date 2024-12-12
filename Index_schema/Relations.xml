@@ -21,7 +21,7 @@
          <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit dans un fichier a part. 
                Cela permettrait de renseigner les relations entre des personnes de la CF et hors CF -->
          <listRelation>
-            <relation name="epoux" passive="id_nom" active="id_nom" from="1700" to="1800"/>
+            <relation xml:id="NOMFAMILLE" name="epoux" from="1700" to="1800"/>
             <relation name="pere" passive="id_nom" active="id_nom"/>
             <relation name="mere" passive="id_nom" active="id_nom"/>
             <relation name="tante" passive="id_nom" active="id_nom"/>

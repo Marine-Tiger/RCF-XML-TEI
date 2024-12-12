@@ -1,5 +1,5 @@
 {
-"comédiens": [
+"select *\nfrom comédiens\nwhere statut in ('ocasionnel\/pensionnaire', 'ocasionnel\/sociétaire', 'pensionnaire', 'sociétaire')": [
 	{
 		"id" : 49,
 		"pseudonyme" : "Boissy",
@@ -3316,6 +3316,19 @@
 		"départ" : 1788
 	},
 	{
+		"id" : 448,
+		"pseudonyme" : "Talma",
+		"variations" : "Vanhove \/ Petit-Vanhove \/ Vãhove",
+		"prénom" : "Charlotte",
+		"nom" : "Vanhove, dite Mademoiselle Vanhove, puis Madame Petit-Vanhove, puis Caroline",
+		"titre" : "Mademoiselle",
+		"féminin" : true,
+		"statut" : "ocasionnel\/sociétaire",
+		"entrée" : 1777,
+		"sociétariat" : 1785,
+		"départ" : 1811
+	},
+	{
 		"id" : 225,
 		"pseudonyme" : "Fleury (fils)",
 		"variations" : null,
@@ -3444,18 +3457,5 @@
 		"entrée" : 1770,
 		"sociétariat" : null,
 		"départ" : 1774
-	},
-	{
-		"id" : 448,
-		"pseudonyme" : "Talma",
-		"variations" : "Vanhove \/ Petit-Vanhove \/ Vãhove",
-		"prénom" : "Charlotte",
-		"nom" : "Vanhove, dite Mademoiselle Vanhove, puis Madame Petit-Vanhove, puis Caroline",
-		"titre" : "Mademoiselle",
-		"féminin" : true,
-		"statut" : "sociétaire",
-		"entrée" : 1777,
-		"sociétariat" : 1785,
-		"départ" : 1811
 	}
 ]}

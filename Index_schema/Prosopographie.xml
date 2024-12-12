@@ -19,11 +19,10 @@
    <text>
       <body>
 
-         <!-- TABLE COMEDIENS -->
-         <listPerson type="Comédie_française">
-
-            <listPerson type="pensionnaire_societaire">
-               <person xml:id="NOMS1">
+         <listPerson>
+            
+            <!-- TABLE COMEDIENS -->
+               <person xml:id="NOM1" ana="comédien.ne CF">
                   <persName>
                      <!-- id -->
                      <idno type="base_unifiee">475</idno>
@@ -51,42 +50,70 @@
                   <!-- statut dans l'attribut @type, sociétariat dans @when -->
                   <occupation type="sociétariat" when="1691"/>
                </person>
-            </listPerson>
+            
+            <!-- TABLE COMEDIENS STATUT=OCCASIONNEL -->
+            <person xml:id="NOMS2" ana="comédien.ne CF">
+               <idno type="base_unifiee"/>
+               <persName>
+                  <!-- pseudonyme -->
+                  <reg/>
+                  <!-- nom -->
+                  <surname/>
+                  <!-- prenom -->
+                  <forename/>
+                  <!-- variations et alias-->
+                  <addName/>
+               </persName>
+               <!-- feminin -->
+               <gender/>
+               <occupation type="occasionnel"/>
+            </person>
+            
+            <!-- TABLE AUTEURS -->
+            <person xml:id="NOMS3" ana="auteur.rice">
+               <idno type="base_unifiee_auteurs"/>
+               <persName>
+                  <!-- Nom -->
+                  <reg/>
+               </persName>
+               <!-- Feminin -->
+               <gender/>
+            </person>
+         </listPerson>
 
-            <listPerson type="occasionnel">
+<!--            <listPerson type="occasionnel.le">
                <person xml:id="NOMS2">
                   <idno type="base_unifiee"/>
                   <persName>
-                     <!-- pseudonyme -->
+                     <!-\- pseudonyme -\->
                      <reg/>
-                     <!-- nom -->
+                     <!-\- nom -\->
                      <surname/>
-                     <!-- prenom -->
+                     <!-\- prenom -\->
                      <forename/>
-                     <!-- variations et alias-->
+                     <!-\- variations et alias-\->
                      <addName/>
                   </persName>
-                  <!-- feminin -->
+                  <!-\- feminin -\->
                   <gender/>
                </person>
-            </listPerson>
-         </listPerson>
+            </listPerson>-->
 
-         <listPerson type="artiste_hors_CF">
+         <!--<listPerson type="artistes_hors_CF">-->
 
             <!-- TABLE AUTEURS -->
-            <listPerson type="auteur">
-               <person xml:id="NOMS3">
+           <!-- <listPerson type="auteur">
+               <person xml:id="NOMS3" ana="auteur.rice">
                   <idno type="base_unifiee_auteurs"/>
                   <persName>
-                     <!-- Nom -->
+                     <!-\- Nom -\->
                      <reg/>
                   </persName>
-                  <!-- Feminin -->
+                  <!-\- Feminin -\->
                   <gender/>
                </person>
             </listPerson>
-         </listPerson>
+         </listPerson>-->
          
          <!--<listPerson type="civils">
                <person>

@@ -28,8 +28,9 @@
         <moduleRef key="textstructure" include="TEI body closer div front opener signed text"/>
         <moduleRef key="namesdates"
           include="addName event eventName forename occupation persName orgName placeName roleName surname"/>
-        <!-- Le module "linking" permet d'avoir @corresp et faire le lien avec les indexes -->
-        <moduleRef key="linking"/>
+        <!-- Le module "linking" permet d'ajouter-->
+        <!--<moduleRef key="linking"/>-->
+        <moduleRef key="analysis"/>
         <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
         <moduleRef key="drama" include="actor castItem castList role"/>
         <elementSpec ident="div" mode="change" module="textstructure">
@@ -41,7 +42,7 @@
             <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="Ass_ord">
-                  <desc>Les assemblées considérées comme ordinaires sont toutes les assemblées qualifiées comme telles</desc>
+                  <desc corresp="id_glossaire"/>
                 </valItem>
               </valList>
             </attDef>
