@@ -34,9 +34,10 @@
                      <surname>Raisin, dite</surname>
                      <!-- Variations -->
                      <addName type="variations">Villiers Raisin (de)</addName>
+                     <!-- titre -->
                      <addName type="titre">Mademoiselle</addName>
                   </persName>
-                  <!-- si feminin est "true" -->
+                  <!-- féminin="true" @type="féminin" / féminin="false" @type="masculin" -->
                   <gender type="feminin"/>
 
                   <!-- Si le statut est "occasionnel/pensionnaire" ou "pensionnaire" -->
@@ -46,12 +47,12 @@
                   <!-- Si le statut est "sociétaire" -->
                   <!-- Besoin d'un élément <occupation> pour les dates de début et de fin de carrière qui ne correspondent pas forcément aux dates de sociétariat -->
                   <!-- entrée dans l'attribut @from et départ dans l'attribut @to-->
-                  <occupation type="acteur" from="1691" to="1696"/>
+                  <occupation type="acteur.rice" from="1691" to="1696"/>
                   <!-- statut dans l'attribut @type, sociétariat dans @when -->
                   <occupation type="sociétariat" when="1691"/>
                </person>
             
-            <!-- TABLE COMEDIENS STATUT=OCCASIONNEL -->
+            <!-- TABLE COMEDIENS STATUT=OCCASIONNEL (fichier comédiens_externe) -->
             <person xml:id="NOMS2" ana="comédien.ne CF">
                <idno type="base_unifiee"/>
                <persName>
@@ -64,8 +65,8 @@
                   <!-- variations et alias-->
                   <addName/>
                </persName>
-               <!-- feminin -->
-               <gender/>
+               <!-- féminin="true" @type="féminin" / féminin="false" @type="masculin" -->
+               <gender type="féminin"/>
                <occupation type="occasionnel"/>
             </person>
             
@@ -74,10 +75,10 @@
                <idno type="base_unifiee_auteurs"/>
                <persName>
                   <!-- Nom -->
-                  <reg/>
+                  <reg></reg>
                </persName>
-               <!-- Feminin -->
-               <gender/>
+               <!-- @value="féminin" si féminin="true", @value="masculin" si féminin="false"-->
+               <gender value="féminin"/>
             </person>
          </listPerson>
 

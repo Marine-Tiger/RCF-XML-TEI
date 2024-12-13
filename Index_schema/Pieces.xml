@@ -21,26 +21,29 @@
       <body>
          <div type="repertoire">
             <list>
-               <item xml:id="TITRE1" source="lien Gallica">
+               <item xml:id="TITRE1">
                   <!--TABLE PIECES-->
                   <bibl>
                      <!-- id base de donnees -->
-                     <idno type="base_unifiée"></idno>
-                     <!-- title -->
-                     <title></title>
-                     <!-- author? TABLES AUTEUR - ATTRIBUTIONS - PIECES -->
-                     <author></author>
-                     <!-- Je n'ai pas trouvé d'élément pour le genre d'une oeuvre, pour l'instant j'utilise <note> avec @type -->
-                     <note type="genre"></note>
+                     <idno type="base_unifiée">5065</idno>
+                     <!-- titre -->
+                     <title>Babillard (Le)</title>
+                     <!-- auteur.rice TABLES AUTEUR - ATTRIBUTIONS - PIECES -->
+                     <author>Boissy, Louis de</author>
+                     <!-- création: date dans @when -->
+                     <date when="1725-06-16"/>
+                     <!-- Genre -->
+                     <note type="genre">comédie</note>
                   </bibl>
                   <!-- TABLE ROLES (jointure avec l'id_piece?) -->
                   <castList>
                      <castItem xml:id="NOM">
-                        <!-- id base de donnees -->
-                        <idno type="base_unifiee"></idno>
-                        <!-- nom -->
-                        <role></role>
-                        <!--<roleDesc></roleDesc>-->
+                        <!-- id base de données -->
+                        <idno type="base_unifiee">83</idno>
+                        <!-- Nom, @gender=féminin si "true", masculin si "false" -->
+                        <role gender="masculin">Léandre</role>
+                        <!-- catégorie -->
+                        <addName>Mrs.</addName>
                      </castItem>
                   </castList>
                </item>

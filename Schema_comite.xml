@@ -259,7 +259,7 @@
 
          <!-- // CAS PARTICULIERS \\ -->
 
-         <!-- I. LECTURE DU REPERTOIRE (17ème-18ème) -->
+         <!-- I. LECTURE DU REPERTOIRE / REPETITIONS (17ème-18ème) -->
 
          <!-- Exemple tiré de Spinec du R52_0_1681  https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/5/mode/1up-->
          <div1 type="type_assemblee" when="1682-09-28">
@@ -628,13 +628,13 @@
 
          <!-- ______________________________________________ -->
 
-         <!-- VIII. ARRÊTE -->
+         <!-- VIII. ARRÊTS -->
          
          <!--         Exemple tiré du R416: https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=23873#page/12/mode/2up-->
          <div1 type="type_assemblee" when="1813-02-10">
             <p>[...]</p>
             <!-- Cas où on a plusieurs arrêtés. -->
-            <div2 type="arrêté">
+            <div2 type="arrêts">
                <p>Le <roleName ref="id_glossaire">commissaire impérial</roleName> notifie au comité
                   deux arrêtés de <roleName ref="id_glossaire id_nom">M. le surintendant des
                      spectacles</roleName> relatifs à <persName ref="id_nom">M.
