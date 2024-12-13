@@ -25,14 +25,15 @@
         <moduleRef key="msdescription" include="institution msDesc msIdentifier repository source"/>
         <moduleRef key="core"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure" include="TEI body closer div div1 div2 div3 front opener signed text"/>
+        <moduleRef key="textstructure"
+          include="TEI body closer div div1 div2 div3 front opener signed text"/>
         <moduleRef key="namesdates"
           include="addName event eventName forename occupation persName orgName placeName roleName surname"/>
         <!-- Le module "analysis" permet d'ajouter @ana-->
         <moduleRef key="analysis"/>
         <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
         <moduleRef key="drama" include="actor castItem castList role"/>
-        <elementSpec ident="div1" mode="change" module="textstructure">
+        <elementSpec ident="div" mode="change" module="textstructure">
           <!-- On ajoute l'attribut @when dans l'élément <div> -->
           <classes mode="change">
             <memberOf mode="add" key="att.datable"/>
@@ -41,38 +42,33 @@
             <attDef ident="type" mode="replace" usage="req">
               <valList type="closed">
                 <valItem ident="Ass_ord">
-                  <desc corresp="id_glossaire"/>
+                  <desc corresp="id_taxonomie"/>
                 </valItem>
                 <valItem ident="Ass_extraord">
-                <desc corresp="id_glossaire"/>
+                <desc corresp="id_taxonomie"/>
                 </valItem>
-                <valItem ident="Ass_exterieure">
-                  <desc corresp="id_glossaire"/>
+                <valItem ident="Régent">
+                  <desc corresp="id_taxonomie"/>
                 </valItem>
                 <valItem ident="distribution_roles">
-                  <desc corresp="id_glossaire"/>
+                  <desc corresp="id_taxonomie"/>
                 </valItem>
                 <valItem ident="Amendes">
-                  <desc corresp="id_glossaire"/>
+                  <desc corresp="id_taxonomie"/>
                 </valItem>
-                <valItem ident="Arrêté">
-                  <desc corresp="id_glossaire"/>
+                <valItem ident="Arrêts">
+                  <desc corresp="id_taxonomie"/>
                 </valItem>
               </valList>
             </attDef>
           </attList>-->
-        </elementSpec>
-        <elementSpec ident="div2" mode="change" module="textstructure">
-          <!-- On ajoute l'attribut @when dans l'élément <div> -->
-          <classes mode="change">
-            <memberOf mode="add" key="att.datable"/>
-          </classes>
-        </elementSpec>
-        <elementSpec ident="div3" mode="change" module="textstructure">
-          <!-- On ajoute l'attribut @when dans l'élément <div> -->
-          <classes mode="change">
-            <memberOf mode="add" key="att.datable"/>
-          </classes>
+          <!--<attList>
+            <attDef ident="ana" mode="replace" usage="req">
+              <valList type="closed">
+                <valItem></valItem>
+              </valList>
+            </attDef>
+          </attList>-->
         </elementSpec>
       </schemaSpec>
     </body>
