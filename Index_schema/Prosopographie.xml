@@ -40,9 +40,9 @@
                   <!-- féminin="true" @type="féminin" / féminin="false" @type="masculin" -->
                   <gender type="feminin"/>
 
-                  <!-- Si le statut est "occasionnel/pensionnaire" ou "pensionnaire" -->
+                  <!-- Si le statut est "pensionnaire" -->
                   <!-- STATUT dans l'attribut @type, ENTREE dans l'attribut @from et DEPART dans l'attribut @to-->
-                  <occupation type="occasionnel/pensionnaire" from="1700" to="1711"/>
+                  <occupation type="pensionnaire" from="1700" to="1711"/>
 
                   <!-- Si le statut est "sociétaire" -->
                   <!-- Besoin d'un élément <occupation> pour les dates de début et de fin de carrière qui ne correspondent pas forcément aux dates de sociétariat -->
@@ -52,8 +52,8 @@
                   <occupation type="sociétariat" when="1691"/>
                </person>
             
-            <!-- TABLE COMEDIENS STATUT=OCCASIONNEL (fichier comédiens_externe) -->
-            <person xml:id="NOMS2" ana="comédien.ne CF">
+            <!-- TABLE COMEDIENS STATUT=OCASIONNEL -->
+            <person xml:id="NOM2" ana="comédien.ne occasionnel.le">
                <idno type="base_unifiee"/>
                <persName>
                   <!-- pseudonyme -->
@@ -71,7 +71,7 @@
             </person>
             
             <!-- TABLE AUTEURS -->
-            <person xml:id="NOMS3" ana="auteur.rice">
+            <person xml:id="NOM3" ana="auteur.rice">
                <idno type="base_unifiee_auteurs"/>
                <persName>
                   <!-- Nom -->
@@ -81,6 +81,9 @@
                <gender value="féminin"/>
             </person>
          </listPerson>
+
+
+         
 
 <!--            <listPerson type="occasionnel.le">
                <person xml:id="NOMS2">

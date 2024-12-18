@@ -20,7 +20,7 @@
     <body>
       <schemaSpec ident="RCF_comité" start="TEI">
         <moduleRef key="header"
-          include="calendar calendarDesc edition editionStmt encodingDesc fileDesc idno listChange namespace profileDesc publicationStmt rendition revisionDesc schemaRef sourceDesc teiHeader titleStmt"/>
+          include="calendar calendarDesc edition editionStmt encodingDesc fileDesc idno listChange listPrefixDef namespace prefixDef profileDesc publicationStmt rendition revisionDesc schemaRef sourceDesc teiHeader titleStmt"/>
         <!-- Le module "msdescription" permet de décrire les registres. Comme le portail Lagrange fournit déjà une notice détaillée, la description se limite à la provenance, série et cote -->
         <moduleRef key="msdescription" include="institution msDesc msIdentifier repository source"/>
         <moduleRef key="core"/>

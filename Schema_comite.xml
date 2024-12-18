@@ -41,9 +41,9 @@
          <!-- <particDesc> -->
          <!-- <calendarDesc> pour le registre avec le calendrier républicain? -->
       </profileDesc>
-      <!--      <encodingDesc>
-         <schemaRef></schemaRef>
-         </encodingDesc> Renvoie au fichier XML du schéma -->
+      <!-- <encodingDesc>
+         <listPrefixDef></listPrefixDef>
+         </encodingDesc> -->
       <!-- <revisionDesc>
          Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un problème au besoin
       </revisionDesc> -->
@@ -77,7 +77,7 @@
             <!-- 1. Présents -->
             <div type="signature">
                <signed>
-                  <persName ref="id_nom">De Champmeslé</persName>
+                  <persName ref="id8nom">De Champmeslé</persName>
                   <lb/>
                   <persName ref="id_nom">Le Comte</persName>
                   <lb/>
