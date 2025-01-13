@@ -23,9 +23,9 @@
             
             <!-- TABLE COMEDIENS -->
                <person xml:id="NOM1" ana="comédien.ne CF">
+ <!-- id -->
+<idno type="base_unifiee">475</idno>
                   <persName>
-                     <!-- id -->
-                     <idno type="base_unifiee">475</idno>
                      <!-- pseudonyme -->
                      <reg>Villiers (de)</reg>
                      <!-- prenom -->
