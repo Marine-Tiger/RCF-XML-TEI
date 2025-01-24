@@ -28,7 +28,7 @@
         <moduleRef key="textstructure"
           include="TEI body closer div div1 div2 div3 front opener signed text"/>
         <moduleRef key="namesdates"
-          include="addName event eventName forename occupation persName orgName placeName roleName surname"/>
+          include="addName event eventName forename gender listPerson occupation person persName orgName placeName roleName surname"/>
         <!-- Le module "analysis" permet d'ajouter @ana-->
         <moduleRef key="analysis"/>
         <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
