@@ -89,38 +89,23 @@
                   <lb/>
                   <persName ref="id_nom">Guérin</persName>
                   <lb/>
+                  <persName ref="id_nom">La Tuillerie</persName>
                   <lb/>
+                  <persName ref="id_nom">Du Perier</persName>
                   <lb/>
+                  <persName ref="id_nom">Dauvilliers</persName>
                   <lb/>
+                  <persName ref="id_nom">Raisin</persName>
+                  <lb/>
+                  <persName ref="id_nom">Du Croisy</persName>
+                  <lb/>
+                  <persName ref="id_nom">Beauval</persName>
+                  <lb/>
+                  <persName ref="id_nom">Delathorilliere</persName>
+                  <lb/>
+                  <persName ref="id_nom">Raisin</persName>
                   <lb/>
                </signed>
-
-               <signed/>
-               <lb/>
-               <signed/>
-               <lb/>
-               <signed></signed>
-               <lb/>
-               <signed></signed>
-               <lb/>
-               <signed></signed>
-               <lb/>
-               <signed><persName ref="id_nom">La Tuillerie</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Du Perier</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Dauvilliers</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Raisin</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Du Croisy</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Beauval</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Delathorilliere</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Raisin</persName></signed>
-               <lb/>
             </div>
 
             <!-- 2. Absents (optionnel) -->
@@ -167,17 +152,16 @@
             </div>
             <!-- Parfois signature pour conclure la séance-->
             <div type="signature">
-               <lb/>
-               <signed><persName ref="id_nom">De la Grange</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Delathorilliere</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Dauvilliers</persName></signed>
-               <lb/>
+               <signed>
+                  <persName ref="id_nom">De la Grange</persName>
+                  <persName ref="id_nom">Delathorilliere</persName>
+                  <persName ref="id_nom">Dauvilliers</persName>
+               </signed>
                <p><measure type="total" ana="id_glossaire">28 <term ref="id_glossaire"
                         >Jettons</term></measure></p>
             </div>
          </div>
+
 
          <!-- ____________________________________________ -->
 
@@ -228,17 +212,13 @@
                      >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
             </div>
             <div type="signature">
-               <lb/>
-               <signed><persName ref="id_nom">Michelot</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Desmousseaux</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Grandville</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Monrose</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Joanny</persName></signed>
-               <lb/>
+               <signed>
+                  <persName ref="id_nom">Michelot</persName>
+                  <persName ref="id_nom">Desmousseaux</persName>
+                  <persName ref="id_nom">Grandville</persName>
+                  <persName ref="id_nom">Monrose</persName>
+                  <persName ref="id_nom">Joanny</persName>
+               </signed>
             </div>
          </div>
 
@@ -289,55 +269,33 @@
                <persName></persName>
             </signed>-->
             <div type="signature">
-               <signed><persName ref="id_nom">Hubert</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">De Champmeslé</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">De la Grange</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">De Verneuil</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Brecourt</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Le Comte</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Le Conte</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Lagrange</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Baron</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Debrie</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Baron</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">De Hauteroche</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Poisson</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Beauval</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Chemesle</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">La Tuillerie</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Louise Jacob</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Dennebault</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Guérin</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Dauvilliers</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Béjard</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Rosimonde</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Raisin</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">Bauvall</persName></signed>
-               <lb/>
-               <signed><persName ref="id_nom">La raisin</persName></signed>
+               <signed>
+                  <persName ref="id_nom">Hubert</persName>
+                  <persName ref="id_nom">De Champmeslé</persName>
+                  <persName ref="id_nom">De la Grange</persName>
+                  <persName ref="id_nom">De Verneuil</persName>
+                  <persName ref="id_nom">Brecourt</persName>
+                  <persName ref="id_nom">Le Comte</persName>
+                  <persName ref="id_nom">Le Conte</persName>
+                  <persName ref="id_nom">Lagrange</persName>
+                  <persName ref="id_nom">Baron</persName>
+                  <persName ref="id_nom">Debrie</persName>
+                  <persName ref="id_nom">Baron</persName>
+                  <persName ref="id_nom">De Hauteroche</persName>
+                  <persName ref="id_nom">Poisson</persName>
+                  <persName ref="id_nom">Beauval</persName>
+                  <persName ref="id_nom">Chemesle</persName>
+                  <persName ref="id_nom">La Tuillerie</persName>
+                  <persName ref="id_nom">Louise Jacob</persName>
+                  <persName ref="id_nom">Dennebault</persName>
+                  <persName ref="id_nom">Guérin</persName>
+                  <persName ref="id_nom">Dauvilliers</persName>
+                  <persName ref="id_nom">Béjard</persName>
+                  <persName ref="id_nom">Rosimonde</persName>
+                  <persName ref="id_nom">Raisin</persName>
+                  <persName ref="id_nom">Bauvall</persName>
+                  <persName ref="id_nom">La raisin</persName>
+               </signed>
                <lb/>
                <p>Présens a l'assemblée <time notAfter="10:00:00">avant dix heures</time> au nombre
                   de <measure type="total" ana="id_glossaire">25</measure></p>
@@ -366,7 +324,7 @@
                      <title ref="id_piece">Hercule</title> et <title ref="id_piece">le
                      Deuil</title></item>
 
-                  <!-- Dans le cas d'une piece est râturée -->
+                  <!-- Dans le cas d'une piece râturée -->
                   <item><date>7 mercredy</date>
                      <!-- l'élément <del> permet d'encoder les suppressions dans le texte. Avec le @type, on peut preciser que c'est du texte barré, et on pourra l'afficher comme tel grâce au CSS -->
                      <del type="barre"><title ref="id_piece">La Jalouse d'elle-meme</title></del>
