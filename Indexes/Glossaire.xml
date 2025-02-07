@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A TEI file automatically converted from CSV</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>No publication statement</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A TEI file automatically converted from a CSV file.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="glossaire">
+            <div type="A">
+               <list>
+                  <item xml:id="AFFI1">
+                     <label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/affiches"
+                        >Affiches</label>
+                  </item>
+                  <item xml:id="AGRE1"><label
+                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/agr%C3%A9ment%20(pi%C3%A8ce%20d')"
+                        >Pièce d'agrément</label></item>
+                  <item xml:id="AILE1"><label
+                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/ailes%20(du%20th%C3%A9%C3%A2tre)"
+                        >Ailes (du théâtre)</label></item>
+                  <item xml:id="AMEN1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amende">Amendes</label></item>
+                  <item xml:id="AMPH1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amphith%C3%A9%C3%A2tre">Amphithéâtre</label></item>
+                  <item xml:id="ARCH1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/archer">Archer</label></item>
+                  <item xml:id="ARRÉ1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/arr%C3%A9rages">Arrérages</label></item>
+                  <item xml:id="ARTI1"><label source="url">Artisan</label></item>
+                  <item xml:id="ASSE1"><label source="url">Assemblée</label></item>
+                  <item xml:id="ASSI1"><label source="url">Assistant</label></item>
+                  <item xml:id="AUMÔ1"><label source="url">Aumône</label></item>
+               </list>
+            </div>
+            <div type="B">
+               <list>
+                  <item xml:id="BAIG1"><label source="url">Baignoire</label></item>
+                  <item xml:id="BALC1"><label source="url">Balcon</label></item>
+                  <item xml:id="BALL1"><label source="url">Ballet</label></item>
+                  <item xml:id="BARB1"><label source="url">Barbier</label></item>
+                  <item xml:id="BILL1"><label source="url">Billet</label></item>
+                  <item xml:id="BOIS1"><label source="url">Bois</label></item>
+                  <item xml:id="BOUE1"><label source="url">Boues et lanternes</label></item>
+                  <item xml:id="BOUG1"><label source="url">Bougie</label></item>
+               </list>
+            </div>
+            <div type="C">
+               <list>
+                  <item xml:id="CAIS1"><label source="url">Caissier, caissière</label></item>
+                  <item xml:id="CARR1"><label source="url">Carrosse (frais de)</label></item>
+                  <item xml:id="CÉRÉ1"><label source="url">Cérémonie du Malade
+                     imaginaire </label></item>
+                  <item xml:id="CHAI1"><label source="url">Chaise (frais de)</label></item>
+                  <item xml:id="CHAM1"><label source="url">Chambrée</label></item>
+                  <item xml:id="CHAN1"><label source="url">Chandelle (ordinaire, extraordinaire, des
+                        acteurs…)</label></item>
+                  <item xml:id="CHAN2"><label source="url">Chandelle des religieux</label></item>
+                  <item xml:id="CHAR1"><label source="url">Charpentier</label></item>
+                  <item xml:id="CHEM1"><label source="url">Cheminées (ramonage des)</label></item>
+                  <item xml:id="CINT1"><label source="url">Cintre </label></item>
+                  <item xml:id="CLÔT1"><label source="url">Clôture (du théâtre)</label></item>
+                  <item xml:id="COCH1"><label source="url">Cocher</label></item>
+                  <item xml:id="COMÉ1"><label source="url">Comédie</label></item>
+                  <item xml:id="COMÉ2"><label source="url">Comédie-ballet</label></item>
+                  <item xml:id="COMÉ3"><label source="url">Comédien-Français ou comédien ordinaire
+                        du roi</label></item>
+                  <item xml:id="COMI1"><label source="url">Comité d'assemblée</label></item>
+                  <item xml:id="COMI2"><label source="url">Comité de lecture </label></item>
+                  <item xml:id="COMP1"><label source="url">Compagnie</label></item>
+                  <item xml:id="COMP2"><label source="url">Compliment d’ouverture </label></item>
+                  <item xml:id="COMP3"><label source="url">Compliment de clôture </label></item>
+                  <item xml:id="CONC1"><label source="url">Concierge</label></item>
+                  <item xml:id="CONF1"><label source="url">Confident ou confidente</label></item>
+                  <item xml:id="CONG1"><label source="url">Congé </label></item>
+                  <item xml:id="CONT1"><label source="url">Contremarque</label></item>
+                  <item xml:id="CONT2"><label source="url">Contrôleur</label></item>
+                  <item xml:id="COPI1"><label source="url">Copies des rôles </label></item>
+                  <item xml:id="COTR1"><label source="url">Cotret</label></item>
+                  <item xml:id="CRÉA1"><label source="url">Création</label></item>
+                  <item xml:id="CROC1"><label source="url">Crocheteur</label></item>
+               </list>
+            </div>
+            <div type="D">
+               <list>
+                  <item xml:id="DANS1"><label source="url">Danseur, danseuse</label></item>
+                  <item xml:id="DÉBU1"><label source="url">Début (second début)</label></item>
+                  <item xml:id="DÉCO1"><label source="url">Décorateur</label></item>
+                  <item xml:id="DÉFA1"><label source="url">Défalque</label></item>
+                  <item xml:id="DENI1"><label source="url">Denier</label></item>
+                  <item xml:id="DÉPE1"><label source="url">Dépense</label></item>
+                  <item xml:id="DETT1"><label source="url">Dette</label></item>
+                  <item xml:id="DOUB1"><label source="url">Double – doublé - faire payer au
+                        double</label></item>
+                  <item xml:id="DOYE1"><label source="url">Doyen </label></item>
+                  <item xml:id="DRAG1"><label source="url">Dragon</label></item>
+                  <item xml:id="DRAM1"><label source="url">Drame</label></item>
+                  <item xml:id="DROI1"><label source="url">Droits des auteurs </label></item>
+                  <item xml:id="DROI2"><label source="url">Droit des pauvres</label></item>
+                  <item xml:id="DUAU1"><label source="url">Dû aux frais</label></item>
+               </list>
+            </div>
+            <div type="E">
+               <list>
+                  <item xml:id="EMPL1"><label source="url">Emploi</label></item>
+                  <item xml:id="EMPR1"><label source="url">Emprunt</label></item>
+                  <item xml:id="ENFA1"><label source="url">Enfant</label></item>
+                  <item xml:id="ENTR1"><label source="url">Entrée</label></item>
+                  <item xml:id="ERRE1"><label source="url">Erreur dans les comptes</label></item>
+                  <item xml:id="ÉTAB1"><label source="url">Établissement</label></item>
+                  <item xml:id="ETRE1"><label source="url">Etrennes</label></item>
+               </list>
+            </div>
+            <div type="F">
+               <list>
+                  <item xml:id="FAGO1"><label source="url">Fagot</label></item>
+                  <item xml:id="FAMI1"><label source="url">Famille d’acteurs et
+                     d’actrices </label></item>
+                  <item xml:id="FERB1"><label source="url">Ferblantier</label></item>
+                  <item xml:id="FEUX1"><label source="url">Feu(x) d'acteur (feux
+                     d'enfant)</label></item>
+                  <item xml:id="FOIR1"><label source="url">Foire </label></item>
+                  <item xml:id="FRAI1"><label source="url">Frais de la pièce</label></item>
+                  <item xml:id="FRAI2"><label source="url">Frais extraordinaires</label></item>
+                  <item xml:id="FRAI3"><label source="url">Frais ordinaires</label></item>
+                  <item xml:id="FROT1"><label source="url">Frotteur</label></item>
+               </list>
+            </div>
+            <div type="G">
+               <list>
+                  <item xml:id="GAGE1"><label source="url">Gages, gagistes</label></item>
+                  <item xml:id="GAGI1"><label source="url">Gagiste</label></item>
+                  <item xml:id="GALE1"><label source="url">Galerie</label></item>
+                  <item xml:id="GARÇ1"><label source="url">Garçon (de théâtre)</label></item>
+                  <item xml:id="GARD1"><label source="url">Garde militaire/garde
+                     française</label></item>
+                  <item xml:id="GONT1"><label source="url">Gont (Gon / Gond)</label></item>
+                  <item xml:id="GUID1"><label source="url">Guide</label></item>
+               </list>
+            </div>
+            <div type="H">
+               <list>
+                  <item xml:id="HABI1"><label source="url">Habits / hardes / habits
+                        extraordinaires </label></item>
+                  <item xml:id="HOTE1"><label source="url">Hotel-Dieu (neuvième de, dixième
+                        de)</label></item>
+               </list>
+            </div>
+            <div type="I">
+               <list>
+                  <item xml:id="INTE1"><label source="url">Intendant des Menus
+                     Plaisirs</label></item>
+                  <item xml:id="INTE2"><label source="url">Intermèdes / ornements </label></item>
+               </list>
+            </div>
+            <div type="J">
+               <list>
+                  <item xml:id="JETO1"><label source="url">Jeton (d’assemblée, des semainiers, de
+                        lecture, de comité), ou jeton de présence</label></item>
+               </list>
+            </div>
+            <div type="L">
+               <list>
+                  <item xml:id="LAMP1"><label source="url">Lampion</label></item>
+                  <item xml:id="LECT1"><label source="url">Lecture </label></item>
+                  <item xml:id="LIEU1"><label source="url">Lieutenant général de
+                     police</label></item>
+                  <item xml:id="LIVR1"><label source="url">Livre</label></item>
+                  <item xml:id="LOGE1"><label source="url">Loges (premières, deuxièmes, basses,
+                        hautes...)</label></item>
+                  <item xml:id="LOGE2"><label source="url">Loge d’acteur</label></item>
+                  <item xml:id="LOGE3"><label source="url">Loge de la limonade </label></item>
+                  <item xml:id="LOGE4"><label source="url">Loges louées sur abonnement (petites
+                        loges)</label></item>
+                  <item xml:id="LOYE1"><label source="url">Loyer</label></item>
+                  <item xml:id="LUST1"><label source="url">Lustres et décorations</label></item>
+               </list>
+            </div>
+            <div type="M">
+               <list>
+                  <item xml:id="MACH1"><label source="url">Machines (pièce à)</label></item>
+                  <item xml:id="MACH2"><label source="url">Machiniste</label></item>
+                  <item xml:id="MAGA1"><label source="url">Magasin de costumes </label></item>
+                  <item xml:id="MAGA2"><label source="url">Magasin des décors </label></item>
+                  <item xml:id="MAÎT1"><label source="url">Maître de ballet</label></item>
+                  <item xml:id="MALA1"><label source="url">Maladies non permises</label></item>
+                  <item xml:id="MÉMO1"><label source="url">Mémoire</label></item>
+                  <item xml:id="MENU1"><label source="url">Menuisier</label></item>
+                  <item xml:id="MENU2"><label source="url">Menus frais</label></item>
+                  <item xml:id="MÈRE1"><label source="url">Mère</label></item>
+                  <item xml:id="MISE1"><label source="url">Mise à l’étude </label></item>
+                  <item xml:id="MONN1"><label source="url">Monnaie</label></item>
+                  <item xml:id="MUSI1"><label source="url">Musicien, musicienne / Chanteur,
+                        chanteuse</label></item>
+               </list>
+            </div>
+            <div type="N">
+               <list>
+                  <item xml:id="NOTA1"><label source="url">Notaire</label></item>
+               </list>
+            </div>
+            <div type="O">
+               <list>
+                  <item xml:id="OCCA1"><label source="url">Occasionnel (acteur)</label></item>
+                  <item xml:id="OING1"><label source="url">Oing (vieux)</label></item>
+                  <item xml:id="OPÉR1"><label source="url">Opéra </label></item>
+                  <item xml:id="ORAT1"><label source="url">Orateur</label></item>
+                  <item xml:id="ORCH1"><label source="url">Orchestre</label></item>
+                  <item xml:id="ORDR1"><label source="url">Ordre d’essai </label></item>
+                  <item xml:id="ORDR2"><label source="url">Ordre de début </label></item>
+                  <item xml:id="ORDR3"><label source="url">Ordre de réception </label></item>
+                  <item xml:id="ORDR4"><label source="url">Ordre des pièces</label></item>
+                  <item xml:id="OUVE1"><label source="url">Ouverture (du théâtre)</label></item>
+                  <item xml:id="OUVR1"><label source="url">Ouvreur, ouvreuse de loge </label></item>
+                  <item xml:id="OUVR2"><label source="url">Ouvrier, ouvrière</label></item>
+               </list>
+            </div>
+            <div type="P">
+               <list>
+                  <item xml:id="PALA1"><label source="url">Palais-Royal (frais du)</label></item>
+                  <item xml:id="PARA1"><label source="url">Paradis</label></item>
+                  <item xml:id="PART1"><label source="url">Part / demi-part / quart de
+                     part </label></item>
+                  <item xml:id="PART2"><label source="url">Part d’acteur</label></item>
+                  <item xml:id="PART3"><label source="url">Part d’auteur</label></item>
+                  <item xml:id="PART4"><label source="url">Part des pauvres</label></item>
+                  <item xml:id="PART5"><label source="url">Parterre</label></item>
+                  <item xml:id="PENS1"><label source="url">Pension des comédiens
+                     retirés </label></item>
+                  <item xml:id="PENS2"><label source="url">Pension royale</label></item>
+                  <item xml:id="PENS3"><label source="url">Pensionnaire </label></item>
+                  <item xml:id="PENS4"><label source="url">Pensionnaire (= comédien retiré ayant une
+                        pension)</label></item>
+                  <item xml:id="PENS5"><label source="url">Pension</label></item>
+                  <item xml:id="PENS6"><label source="url">Pension de retraite des
+                        Comédiens-Français</label></item>
+                  <item xml:id="PENS7"><label source="url">Pension royale</label></item>
+                  <item xml:id="PETI1"><label source="url">Petite oye </label></item>
+                  <item xml:id="PIÈC2"><label source="url">Pièce</label></item>
+                  <item xml:id="PLAC1"><label source="url">Place</label></item>
+                  <item xml:id="PORT1"><label source="url">Portes et bureau</label></item>
+                  <item xml:id="PORT2"><label source="url">Porte-flambeaux</label></item>
+                  <item xml:id="PORT3"><label source="url">Portier</label></item>
+                  <item xml:id="POST1"><label source="url">Postes surnuméraires et
+                     monnaie</label></item>
+                  <item xml:id="PRÉC1"><label source="url">Préciput</label></item>
+                  <item xml:id="PREM1"><label source="url">Premiers Gentilshommes de la
+                        Chambre</label></item>
+                  <item xml:id="PREU1"><label source="url">Preuve</label></item>
+               </list>
+            </div>
+            <div type="Q">
+               <list>
+                  <item xml:id="QUAR1"><label source="url">Quart des pauvres</label></item>
+               </list>
+            </div>
+            <div type="R">
+               <list>
+                  <item xml:id="RECE1"><label source="url">Recette</label></item>
+                  <item xml:id="RECE2"><label source="url">Receveur, receveuse</label></item>
+                  <item xml:id="REGI1"><label source="url">Registre journalier (registre
+                        double)</label></item>
+                  <item xml:id="RÈGL1"><label source="url">Règlement(s)</label></item>
+                  <item xml:id="RELÂ1"><label source="url">Relâche</label></item>
+                  <item xml:id="RÉPE1"><label source="url">Répertoire (faire le répertoire, de la
+                        semaine, général)</label></item>
+                  <item xml:id="RÉPÉ1"><label source="url">Répétition</label></item>
+                  <item xml:id="REPR1"><label source="url">Représentation</label></item>
+                  <item xml:id="REPR2"><label source="url">Reprise</label></item>
+                  <item xml:id="REST1"><label source="url">Reste</label></item>
+                  <item xml:id="RÔLE1"><label source="url">Rôle à manteau </label></item>
+                  <item xml:id="RÔLE2"><label source="url">Rôle d'homme (premier rôle
+                        d'homme)</label></item>
+                  <item xml:id="RÔLE3"><label source="url">Rôle d'homme (jeune premier rôle
+                        d'homme)</label></item>
+               </list>
+            </div>
+            <div type="S">
+               <list>
+                  <item xml:id="SAIS1"><label source="url">Saison</label></item>
+                  <item xml:id="SALL1"><label source="url">Salle</label></item>
+                  <item xml:id="SAUT1"><label source="url">Sauteur</label></item>
+                  <item xml:id="SAVO1"><label source="url">Savoyard</label></item>
+                  <item xml:id="SEMA1"><label source="url">Semainier</label></item>
+                  <item xml:id="SIGN1"><label source="url">Signature</label></item>
+                  <item xml:id="SIXI1"><label source="url">Sixième des pauvres</label></item>
+                  <item xml:id="SOCI1"><label source="url">Sociétaire </label></item>
+                  <item xml:id="SOIR1"><label source="url">Soirée</label></item>
+                  <item xml:id="SOL1"><label source="url">Sol</label></item>
+                  <item xml:id="SOLD1"><label source="url">Soldat assistant / garde
+                        assistant</label></item>
+                  <item xml:id="SOUF1"><label source="url">Souffleur/souffleuse </label></item>
+                  <item xml:id="SUIF1"><label source="url">Suif</label></item>
+                  <item xml:id="SYMP1"><label source="url">Symphoniste</label></item>
+               </list>
+            </div>
+            <div type="T">
+               <list>
+                  <item xml:id="TAIL1"><label source="url">Tailleur (costumier)</label></item>
+                  <item xml:id="TAPI1"><label source="url">Tapissier</label></item>
+                  <item xml:id="THÉÂ1"><label source="url">Théâtre (places sur le)</label></item>
+                  <item xml:id="TOMB1"><label source="url">Tomber dans les règles </label></item>
+                  <item xml:id="TRAG1"><label source="url">Tragédie</label></item>
+               </list>
+            </div>
+            <div type="V">
+               <list>
+                  <item xml:id="VALE1"><label source="url">Valet</label></item>
+                  <item xml:id="VIOL1"><label source="url">Violon</label></item>
+                  <item xml:id="VOIT1"><label source="url">Voiture (frais de)</label></item>
+                  <item xml:id="VOYA1"><label source="url">Voyages à la cour</label></item>
+                  <item xml:id="VOYA2"><label source="url">Voyages à la cour (frais
+                     des)</label></item>
+               </list>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

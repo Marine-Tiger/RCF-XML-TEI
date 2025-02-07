@@ -70,14 +70,14 @@
                      ref="id_lieux">hostel</placeName> pour y dellibérer de ses affaires les présens
                   a l'assemblée ont signé avant <!-- avant = notAfter, ISO 8601 --><time
                      notAfter="10:00:00">dix heures</time> pour le droit de <term ref="id_glossaire"
-                     >jetton</term></p>
+                     >jetton</term>></p>
             </div>
 
             <!-- B. PRESENTS ET ABSENTS (optionnel) -->
             <!-- 1. Présents -->
             <div type="signature">
                <signed>
-                  <persName ref="id8nom">De Champmeslé</persName>
+                  <persName ref="id_nom">De Champmeslé</persName>
                   <lb/>
                   <persName ref="id_nom">Le Comte</persName>
                   <lb/>
@@ -124,17 +124,17 @@
 
             <!-- C. DELIBERATION (optionnel) -->
             <!-- Un élément <div> pour chaque deliberation avec un @ref et l'id du sujet abordé. On peut indiqué plusieurs thématiques-->
-            <div type="délibération" ana="id_sujet">
+            <div ana="id_sujet" type="délibération">
                <p>On a nommé pour <term ref="id_glossaire">quinzainiers</term> Mrs<persName
                      ref="id_nom">De la Grange</persName> et <persName ref="id_nom">La
                      Torilière</persName>. On a fait un répertoire. On a dellibéré de <del
                      rend="overstrike"> desdomager Monsieur dancourt de la peine qu'il a fait aprez
                      Pasues en ce que</del> faire un présent a Monsieur <persName ref="id_nom"
-                     >Dancourt</persName> de <measure type="somme" ana="id_sujet">quinze louis
-                     d'or</measure>, pour la pièce <title type="piece" ref="id_piece"
-                     rendition="italic">des Joueuses</title> qui a esté interrompue par le voyage de
+                     >Dancourt</persName> de <measure ana="id_sujet" type="somme">quinze louis
+                     d'or</measure>, pour la pièce <title ref="id_piece" rendition="italic"
+                     type="piece">des Joueuses</title> qui a esté interrompue par le voyage de
                      <placeName ref="id_lieu">Fontainebleau</placeName>, laquelle demeurera<note
-                     type="marge" rend="margin-left">Les <measure type="somme">15 louis
+                     rend="margin-left" type="marge">Les <measure type="somme">15 louis
                         d'or</measure> ont esté payer a Mr <persName ref="id_nom">de
                         Champmeslé</persName> par <persName ref="id_nom">De la Grange</persName> le
                         <date when="1687-01-27">21 janvier 1687</date></note> tourner a la troupe
@@ -157,8 +157,7 @@
                   <persName ref="id_nom">Delathorilliere</persName>
                   <persName ref="id_nom">Dauvilliers</persName>
                </signed>
-               <p><measure type="total" ana="id_glossaire">28 <term ref="id_glossaire"
-                        >Jettons</term></measure></p>
+               <p><measure ana="id_glossaire" type="total">28 <term ref="id_glossaire">Jettons</term></measure></p>
             </div>
          </div>
 
@@ -175,7 +174,7 @@
                1830</date></head>
 
             <!-- B. DELIBERATIONS -->
-            <div type="délibération" ana="id_sujet">
+            <div ana="id_sujet" type="délibération">
                <!-- ORDRE DU JOUR (optionnel) -->
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
                <head type="agenda">[Lettre et remerciements à <persName ref="id_nom">M. de la
@@ -187,18 +186,18 @@
                         la Maison du Roi</roleName></persName>, pour lui offrir l’hommage des
                   remerciements de la <orgName ref="id_org">Comédie-Française</orgName> qui vient
                   d’apprendre avec reconnaissance par sa lettre en date de ce jour que <roleName
-                     type="nobility" ref="id_nom">Sa Majesté</roleName> ne refusera point
-                  d’autoriser l’affectation de <measure type="somme" ana="id_sujet">48 000
+                     ref="id_nom" type="nobility">Sa Majesté</roleName> ne refusera point
+                  d’autoriser l’affectation de <measure ana="id_sujet" type="somme">48 000
                      F</measure> que la <orgName ref="id_org">Comédie</orgName> reçoit annuellement
-                  pour la loge royale, à la garantie de l’emprunt de <measure type="somme"
-                     ana="id_sujet">200 000 F</measure> présentement indispensable pour que la
+                  pour la loge royale, à la garantie de l’emprunt de <measure ana="id_sujet"
+                     type="somme">200 000 F</measure> présentement indispensable pour que la
                      <orgName ref="id_org">Comédie</orgName> puisse effectuer le premier mai son
-                  payement qui ne peut être retardé et solder pour <roleName type="nobility"
-                     ref="id_nom">S. A. Mgr le Duc d’Orléans</roleName> propriétaire de la salle une
-                  somme de <measure type="somme" ana="id_sujet">25 000 F</measure> exigible depuis
-                  le 1er avril. </p>
+                  payement qui ne peut être retardé et solder pour <roleName ref="id_nom"
+                     type="nobility">S. A. Mgr le Duc d’Orléans</roleName> propriétaire de la salle
+                  une somme de <measure ana="id_sujet" type="somme">25 000 F</measure> exigible
+                  depuis le 1er avril. </p>
             </div>
-            <div type="délibération" ana="id_sujet">
+            <div ana="id_sujet" type="délibération">
                <head type="agenda">[Signification de <persName ref="id_nom">Mlle Ross
                      Despréaux</persName>]</head>
                <p>Le comité arrête que la signification faite à la <orgName ref="id_org"
@@ -298,9 +297,9 @@
                </signed>
                <lb/>
                <p>Présens a l'assemblée <time notAfter="10:00:00">avant dix heures</time> au nombre
-                  de <measure type="total" ana="id_glossaire">25</measure></p>
+                  de <measure ana="id_glossaire" type="total">25</measure></p>
             </div>
-            <div type="deliberation" ana="id_sujet">
+            <div ana="id_sujet" type="deliberation">
                <list>
                   <head>Repertoire</head>
                   <item><date when="1682-09-29">29 mardy</date>
@@ -354,71 +353,71 @@
          <!-- autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
 
          <!-- Cette séance n'est pas datée, peut-être mettre @notBefore date de la précédente séance et @notAfter date de la suivante-->
-         <div type="type_assemblee" notBefore="1756-04-30" notAfter="1756-05-03" ana="id_sujet">
+         <div ana="id_sujet" notAfter="1756-05-03" notBefore="1756-04-30" type="type_assemblee">
             <!-- Dans cet exemple particulier du r52_21, il n'y a pas de découpage par thématique, il est décidé de ne pas mettre de <div> -->
             <p>Ce Jourd’huy La Troupe s’est assemblée et apres avoir examinée ses affaires par
-               raport à l’établissement, dont le fond monte à <measure type="total" ana="pension"
+               raport à l’établissement, dont le fond monte à <measure ana="pension" type="total"
                   >trois cent deux mille sept livres cinq sols</measure> divisé en vingt trois parts
                qui composent la societé, a trouvé qu’il en appartient à Monsieur <persName
                   ref="id_nom">Le Grand</persName> une part entiere montant à <measure
-                  type="montant" ana="id_sujet">treize mille cent trente livres quinze
-                  sols</measure> qu’il a acquis cy... <measure type="montant" ana="id_sujet"
+                  ana="id_sujet" type="montant">treize mille cent trente livres quinze
+                  sols</measure> qu’il a acquis cy... <measure ana="id_sujet" type="montant"
                   >13130lt.15s.</measure></p>
-            <list type="parts_hommes" ana="id_sujet">
+            <list ana="id_sujet" type="parts_hommes">
                <head>Mrs.</head>
                <item><persName ref="id_nom">De La Thorilliere</persName>, Id. ... <measure
-                     type="montant" ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Armand</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Dubreüil</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Sarrazin</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Grandval</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Dangeville</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Dubois</persName>, ... <measure type="montant"
-                     ana="id_sujet">9280. 17. 6.</measure></item>
-               <item><persName ref="id_nom">De Bonneval</persName>, ... <measure type="montant"
-                     ana="id_sujet">8750. 8. 3.</measure></item>
-               <item><persName ref="id_nom">De La Nouë</persName>, ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Paulin</persName>, ... <measure type="montant"
-                     ana="id_sujet">8553. 18. 7.</measure></item>
-               <item><persName ref="id_nom">Le Kain</persName>, ... <measure type="montant"
-                     ana="id_sujet">4832. 16. 8.</measure></item>
-               <item><persName ref="id_nom">De Bellecourt</persName>, ... <measure type="montant"
-                     ana="id_sujet">5444. 16. 5.</measure></item>
-               <item><persName ref="id_nom">Preville</persName>, ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
+                     ana="id_sujet" type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Armand</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Dubreüil</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Sarrazin</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Grandval</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Dangeville</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Dubois</persName>, ... <measure ana="id_sujet"
+                     type="montant">9280. 17. 6.</measure></item>
+               <item><persName ref="id_nom">De Bonneval</persName>, ... <measure ana="id_sujet"
+                     type="montant">8750. 8. 3.</measure></item>
+               <item><persName ref="id_nom">De La Nouë</persName>, ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Paulin</persName>, ... <measure ana="id_sujet"
+                     type="montant">8553. 18. 7.</measure></item>
+               <item><persName ref="id_nom">Le Kain</persName>, ... <measure ana="id_sujet"
+                     type="montant">4832. 16. 8.</measure></item>
+               <item><persName ref="id_nom">De Bellecourt</persName>, ... <measure ana="id_sujet"
+                     type="montant">5444. 16. 5.</measure></item>
+               <item><persName ref="id_nom">Preville</persName>, ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
             </list>
-            <list type="parts_femmes" ana="id_sujet">
+            <list ana="id_sujet" type="parts_femmes">
                <head>Melles.</head>
-               <item><persName ref="id_nom">De La Motte</persName>, ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Dangeville</persName> Id, ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Gaussin</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Grandval</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Du Mesnil</persName>, Id. ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">La Voy</persName>, ... <measure type="montant"
-                     ana="id_sujet">11353. 16. 10.</measure></item>
-               <item><persName ref="id_nom">Droüin</persName>, ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">De La Tude</persName>, ... <measure type="montant"
-                     ana="id_sujet">13130. 15.</measure></item>
-               <item><persName ref="id_nom">Brillant</persName>, ... <measure type="montant"
-                     ana="id_sujet">6565. 7. 6.</measure></item>
-               <item><persName ref="id_nom">Hus</persName>, ... <measure type="montant"
-                     ana="id_sujet">6565. 7. 6.</measure></item>
-               <item><persName ref="id_nom">Gueant</persName>, ... <measure type="montant"
-                     ana="id_sujet">6565. 7. 6.</measure></item>
+               <item><persName ref="id_nom">De La Motte</persName>, ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Dangeville</persName> Id, ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Gaussin</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Grandval</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Du Mesnil</persName>, Id. ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">La Voy</persName>, ... <measure ana="id_sujet"
+                     type="montant">11353. 16. 10.</measure></item>
+               <item><persName ref="id_nom">Droüin</persName>, ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">De La Tude</persName>, ... <measure ana="id_sujet"
+                     type="montant">13130. 15.</measure></item>
+               <item><persName ref="id_nom">Brillant</persName>, ... <measure ana="id_sujet"
+                     type="montant">6565. 7. 6.</measure></item>
+               <item><persName ref="id_nom">Hus</persName>, ... <measure ana="id_sujet"
+                     type="montant">6565. 7. 6.</measure></item>
+               <item><persName ref="id_nom">Gueant</persName>, ... <measure ana="id_sujet"
+                     type="montant">6565. 7. 6.</measure></item>
             </list>
-            <p rend="margin-right"><measure type="total" ana="id_sujet">266307lt. 19s.
+            <p rend="margin-right"><measure ana="id_sujet" type="total">266307lt. 19s.
                8d.</measure></p>
          </div>
 
@@ -433,8 +432,8 @@
                   sur la lecture de la tragédie des <title ref="id_piece">Heraclides</title>, les
                   voix recüeilluye comme il en suit:</p>
             </div>
-            <div type="délibération" ana="id_sujet">
-               <div type="vote" ana="id_piece">
+            <div ana="id_sujet" type="délibération">
+               <div ana="id_piece" type="vote">
                   <cb n="1"/>
                   <list type="vote_pour">
                      <head>la pièce est joüable</head>
@@ -470,10 +469,10 @@
 
          <!-- IV. LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
-         <div type="type_assemblee" when="1784-03-03" ana="id_sujet">
+         <div ana="id_sujet" type="type_assemblee" when="1784-03-03">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
             <head>Asssemblée pour les <term ref="id_sujet">Comptes</term>.</head>
-            <div type="lettre_reçue" ana="id_sujet id_nom">
+            <div ana="id_sujet id_nom" type="lettre_reçue">
                <head>Lettre de <persName ref="id_nom">M.e Vestris</persName>.</head>
                <p>Mes chers Camarades, j’ai eu la fièvre toute la nuit : la douleur de côté que j’ai
                   depuis trois Semaines est si fort augmentée que l’on sera peut être obligé de me
@@ -490,7 +489,7 @@
                   <placeName ref="id_lieux">Paris</placeName>, ce <date when="1784-03-03">mercredi 3
                      mars 1784</date>.</closer>
             </div>
-            <div type="lettre_envoyée" ana="id_sujet id_nom">
+            <div ana="id_sujet id_nom" type="lettre_envoyée">
                <head>Réponse de la <orgName ref="id_org">Comédie</orgName> à <persName ref="id_nom"
                      >M.e Vestris</persName> faite à la d.e assemblée et signée des présents.</head>
                <opener>Madame et chère Camarade,</opener>
@@ -514,7 +513,7 @@
          <!-- V. AUDITIONS -->
 
          <!-- Extrait du R425: https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24946#page/40/mode/2up -->
-         <div type="type_assemblee" when="1888-08-01" ana="id_sujet">
+         <div ana="id_sujet" type="type_assemblee" when="1888-08-01">
             <head>Auditions annuelles</head>
             <head>Séance du <date when="1888-08-01">mercredi 1er août 1888</date></head>
             <div type="preambule">
@@ -533,13 +532,13 @@
                <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les
                   noms suivent :</p>
             </div>
-            <div type="délibération" ana="id_sujet">
+            <div ana="id_sujet" type="délibération">
                <list>
                   <item n="1">1° <persName ref="id_nom">M. Rouvenat</persName>
-                     <title type="piece" ref="id_piece">Le Lion amoureux</title> – acte II, scène
+                     <title ref="id_piece" type="piece">Le Lion amoureux</title> – acte II, scène
                      dernière – <ref target="id_role">Humbert</ref></item>
                   <item n="2">2° <persName ref="id_nom">M. Malbert</persName>
-                     <title type="piece" ref="id_piece">Le Misanthrope</title> – acte IV, scène 3 –
+                     <title ref="id_piece" type="piece">Le Misanthrope</title> – acte IV, scène 3 –
                         <ref target="id_role">Alceste</ref>
                   </item>
                   <item n="3">3° <persName ref="id_nom">Mlle de Rudeni</persName>
@@ -554,8 +553,8 @@
 
                <p>Mlles <persName ref="id_nom">Kolb</persName> et <persName ref="id_nom"
                      >Lody</persName> ont été particulièrement remarquées, la première dans les
-                     <term type="emploi" ref="id_glossaire">soubrettes</term>, la seconde dans les
-                     <term type="emploi" ref="id_glossaire">amoureuses</term>, mais les deux <term
+                     <term ref="id_glossaire" type="emploi">soubrettes</term>, la seconde dans les
+                     <term ref="id_glossaire" type="emploi">amoureuses</term>, mais les deux <term
                      ref="id_glossaire">emplois</term> étant encombrés en ce moment, il n’y a pas
                   lieu d’engager ces deux artistes.</p>
             </div>
@@ -566,8 +565,8 @@
          <!-- VI. DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
 
          <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/256/mode/1up-->
-         <div type="distribution_roles" notBefore="1716-03-16" notAfter="1716-03-18"
-            ana="id_sujet id_piece">
+         <div ana="id_sujet id_piece" notAfter="1716-03-18" notBefore="1716-03-16"
+            type="distribution_roles">
             <head>Disposition de <title ref="id_piece">La Princesse d'Elide</title></head>
             <castList>
                <castItem>
@@ -587,10 +586,10 @@
          <!-- VII. ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
 
          <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
-         <div type="type_assemblée" when="1775-05-21" ana="id_sujet">
+         <div ana="id_sujet" type="type_assemblée" when="1775-05-21">
             <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
             <head>Assemblée pour <term ref="id_sujet">Lectures</term>.</head>
-            <div type="vote" ana="id_piece">
+            <div ana="id_piece" type="vote">
                <p>
                   <title ref="id_piece">Le Couronnement de Télemaque</title>, Comédie en un Acte, en
                   Vers De M. <list>
@@ -616,7 +615,7 @@
                      Saint-Prix</persName> et à <persName ref="id_nom">Mlle Devienne</persName> qui
                   doivent se retirer au <date when="1813-04-01">1er avril</date> prochain.</p>
                <p>Ces deux arrêtés sont ainsi conçus :</p>
-               <div type="arrêté" ana="id_nom id_sujet" when="1813-01-15">
+               <div ana="id_nom id_sujet" type="arrêté" when="1813-01-15">
                   <head>[Arrêté de <roleName ref="id_glossaire id_nom">M. le surintendant</roleName>
                      sur la demande de <persName ref="id_nom">M. Saint-Prix</persName>. Sa retraite
                      lui est accordée.] </head>
@@ -644,7 +643,7 @@
                      <signed>Signé, le <persName ref="id_nom">comte de Rémusat.</persName></signed>
                   </closer>
                </div>
-               <div type="arrêté" ana="id_nom id_sujet" when="1813-01-15">
+               <div ana="id_nom id_sujet" type="arrêté" when="1813-01-15">
                   <head>[Arrêté de <roleName ref="id_glossaire">M. le surintendant</roleName> sur la
                      demande de <persName ref="id_nom">Mlle Devienne</persName>. Sa retraite lui est
                      accordée.]</head>
@@ -674,7 +673,6 @@
                </div>
             </div>
          </div>
-
       </body>
    </text>
 </TEI>
