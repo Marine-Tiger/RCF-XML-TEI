@@ -41,9 +41,18 @@
          <!-- <particDesc> -->
          <!-- <calendarDesc> pour le registre avec le calendrier républicain? -->
       </profileDesc>
-      <!-- <encodingDesc>
-         <listPrefixDef></listPrefixDef>
-         </encodingDesc> -->
+      <encodingDesc>
+         <listPrefixDef>
+            <!--<prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Prosopographie.xml#$1" ident="pros">
+               <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie. Il permet d'utiliser l'xml:id des personnes. </p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Pièces.xml#$1" ident="piec"><p>Le préfix "piec" pointe vers le fichier Pièces</p></prefixDef>-->
+            <!--<prefixDef matchPattern="([aA-zZ]+)" replacementPattern="./Indexes/Lieux.xml#$1" ident="lieu"></prefixDef>-->
+            <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Glossaire.xml#$1"
+               ident="glos"/>
+         </listPrefixDef>
+      </encodingDesc>
       <!-- <revisionDesc>
          Chaque modification du fichier ici. Cela permet de garder une trace et d'identifier plus rapidement un problème au besoin
       </revisionDesc> -->
@@ -61,7 +70,7 @@
          <!-- I. 17EME-18EME SIECLE -->
 
          <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
-         <div type="type_assemblee" when="1688-01-12">
+         <div type="Ass_ord" when="1688-01-12">
             <!-- A. PREAMBULE (optionnel) -->
 
             <div type="preambule">
@@ -69,7 +78,7 @@
                   s'est assemblée a son ordinaire dans la salle commune de son <placeName
                      ref="id_lieux">hostel</placeName> pour y dellibérer de ses affaires les présens
                   a l'assemblée ont signé avant <!-- avant = notAfter, ISO 8601 --><time
-                     notAfter="10:00:00">dix heures</time> pour le droit de <term ref="id_glossaire"
+                     notAfter="10:00:00">dix heures</time> pour le droit de <term ref="glos:JETO1"
                      >jetton</term>></p>
             </div>
 
@@ -157,7 +166,8 @@
                   <persName ref="id_nom">Delathorilliere</persName>
                   <persName ref="id_nom">Dauvilliers</persName>
                </signed>
-               <p><measure ana="id_glossaire" type="total">28 <term ref="id_glossaire">Jettons</term></measure></p>
+               <p><measure ana="id_glossaire" type="total">28 <term ref="id_glossaire"
+                        >Jettons</term></measure></p>
             </div>
          </div>
 

@@ -60,7 +60,7 @@ for sheet_name in xls.sheet_names:
         if pd.notna(row["Entrée"]):
             xml_id = generate_xml_id(row["Entrée"])
             item = ET.SubElement(list_el, "item", {"xml:id": xml_id})
-            ET.SubElement(item, "label", {"source": "url"}).text = row["Entrée"]
+            ET.SubElement(item, "label", {"source": "url "}).text = row["Entrée"]
             # ET.SubElement(item, "gloss").text = row["Définition"] if pd.notna(row["Définition"]) else ""
 
             # # Ajouter les rédacteurs

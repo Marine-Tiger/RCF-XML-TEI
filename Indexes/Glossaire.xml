@@ -28,10 +28,18 @@
                   <item xml:id="AILE1"><label
                         source="https://www.cfregisters.org/#!/encyclopedie/mots/a/ailes%20(du%20th%C3%A9%C3%A2tre)"
                         >Ailes (du théâtre)</label></item>
-                  <item xml:id="AMEN1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amende">Amendes</label></item>
-                  <item xml:id="AMPH1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amphith%C3%A9%C3%A2tre">Amphithéâtre</label></item>
-                  <item xml:id="ARCH1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/archer">Archer</label></item>
-                  <item xml:id="ARRÉ1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/arr%C3%A9rages">Arrérages</label></item>
+                  <item xml:id="AMEN1"><label
+                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amende"
+                        >Amendes</label></item>
+                  <item xml:id="AMPH1"><label
+                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amphith%C3%A9%C3%A2tre"
+                        >Amphithéâtre</label></item>
+                  <item xml:id="ARCH1"><label
+                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/archer"
+                        >Archer</label></item>
+                  <item xml:id="ARRÉ1"><label
+                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/arr%C3%A9rages"
+                        >Arrérages</label></item>
                   <item xml:id="ARTI1"><label source="url">Artisan</label></item>
                   <item xml:id="ASSE1"><label source="url">Assemblée</label></item>
                   <item xml:id="ASSI1"><label source="url">Assistant</label></item>
