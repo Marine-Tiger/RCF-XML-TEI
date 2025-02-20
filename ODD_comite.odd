@@ -19,6 +19,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change when="2025-02-20">Ajout contraintes pour la date dans "div1"</change>
       <change when="2025-02-12">Ajout "constraint" pour @type dans "div1"</change>
       <change when="2025-02-10">Ajout "tagdocs"</change>
     </revisionDesc>
@@ -48,20 +49,33 @@
           <moduleRef key="analysis"/>
           <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
           <moduleRef key="drama" include="actor castItem castList role"/>
-          
-          
-          <!-- Pour la div1 -->
+
+
+          <!-- Pour la <div1> -->
           <elementSpec ident="div1" mode="change" module="textstructure">
             <!-- On ajoute l'attribut @when dans l'élément <div> -->
             <classes mode="change">
               <memberOf mode="add" key="att.datable"/>
             </classes>
+            <!-- Contrainte pour obliger un attribut pour dater les séances -->
+            <constraintSpec ident="date" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:div1">
+                  <sch:assert test="@when | @notBefore | @notAfter" role="error">La date doit être
+                    indiquée par l'attribut @when. Si la date n'est pas connue, indiquer la date de
+                    la séance précédente dans @notBefore, et la date de la séance suivante dans
+                    @notAfter.</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
             <attList>
+              <!-- Contrainte pour obliger l'attribut @type pour indiquer le type d'assemblée lister dans <valItem>-->
               <attDef ident="type" mode="replace" usage="req">
                 <constraintSpec ident="type" scheme="schematron">
                   <constraint>
                     <sch:rule context="tei:div1">
-                      <sch:assert test="@type" role="error">Ajouter un @type.</sch:assert>
+                      <sch:assert test="@type" role="error">Ajouter le type d'assemblée dans un
+                        attribut @type.</sch:assert>
                     </sch:rule>
                   </constraint>
                 </constraintSpec>
@@ -83,20 +97,21 @@
                   </valItem>
                   <!-- Exceptions  -->
                   <valItem ident="regent">
-                    <desc>Propre au registre R... où les comédien.nes se réunissent parfois chez le
+                    <desc>Propre au registre R52-6 où les comédien.nes se réunissent parfois chez le
                       duc Philippe d'Orléans, dit le Régent. </desc>
                   </valItem>
                   <valItem ident="amendes">
-                    <desc>Propre au registre R... où certaines pages sont dédiées aux amendes
+                    <desc>Propre au registre R52-6 où certaines pages sont dédiées aux amendes
                       distribuées aux comédien.nes absent.es des assemblées.</desc>
                   </valItem>
-                  <valItem ident="arrete"></valItem>
-                  
-                  <!-- Liste (non-exhaustive) des types de comités pour le 19ème siècle -->
-                  <valItem ident="comite">
-                    <desc>Nom donné au cours du 19ème siècle.</desc>
+                  <valItem ident="arrete">
+                    <desc>Arrếté. Désigne les actes reportés dans les registres.</desc>
                   </valItem>
-                  
+
+                  <!-- Liste (non-exhaustive) des types de comités pour le 19ème siècle -->
+                  <valItem ident="com_adm">
+                    <desc>Comité d'administration. Nom donné au cours du 19ème siècle.</desc>
+                  </valItem>
                 </valList>
               </attDef>
             </attList>
