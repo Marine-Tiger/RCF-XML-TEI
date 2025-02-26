@@ -109,19 +109,47 @@
                   </valItem>
 
                   <!-- Liste (non-exhaustive) des types de comités pour le 19ème siècle -->
-                  <valItem ident="com_adm">
+                  <valItem ident="comite_adm">
                     <desc>Comité d'administration. Nom donné au cours du 19ème siècle.</desc>
                   </valItem>
                 </valList>
               </attDef>
+
+              <!-- Liste (non-exhaustive) pour @ana-->
+              <attDef ident="ana" mode="replace" usage="req">o
+                <valList type="closed">
+                  <!-- trouver un moyen afin de pouvoir continuer de mettre plusieurs valeurs à la fois? -->
+                  <valItem ident="admission"/>
+                  <valItem ident="appointements"/>
+                  <valItem ident="archives"/>
+                  <valItem ident="audition"/>
+                  <valItem ident="auteur"/>
+                  <valItem ident="bibliotheque"/>
+                  <valItem ident="billet"/>
+                  <valItem ident="chauffage"/>
+                  <valItem ident="conges"/>
+                  <valItem ident="costumes"/>
+                  <valItem ident="debuts"/>
+                  <valItem ident="decors"/>
+                  <valItem ident="distribution"/>
+                  <valItem ident="dons"/>
+                  <valItem ident="emplois"/>
+                  <valItem ident="finances"/>
+                  <valItem ident="gratifiication"/>
+                  <valItem ident="inventaire"/>
+                  <valItem ident="judiciaire"/>
+                  <valItem ident="loge"/>
+                  <valItem ident="pension"/>
+                  <valItem ident="quinzainiers"/>
+                  <valItem ident="repertoire"/>
+                  <valItem ident="representations externes"/>
+                  <valItem ident="representation a benefice"/>
+                  <valItem ident="retraite"/>
+                  <valItem ident="secours"/>
+                  <valItem ident="travaux"/>
+                </valList>
+              </attDef>
             </attList>
-            <!--<attList>
-            <attDef ident="ana" mode="replace" usage="req">
-              <valList type="closed">
-                <valItem></valItem>
-              </valList>
-            </attDef>
-          </attList>-->
           </elementSpec>
         </schemaSpec>
       </div>
