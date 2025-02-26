@@ -43,7 +43,7 @@ for i, row in pbar:
     persName = soup.new_tag("persName")
 
     reg = soup.new_tag("reg")
-    reg.string = row.NOM
+    reg.string = row.NOM.lower()
     persName.append(reg)
 
     prenom = row.PRENOM
@@ -117,6 +117,6 @@ result = str(soup.prettify())
 
 print(result)
 
-with open("./Indexes/Prosopographie.xml", mode="w", encoding="utf-8") as f:
+with open("../Prosopographie.xml", mode="w", encoding="utf-8") as f:
     f.write(result)
 
