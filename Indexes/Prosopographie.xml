@@ -11079,344 +11079,345 @@
      <gender type="feminin"/>
      <occupation from="1809" to="1817" type="pensionnaire"/>
     </person>
+<!--    REPRISE ICI VERS LE HAUT-->
     <person ana="comédien.ne CF" xml:id="DART2">
      <persName>
-      <reg> dartaux </reg>
-      <forename> Mlle </forename>
-      <surname type="nom_famille"> Mlle </surname>
+      <reg>Mademoiselle Dartaux </reg>
+      <forename/>  
+      <surname type="nom_famille">Dartaux</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1809" to="1811" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="FAUR1">
      <persName>
-      <reg> faure </reg>
+      <reg>Laurent Faure </reg>
       <forename> Laurent </forename>
-      <surname type="nom_famille"> Laurent </surname>
+      <surname type="nom_famille">Faure</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1808" to="1839" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="PELI1">
      <persName>
-      <reg> pelicier </reg>
-      <forename> Mme Breton, dite Mlle </forename>
-      <surname type="nom_famille"> Mme Breton, dite Mlle </surname>
+      <reg>Mademoiselle Pelicier </reg>
+      <forename/>
+      <surname type="nom_famille">Breton</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1808" to="1817" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="MAIL5">
      <persName>
-      <reg> maillard </reg>
-      <forename> Mlle </forename>
-      <surname type="nom_famille"> Mlle </surname>
+      <reg>Mademoiselle Maillard </reg>
+      <forename/>  
+      <surname type="nom_famille"> Maillard </surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1808" to="1813" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="LECL4">
      <persName>
-      <reg> le clerc </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Le Clerc </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1807" to="1809" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="MAIN1">
      <persName>
-      <reg> mainvielle </reg>
-      <forename> Martial Tharaud, dit </forename>
-      <surname type="nom_famille"> Martial Tharaud, dit </surname>
+      <reg>Mainvielle </reg>
+      <forename> Martial</forename>
+      <surname type="nom_famille">Tharaud</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1807" to="1850" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="VARE1">
      <persName>
-      <reg> varennes </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Varennes </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1804" to="1809" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="GONT1">
      <persName>
-      <reg> gontier </reg>
-      <forename> Tonon Georges Belloste, dit </forename>
-      <surname type="nom_famille"> Tonon Georges Belloste, dit </surname>
+      <reg>Gontier </reg>
+      <forename>Tonon Georges</forename>
+      <surname type="nom_famille">Belloste</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1804" to="1807" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="DESR1">
      <persName>
-      <reg> desrosieres </reg>
+      <reg>Sébastien Desrosieres </reg>
       <forename> Sébastien </forename>
-      <surname type="nom_famille"> Sébastien </surname>
+      <surname type="nom_famille">Desrosieres</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1803" to="1808" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="DESP3">
      <persName>
-      <reg> desprez </reg>
+      <reg>Alexandrine-Mélanie Desprez </reg>
       <forename> Alexandrine-Mélanie </forename>
-      <surname type="nom_famille"> Alexandrine-Mélanie </surname>
+      <surname type="nom_famille">Desprez</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1800" to="1824" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="PATR1">
      <persName>
-      <reg> patrat </reg>
-      <forename> Justine Alternack, dite Mlle </forename>
-      <surname type="nom_famille"> Justine Alternack, dite Mlle </surname>
+      <reg>Mademoiselle Patrat </reg>
+      <forename> Justine</forename>
+      <surname type="nom_famille">Alternack</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1799" to="1815" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="BAPT2">
      <persName>
-      <reg> baptiste bru </reg>
-      <forename> Anne-Françoise Gourville, dite Mlle </forename>
-      <surname type="nom_famille"> Anne-Françoise Gourville, dite Mlle </surname>
+      <reg>Mademoiselle Baptiste Bru </reg>
+      <forename>Anne-Françoise</forename>
+      <surname type="nom_famille">Gourville</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1799" to="1803" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="BERV1">
      <persName>
-      <reg> berville </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Berville </reg>
+      <forename/> 
+      <surname type="nom_famille">Berville</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1799" to="1803" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="BERV2">
      <persName>
-      <reg> berville </reg>
+      <reg>Justine Berville </reg>
       <forename> Justine </forename>
-      <surname type="nom_famille"> Justine </surname>
+      <surname type="nom_famille">Berville</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1799" to="1803" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="HOPK1">
      <persName>
-      <reg> hopkins </reg>
-      <forename> Mlle </forename>
-      <surname type="nom_famille"> Mlle </surname>
+      <reg>Mademoiselle Hopkins </reg>
+      <forename/> 
+      <surname type="nom_famille">Hopkins</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1799" to="1802" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="FERV1">
      <persName>
-      <reg> ferville </reg>
-      <forename> Mlle </forename>
-      <surname type="nom_famille"> Mlle </surname>
+      <reg>Mademoiselle Ferville </reg>
+      <forename/>  
+      <surname type="nom_famille">Ferville</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1799" to="1800" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="MARS4">
      <persName>
-      <reg> mars aînée </reg>
-      <forename> Marie-Louise-Geneviève Salvétat, dite Mlle </forename>
-      <surname type="nom_famille"> Marie-Louise-Geneviève Salvétat, dite Mlle </surname>
+      <reg>Mademoiselle Mars aînée </reg>
+      <forename> Marie-Louise-Geneviève</forename>
+      <surname type="nom_famille">Salvétat</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1799" to="1828" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="BARR6">
      <persName>
-      <reg> barral </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Barral </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1902" to="1902" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="PARF1">
      <persName>
-      <reg> parfait </reg>
-      <forename> la « petite » </forename>
-      <surname type="nom_famille"> la « petite » </surname>
+      <reg>la « petite » parfait </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="feminin"/>
      <occupation from="1893" to="1893" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="LEBL3">
      <persName>
-      <reg> leblanc </reg>
+      <reg>Léonide Leblanc </reg>
       <forename> Léonide </forename>
-      <surname type="nom_famille"> Léonide </surname>
+      <surname type="nom_famille">Leblanc</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1886" to="1886" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="JAMA1">
      <persName>
-      <reg> jamaux </reg>
-      <forename> Mme </forename>
-      <surname type="nom_famille"> Mme </surname>
+      <reg>Madame Jamaux </reg>
+      <forename/>  
+      <surname type="nom_famille">Jamaux</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1881" to="1881" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="GAIL1">
      <persName>
-      <reg> gaillard </reg>
+      <reg>Jeanne Gaillard </reg>
       <forename> Jeanne </forename>
-      <surname type="nom_famille"> Jeanne </surname>
+      <surname type="nom_famille">Gaillard</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1877" to="1877" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="BEAU7">
      <persName>
-      <reg> beauvallet fils </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Beauvallet fils </reg>
+      <forename/> 
+      <surname type="nom_famille">Beauvallet</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1875" to="1875" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="CHEL1">
      <persName>
-      <reg> chelles </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Chelles </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1866" to="1866" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="LAFO4">
      <persName>
-      <reg> lafont </reg>
+      <reg>Pierre Chéri Lafont </reg>
       <forename> Pierre Chéri </forename>
-      <surname type="nom_famille"> Pierre Chéri </surname>
+      <surname type="nom_famille">Lafont</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1864" to="1864" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="LECL5">
      <persName>
-      <reg> leclercq </reg>
-      <forename> Mlle </forename>
-      <surname type="nom_famille"> Mlle </surname>
+      <reg>Mademoiselle Leclercq </reg>
+      <forename/>  
+      <surname type="nom_famille"> Leclercq </surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1857" to="1857" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="GAUT2">
      <persName>
-      <reg> gautier </reg>
+      <reg>Louis Léon Gautier </reg>
       <forename> Louis Léon </forename>
-      <surname type="nom_famille"> Louis Léon </surname>
+      <surname type="nom_famille">Gautier</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1855" to="1855" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="FELI2">
      <persName>
-      <reg> felix </reg>
+      <reg>Sarah Félix </reg>
       <forename> Sarah </forename>
-      <surname type="nom_famille"> Sarah </surname>
+      <surname type="nom_famille">Félix</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1853" to="1853" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="MONT13">
      <persName>
-      <reg> montdidier </reg>
-      <forename> Alexis Jean Louis La Briche, dit </forename>
-      <surname type="nom_famille"> Alexis Jean Louis La Briche, dit </surname>
+      <reg>Montdidier</reg>
+      <forename> Alexis Jean Louis</forename>
+      <surname type="nom_famille">La Briche</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1849" to="1849" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="GARI1">
      <persName>
-      <reg> garique </reg>
+      <reg>Fanny Garique </reg>
       <forename> Fanny </forename>
-      <surname type="nom_famille"> Fanny </surname>
+      <surname type="nom_famille">Garique</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1844" to="1844" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="DARC1">
      <persName>
-      <reg> darcourt </reg>
+      <reg>Justin Philippe Darcourt </reg>
       <forename> Justin Philippe </forename>
-      <surname type="nom_famille"> Justin Philippe </surname>
+      <surname type="nom_famille">Darcourt</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1842" to="1842" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="BONN3">
      <persName>
-      <reg> bonnaire </reg>
-      <forename> Adeline, feminin Piton, dite Delvil </forename>
-      <surname type="nom_famille"> Adeline, feminin Piton, dite Delvil </surname>
+      <reg>Delvil Bonnaire </reg>
+      <forename> Adeline</forename>
+      <surname type="nom_famille">feminin Piton</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1839" to="1839" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="GAST1">
      <persName>
-      <reg> gaston </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Gaston </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1837" to="1837" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="ALEX2">
      <persName>
-      <reg> alexandre </reg>
+      <reg>Louis Alexandre </reg>
       <forename> Louis </forename>
-      <surname type="nom_famille"> Louis </surname>
+      <surname type="nom_famille">Alexandre</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1831" to="1831" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="SAIN17">
      <persName>
-      <reg> saint-clair </reg>
-      <forename> Pierre Cortot, dit </forename>
-      <surname type="nom_famille"> Pierre Cortot, dit </surname>
+      <reg>Saint-clair</reg>
+      <forename> Pierre</forename>
+      <surname type="nom_famille">Cortot</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1831" to="1831" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="NANT1">
      <persName>
-      <reg> nanteuil </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Nanteuil </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1820" to="1820" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="ARNA3">
      <persName>
-      <reg> arnaud </reg>
-      <forename> </forename>
-      <surname type="nom_famille"> </surname>
+      <reg>Arnaud </reg>
+      <forename/> 
+      <surname type="nom_famille"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1809" to="1809" type="pensionnaire"/>
     </person>
     <person ana="comédien.ne CF" xml:id="GUIL2">
      <persName>
-      <reg> guilhene </reg>
-      <forename> Jacques-Eugène Guilhen-Puylagarde, dit Jacques </forename>
-      <surname type="nom_famille"> Jacques-Eugène Guilhen-Puylagarde, dit Jacques </surname>
+      <reg>Jacques Guilhene</reg>
+      <forename>Jacques-Eugène</forename>
+      <surname type="nom_famille">Guilhen-Puylagarde</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1908" to="1936" type="acteur.rice"/>
@@ -11424,9 +11425,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="ALEX3">
      <persName>
-      <reg> alexandre </reg>
+      <reg>René Alexandre </reg>
       <forename> René </forename>
-      <surname type="nom_famille"> René </surname>
+      <surname type="nom_famille">Alexandre</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1908" to="1944" type="acteur.rice"/>
@@ -11434,9 +11435,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="LERO6">
      <persName>
-      <reg> le roy </reg>
+      <reg>Georges-Daniel-Eugène le Roy</reg>
       <forename> Georges-Daniel-Eugène </forename>
-      <surname type="nom_famille"> Georges-Daniel-Eugène </surname>
+      <surname type="nom_famille">le Roy</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1908" to="1941" type="acteur.rice"/>
@@ -11444,9 +11445,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="LAFO5">
      <persName>
-      <reg> lafon </reg>
+      <reg>Georges-Max Lafon </reg>
       <forename> Georges-Max </forename>
-      <surname type="nom_famille"> Georges-Max </surname>
+      <surname type="nom_famille">Lafon</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1907" to="1945" type="acteur.rice"/>
@@ -11454,9 +11455,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="ROBI1">
      <persName>
-      <reg> robinne </reg>
+      <reg>Gabrielle-Anne Robinne </reg>
       <forename> Gabrielle-Anne </forename>
-      <surname type="nom_famille"> Gabrielle-Anne </surname>
+      <surname type="nom_famille">Robinne</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1907" to="1937" type="acteur.rice"/>
@@ -11464,9 +11465,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="BOVY1">
      <persName>
-      <reg> bovy </reg>
+      <reg>Berthe-Marguerite-Jeanne Bovy </reg>
       <forename> Berthe-Marguerite-Jeanne </forename>
-      <surname type="nom_famille"> Berthe-Marguerite-Jeanne </surname>
+      <surname type="nom_famille">Bovy</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1907" to="1941" type="acteur.rice"/>
@@ -11474,9 +11475,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="DEVO2">
      <persName>
-      <reg> devoyod </reg>
+      <reg>Suzanne-Blanche-Julia Devoyod </reg>
       <forename> Suzanne-Blanche-Julia </forename>
-      <surname type="nom_famille"> Suzanne-Blanche-Julia </surname>
+      <surname type="nom_famille">Devoyod</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1907" to="1936" type="acteur.rice"/>
@@ -11484,9 +11485,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="CERN1">
      <persName>
-      <reg> cerny </reg>
-      <forename> Hélène-Lucie de Choudens, dite Berthe </forename>
-      <surname type="nom_famille"> Hélène-Lucie de Choudens, dite Berthe </surname>
+      <reg>Berthe Cerny </reg>
+      <forename> Hélène-Lucie</forename>
+      <surname type="nom_famille">de Choudens</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1906" to="1930" type="acteur.rice"/>
@@ -11494,9 +11495,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="GRAN4">
      <persName>
-      <reg> grand </reg>
-      <forename> Pierre-Louis-Valentin Mac Leod, dit Georges </forename>
-      <surname type="nom_famille"> Pierre-Louis-Valentin Mac Leod, dit Georges </surname>
+      <reg>Georges Grand </reg>
+      <forename> Pierre-Louis-Valentin</forename>
+      <surname type="nom_famille">MacLeod</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1906" to="1921" type="acteur.rice"/>
@@ -11504,9 +11505,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="GRAN5">
      <persName>
-      <reg> granval </reg>
+      <reg>Charles Granval </reg>
       <forename> Charles </forename>
-      <surname type="nom_famille"> Charles </surname>
+      <surname type="nom_famille">Granval</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1904" to="1934" type="acteur.rice"/>
@@ -11514,9 +11515,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="DUSS2">
      <persName>
-      <reg> dussane </reg>
-      <forename> Béatrix Dussan, dite </forename>
-      <surname type="nom_famille"> Béatrix Dussan, dite </surname>
+      <reg>Dussane</reg>
+      <forename>Béatrix</forename>
+      <surname type="nom_famille">Dussan</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1903" to="1941" type="acteur.rice"/>
@@ -11524,9 +11525,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="ROCH3">
      <persName>
-      <reg> roch </reg>
+      <reg>Madeleine-Julienne Roch</reg>
       <forename> Madeleine-Julienne </forename>
-      <surname type="nom_famille"> Madeleine-Julienne </surname>
+      <surname type="nom_famille">Roch</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1903" to="1930" type="acteur.rice"/>
@@ -11534,9 +11535,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="BRUN2">
      <persName>
-      <reg> brunot </reg>
+      <reg>André-François-Gilbert Brunot </reg>
       <forename> André-François-Gilbert </forename>
-      <surname type="nom_famille"> André-François-Gilbert </surname>
+      <surname type="nom_famille">Brunot</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1903" to="1944" type="acteur.rice"/>
@@ -11544,9 +11545,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="SIBL1">
      <persName>
-      <reg> siblot </reg>
+      <reg>Charles-Louis-Adrien Siblot </reg>
       <forename> Charles-Louis-Adrien </forename>
-      <surname type="nom_famille"> Charles-Louis-Adrien </surname>
+      <surname type="nom_famille">Siblot</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1903" to="1931" type="acteur.rice"/>
@@ -11554,9 +11555,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="PIER1">
      <persName>
-      <reg> pierat </reg>
-      <forename> Marie-Thérèse Panot </forename>
-      <surname type="nom_famille"> Marie-Thérèse Panot </surname>
+      <reg>Marie-Thérèse Pierat </reg>
+      <forename> Marie-Thérèse</forename>
+      <surname type="nom_famille">Panot</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1902" to="1934" type="acteur.rice"/>
@@ -11564,9 +11565,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="SILV1">
      <persName>
-      <reg> silvain </reg>
+      <reg>Louise-Julie-Marthe Hartman Silvain </reg>
       <forename> Louise-Julie-Marthe Hartman </forename>
-      <surname type="nom_famille"> Louise-Julie-Marthe Hartman </surname>
+      <surname type="nom_famille">Silvain</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1901" to="1924" type="acteur.rice"/>
@@ -11574,9 +11575,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="MAYE1">
      <persName>
-      <reg> mayer </reg>
+      <reg>Henry Mayer </reg>
       <forename> Henry </forename>
-      <surname type="nom_famille"> Henry </surname>
+      <surname type="nom_famille">Mayer</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1901" to="1922" type="acteur.rice"/>
@@ -11584,9 +11585,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="SORE1">
      <persName>
-      <reg> sorel </reg>
-      <forename> Céline Seurre, dite Cécile </forename>
-      <surname type="nom_famille"> Céline Seurre, dite Cécile </surname>
+      <reg>Cécile Sorel </reg>
+      <forename> Céline </forename>
+      <surname type="nom_famille">Seurre</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1901" to="1933" type="acteur.rice"/>
@@ -11594,9 +11595,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="CROU1">
      <persName>
-      <reg> croue </reg>
+      <reg>Jean-Charles-Auguste Croue </reg>
       <forename> Jean-Charles-Auguste </forename>
-      <surname type="nom_famille"> Jean-Charles-Auguste </surname>
+      <surname type="nom_famille">Croue</surname>
      </persName>
      <gender type="masculin"/>
      <occupation from="1899" to="1936" type="acteur.rice"/>
@@ -11604,9 +11605,10 @@
     </person>
     <person ana="comédien.ne CF" xml:id="DESS2">
      <persName>
-      <reg> dessonnes </reg>
-      <forename> Marcel Plique, dit Luxeuil, puis </forename>
-      <surname type="nom_famille"> Marcel Plique, dit Luxeuil, puis </surname>
+      <reg>Marcel Dessonnes</reg>
+      <forename> Marcel</forename>
+      <surname type="nom_famille">Plique</surname>
+      <addName type="pseudonyme">Luxeuil</addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1899" to="1939" type="acteur.rice"/>
@@ -11614,9 +11616,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="DELV1">
      <persName>
-      <reg> delvair </reg>
-      <forename> Louise Deluermoz, dite Jeanne </forename>
-      <surname type="nom_famille"> Louise Deluermoz, dite Jeanne </surname>
+      <reg>Jeanne Delvair </reg>
+      <forename> Louise</forename>
+      <surname type="nom_famille">Deluermoz</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1899" to="1937" type="acteur.rice"/>
@@ -11624,9 +11626,9 @@
     </person>
     <person ana="comédien.ne CF" xml:id="GENI2">
      <persName>
-      <reg> geniat </reg>
-      <forename> Eugénie martin, dite Marcelle </forename>
-      <surname type="nom_famille"> Eugénie martin, dite Marcelle </surname>
+      <reg>Marcelle Geniat</reg>
+      <forename>Eugénie</forename>
+      <surname type="nom_famille">Martin</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1899" to="1912" type="acteur.rice"/>
@@ -11634,15 +11636,14 @@
     </person>
     <person ana="comédien.ne CF" xml:id="KOLB1">
      <persName>
-      <reg> kolb </reg>
+      <reg>Marie-Thérèse Kolb</reg>
       <forename> Marie-Thérèse </forename>
-      <surname type="nom_famille"> Marie-Thérèse </surname>
+      <surname type="nom_famille">Kolb</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1898" to="1922" type="acteur.rice"/>
      <occupation type="sociétariat" when="1904"/>
     </person>
-<!--    REPRENDRE ICI VERS LE HAUT-->
     <person ana="comédien.ne CF" xml:id="LECO2">
      <persName>
       <reg>Marie Leconte</reg>
