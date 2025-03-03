@@ -619,7 +619,7 @@
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
     </person>
-    <person ana="comédien.ne occasionnel.le" xml:id="DAUV1">
+    <person ana="comédien.ne occasionnel.le" xml:id="DAUV2">
      <idno type="base_unifiée"> 119 </idno>
      <persName>
       <reg> Dauvilliers </reg>
@@ -1664,7 +1664,7 @@
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
     </person>
-    <person ana="comédien.ne occasionnel.le" xml:id="LAGR1">
+    <person ana="comédien.ne occasionnel.le" xml:id="LAGR3">
      <idno type="base_unifiée"> 304 </idno>
      <persName>
       <reg> Lagrange </reg>
@@ -2468,7 +2468,7 @@
      <gender type="feminin"/>
      <occupation type="occasionnel"/>
     </person>
-    <person ana="comédien.ne occasionnel.le" xml:id="GRAN1">
+    <person ana="comédien.ne occasionnel.le" xml:id="GRAN4">
      <idno type="base_unifiée"> 479 </idno>
      <persName>
       <reg> Grandval </reg>
@@ -3294,14 +3294,14 @@
      <occupation from="1758" to="1770" type="acteur.rice"/>
      <occupation type="sociétariat" when="1769"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LENO2">
+<!--    REPRENDRE ICI-->
+    <person ana="comédien.ne CF" xml:id="DANC2">
      <idno type="base_unifiée"> 101 </idno>
      <persName>
-      <reg> Dancourt </reg>
+      <reg>Mademoiselle Dancourt </reg>
       <forename> Marie-Thérèse </forename>
-      <surname type="nom_famille"> Le Noir de la Thorillière, dite </surname>
+      <surname type="nom_famille"> Le Noir de la Thorillière</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1684" to="1720" type="acteur.rice"/>
@@ -3311,141 +3311,133 @@
      <idno type="base_unifiée"> 102 </idno>
      <idno type="base_unifiée_auteurs"> 14 </idno>
      <persName>
-      <reg> Dancourt </reg>
+      <reg>Sieur Dancourt </reg>
       <forename> Florent </forename>
-      <surname type="nom_famille"> Carton, sieur de Dancourt, dit </surname>
+      <surname type="nom_famille"> Carton </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1684" to="1718" type="acteur.rice"/>
      <occupation type="sociétariat" when="1685"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CART2">
+    <person ana="comédien.ne CF" xml:id="DANC5">
      <idno type="base_unifiée"> 104 </idno>
      <persName>
-      <reg> Dancourt (Manon) </reg>
+      <reg>Manon Dancourt</reg>
       <forename> Marie-Anne-Armande </forename>
-      <surname type="nom_famille"> Carton, dite Manin </surname>
-      <addName type="variations"> Manon </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Carton</surname>
+      <addName type="variations"/>
      </persName>
      <gender type="feminin"/>
      <occupation from="1695" to="1702" type="acteur.rice"/>
      <occupation type="sociétariat" when="1699"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CART3">
+    <person ana="comédien.ne CF" xml:id="DANC6">
      <idno type="base_unifiée"> 105 </idno>
      <persName>
-      <reg> Dancourt (Mimi) </reg>
+      <reg> Mimi Dancourt </reg>
       <forename> Marie-Anne-Michelle </forename>
-      <surname type="nom_famille"> Carton, épouse Deshayes, dite Mimi </surname>
-      <addName type="variations"> Mimi </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Carton</surname>
+      <surname type="nom_usage"> Deshayes</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1695" to="1728" type="acteur.rice"/>
      <occupation type="sociétariat" when="1699"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOTO2">
+    <person ana="comédien.ne CF" xml:id="DANG1">
      <idno type="base_unifiée"> 106 </idno>
      <persName>
       <reg> Dangeville </reg>
       <forename> Charles-Claude </forename>
-      <surname type="nom_famille"> Botot, dit </surname>
+      <surname type="nom_famille"> Botot </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1702" to="1740" type="acteur.rice"/>
      <occupation type="sociétariat" when="1702"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOTO3">
+    <person ana="comédien.ne CF" xml:id="DANG2">
      <idno type="base_unifiée"> 107 </idno>
      <persName>
       <reg> Dangeville cadet </reg>
       <forename> Charles-Etienne </forename>
-      <surname type="nom_famille"> Botot, dit </surname>
+      <surname type="nom_famille"> Botot </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1730" to="1763" type="acteur.rice"/>
      <occupation type="sociétariat" when="1730"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="RACO1">
+    <person ana="comédien.ne CF" xml:id="DANG3">
      <idno type="base_unifiée"> 110 </idno>
      <persName>
       <reg> Dangeville tante </reg>
       <forename> Marie-Hortense </forename>
-      <surname type="nom_famille"> Racot de Grandval, dite </surname>
+      <surname type="nom_famille"> Racot de Grandval </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1700" to="1739" type="acteur.rice"/>
      <occupation type="sociétariat" when="1700"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BERC1">
+    <person ana="comédien.ne CF" xml:id="DAUB1">
      <idno type="base_unifiée"> 115 </idno>
      <persName>
       <reg> Dauberval </reg>
       <forename> Etienne-Dominique </forename>
-      <surname type="nom_famille"> Bercher, dit </surname>
+      <surname type="nom_famille"> Bercher</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1760" to="1780" type="acteur.rice"/>
      <occupation type="sociétariat" when="1762"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DORN2">
+    <person ana="comédien.ne CF" xml:id="DAUV1">
      <idno type="base_unifiée"> 118 </idno>
      <persName>
-      <reg> Dauvilliers </reg>
+      <reg>Sieur Dauvilliers </reg>
       <forename> Nicolas </forename>
-      <surname type="nom_famille"> Dorné (ou d'Orvay), sieur de Dauvilliers, dit </surname>
+      <surname type="nom_famille"> Dorné (ou d'Orvay)</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1673" to="1690" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="ALBO1">
+    <person ana="comédien.ne CF" xml:id="DAZI1">
      <idno type="base_unifiée"> 120 </idno>
      <persName>
       <reg> Dazincourt </reg>
       <forename> Joseph Jean-Baptiste </forename>
-      <surname type="nom_famille"> Albouy, dit </surname>
+      <surname type="nom_famille"> Albouy </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1776" to="1809" type="acteur.rice"/>
      <occupation type="sociétariat" when="1778"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DIDO1">
+    <person ana="comédien.ne CF" xml:id="DEVO1">
      <idno type="base_unifiée"> 121 </idno>
      <persName>
       <reg> De Vos </reg>
       <forename> Noël-Antoine </forename>
-      <surname type="nom_famille"> Didot, dit </surname>
-      <addName type="variations"> Devos/ Vos (de) </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Didot</surname>
+      <addName type="variations"> Devos </addName>
+      <addName type="variations"> Vos (de) </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1746" to="1747" type="acteur.rice"/>
      <occupation type="sociétariat" when="1746"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="JACO1">
+    <person ana="comédien.ne CF" xml:id="DENN1">
      <idno type="base_unifiée"> 124 </idno>
      <persName>
-      <reg> Dennebault </reg>
+      <reg>Mademoiselle Dennebault </reg>
       <forename> Françoise </forename>
-      <surname type="nom_famille"> Jacob de Montfleury, épouse Dennebaut dite </surname>
-      <addName type="variations"> Dennebaut / Ennebault (d') </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Jacob de Montfleury </surname>
+      <surname type="nom_usage">Dennebaut</surname>
+      <addName type="variations"> Dennebaut </addName>
+      <addName type="variations"> Ennebault (d') </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1661" to="1685" type="acteur.rice"/>
@@ -3456,9 +3448,8 @@
      <persName>
       <reg> Deschamps </reg>
       <forename> Pierre </forename>
-      <surname type="nom_famille"> Langlois, dit </surname>
+      <surname type="nom_famille"> Langlois</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1742" to="1754" type="acteur.rice"/>
@@ -3467,24 +3458,22 @@
     <person ana="comédien.ne CF" xml:id="DAMA1">
      <idno type="base_unifiée"> 100 </idno>
      <persName>
-      <reg> Damas </reg>
+      <reg>Alexandre Damas </reg>
       <forename> Alexandre-Martial-Auguste </forename>
       <surname type="nom_famille"> Damas </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1792" to="1825" type="acteur.rice"/>
      <occupation type="sociétariat" when="1799"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DEMA2">
+    <person ana="comédien.ne CF" xml:id="DANG4">
      <idno type="base_unifiée"> 108 </idno>
      <persName>
-      <reg> Dangeville mère </reg>
+      <reg>Mademoiselle Dangeville mère </reg>
       <forename> Anne-Catherine </forename>
-      <surname type="nom_famille"> Demares cadette, dite </surname>
+      <surname type="nom_famille"> Demares cadette</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1707" to="1712" type="acteur.rice"/>
@@ -3493,11 +3482,10 @@
     <person ana="comédien.ne CF" xml:id="DESM7">
      <idno type="base_unifiée"> 135 </idno>
      <persName>
-      <reg> Desmares </reg>
+      <reg>Charlotte Desmares </reg>
       <forename> Christine-Antoinette-Charlotte </forename>
       <surname type="nom_famille"> Desmares </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1698" to="1721" type="acteur.rice"/>
@@ -3506,11 +3494,10 @@
     <person ana="comédien.ne CF" xml:id="DESM8">
      <idno type="base_unifiée"> 138 </idno>
      <persName>
-      <reg> Desmarets </reg>
+      <reg>Monsieur Desmarets </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Desmarets</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1770" to="1771" type="pensionnaire"/>
@@ -3518,49 +3505,45 @@
     <person ana="comédien.ne CF" xml:id="PRES1">
      <idno type="base_unifiée"> 142 </idno>
      <persName>
-      <reg> Pressac </reg>
+      <reg>Monsieur Pressac </reg>
       <forename/>
       <surname/>
       <addName type="variations"> Després /Prézac (du) </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1758" to="1760" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="POUL1">
+    <person ana="comédien.ne CF" xml:id="DESP4">
      <idno type="base_unifiée"> 143 </idno>
      <persName>
       <reg> Desprez </reg>
       <forename> Nicolas-Gabriel </forename>
-      <surname type="nom_famille"> Poullot, dit </surname>
+      <surname type="nom_famille"> Poullot </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1792" to="1816" type="acteur.rice"/>
      <occupation type="sociétariat" when="1802"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUYO1">
+    <person ana="comédien.ne CF" xml:id="LECO4">
      <idno type="base_unifiée"> 321 </idno>
      <persName>
       <reg> Le Comte </reg>
       <forename> Jean </forename>
-      <surname type="nom_famille"> Guyot, dit </surname>
+      <surname type="nom_famille"> Guyot</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1680" to="1704" type="acteur.rice"/>
      <occupation type="sociétariat" when="1681"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="THIE1">
+    <person ana="comédien.ne CF" xml:id="DORI1">
      <idno type="base_unifiée"> 154 </idno>
      <persName>
       <reg> Dorival </reg>
       <forename> Jean-Louis </forename>
-      <surname type="nom_famille"> Thierret, dit </surname>
+      <surname type="nom_famille"> Thierret </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1776" to="1791" type="acteur.rice"/>
@@ -3569,61 +3552,59 @@
     <person ana="comédien.ne CF" xml:id="DROU2">
      <idno type="base_unifiée"> 157 </idno>
      <persName>
-      <reg> Drouin </reg>
-      <forename> J.-J. (Jean-Jacques) François </forename>
+      <reg>Jean-François Drouin </reg>
+      <forename> Jean-François </forename>
       <surname type="nom_famille"> Drouin </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1744" to="1754" type="acteur.rice"/>
      <occupation type="sociétariat" when="1745"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="TAIT1">
+    <person ana="comédien.ne CF" xml:id="DUBR1">
      <idno type="base_unifiée"> 159 </idno>
      <persName>
-      <reg> du Breuil </reg>
+      <reg>Mademoiselle du Breuil </reg>
       <forename> Marie-Elisabeth </forename>
-      <surname type="nom_famille"> Taitté (Taitte), épouse Guichon, dite </surname>
+      <surname type="nom_famille"> Taitté (Taitte)</surname>
+      <surname type="nom_famille">Guichon</surname>
       <addName type="variations"> Dubreuil </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1721" to="1745" type="acteur.rice"/>
      <occupation type="sociétariat" when="1722"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUIC1">
+    <person ana="comédien.ne CF" xml:id="DUBR2">
      <idno type="base_unifiée"> 160 </idno>
      <persName>
-      <reg> du Breuil </reg>
+      <reg>Du Breuil </reg>
       <forename> Pierre-Jean </forename>
-      <surname type="nom_famille"> Guichon, dit </surname>
+      <surname type="nom_famille"> Guichon</surname>
       <addName type="variations"> Dubreuil </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1723" to="1758" type="acteur.rice"/>
      <occupation type="sociétariat" when="1725"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GASS1">
+    <person ana="comédien.ne CF" xml:id="DUCR1">
      <idno type="base_unifiée"> 161 </idno>
      <persName>
-      <reg> du Croisy </reg>
+      <reg> Du Croisy </reg>
       <forename> Philibert </forename>
-      <surname type="nom_famille"> Gassot (Gassaud), sieur du Croisy, dit </surname>
+      <surname type="nom_famille"> Gassot (Gassaud)</surname>
       <addName type="variations"> Ducroisy </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1659" to="1689" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GASS2">
+    <person ana="comédien.ne CF" xml:id="DUCR2">
      <idno type="base_unifiée"> 162 </idno>
      <persName>
-      <reg> du Croisy </reg>
+      <reg>Mademoiselle du Croisy </reg>
       <forename> Marie-Angélique </forename>
-      <surname type="nom_famille"> Gassot, épouse Poisson, dite </surname>
+      <surname type="nom_famille"> Gassot</surname>
+      <surname type="nom_usage">Poisson</surname>
       <addName type="variations"> Ducroisy </addName>
       <addName type="titre"> Mademoiselle </addName>
      </persName>
@@ -3631,53 +3612,50 @@
      <occupation from="1671" to="1694" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOUT1">
+    <person ana="comédien.ne CF" xml:id="MONV2">
      <idno type="base_unifiée"> 366 </idno>
      <persName>
-      <reg> Monvel (de) </reg>
+      <reg> Monvel</reg>
       <forename> Jaques-Marie </forename>
-      <surname type="nom_famille"> Boutet, dit </surname>
+      <surname type="nom_famille"> Boutet </surname>
       <addName type="variations"> Montvel </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1770" to="1806" type="acteur.rice"/>
      <occupation type="sociétariat" when="1772"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DESC3">
+    <person ana="comédien.ne CF" xml:id="DUFE1">
      <idno type="base_unifiée"> 163 </idno>
      <persName>
-      <reg> du Fey </reg>
+      <reg>Mademoiselle du Feÿ </reg>
       <forename> Marie-Anne </forename>
-      <surname type="nom_famille"> Deschamps de Villiers, épouse Villot, dite </surname>
-      <addName type="variations"> Dufey / Dufeÿ / Dufëy </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Deschamps de VilliersS</surname>
+      <surname type="nom_usage">Villot</surname>
+      <addName type="variations"/>  
      </persName>
      <gender type="feminin"/>
      <occupation from="1691" to="1712" type="acteur.rice"/>
      <occupation type="sociétariat" when="1691"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VILL4">
+    <person ana="comédien.ne CF" xml:id="DUFE2">
      <idno type="base_unifiée"> 164 </idno>
      <persName>
-      <reg> du Fey </reg>
+      <reg> Sieur du Feÿ </reg>
       <forename> Pierre-Louis </forename>
-      <surname type="nom_famille"> Villot, sieur du Fey, dit </surname>
-      <addName type="variations"> Dufey / Dufeÿ / Dufëy </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Villot </surname>
+      <addName type="variations"/>
      </persName>
      <gender type="masculin"/>
      <occupation from="1694" to="1712" type="acteur.rice"/>
      <occupation type="sociétariat" when="1695"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUMO1">
+    <person ana="comédien.ne CF" xml:id="DUPE1">
      <idno type="base_unifiée"> 168 </idno>
      <persName>
       <reg> du Périer </reg>
       <forename> François </forename>
-      <surname type="nom_famille"> du Mourier, dit </surname>
+      <surname type="nom_famille"> du Mourier</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1686" to="1705" type="acteur.rice"/>
@@ -3688,47 +3666,43 @@
      <persName>
       <reg> Dublin </reg>
       <forename/>
-      <surname type="nom_famille"> Tournelle, dit </surname>
+      <surname type="nom_famille"> Tournelle </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1792" to="1813" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CHAN1">
+    <person ana="comédien.ne CF" xml:id="DUBO11">
      <idno type="base_unifiée"> 171 </idno>
      <persName>
-      <reg> Duboccage </reg>
+      <reg> Du boccage </reg>
       <forename> Antoine </forename>
-      <surname type="nom_famille"> Chantrelle, dit </surname>
-      <addName type="variations"> du Boccage </addName>
+      <surname type="nom_famille"> Chantrelle </surname>
       <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1702" to="1723" type="acteur.rice"/>
      <occupation type="sociétariat" when="1704"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BLOU1">
+    <person ana="comédien.ne CF" xml:id="DUBO10">
      <idno type="base_unifiée"> 173 </idno>
      <persName>
       <reg> Dubois </reg>
       <forename> Louis </forename>
-      <surname type="nom_famille"> Blouin, dit </surname>
+      <surname type="nom_famille"> Blouin</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1726" to="1765" type="acteur.rice"/>
      <occupation type="sociétariat" when="1736"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BLOU2">
+    <person ana="comédien.ne CF" xml:id="DUBO3">
      <idno type="base_unifiée"> 174 </idno>
      <persName>
-      <reg> Dubois </reg>
+      <reg>Mademoiselle Dubois </reg>
       <forename> Marie-Madeleine </forename>
-      <surname type="nom_famille"> Blouin, dite </surname>
+      <surname type="nom_famille"> Blouin </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1759" to="1773" type="acteur.rice"/>
@@ -3739,60 +3713,58 @@
      <persName>
       <reg> Dubois Cadette </reg>
       <forename> Marie-Savinienne </forename>
-      <surname type="nom_famille"> Cezar (César), épouse Blouin-Dubois, dite </surname>
+      <surname type="nom_famille"> Cezar (César) </surname>
+      <surname type="nom_usage"> Blouin-Dubois </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1760" to="1761" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CHEM1">
+    <person ana="comédien.ne CF" xml:id="DUCH1">
      <idno type="base_unifiée"> 178 </idno>
      <persName>
       <reg> Duchemin </reg>
       <forename> Jean-Pierre </forename>
-      <surname type="nom_famille"> Chemin, dit </surname>
+      <surname type="nom_famille"> Chemin </surname>
       <addName type="variations"> Du Chemin </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1717" to="1741" type="acteur.rice"/>
      <occupation type="sociétariat" when="1718"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOUT2">
+    <person ana="comédien.ne CF" xml:id="DUCH2">
      <idno type="base_unifiée"> 179 </idno>
      <persName>
-      <reg> Duchemin </reg>
+      <reg>Mademoiselle Duchemin </reg>
       <forename> Gilette </forename>
-      <surname type="nom_famille"> Boutelvier, épouse Chemin, dite </surname>
+      <surname type="nom_famille"> Boutelvier </surname>
+      <surname type="nom_usage"> Chemin </surname>
       <addName type="variations"> Du Chemin </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1719" to="1726" type="acteur.rice"/>
      <occupation type="sociétariat" when="1720"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CHEM2">
+    <person ana="comédien.ne CF" xml:id="DUCH3">
      <idno type="base_unifiée"> 180 </idno>
      <persName>
       <reg> Duchemin fils </reg>
       <forename> Pierre-Jaques </forename>
-      <surname type="nom_famille"> Chemin, dit </surname>
+      <surname type="nom_famille"> Chemin</surname>
       <addName type="variations"> Du Chemin </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1724" to="1730" type="acteur.rice"/>
      <occupation type="sociétariat" when="1726"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CHAS1">
+    <person ana="comédien.ne CF" xml:id="DUCL2">
      <idno type="base_unifiée"> 181 </idno>
      <persName>
-      <reg> Duclos </reg>
+      <reg>Mademoiselle Duclos </reg>
       <forename> Marie-Anne </forename>
-      <surname type="nom_famille"> Chasteauneuf (de), épouse Chemin, dite </surname>
+      <surname type="nom_famille"> De Chasteauneuf</surname>
+      <surname type="nom_usage">Chemin </surname>
       <addName type="variations"> Du Clos </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1693" to="1736" type="acteur.rice"/>
@@ -3803,9 +3775,8 @@
      <persName>
       <reg> Contat Cadette </reg>
       <forename> Marie-Emilie </forename>
-      <surname type="nom_famille"> Contat, dite Emilie </surname>
+      <surname type="nom_famille"> Contat</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1784" to="1815" type="acteur.rice"/>
@@ -3814,11 +3785,10 @@
     <person ana="comédien.ne CF" xml:id="DESH2">
      <idno type="base_unifiée"> 129 </idno>
      <persName>
-      <reg> Deshayes </reg>
+      <reg>Prosper-Didier Deshayes </reg>
       <forename> Prosper-Didier </forename>
       <surname type="nom_famille"> Deshayes </surname>
       <addName type="variations"> Des Hayes </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1765" to="1793" type="pensionnaire"/>
@@ -3826,24 +3796,22 @@
     <person ana="comédien.ne CF" xml:id="DUCL1">
      <idno type="base_unifiée"> 182 </idno>
      <persName>
-      <reg> Duclos </reg>
+      <reg>Jean-Baptiste Duclos </reg>
       <forename> Jean-Baptiste </forename>
       <surname type="nom_famille"> Duclos </surname>
       <addName type="variations"> Du Clos </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1719" to="1722" type="acteur.rice"/>
      <occupation type="sociétariat" when="1719"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GOUR2">
+    <person ana="comédien.ne CF" xml:id="DUGA2">
      <idno type="base_unifiée"> 188 </idno>
      <persName>
       <reg> Dugazon </reg>
       <forename> Jean-Baptiste Henri </forename>
-      <surname type="nom_famille"> Gourgaud, dit </surname>
+      <surname type="nom_famille"> Gourgaud </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1771" to="1809" type="acteur.rice"/>
@@ -3852,76 +3820,70 @@
     <person ana="comédien.ne CF" xml:id="LEGR3">
      <idno type="base_unifiée"> 323 </idno>
      <persName>
-      <reg> Le Grand </reg>
+      <reg>Charlotte Le Grand </reg>
       <forename> Charlotte </forename>
       <surname type="nom_famille"> Le Grand </surname>
       <addName type="variations"> Legrand </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1695" to="1728" type="acteur.rice"/>
      <occupation type="sociétariat" when="1702"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MARC2">
+    <person ana="comédien.ne CF" xml:id="DUME1">
      <idno type="base_unifiée"> 191 </idno>
      <persName>
-      <reg> Dumesnil </reg>
+      <reg>Mademoiselle Dumesnil </reg>
       <forename> Marie-Françoise </forename>
-      <surname type="nom_famille"> Marchand, dite </surname>
+      <surname type="nom_famille"> Marchand </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1737" to="1776" type="acteur.rice"/>
      <occupation type="sociétariat" when="1738"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="THÉV1">
+    <person ana="comédien.ne CF" xml:id="DEVI3">
      <idno type="base_unifiée"> 144 </idno>
      <persName>
-      <reg> Devienne </reg>
+      <reg>Mademoiselle Devienne </reg>
       <forename> Jeanne-Françoise-Sophie </forename>
-      <surname type="nom_famille"> Thévenin, dite </surname>
-      <addName type="variations"> Vienne (de) </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Thévenin </surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1785" to="1813" type="acteur.rice"/>
      <occupation type="sociétariat" when="1799"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="JUVE1">
+    <person ana="comédien.ne CF" xml:id="LATU1">
      <idno type="base_unifiée"> 298 </idno>
+     <idno type="base_unifiée_auteurs"> 76 </idno>
      <persName>
-      <reg> La Tuillerie </reg>
+      <reg>Sieur de La Tuillerie </reg>
       <forename> Jean-François </forename>
-      <surname type="nom_famille"> Juvenon, sieur de La Tuillerie, dit </surname>
+      <surname type="nom_famille"> Juvenon</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1672" to="1688" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CHAN2">
+    <person ana="comédien.ne CF" xml:id="DUBO9">
      <idno type="base_unifiée"> 172 </idno>
      <persName>
-      <reg> Duboccage </reg>
+      <reg>Mademoiselle Du Boccage </reg>
       <forename> Jeanne-Laurence </forename>
-      <surname type="nom_famille"> Chantrelle, dite </surname>
-      <addName type="variations"> du Boccage </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Chantrelle</surname>
+      <addName type="variations"/>
      </persName>
      <gender type="feminin"/>
      <occupation from="1723" to="1743" type="acteur.rice"/>
      <occupation type="sociétariat" when="1723"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LEST1">
+    <person ana="comédien.ne CF" xml:id="DUMI3">
      <idno type="base_unifiée"> 192 </idno>
      <persName>
       <reg> Dumirail </reg>
       <forename> Vincent-Charles </forename>
-      <surname type="nom_famille"> Lestoille (de), dit </surname>
+      <surname type="nom_famille">de Lestoille </surname>
       <addName type="variations"> Du Mirail </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1708" to="1730" type="acteur.rice"/>
@@ -3930,88 +3892,83 @@
     <person ana="comédien.ne CF" xml:id="DUNA1">
      <idno type="base_unifiée"> 194 </idno>
      <persName>
-      <reg> Dunant </reg>
+      <reg>François-Nicolas Dunant </reg>
       <forename> François-Nicolas </forename>
       <surname type="nom_famille"> Dunant </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1780" to="1793" type="acteur.rice"/>
      <occupation type="sociétariat" when="1787"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="JACO2">
+    <person ana="comédien.ne CF" xml:id="DUPI1">
      <idno type="base_unifiée"> 195 </idno>
      <persName>
-      <reg> Dupin </reg>
+      <reg>Mademoiselle Dupin </reg>
       <forename> Louise </forename>
-      <surname type="nom_famille"> Jacob de Montfleury, épouse du Landas, dite </surname>
+      <surname type="nom_famille"> Jacob de Montfleury </surname>
+      <surname type="nom_usage"> du Landas </surname>
       <addName type="variations"> Du Pin </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1672" to="1685" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOUD1">
+    <person ana="comédien.ne CF" xml:id="DUPO3">
      <idno type="base_unifiée"> 196 </idno>
      <persName>
-      <reg> Dupont </reg>
+      <reg>Jean-Denis Benoît Dupont </reg>
       <forename> Jean-Denis Benoît </forename>
-      <surname type="nom_famille"> Boudy, dit </surname>
+      <surname type="nom_famille"> Boudy </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1791" to="1803" type="acteur.rice"/>
      <occupation type="sociétariat" when="1792"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="FIEU1">
+    <person ana="comédien.ne CF" xml:id="DURA8">
      <idno type="base_unifiée"> 197 </idno>
      <persName>
-      <reg> Durancy </reg>
+      <reg>Mademoiselle Durancy </reg>
       <forename> Magdeleine-Céleste </forename>
-      <surname type="nom_famille"> Fieuzal de Frossac, dite </surname>
+      <surname type="nom_famille"> Fieuzal de Frossac</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1759" to="1767" type="acteur.rice"/>
      <occupation type="sociétariat" when="1767"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="FIEU2">
+    <person ana="comédien.ne CF" xml:id="DURA7">
      <idno type="base_unifiée"> 199 </idno>
      <persName>
       <reg> Durancy père </reg>
       <forename> Jean-François </forename>
-      <surname type="nom_famille"> Fieuzac ou Fieuzal </surname>
-      <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Fieuzac </surname>
+      <addName type="variations">Fieuzal</addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1759" to="1760" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LERO3">
+    <person ana="comédien.ne CF" xml:id="DURA6">
      <idno type="base_unifiée"> 202 </idno>
      <persName>
       <reg> Durant </reg>
       <forename> Jean </forename>
-      <surname type="nom_famille"> Le Roux, dit </surname>
+      <surname type="nom_famille"> Le Roux </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1712" to="1733" type="acteur.rice"/>
      <occupation type="sociétariat" when="1712"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="PITE3">
+    <person ana="comédien.ne CF" xml:id="DURI2S">
      <idno type="base_unifiée"> 204 </idno>
      <persName>
-      <reg> Durieu </reg>
+      <reg>Mademoiselle Du Rieu </reg>
       <forename> Anne </forename>
-      <surname type="nom_famille"> Pitel de Bourgogne, épouse Durieu, dite </surname>
+      <surname type="nom_famille"> Pitel de Bourgogne </surname>
+      <surname type="nom_usage"> Durieu </surname>
       <addName type="variations"> du Rieu </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1685" to="1700" type="acteur.rice"/>
@@ -4020,36 +3977,34 @@
     <person ana="comédien.ne CF" xml:id="DUSA1">
      <idno type="base_unifiée"> 207 </idno>
      <persName>
-      <reg> Dusaulx </reg>
+      <reg>Jean-François Dusaulx </reg>
       <forename> Jean-François </forename>
       <surname type="nom_famille"> Dusaulx </surname>
       <addName type="variations"> Dusault </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1774" to="1778" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="PINE1">
+    <person ana="comédien.ne CF" xml:id="DUVA1">
      <idno type="base_unifiée"> 208 </idno>
      <persName>
-      <reg> Duval </reg>
+      <reg>Alexandre Duval </reg>
       <forename> Alexandre-Vincent </forename>
-      <surname type="nom_famille"> Pineu, de </surname>
+      <surname type="nom_famille"> Pineu </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1791" to="1802" type="acteur.rice"/>
      <occupation type="sociétariat" when="1799"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DESC4">
+    <person ana="comédien.ne CF" xml:id="DESE1">
      <idno type="base_unifiée"> 211 </idno>
      <persName>
-      <reg> Essarts (des) </reg>
+      <reg>Des Essarts </reg>
       <forename> Denis </forename>
-      <surname type="nom_famille"> Deschanet, dit </surname>
-      <addName type="variations"> Des Essars/Desessarts </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Deschanet </surname>
+      <addName type="variations"> Des Essars</addName>
+      <addName type="variations"> Desessarts </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1772" to="1793" type="acteur.rice"/>
@@ -4058,11 +4013,11 @@
     <person ana="comédien.ne CF" xml:id="FANI1">
      <idno type="base_unifiée"> 212 </idno>
      <persName>
-      <reg> Fanier </reg>
+      <reg>Alexandrine Fanier </reg>
       <forename> Alexandrine-Louise </forename>
       <surname type="nom_famille"> Fanier </surname>
-      <addName type="variations"> Faniez / Fannier </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <addName type="variations"> Faniez </addName>
+      <addName type="variations"> Fannier </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1764" to="1786" type="acteur.rice"/>
@@ -4071,24 +4026,24 @@
     <person ana="comédien.ne CF" xml:id="FEUL1">
      <idno type="base_unifiée"> 216 </idno>
      <persName>
-      <reg> Feulie </reg>
+      <reg>Louis-Henri Feulie </reg>
       <forename> Louis-Henri </forename>
       <surname type="nom_famille"> Feulie </surname>
-      <addName type="variations"> Feully /Feullie/ Feuilly </addName>
-      <addName type="titre"> Monsieur </addName>
+      <addName type="variations"> Feully </addName>
+      <addName type="variations"> Feullie </addName>
+      <addName type="variations"> Feuilly </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1764" to="1774" type="acteur.rice"/>
      <occupation type="sociétariat" when="1766"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUIC2">
+    <person ana="comédien.ne CF" xml:id="FIER1">
      <idno type="base_unifiée"> 217 </idno>
      <persName>
       <reg> Fierville </reg>
       <forename> Pierre </forename>
-      <surname type="nom_famille"> Guichot, dit </surname>
+      <surname type="nom_famille"> Guichot </surname>
       <addName type="variations"> Fierville père </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1733" to="1741" type="acteur.rice"/>
@@ -4097,11 +4052,10 @@
     <person ana="comédien.ne CF" xml:id="LIAR1">
      <idno type="base_unifiée"> 218 </idno>
      <persName>
-      <reg> Fleury </reg>
+      <reg>Liard-Fleury </reg>
       <forename> François </forename>
-      <surname type="nom_famille"> Liard, dit </surname>
+      <surname type="nom_famille"> Liard </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1733" to="1736" type="acteur.rice"/>
@@ -4110,11 +4064,10 @@
     <person ana="comédien.ne CF" xml:id="FLEU5">
      <idno type="base_unifiée"> 221 </idno>
      <persName>
-      <reg> Fleury </reg>
+      <reg>Jules Fleury </reg>
       <forename> Jules </forename>
       <surname type="nom_famille"> Fleury </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1792" to="1793" type="pensionnaire"/>
@@ -4124,35 +4077,33 @@
      <persName>
       <reg> Florence </reg>
       <forename> Nicolas-Joseph-Florence </forename>
-      <surname type="nom_famille"> Billoy de La Ferrière, dit </surname>
+      <surname type="nom_famille"> Billoy de La Ferrière </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1778" to="1804" type="acteur.rice"/>
      <occupation type="sociétariat" when="1779"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BARR4">
+    <person ana="comédien.ne CF" xml:id="FONP1">
      <idno type="base_unifiée"> 228 </idno>
      <persName>
-      <reg> Fonpré (de) </reg>
+      <reg>Sieur de Fonpré </reg>
       <forename> Hugues-François </forename>
-      <surname type="nom_famille"> Barrie, sieur de Fonpré, dit </surname>
+      <surname type="nom_famille"> Barrié</surname>
       <addName type="variations"> Defonpré </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1688" to="1707" type="acteur.rice"/>
      <occupation type="sociétariat" when="1702"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CLAV6">
+    <person ana="comédien.ne CF" xml:id="FONP2">
      <idno type="base_unifiée"> 229 </idno>
      <persName>
-      <reg> Fonpré (de) </reg>
+      <reg>Mademoiselle Fonpré </reg>
       <forename> Elisabeth-Françoise </forename>
-      <surname type="nom_famille"> Clavel, épouse Barrie, dite </surname>
-      <addName type="variations"> Clavel </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Clavel </surname>
+      <surname type="nom_usage"> Barrie </surname>
+      <addName type="variations"/>
      </persName>
      <gender type="feminin"/>
      <occupation from="1695" to="1719" type="acteur.rice"/>
@@ -4161,11 +4112,10 @@
     <person ana="comédien.ne CF" xml:id="BAZO1">
      <idno type="base_unifiée"> 230 </idno>
      <persName>
-      <reg> Fontenay (de) </reg>
+      <reg> Fontenay </reg>
       <forename> François-Charles </forename>
-      <surname type="nom_famille"> Bazouin de Fontenay, dit </surname>
+      <surname type="nom_famille"> Bazouin de Fontenay</surname>
       <addName type="variations"> Defontenay </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1712" to="1728" type="acteur.rice"/>
@@ -4176,9 +4126,8 @@
      <persName>
       <reg> Frometin </reg>
       <forename/>
-      <surname type="nom_famille"> Blainville fils, dit </surname>
+      <surname type="nom_famille"> Blainville fils</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="pensionnaire"/>
@@ -4186,11 +4135,10 @@
     <person ana="comédien.ne CF" xml:id="GARC1">
      <idno type="base_unifiée"> 235 </idno>
      <persName>
-      <reg> Garcins (de) </reg>
+      <reg>Louise De Garcins </reg>
       <forename> Magdeleine-Marie </forename>
-      <surname type="nom_famille"> Garcins (des), dite Louise </surname>
-      <addName type="variations"> Garcins (des) </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Des Garcins </surname>
+      <addName type="variations"/>
      </persName>
      <gender type="feminin"/>
      <occupation from="1788" to="1791" type="acteur.rice"/>
@@ -4199,11 +4147,10 @@
     <person ana="comédien.ne CF" xml:id="GARN2">
      <idno type="base_unifiée"> 238 </idno>
      <persName>
-      <reg> Garnier </reg>
+      <reg>Monsieur Garnier </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Garnier</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1781" to="1783" type="pensionnaire"/>
@@ -4211,11 +4158,11 @@
     <person ana="comédien.ne CF" xml:id="GAUL1">
      <idno type="base_unifiée"> 241 </idno>
      <persName>
-      <reg> Gaultier </reg>
+      <reg> Madame Drouin </reg>
       <forename> Françoise-Marie-Jeanne-Elisabeth </forename>
       <surname type="nom_famille"> Gaultier, épouse Drouin dite plus tard madame Drouin, d'abord </surname>
-      <addName type="variations"> Madame Drouin / Madame Drouin Gaultier </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_usage"> Drouin</surname>
+      <addName type="variations"/>
      </persName>
      <gender type="feminin"/>
      <occupation from="1742" to="1780" type="acteur.rice"/>
@@ -4224,11 +4171,10 @@
     <person ana="comédien.ne CF" xml:id="GAUS1">
      <idno type="base_unifiée"> 242 </idno>
      <persName>
-      <reg> Gaussin </reg>
+      <reg>Mademoiselle Gaussin </reg>
       <forename> Jeanne-Catherine </forename>
-      <surname type="nom_famille"> Gaussem, dite </surname>
+      <surname type="nom_famille"> Gaussem</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1731" to="1763" type="acteur.rice"/>
@@ -4237,36 +4183,35 @@
     <person ana="comédien.ne CF" xml:id="GAUT1">
      <idno type="base_unifiée"> 243 </idno>
      <persName>
-      <reg> Gautier </reg>
+      <reg>Marie-Jeanne Gautier </reg>
       <forename> Marie-Jeanne </forename>
       <surname type="nom_famille"> Gautier </surname>
-      <addName type="variations"> Gaultier / Gauthier </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <addName type="variations"> Gaultier</addName>
+      <addName type="variations"> Gauthier </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1716" to="1723" type="acteur.rice"/>
      <occupation type="sociétariat" when="1716"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GÉRA1">
+    <person ana="comédien.ne CF" xml:id="GERA1">
      <idno type="base_unifiée"> 245 </idno>
      <persName>
-      <reg> Gérard </reg>
+      <reg>Etienne-François Gérard </reg>
       <forename> Etienne-François </forename>
       <surname type="nom_famille"> Gérard </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1784" to="1793" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="PITE4">
+    <person ana="comédien.ne CF" xml:id="PITE3">
      <idno type="base_unifiée"> 248 </idno>
      <persName>
-      <reg> Godefroy </reg>
+      <reg>Mademoiselle Godefroy </reg>
       <forename> Marie-Anne </forename>
       <surname type="nom_famille"> Pitel Durieu, épouse Godefroy, dite </surname>
+      <surname type="nom_usage"> Godefroy </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1693" to="1709" type="acteur.rice"/>
@@ -4277,9 +4222,10 @@
      <persName>
       <reg> Grammont de Roselly </reg>
       <forename> Jean-Baptiste Jaques </forename>
-      <surname type="nom_famille"> Nourry, dit </surname>
-      <addName type="variations"> Grammont/ Grammont de Rozelly/ Rosely </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Nourry </surname>
+      <addName type="variations"> Grammont </addName>
+      <addName type="variations"> Grammont de Rozelly </addName>
+      <addName type="variations"> Rosely </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1779" to="1791" type="acteur.rice"/>
@@ -4288,101 +4234,99 @@
     <person ana="comédien.ne CF" xml:id="FAUC1">
      <idno type="base_unifiée"> 251 </idno>
      <persName>
-      <reg> Grandmesnil </reg>
+      <reg>Jean-Baptiste Fauchard de Grandmesnil </reg>
       <forename> Jean-Baptiste </forename>
       <surname type="nom_famille"> Fauchard de Grandesmil </surname>
-      <addName type="variations"> Grandménil / Degrandmesnil / Grandmesnil (de) </addName>
-      <addName type="titre"> Monsieur </addName>
+      <addName type="variations"> Grandménil </addName>
+      <addName type="variations"> Degrandmesnil </addName>
+      <addName type="variations"> Grandmesnil (de) </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1790" to="1811" type="acteur.rice"/>
      <occupation type="sociétariat" when="1792"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="RACO2">
+    <person ana="comédien.ne CF" xml:id="GRAN1">
      <idno type="base_unifiée"> 252 </idno>
+     <idno type="base_unifiée_auteurs"> 297 </idno>
      <persName>
       <reg> Grandval </reg>
       <forename> Jean-Baptiste Charles-François-Nicolas </forename>
-      <surname type="nom_famille"> Racot de Grandval, dit </surname>
+      <surname type="nom_famille"> Racot de Grandval</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1729" to="1768" type="acteur.rice"/>
      <occupation type="sociétariat" when="1729"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUPR1">
+    <person ana="comédien.ne CF" xml:id="GRAN2">
      <idno type="base_unifiée"> 253 </idno>
      <persName>
       <reg> Grandval </reg>
       <forename> Marie-Geneviève </forename>
-      <surname type="nom_famille"> Dupré, épouse Racot, dite </surname>
+      <surname type="nom_famille"> Dupré </surname>
+      <surname type="nom_usage"> Racot</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1734" to="1760" type="acteur.rice"/>
      <occupation type="sociétariat" when="1734"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GRAN2">
+    <person ana="comédien.ne CF" xml:id="GRAN3">
      <idno type="base_unifiée"> 254 </idno>
      <persName>
-      <reg> Granger </reg>
+      <reg>Pierre Philibert Granger </reg>
       <forename> Pierre Philibert </forename>
       <surname type="nom_famille"> Granger </surname>
       <addName type="variations"> Granger fils </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1763" to="1764" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GEAY1">
+    <person ana="comédien.ne CF" xml:id="GUEA1">
      <idno type="base_unifiée"> 256 </idno>
      <persName>
-      <reg> Guéant </reg>
+      <reg>Mademoiselle Guéant </reg>
       <forename> Victoire-Melone </forename>
-      <surname type="nom_famille"> Geayant, dite </surname>
+      <surname type="nom_famille"> Geayant</surname>
       <addName type="variations"> Guéan </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1749" to="1758" type="acteur.rice"/>
      <occupation type="sociétariat" when="1754"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUÉR2">
+    <person ana="comédien.ne CF" xml:id="GUER2">
      <idno type="base_unifiée"> 257 </idno>
      <persName>
       <reg> Guérin </reg>
       <forename> Isaac-François </forename>
-      <surname type="nom_famille"> Guérin, sieur d'Etriché (ou d'Estriché), dit </surname>
+      <surname type="nom_famille"> Guérin d'Etriché </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1672" to="1717" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BÉJA1">
+    <person ana="comédien.ne CF" xml:id="BEJA1">
      <idno type="base_unifiée"> 258 </idno>
      <persName>
-      <reg> Guérin </reg>
+      <reg>Mademoiselle Guérin </reg>
       <forename> Armande-Grésinde-Claire-Elisabeth </forename>
-      <surname type="nom_famille"> Béjart, dite Mademoiselle Molière, puis </surname>
-      <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Béjart</surname>
+      <surname type="nom_usage"> Poquelin</surname>
+      <surname type="nom_usage"> Guérin d'Estriché </surname>
+      <addName type="pseudonyme">Mademoiselle Molière</addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1662" to="1694" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="NEVE2">
+    <person ana="comédien.ne CF" xml:id="GUIO1">
      <idno type="base_unifiée"> 261 </idno>
      <persName>
-      <reg> Guiot </reg>
+      <reg>Mademoiselle Guiot </reg>
       <forename> Judith </forename>
-      <surname type="nom_famille"> Nevers (de), dite </surname>
+      <surname type="nom_famille">De Nevers</surname>
       <addName type="variations"> Guyot </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1672" to="1685" type="acteur.rice"/>
@@ -4391,23 +4335,23 @@
     <person ana="comédien.ne CF" xml:id="GUIT1">
      <idno type="base_unifiée"> 263 </idno>
      <persName>
-      <reg> Guitel </reg>
+      <reg>Monsieur Guitel </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Guitel</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
+      <addName type="titre">  </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1772" to="1774" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LEBR2">
+    <person ana="auteur.rice comédien.ne CF" xml:id="HAUT1">
      <idno type="base_unifiée"> 264 </idno>
+     <idno type="base_unifiée_auteurs"> 77 </idno>
      <persName>
-      <reg> Hauteroche </reg>
+      <reg>Sieur de Hauteroche </reg>
       <forename> Noël-Jacques </forename>
-      <surname type="nom_famille"> Le Breton, sieur de Hauteroche, dit </surname>
+      <surname type="nom_famille"> Le Breton</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1654" to="1684" type="acteur.rice"/>
@@ -4416,11 +4360,10 @@
     <person ana="comédien.ne CF" xml:id="HUBE1">
      <idno type="base_unifiée"> 266 </idno>
      <persName>
-      <reg> Hubert </reg>
+      <reg>André Hubert </reg>
       <forename> André </forename>
       <surname type="nom_famille"> Hubert </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1659" to="1685" type="acteur.rice"/>
@@ -4429,11 +4372,10 @@
     <person ana="comédien.ne CF" xml:id="HEYD1">
      <idno type="base_unifiée"> 272 </idno>
      <persName>
-      <reg> Jouvenot </reg>
+      <reg>Mademoiselle Jouvenot </reg>
       <forename> Anne-Louise </forename>
-      <surname type="nom_famille"> Heydecamp (de), dite </surname>
+      <surname type="nom_famille"> Heydecamp</surname>
       <addName type="variations"> Heyde Camp </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1718" to="1741" type="acteur.rice"/>
@@ -4442,11 +4384,10 @@
     <person ana="comédien.ne CF" xml:id="RIBO1">
      <idno type="base_unifiée"> 275 </idno>
      <persName>
-      <reg> Julien </reg>
+      <reg>Madame Julien </reg>
       <forename/>
-      <surname type="nom_famille"> Ribon Juien, dite </surname>
+      <surname type="nom_famille"> Ribon Juien</surname>
       <addName type="variations"/>
-      <addName type="titre"> Madame </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="pensionnaire"/>
@@ -4454,11 +4395,11 @@
     <person ana="comédien.ne CF" xml:id="LACH2">
      <idno type="base_unifiée"> 279 </idno>
      <persName>
-      <reg> La Chassaigne </reg>
+      <reg>Charlotte La Chassaigne </reg>
       <forename> Charlotte </forename>
-      <surname type="nom_famille"> La Chassaigne, dite Lolotte ou Charlotte, dite aussi </surname>
-      <addName type="variations"> La Chassaigne fille </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> La Chassaigne </surname>
+      <addName type="pseudonyme"> La Chassaigne fille </addName>
+      <addName type="pseudonyme"> Lolotte </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1788" to="1791" type="pensionnaire"/>
@@ -4466,11 +4407,10 @@
     <person ana="comédien.ne CF" xml:id="JOLY1">
      <idno type="base_unifiée"> 270 </idno>
      <persName>
-      <reg> Joly </reg>
+      <reg>Marie-Elisabeth Joly </reg>
       <forename> Marie-Elisabeth </forename>
       <surname type="nom_famille"> Joly </surname>
       <addName type="variations"> Jolly </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1768" to="1793" type="acteur.rice"/>
@@ -4479,23 +4419,21 @@
     <person ana="comédien.ne CF" xml:id="DURA3">
      <idno type="base_unifiée"> 200 </idno>
      <persName>
-      <reg> Durand </reg>
+      <reg>Marie-Anne Durand </reg>
       <forename> Marie-Anne </forename>
       <surname type="nom_famille"> Durand </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1767" to="1769" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL1">
+    <person ana="comédien.ne CF" xml:id="LAGR1">
      <idno type="base_unifiée"> 284 </idno>
      <persName>
       <reg> La Grange </reg>
       <forename> Charles </forename>
-      <surname type="nom_famille"> Varlet, sieur de La Grange, dit </surname>
+      <surname type="nom_famille"> Varlet </surname>
       <addName type="variations"> Lagrange </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1659" to="1692" type="acteur.rice"/>
@@ -4504,11 +4442,10 @@
     <person ana="comédien.ne CF" xml:id="RAGU1">
      <idno type="base_unifiée"> 285 </idno>
      <persName>
-      <reg> La Grange </reg>
+      <reg>Mademoiselle La Grange </reg>
       <forename> Marie </forename>
-      <surname type="nom_famille"> Ragueneau de l'Estang, épouse Varlet, dite </surname>
-      <addName type="variations"> Lagrange </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Ragueneau de l'Estang</surname>
+      <surname type="nom_usage">Varlet</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1672" to="1692" type="acteur.rice"/>
@@ -4517,25 +4454,25 @@
     <person ana="comédien.ne CF" xml:id="MOTT1">
      <idno type="base_unifiée"> 287 </idno>
      <persName>
-      <reg> La Motte </reg>
+      <reg>Mademoiselle de La Motte </reg>
       <forename> Marianne-Hélène </forename>
-      <surname type="nom_famille"> Mottes (de), dite </surname>
+      <surname type="nom_famille"> Mottes</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1722" to="1759" type="acteur.rice"/>
      <occupation type="sociétariat" when="1722"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LANO1">
+    <person ana="auteur.rice comédien.ne CF" xml:id="LANO1">
      <idno type="base_unifiée"> 288 </idno>
      <idno type="base_unifiée_auteurs"> 108 </idno>
      <persName>
-      <reg> La Noue </reg>
+      <reg> La Noüe </reg>
       <forename> Jean-Baptiste Simon </forename>
-      <surname type="nom_famille"> Sauvé de La Noue, dit </surname>
-      <addName type="variations"> La Nove / Delanoue / Delanoüe </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Sauvé de La Noue</surname>
+      <addName type="variations"> La Nove</addName>
+      <addName type="variations"> Delanoue </addName>
+      <addName type="variations">Delanoüe </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1742" to="1757" type="acteur.rice"/>
@@ -4544,11 +4481,10 @@
     <person ana="comédien.ne CF" xml:id="LARO2">
      <idno type="base_unifiée"> 291 </idno>
      <persName>
-      <reg> La Rochelle </reg>
+      <reg>Barthélémy La Rochelle </reg>
       <forename> Barthélémy </forename>
-      <surname type="nom_famille"> Larochelle </surname>
+      <surname type="nom_famille"> La Rochelle </surname>
       <addName type="variations"> Larochelle </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1782" to="1807" type="acteur.rice"/>
@@ -4557,50 +4493,47 @@
     <person ana="comédien.ne CF" xml:id="HUS1">
      <idno type="base_unifiée"> 268 </idno>
      <persName>
-      <reg> Hus </reg>
+      <reg>Mademoiselle Hus </reg>
       <forename> Adélaïde-Louise-Pauline </forename>
       <surname type="nom_famille"> Hus </surname>
-      <addName type="variations"> Le Lièvre </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_usage"> Lelièvre </surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1751" to="1780" type="acteur.rice"/>
      <occupation type="sociétariat" when="1753"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOIR1">
+    <person ana="comédien.ne CF" xml:id="LATR1">
      <idno type="base_unifiée"> 297 </idno>
      <persName>
-      <reg> La Traverse (de) </reg>
+      <reg>Mademoiselle La Traverse </reg>
       <forename> Jeanne-Catherine </forename>
-      <surname type="nom_famille"> Boiron, dite </surname>
+      <surname type="nom_famille"> Boiron</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1730" to="1733" type="acteur.rice"/>
      <occupation type="sociétariat" when="1731"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="RAIS2">
+    <person ana="auteur.rice comédien.ne CF" xml:id="RAIS2">
      <idno type="base_unifiée"> 406 </idno>
+     <idno type="base_unifiée_auteurs"> 302 </idno>
      <persName>
-      <reg> Raisin </reg>
+      <reg>Jacques Raisin </reg>
       <forename> Jacques </forename>
       <surname type="nom_famille"> Raisin </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1684" to="1694" type="acteur.rice"/>
      <occupation type="sociétariat" when="1684"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LENO3">
+    <person ana="comédien.ne CF" xml:id="LENO2">
      <idno type="base_unifiée"> 294 </idno>
      <persName>
       <reg> La Thorillière </reg>
       <forename> Anne-Maurice </forename>
-      <surname type="nom_famille"> Le Noir, sieur de La Thorillière, dit </surname>
+      <surname type="nom_famille"> Le Noir</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1722" to="1759" type="acteur.rice"/>
@@ -4609,11 +4542,10 @@
     <person ana="comédien.ne CF" xml:id="LABA1">
      <idno type="base_unifiée"> 299 </idno>
      <persName>
-      <reg> Laballe </reg>
+      <reg>Mélanie Laballe </reg>
       <forename> Mélanie </forename>
       <surname type="nom_famille"> Laballe </surname>
       <addName type="variations"> Mademoiselle Mélanie </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1746" to="1748" type="acteur.rice"/>
@@ -4622,11 +4554,10 @@
     <person ana="comédien.ne CF" xml:id="LABA2">
      <idno type="base_unifiée"> 300 </idno>
      <persName>
-      <reg> Labatte </reg>
+      <reg>Mademoiselle Labatte </reg>
       <forename> Jeanne-Elisabeth </forename>
       <surname type="nom_famille"> Labatte </surname>
       <addName type="variations"> La Batte </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1721" to="1733" type="acteur.rice"/>
@@ -4635,24 +4566,22 @@
     <person ana="comédien.ne CF" xml:id="LACA2">
      <idno type="base_unifiée"> 301 </idno>
      <persName>
-      <reg> Lacave </reg>
+      <reg>Louis-Claude Lacave </reg>
       <forename> Louis-Claude </forename>
       <surname type="nom_famille"> Lacave </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1791" to="1817" type="acteur.rice"/>
      <occupation type="sociétariat" when="1804"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUSA2">
+    <person ana="comédien.ne CF" xml:id="LACH6">
      <idno type="base_unifiée"> 302 </idno>
      <persName>
-      <reg> Lachaise </reg>
+      <reg>Mademoiselle Lachaise </reg>
       <forename> Louise-Christine </forename>
-      <surname type="nom_famille"> du Sautoy épouse Perron, dite </surname>
-      <addName type="variations"> Chaise </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> du Sautoy</surname>
+      <surname type="nom_usage"> Perron </surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1713" to="1717" type="acteur.rice"/>
@@ -4661,11 +4590,11 @@
     <person ana="comédien.ne CF" xml:id="BROQ2">
      <idno type="base_unifiée"> 303 </idno>
      <persName>
-      <reg> Lachassaigne </reg>
+      <reg>Marie-Anne de Lachassaigne </reg>
       <forename> Marie-Anne-Hélène </forename>
-      <surname type="nom_famille"> Broquain de Lachassaigne, dite </surname>
-      <addName type="variations"> La Chassaigne / La Chassagne </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Broquain de Lachassaigne </surname>
+      <addName type="variations"> La Chassaigne </addName>
+      <addName type="variations"> La Chassagne </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1766" to="1804" type="acteur.rice"/>
@@ -4674,11 +4603,11 @@
     <person ana="comédien.ne CF" xml:id="LANG2">
      <idno type="base_unifiée"> 306 </idno>
      <persName>
-      <reg> Lange </reg>
-      <forename> Anne-Françoise-Elisabeth, dite Elise </forename>
-      <surname type="nom_famille"> Lange, épouse Simons, dite </surname>
+      <reg>Mademoiselle Elise Lange </reg>
+      <forename> Anne-Françoise-Elisabeth</forename>
+      <surname type="nom_famille"> Lange </surname>
+      <surname type="nom_usage"> Simons </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1788" to="1793" type="acteur.rice"/>
@@ -4687,11 +4616,12 @@
     <person ana="comédien.ne CF" xml:id="MAUD1">
      <idno type="base_unifiée"> 307 </idno>
      <persName>
-      <reg> Larive (de) </reg>
+      <reg> Larive </reg>
       <forename> Jean </forename>
-      <surname type="nom_famille"> Mauduit, dit </surname>
-      <addName type="variations"> Delarive / La Rive (de) / Larrive </addName>
-      <addName type="titre"> Monsieur/Citoyen </addName>
+      <surname type="nom_famille"> Mauduit </surname>
+      <addName type="variations"> Delarive </addName>
+      <addName type="variations"> La Rive (de) </addName>
+      <addName type="variations"> Larrive </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1770" to="1788" type="acteur.rice"/>
@@ -4700,11 +4630,10 @@
     <person ana="comédien.ne CF" xml:id="LAUR1">
      <idno type="base_unifiée"> 309 </idno>
      <persName>
-      <reg> Laurent </reg>
+      <reg>Mademoiselle Charlotte Laurent </reg>
       <forename> Charlotte </forename>
       <surname type="nom_famille"> Laurent </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1784" to="1790" type="acteur.rice"/>
@@ -4713,49 +4642,48 @@
     <person ana="comédien.ne CF" xml:id="LAVE1">
      <idno type="base_unifiée"> 310 </idno>
      <persName>
-      <reg> Laveau </reg>
+      <reg>Mademoiselle Laveau </reg>
       <forename/>
       <surname type="nom_famille"> Laveau </surname>
-      <addName type="variations"> Lavaux/Lavau/Lavault </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <addName type="variations"> Lavaux </addName>
+      <addName type="variations"> Lavau</addName>
+      <addName type="variations"> Lavault </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1783" to="1789" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUMO2">
+    <person ana="comédien.ne CF" xml:id="LAVO5">
      <idno type="base_unifiée"> 311 </idno>
      <persName>
       <reg> Lavoy </reg>
       <forename> Georges-Guillaume </forename>
-      <surname type="nom_famille"> Du Mont de Lavoy, dit </surname>
+      <surname type="nom_famille"> Du Mont de Lavoy</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1694" to="1726" type="acteur.rice"/>
      <occupation type="sociétariat" when="1695"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUMO3">
+    <person ana="comédien.ne CF" xml:id="LAVO4">
      <idno type="base_unifiée"> 314 </idno>
      <persName>
-      <reg> Lavoy </reg>
+      <reg>Mademoiselle Lavoy </reg>
       <forename> Marie-Anne-Pauline </forename>
-      <surname type="nom_famille"> Du Mont de Lavoy, dite </surname>
+      <surname type="nom_famille"> Du Mont de Lavoy</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1739" to="1759" type="acteur.rice"/>
      <occupation type="sociétariat" when="1740"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CORD1">
+    <person ana="comédien.ne CF" xml:id="LECO3">
      <idno type="base_unifiée"> 320 </idno>
      <persName>
-      <reg> Le Comte </reg>
+      <reg>Mademoiselle Le Comte </reg>
       <forename> Françoise </forename>
-      <surname type="nom_famille"> Cordon, épouse Guyot, dite surtout mademoiselle Bélonde, puis </surname>
-      <addName type="variations"> Bélonde / Bellonde </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Cordon</surname>
+      <surname type="nom_usage"> Guyot</surname>
+      <addName type="pseudonyme">Mademoiselle Bellonde </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1679" to="1691" type="acteur.rice"/>
@@ -4764,24 +4692,25 @@
     <person ana="comédien.ne CF" xml:id="LEGR4">
      <idno type="base_unifiée"> 328 </idno>
      <persName>
-      <reg> Le Grand de Belville </reg>
+      <reg>Jean-Marc-Antoine Le Grand de Belville </reg>
       <forename> Jean-Marc-Antoine </forename>
-      <surname type="nom_famille"> Le Grand </surname>
-      <addName type="variations"> Legrand fils/Le Grand le fils </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Le Grand de Belleville</surname>
+      <addName type="variations"> Legrand fils </addName>
+      <addName type="variations">Le Grand le fils </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1719" to="1758" type="acteur.rice"/>
      <occupation type="sociétariat" when="1720"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="SIRO1">
+    <person ana="comédien.ne CF" xml:id="CAIN2">
      <idno type="base_unifiée"> 330 </idno>
      <persName>
-      <reg> Le Kain </reg>
+      <reg>Mademoiselle Le Kain </reg>
       <forename> Christine-Georgette-Charlotte </forename>
-      <surname type="nom_famille"> Sirot, épouse Cain, dite </surname>
-      <addName type="variations"> Lekain / Le Kaïn / Lekaïn </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Sirot </surname>
+      <surname type="nom_usage"> Cain </surname>
+      <addName type="variations">Lekaïn </addName>
+      <addName type="variations"> Le Kaïn </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1757" to="1767" type="acteur.rice"/>
@@ -4790,11 +4719,10 @@
     <person ana="comédien.ne CF" xml:id="LEBE1">
      <idno type="base_unifiée"> 334 </idno>
      <persName>
-      <reg> Lebert </reg>
+      <reg>Monsieur Lebert </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Lebert</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1793" type="pensionnaire"/>
@@ -4802,11 +4730,10 @@
     <person ana="comédien.ne CF" xml:id="COUV1">
      <idno type="base_unifiée"> 335 </idno>
      <persName>
-      <reg> Lecouvreur </reg>
+      <reg>Adrienne Lecouvreur </reg>
       <forename> Adrienne </forename>
-      <surname type="nom_famille"> Couvreur, dite </surname>
+      <surname type="nom_famille"> Couvreur</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1717" to="1730" type="acteur.rice"/>
@@ -4815,62 +4742,58 @@
     <person ana="comédien.ne CF" xml:id="CAIN1">
      <idno type="base_unifiée"> 336 </idno>
      <persName>
-      <reg> Lekain </reg>
+      <reg> Le Kain </reg>
       <forename> Henri-Louis </forename>
-      <surname type="nom_famille"> Cain, dit </surname>
-      <addName type="variations"> Le Kain / Lekaïn / Le Kaïn </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Cain</surname>
+      <addName type="variations">Lekaïn </addName>
+      <addName type="variations"> Le Kaïn </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1750" to="1778" type="acteur.rice"/>
      <occupation type="sociétariat" when="1751"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DEGR1">
+    <person ana="comédien.ne CF" xml:id="LIVR2">
      <idno type="base_unifiée"> 339 </idno>
      <persName>
-      <reg> Livry </reg>
+      <reg>Mademoiselle Livry </reg>
       <forename> Suzanne-Catherine </forename>
-      <surname type="nom_famille"> de Gravet de Corsembleu de Livry, dite </surname>
+      <surname type="nom_famille"> de Gravet de Corsembleu de Livry </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1718" to="1722" type="acteur.rice"/>
      <occupation type="sociétariat" when="1722"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DORI1">
+    <person ana="comédien.ne CF" xml:id="LUZY1">
      <idno type="base_unifiée"> 342 </idno>
      <persName>
-      <reg> Luzy </reg>
+      <reg>Mademoiselle Luzy </reg>
       <forename> Dorothée </forename>
-      <surname type="nom_famille"> Dorinville, dite </surname>
+      <surname type="nom_famille"> Dorinville </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1763" to="1781" type="acteur.rice"/>
      <occupation type="sociétariat" when="1764"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MARC3">
+    <person ana="comédien.ne CF" xml:id="MARC2">
      <idno type="base_unifiée"> 344 </idno>
      <persName>
-      <reg> Marchand </reg>
+      <reg> Monsieur Jean-Claude Marchand </reg>
       <forename> Jean-Claude </forename>
       <surname type="nom_famille"> Marchand </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1762" to="1820" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="SALV1">
+    <person ana="comédien.ne CF" xml:id="MARS7">
      <idno type="base_unifiée"> 345 </idno>
      <persName>
-      <reg> Mars </reg>
+      <reg>Madame Mars </reg>
       <forename> Jeanne-Marguerite </forename>
-      <surname type="nom_famille"> Salvétat, dite </surname>
+      <surname type="nom_famille"> Salvétat </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1778" to="1781" type="pensionnaire"/>
@@ -4878,24 +4801,23 @@
     <person ana="comédien.ne CF" xml:id="MASS2">
      <idno type="base_unifiée"> 349 </idno>
      <persName>
-      <reg> Masson </reg>
+      <reg>Mademoiselle Masson </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Masson </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1788" to="1791" type="acteur.rice"/>
      <occupation type="sociétariat" when="1791"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MÉZE1">
+    <person ana="comédien.ne CF" xml:id="MEZE1">
      <idno type="base_unifiée"> 352 </idno>
      <persName>
-      <reg> Mézeray </reg>
+      <reg>Mademoiselle Mézeray </reg>
       <forename> Marie-Antoinette-Joséphine </forename>
       <surname type="nom_famille"> Mézeray </surname>
-      <addName type="variations"> Mezeray / Meserai </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <addName type="variations"> Mezeray</addName>
+      <addName type="variations"> Meserai </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1791" to="1816" type="acteur.rice"/>
@@ -4906,35 +4828,33 @@
      <persName>
       <reg> Michot </reg>
       <forename> Antoine </forename>
-      <surname type="nom_famille"> Michaut, dit </surname>
+      <surname type="nom_famille"> Michaut </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1790" to="1821" type="acteur.rice"/>
      <occupation type="sociétariat" when="1799"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MOLÉ2">
+    <person ana="auteur.rice comédien.ne CF" xml:id="MOLE2">
      <idno type="base_unifiée"> 357 </idno>
+     <idno type="base_unifiée_auteurs"> 185 </idno>
      <persName>
-      <reg> Molé </reg>
+      <reg>François-René Molé </reg>
       <forename> François-René </forename>
       <surname type="nom_famille"> Molé </surname>
       <addName type="variations"> Molet </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1754" to="1802" type="acteur.rice"/>
      <occupation type="sociétariat" when="1761"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MILA1">
+    <person ana="comédien.ne CF" xml:id="MOLI3">
      <idno type="base_unifiée"> 358 </idno>
      <persName>
-      <reg> Moligny (de) </reg>
+      <reg> Moligny</reg>
       <forename> Etienne </forename>
-      <surname type="nom_famille"> Milache, dit </surname>
-      <addName type="variations"> Moligny </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Milache </surname>
+      <addName type="variations"/> 
      </persName>
      <gender type="masculin"/>
      <occupation from="1713" to="1725" type="acteur.rice"/>
@@ -4943,11 +4863,10 @@
     <person ana="comédien.ne CF" xml:id="MONG1">
      <idno type="base_unifiée"> 360 </idno>
      <persName>
-      <reg> Mongaultier </reg>
+      <reg>Julie Mongaultier </reg>
       <forename> Julie </forename>
       <surname type="nom_famille"> Mongaultier </surname>
       <addName type="variations"> Mongauthier </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1791" to="1793" type="pensionnaire"/>
@@ -4957,9 +4876,8 @@
      <persName>
       <reg> Montmeny </reg>
       <forename> Louis-René-André </forename>
-      <surname type="nom_famille"> Le Sage, dit </surname>
+      <surname type="nom_famille"> Le Sage </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1726" to="1743" type="acteur.rice"/>
@@ -4968,11 +4886,10 @@
     <person ana="comédien.ne CF" xml:id="MONT2">
      <idno type="base_unifiée"> 364 </idno>
      <persName>
-      <reg> Montroze </reg>
+      <reg>Mademoiselle Montroze </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Montroze</surname>
       <addName type="variations"> Monrose </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="pensionnaire"/>
@@ -4980,11 +4897,9 @@
     <person ana="comédien.ne CF" xml:id="DURA4">
      <idno type="base_unifiée"> 367 </idno>
      <persName>
-      <reg> Morancour (de) </reg>
+      <reg>Mademoiselle De Morancour </reg>
       <forename> Octavie-Louise-Eléonore </forename>
-      <surname type="nom_famille"> du Ragot d'Argeville, dite </surname>
-      <addName type="variations"> Morancourt </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> du Ragot d'Argeville</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1711" to="1715" type="acteur.rice"/>
@@ -4993,11 +4908,10 @@
     <person ana="comédien.ne CF" xml:id="NAUD1">
      <idno type="base_unifiée"> 370 </idno>
      <persName>
-      <reg> Naudet </reg>
+      <reg>Jean-Baptiste Julien-Marcel Naudet </reg>
       <forename> Jean-Baptiste Julien-Marcel </forename>
       <surname type="nom_famille"> Naudet </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1784" to="1806" type="acteur.rice"/>
@@ -5006,11 +4920,11 @@
     <person ana="comédien.ne CF" xml:id="QUIN1">
      <idno type="base_unifiée"> 372 </idno>
      <persName>
-      <reg> Nesle (de) </reg>
+      <reg>Mademoiselle De Nesle</reg>
       <forename> Françoise </forename>
-      <surname type="nom_famille"> Quinault, épouse de Nesle, dite </surname>
+      <surname type="nom_famille"> Quinault</surname>
+      <surname type="nom_usage">De Nesle</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1708" to="1713" type="acteur.rice"/>
@@ -5019,11 +4933,10 @@
     <person ana="comédien.ne CF" xml:id="NEUV1">
      <idno type="base_unifiée"> 375 </idno>
      <persName>
-      <reg> Neuville </reg>
+      <reg>Monsieur Neuville </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Neuville</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1767" to="1769" type="pensionnaire"/>
@@ -5031,23 +4944,20 @@
     <person ana="comédien.ne CF" xml:id="NIVE1">
      <idno type="base_unifiée"> 377 </idno>
      <persName>
-      <reg> Nivelon </reg>
+      <reg>Monsieur Nivelon </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Nivelon</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1768" to="1776" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GÉRA2">
+    <person ana="comédien.ne CF" xml:id="OLLI1">
      <idno type="base_unifiée"> 380 </idno>
      <persName>
-      <reg> Ollivier </reg>
+      <reg>Mademoiselle Ollivier </reg>
       <forename> Jeanne-Adélaïde </forename>
-      <surname type="nom_famille"> Gérardin, dite </surname>
-      <addName type="variations"> Olivier </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Gérardin</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1780" to="1787" type="acteur.rice"/>
@@ -5056,11 +4966,10 @@
     <person ana="comédien.ne CF" xml:id="PAUL1">
      <idno type="base_unifiée"> 382 </idno>
      <persName>
-      <reg> Paulin </reg>
+      <reg>Louis-François Paulin </reg>
       <forename> Louis-François </forename>
       <surname type="nom_famille"> Paulin </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1741" to="1770" type="acteur.rice"/>
@@ -5069,11 +4978,11 @@
     <person ana="comédien.ne CF" xml:id="CATI1">
      <idno type="base_unifiée"> 385 </idno>
      <persName>
-      <reg> Poisson </reg>
+      <reg>Mademoiselle Poisson </reg>
       <forename> Marie </forename>
-      <surname type="nom_famille"> Catillon, épouse Poisson (F.-A.), dite </surname>
+      <surname type="nom_famille"> Catillon</surname>
+      <surname type="nom_usage">Poisson</surname>
       <addName type="variations"/>
-      <addName type="titre"> Madame </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1730" to="1741" type="acteur.rice"/>
@@ -5082,11 +4991,10 @@
     <person ana="comédien.ne CF" xml:id="POIS2">
      <idno type="base_unifiée"> 386 </idno>
      <persName>
-      <reg> Poisson </reg>
+      <reg>Raymond Poisson </reg>
       <forename> Raymond </forename>
       <surname type="nom_famille"> Poisson </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1652" to="1685" type="acteur.rice"/>
@@ -5095,11 +5003,10 @@
     <person ana="comédien.ne CF" xml:id="POIS3">
      <idno type="base_unifiée"> 387 </idno>
      <persName>
-      <reg> Poisson </reg>
+      <reg>Paul Poisson </reg>
       <forename> Paul-Jean-Jules </forename>
       <surname type="nom_famille"> Poisson </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1686" to="1724" type="acteur.rice"/>
@@ -5108,11 +5015,10 @@
     <person ana="comédien.ne CF" xml:id="POIS4">
      <idno type="base_unifiée"> 388 </idno>
      <persName>
-      <reg> Poisson </reg>
+      <reg>Philippe Poisson </reg>
       <forename> Phillipe </forename>
       <surname type="nom_famille"> Poisson </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1700" to="1722" type="acteur.rice"/>
@@ -5123,61 +5029,57 @@
      <persName>
       <reg> Poisson de Roinville </reg>
       <forename> François-Arnoult </forename>
-      <surname type="nom_famille"> Poisson, dit </surname>
+      <surname type="nom_famille"> Poisson</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1722" to="1753" type="acteur.rice"/>
      <occupation type="sociétariat" when="1725"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LEFR1">
+    <person ana="comédien.ne CF" xml:id="PONT3">
      <idno type="base_unifiée"> 391 </idno>
      <persName>
-      <reg> Ponteuil </reg>
+      <reg>Sieur de Ponteuil </reg>
       <forename> Nicolas-Etienne </forename>
-      <surname type="nom_famille"> Le Franc, sieur de Ponteuil, dit </surname>
-      <addName type="variations"> Ponteuil (de) /Pontheuil (de) / Ponteuïl (de) (Registres) </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Le Franc</surname>
+      <addName type="variations">de Pontheuil</addName>
+      <addName type="variations">de Ponteuïl (Registres) </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1701" to="1718" type="acteur.rice"/>
      <occupation type="sociétariat" when="1701"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="TRIB1">
+    <person ana="comédien.ne CF" xml:id="PONT2">
      <idno type="base_unifiée"> 392 </idno>
      <persName>
-      <reg> Ponteuil </reg>
+      <reg>Ponteuil </reg>
       <forename> Jean-Baptiste </forename>
-      <surname type="nom_famille"> Triboulet, dit </surname>
+      <surname type="nom_famille"> Triboulet</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1771" to="1780" type="acteur.rice"/>
      <occupation type="sociétariat" when="1779"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUBU2">
+    <person ana="comédien.ne CF" xml:id="PREV1">
      <idno type="base_unifiée"> 395 </idno>
      <persName>
       <reg> Préville </reg>
       <forename> Pierre-Louis </forename>
-      <surname type="nom_famille"> Dubus ou du Bus, dit </surname>
+      <surname type="nom_famille"> Dubus ou du Bus</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1753" to="1786" type="acteur.rice"/>
      <occupation type="sociétariat" when="1753"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DROU3">
+    <person ana="comédien.ne CF" xml:id="PREV2">
      <idno type="base_unifiée"> 396 </idno>
      <persName>
-      <reg> Préville </reg>
+      <reg>Mademoiselle Préville </reg>
       <forename> Madeleine-Angélique-Michelle </forename>
-      <surname type="nom_famille"> Drouin, épouse du Bus, dite </surname>
-      <addName type="variations"> Mademoiselle Drouin </addName>
-      <addName type="titre"> Madame </addName>
+      <surname type="nom_famille"> Drouin</surname>
+      <surname type="nom_usage">du Bus</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1753" to="1786" type="acteur.rice"/>
@@ -5186,11 +5088,10 @@
     <person ana="comédien.ne CF" xml:id="QUIN2">
      <idno type="base_unifiée"> 399 </idno>
      <persName>
-      <reg> Quinault </reg>
+      <reg>Jean Quinault </reg>
       <forename> Jean </forename>
       <surname type="nom_famille"> Quinault </surname>
       <addName type="variations"> Quinaut </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1694" to="1695" type="acteur.rice"/>
@@ -5201,9 +5102,9 @@
      <persName>
       <reg> Quinault cadette </reg>
       <forename> Jeanne-Françoise </forename>
-      <surname type="nom_famille"> Quinault, dite </surname>
-      <addName type="variations"> Quinaut / Quinault-Dufresne (la cadette) </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Quinault</surname>
+      <addName type="variations"> Quinaut </addName>
+      <addName type="variations"> Quinault-Dufresne </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1718" to="1741" type="acteur.rice"/>
@@ -5214,9 +5115,8 @@
      <persName>
       <reg> Quinault l'aîné </reg>
       <forename> Jean-Baptiste Maurice </forename>
-      <surname type="nom_famille"> Quinault, dit </surname>
+      <surname type="nom_famille"> Quinault</surname>
       <addName type="variations"> Quinaut </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1712" to="1734" type="acteur.rice"/>
@@ -5225,11 +5125,10 @@
     <person ana="comédien.ne CF" xml:id="QUIN5">
      <idno type="base_unifiée"> 402 </idno>
      <persName>
-      <reg> Quinault l'aînée </reg>
+      <reg>Mademoisalle Quinault l'aînée </reg>
       <forename> Marie-Anne-Catherine </forename>
-      <surname type="nom_famille"> Quinault, dite </surname>
+      <surname type="nom_famille"> Quinault </surname>
       <addName type="variations"> Quinaut </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1714" to="1722" type="acteur.rice"/>
@@ -5240,48 +5139,48 @@
      <persName>
       <reg> Quinault-Dufresne </reg>
       <forename> Abraham Alexis </forename>
-      <surname type="nom_famille"> Quinault, dit </surname>
+      <surname type="nom_famille"> Quinault</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1712" to="1741" type="acteur.rice"/>
      <occupation type="sociétariat" when="1712"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="PITE5">
+    <person ana="comédien.ne CF" xml:id="RAIS4">
      <idno type="base_unifiée"> 404 </idno>
      <persName>
-      <reg> Raisin </reg>
-      <forename> Françoise, dite Fanchon </forename>
-      <surname type="nom_famille"> Pitel de Longchamps, épouse Raisin dite </surname>
+      <reg>Mademoiselle Raisin </reg>
+      <forename> Françoise</forename>
+      <surname type="nom_famille"> Pitel de Longchamps</surname>
+      <surname type="nom_usage"> Raisin</surname>
+      <addName type="pseudonyme">Fanchon</addName>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1679" to="1701" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="RAIS3">
+    <person ana="auteur.rice comédien.ne CF" xml:id="RAIS3">
      <idno type="base_unifiée"> 405 </idno>
+     <idno type="base_unifiée_auteurs"> 326 </idno>
      <persName>
-      <reg> Raisin </reg>
+      <reg>Jean-Baptiste Raisin </reg>
       <forename> Jean-Baptiste </forename>
       <surname type="nom_famille"> Raisin </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1679" to="1693" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="SAUC1">
+    <person ana="auteur.rice comédien.ne CF" xml:id="RAUC2">
      <idno type="base_unifiée"> 407 </idno>
+     <idno type="base_unifiée_auteurs"> 93 </idno>
      <persName>
-      <reg> Raucourt </reg>
+      <reg>Mademoiselle Raucourt </reg>
       <forename> Françoise-Marie-Antoinette-Josèphe </forename>
-      <surname type="nom_famille"> Saucerotte, dite </surname>
+      <surname type="nom_famille"> Saucerotte</surname>
       <addName type="variations"> Raucour </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1772" to="1815" type="acteur.rice"/>
@@ -5290,11 +5189,10 @@
     <person ana="comédien.ne CF" xml:id="RAUC1">
      <idno type="base_unifiée"> 408 </idno>
      <persName>
-      <reg> Raucourt </reg>
+      <reg>Monsieur Raucourt </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Raucourt</surname>
       <addName type="variations"> Raucour </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1755" to="1756" type="pensionnaire"/>
@@ -5302,11 +5200,11 @@
     <person ana="comédien.ne CF" xml:id="REYM1">
      <idno type="base_unifiée"> 410 </idno>
      <persName>
-      <reg> Reymond </reg>
+      <reg>Gabriel-François Reymond </reg>
       <forename> Gabriel-François </forename>
       <surname type="nom_famille"> Reymond </surname>
-      <addName type="variations"> Raymond / Raimond </addName>
-      <addName type="titre"> Monsieur </addName>
+      <addName type="variations"> Raymond</addName>
+      <addName type="variations">Raimond </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1774" to="1778" type="pensionnaire"/>
@@ -5314,11 +5212,10 @@
     <person ana="comédien.ne CF" xml:id="RIBO2">
      <idno type="base_unifiée"> 411 </idno>
      <persName>
-      <reg> Ribou </reg>
+      <reg>Nicolas Ribou </reg>
       <forename> Nicolas </forename>
       <surname type="nom_famille"> Ribou </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1747" to="1750" type="acteur.rice"/>
@@ -5327,11 +5224,10 @@
     <person ana="comédien.ne CF" xml:id="ROCH1">
      <idno type="base_unifiée"> 413 </idno>
      <persName>
-      <reg> Rochemore </reg>
+      <reg>Jean-Baptiste Rochemore </reg>
       <forename> Jean-Baptiste </forename>
-      <surname type="nom_famille"> Rochemore (de), ou Moulin, dit </surname>
+      <surname type="nom_famille">Moulin</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1685" to="1685" type="acteur.rice"/>
@@ -5340,11 +5236,10 @@
     <person ana="comédien.ne CF" xml:id="ROMA2">
      <idno type="base_unifiée"> 415 </idno>
      <persName>
-      <reg> Romainville (de) </reg>
+      <reg>Monsieur De Romainville</reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">De Romainville</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1756" to="1761" type="pensionnaire"/>
@@ -5352,36 +5247,33 @@
     <person ana="comédien.ne CF" xml:id="ROSA1">
      <idno type="base_unifiée"> 416 </idno>
      <persName>
-      <reg> Rosalie </reg>
+      <reg>Mademoiselle Rosalie </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Rosalie</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GOUR3">
+    <person ana="comédien.ne CF" xml:id="ROSE3">
      <idno type="base_unifiée"> 417 </idno>
      <persName>
-      <reg> Roselis </reg>
+      <reg>Sieur de Roselis </reg>
       <forename> Barthélémy </forename>
-      <surname type="nom_famille"> Gourlin, sieur de Roselis, dit </surname>
+      <surname type="nom_famille"> Gourlin</surname>
       <addName type="variations"> Rosélis </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1688" to="1701" type="acteur.rice"/>
      <occupation type="sociétariat" when="1688"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="RAIS4">
+    <person ana="comédien.ne CF" xml:id="ROSE2">
      <idno type="base_unifiée"> 418 </idno>
      <persName>
       <reg> Rosély </reg>
       <forename> Antoine-François </forename>
-      <surname type="nom_famille"> Raisouche-Montet, dit </surname>
+      <surname type="nom_famille"> Raisouche-Montet</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1742" to="1750" type="acteur.rice"/>
@@ -5391,11 +5283,10 @@
      <idno type="base_unifiée"> 422 </idno>
      <idno type="base_unifiée_auteurs"> 276 </idno>
      <persName>
-      <reg> Rosimond </reg>
+      <reg>Sieur de Rosimond </reg>
       <forename> Claude </forename>
-      <surname type="nom_famille"> La Roze (sieur de) </surname>
+      <surname type="nom_famille"> La Roze</surname>
       <addName type="variations"> Rosimont </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1673" to="1686" type="acteur.rice"/>
@@ -5404,11 +5295,10 @@
     <person ana="comédien.ne CF" xml:id="SAIN3">
      <idno type="base_unifiée"> 426 </idno>
      <persName>
-      <reg> Saint-Ange </reg>
+      <reg>Mademoiselle Adélaïde Saint-Ange </reg>
       <forename> Adélaïde </forename>
       <surname type="nom_famille"> Saint-Ange </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1779" to="1780" type="pensionnaire"/>
@@ -5418,9 +5308,8 @@
      <persName>
       <reg> Saint-Fal </reg>
       <forename> Etienne </forename>
-      <surname type="nom_famille"> Meynier, dit </surname>
+      <surname type="nom_famille"> Meynier</surname>
       <addName type="variations"> Saint-Phal </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1782" to="1824" type="acteur.rice"/>
@@ -5429,11 +5318,10 @@
     <person ana="comédien.ne CF" xml:id="SAIN4">
      <idno type="base_unifiée"> 428 </idno>
      <persName>
-      <reg> Saint-Gervais </reg>
+      <reg>Mademoiselle Saint-Gervais </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Saint-Gervais</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1773" to="1777" type="pensionnaire"/>
@@ -5441,11 +5329,10 @@
     <person ana="comédien.ne CF" xml:id="FOUC1">
      <idno type="base_unifiée"> 429 </idno>
      <persName>
-      <reg> Saint-Prix </reg>
+      <reg>Monsieur Saint-Prix </reg>
       <forename> Jean-Amable </forename>
-      <surname type="nom_famille"> Foucault, dit </surname>
+      <surname type="nom_famille"> Foucault</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1782" to="1818" type="acteur.rice"/>
@@ -5454,11 +5341,11 @@
     <person ana="comédien.ne CF" xml:id="ALZI1">
      <idno type="base_unifiée"> 431 </idno>
      <persName>
-      <reg> Saint-Val aînée </reg>
+      <reg>Mademoiselle Saint-Val aînée </reg>
       <forename> Marie-Pauline-Christine </forename>
-      <surname type="nom_famille"> Alziari de Roquefort, dite </surname>
-      <addName type="variations"> Sainval / (de) St.Val </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Alziari de Roquefort</surname>
+      <addName type="variations"> Sainval</addName>
+      <addName type="variations">De St.Val </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1766" to="1779" type="acteur.rice"/>
@@ -5467,11 +5354,10 @@
     <person ana="comédien.ne CF" xml:id="ALZI2">
      <idno type="base_unifiée"> 432 </idno>
      <persName>
-      <reg> Saint-Val cadette </reg>
+      <reg>Mademoiselle Saint-Val cadette </reg>
       <forename> Marie-Blanche </forename>
-      <surname type="nom_famille"> Alziari de Roquefort, dite </surname>
+      <surname type="nom_famille"> Alziari de Roquefort</surname>
       <addName type="variations"> Sainval </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1772" to="1792" type="acteur.rice"/>
@@ -5482,9 +5368,8 @@
      <persName>
       <reg> Sallé </reg>
       <forename> Jean-Baptiste Louis-Nicolas </forename>
-      <surname type="nom_famille"> Salley, dit </surname>
+      <surname type="nom_famille"> Salley</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1698" to="1706" type="acteur.rice"/>
@@ -5493,11 +5378,11 @@
     <person ana="comédien.ne CF" xml:id="THOU1">
      <idno type="base_unifiée"> 434 </idno>
      <persName>
-      <reg> Sallé </reg>
+      <reg>Mademoiselle Sallé </reg>
       <forename> Françoise </forename>
-      <surname type="nom_famille"> Thoury, épouse Salley, dite </surname>
+      <surname type="nom_famille"> Thoury </surname>
+      <surname type="nom_usage"> Salley </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1704" to="1721" type="acteur.rice"/>
@@ -5506,11 +5391,10 @@
     <person ana="comédien.ne CF" xml:id="SANL1">
      <idno type="base_unifiée"> 435 </idno>
      <persName>
-      <reg> Sanlaville </reg>
+      <reg>Mademoiselle Sanlaville </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Sanlaville </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="pensionnaire"/>
@@ -5518,11 +5402,10 @@
     <person ana="comédien.ne CF" xml:id="SARR1">
      <idno type="base_unifiée"> 436 </idno>
      <persName>
-      <reg> Sarrazin </reg>
+      <reg>Monsieur Pierre-Claude Sarrazin </reg>
       <forename> Pierre-Claude </forename>
       <surname type="nom_famille"> Sarrazin </surname>
       <addName type="variations"> Sarrasin </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1729" to="1759" type="acteur.rice"/>
@@ -5531,49 +5414,47 @@
     <person ana="comédien.ne CF" xml:id="SEGU1">
      <idno type="base_unifiée"> 437 </idno>
      <persName>
-      <reg> Seguin </reg>
+      <reg>Monsieur Seguin </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Seguin</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1773" to="1778" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUPR2">
+    <person ana="comédien.ne CF" xml:id="DUPR1">
      <idno type="base_unifiée"> 438 </idno>
      <persName>
-      <reg> Seine (de) </reg>
+      <reg>Mademoiselle de Seine</reg>
       <forename> Catherine-Marie-Jeanne </forename>
-      <surname type="nom_famille"> Dupré, épouse Quinault-Dufresne, dite </surname>
+      <surname type="nom_famille"> Dupré</surname>
+      <surname type="nom_usage">Quinault-Dufresne</surname>
       <addName type="variations"> Quinault de Seine </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1724" to="1736" type="acteur.rice"/>
      <occupation type="sociétariat" when="1725"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LATR1">
+    <person ana="comédien.ne CF" xml:id="SEVI1">
      <idno type="base_unifiée"> 440 </idno>
      <persName>
-      <reg> Sévigny </reg>
+      <reg>Sieur de Sévigny </reg>
       <forename> François </forename>
-      <surname type="nom_famille"> La Traverse (de), sieur de Sévigny, dit </surname>
+      <surname type="nom_famille">De La Traverse</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1688" to="1694" type="acteur.rice"/>
      <occupation type="sociétariat" when="1688"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VRIO1">
+    <person ana="comédien.ne CF" xml:id="SUIN1">
      <idno type="base_unifiée"> 446 </idno>
      <persName>
-      <reg> Suin </reg>
+      <reg>Madame Suin </reg>
       <forename> Marie-Denise </forename>
-      <surname type="nom_famille"> Vriot, épouse Suin, dite </surname>
+      <surname type="nom_famille"> Vriot</surname>
+      <surname type="nom_usage">Suin</surname>
       <addName type="variations"/>
-      <addName type="titre"> Madame </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1775" to="1804" type="acteur.rice"/>
@@ -5582,11 +5463,10 @@
     <person ana="comédien.ne CF" xml:id="TALM1">
      <idno type="base_unifiée"> 449 </idno>
      <persName>
-      <reg> Talma </reg>
+      <reg>Monsieur François-Joseph Talma </reg>
       <forename> François-Joseph </forename>
       <surname type="nom_famille"> Talma </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1787" to="1826" type="acteur.rice"/>
@@ -5595,23 +5475,21 @@
     <person ana="comédien.ne CF" xml:id="TEIS1">
      <idno type="base_unifiée"> 451 </idno>
      <persName>
-      <reg> Teissier </reg>
+      <reg>Monsieur Teissier </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Teissier</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="CHEV4">
+    <person ana="comédien.ne CF" xml:id="THEN4">
      <idno type="base_unifiée"> 452 </idno>
      <persName>
-      <reg> Thénard </reg>
+      <reg>Madame Thénard </reg>
       <forename> Marie-Magdeleine-Claudine </forename>
-      <surname type="nom_famille"> Chevalier-Perrin, dite </surname>
+      <surname type="nom_famille"> Chevalier-Perrin</surname>
       <addName type="variations"/>
-      <addName type="titre"> Madame </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1777" to="1819" type="acteur.rice"/>
@@ -5620,11 +5498,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="TOUB1">
      <idno type="base_unifiée"> 454 </idno>
      <persName>
-      <reg> Toubelle </reg>
+      <reg>Monsieur François Toubelle </reg>
       <forename> François </forename>
       <surname type="nom_famille"> Toubelle </surname>
       <addName type="variations"> Toubel </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
@@ -5632,11 +5509,10 @@
     <person ana="comédien.ne CF" xml:id="VANH1">
      <idno type="base_unifiée"> 460 </idno>
      <persName>
-      <reg> Vanhove </reg>
+      <reg>Monsieur Charles-Joseph Vanhove </reg>
       <forename> Charles-Joseph </forename>
       <surname type="nom_famille"> Vanhove </surname>
       <addName type="variations"> Van Hove </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1777" to="1803" type="acteur.rice"/>
@@ -5645,11 +5521,10 @@
     <person ana="comédien.ne CF" xml:id="VANH2">
      <idno type="base_unifiée"> 461 </idno>
      <persName>
-      <reg> Vanhove </reg>
+      <reg>Monsieur Ernest Vanhove </reg>
       <forename> Ernest </forename>
       <surname type="nom_famille"> Vanhove </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1791" to="1820" type="pensionnaire"/>
@@ -5657,11 +5532,11 @@
     <person ana="comédien.ne CF" xml:id="VELL1">
      <idno type="base_unifiée"> 462 </idno>
      <persName>
-      <reg> Vellenne </reg>
+      <reg>Monsieur Louis-François-Marie De Vellenne </reg>
       <forename> Louis-François-Marie </forename>
-      <surname type="nom_famille"> Vellenne (de) </surname>
-      <addName type="variations"> Vellène / Velesne (Registres) </addName>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille">De Vellenne</surname>
+      <addName type="variations"> Vellène</addName>
+      <addName type="variations">Velesne (Registres) </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1765" to="1769" type="acteur.rice"/>
@@ -5670,36 +5545,34 @@
     <person ana="comédien.ne CF" xml:id="VERN1">
      <idno type="base_unifiée"> 464 </idno>
      <persName>
-      <reg> Vernet </reg>
+      <reg>Monsieur Jean-Nicolas Vernet </reg>
       <forename> Jean-Nicolas </forename>
       <surname type="nom_famille"> Vernet </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1791" to="1792" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL2">
+    <person ana="comédien.ne CF" xml:id="VARL1">
      <idno type="base_unifiée"> 465 </idno>
      <persName>
-      <reg> Verneuil </reg>
+      <reg>Monsieur Verneuil </reg>
       <forename> Achille </forename>
-      <surname type="nom_famille"> Varlet, dit </surname>
+      <surname type="nom_famille"> Varlet</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1668" to="1684" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GOUR4">
+    <person ana="comédien.ne CF" xml:id="VEST1">
      <idno type="base_unifiée"> 469 </idno>
      <persName>
-      <reg> Vestris </reg>
+      <reg>Madame Vestris </reg>
       <forename> Françoise-Marie-Rosette </forename>
-      <surname type="nom_famille"> Gourgaud, épouse Vestris dite </surname>
+      <surname type="nom_famille"> Gourgaud</surname>
+      <surname type="nom_usage">Vestris</surname>
       <addName type="variations"/>
-      <addName type="titre"> Madame </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1768" to="1803" type="acteur.rice"/>
@@ -5708,76 +5581,58 @@
     <person ana="comédien.ne CF" xml:id="LECH1">
      <idno type="base_unifiée"> 470 </idno>
      <persName>
-      <reg> Vigny (de) </reg>
+      <reg>Monsieur De Vigny</reg>
       <forename> Augustin-Gervais </forename>
-      <surname type="nom_famille"> Lechauve, dit </surname>
+      <surname type="nom_famille"> Lechauve</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1790" to="1829" type="acteur.rice"/>
      <occupation type="sociétariat" when="1811"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DESC5">
+    <person ana="comédien.ne CF" xml:id="DEVI2">
      <idno type="base_unifiée"> 476 </idno>
      <persName>
-      <reg> Villiers (de) </reg>
+      <reg>Monsieur De Villiers</reg>
       <forename> François-Claude </forename>
-      <surname type="nom_famille"> Deschamps, dit </surname>
+      <surname type="nom_famille"> Deschamps</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1693" to="1695" type="acteur.rice"/>
      <occupation type="sociétariat" when="1694"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="TROC1">
-     <idno type="base_unifiée"> 493 </idno>
-     <persName>
-      <reg> Beaubour (de) </reg>
-      <forename> Pierre </forename>
-      <surname type="nom_famille"> Trochon, sieur de Beaubour, dit </surname>
-      <addName type="variations"> Beaubour/ Beaubourg </addName>
-      <addName type="titre"> Monsieur </addName>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1691" to="1718" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1692"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="LÉRI1">
+    <person ana="comédien.ne CF" xml:id="CLAI2">
      <idno type="base_unifiée"> 496 </idno>
      <persName>
-      <reg> Clairon </reg>
+      <reg>Mademoiselle Clairon </reg>
       <forename> Claire-Josèphe-Hippolyte </forename>
-      <surname type="nom_famille"> Léris de La Tude, dite Mlle </surname>
+      <surname type="nom_famille"> Léris de La Tude</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1743" to="1766" type="acteur.rice"/>
      <occupation type="sociétariat" when="1743"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BOTO4">
+    <person ana="comédien.ne CF" xml:id="DANG5">
      <idno type="base_unifiée"> 498 </idno>
      <persName>
-      <reg> Dangeville la jeune </reg>
+      <reg>Mademoiselle Dangeville la jeune </reg>
       <forename> Marie-Anne </forename>
-      <surname type="nom_famille"> Botot, dite </surname>
+      <surname type="nom_famille"> Botot</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1722" to="1763" type="acteur.rice"/>
      <occupation type="sociétariat" when="1730"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LOUI1">
+    <person ana="comédien.ne CF" xml:id="DOLI1">
      <idno type="base_unifiée"> 147 </idno>
      <persName>
-      <reg> Doligny </reg>
-      <forename> Berton-Maisonneuve, dite </forename>
-      <surname type="nom_famille"> Louise-Adélaïde </surname>
+      <reg>Mademoiselle Doligny </reg>
+      <forename>Louise-Adélaïde</forename>
+      <surname type="nom_famille">Berton-Maisonneuve</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1763" to="1783" type="acteur.rice"/>
@@ -5786,11 +5641,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="ABEI1">
      <idno type="base_unifiée"> 1 </idno>
      <persName>
-      <reg> Abeille </reg>
+      <reg>Mademoiselle Abeille </reg>
       <forename/>
       <surname type="nom_famille"> Abeille </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="occasionnel"/>
@@ -5798,11 +5652,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="MONT3">
      <idno type="base_unifiée"> 583 </idno>
      <persName>
-      <reg> Montroze </reg>
+      <reg>Mademoiselle Montroze </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Montroze </surname>
       <addName type="variations"> Monrose </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="occasionnel"/>
@@ -5810,11 +5663,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="MONT4">
      <idno type="base_unifiée"> 584 </idno>
      <persName>
-      <reg> Montgautier </reg>
+      <reg>Monsieur Montgautier </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Montgautier </surname>
       <addName type="variations"> Mongautier </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
@@ -5822,9 +5674,9 @@
     <person ana="comédien.ne occasionnel.le" xml:id="BARO1">
      <idno type="base_unifiée"> 23 </idno>
      <persName>
-      <reg> Baron </reg>
+      <reg>Mademoiselle Baron </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Baron </surname>
       <addName type="variations"/>
       <addName type="titre"> Mademoiselle </addName>
      </persName>
@@ -5834,11 +5686,10 @@
     <person ana="comédien.ne CF" xml:id="BELI1">
      <idno type="base_unifiée"> 34 </idno>
      <persName>
-      <reg> Belissen </reg>
+      <reg>Monsieur Belissen </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Belissen </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1757" to="1772" type="pensionnaire"/>
@@ -5846,11 +5697,10 @@
     <person ana="comédien.ne CF" xml:id="PIN1">
      <idno type="base_unifiée"> 383 </idno>
      <persName>
-      <reg> Pin </reg>
+      <reg>Monsieur Louis-Jean Pin </reg>
       <forename> Louis-Jean </forename>
       <surname type="nom_famille"> Pin </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1765" to="1771" type="pensionnaire"/>
@@ -5858,23 +5708,21 @@
     <person ana="comédien.ne CF" xml:id="RIBO3">
      <idno type="base_unifiée"> 412 </idno>
      <persName>
-      <reg> Ribou </reg>
+      <reg>Mademoiselle Thérèse Ribou </reg>
       <forename> Thérèse </forename>
       <surname type="nom_famille"> Ribou </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1791" to="1793" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VADÉ1">
+    <person ana="comédien.ne CF" xml:id="VADE1">
      <idno type="base_unifiée"> 456 </idno>
      <persName>
-      <reg> Vadé </reg>
+      <reg>Mademoiselle Vadé </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Vadé </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1771" to="1777" type="pensionnaire"/>
@@ -5882,11 +5730,10 @@
     <person ana="comédien.ne CF" xml:id="ROGA1">
      <idno type="base_unifiée"> 414 </idno>
      <persName>
-      <reg> Rogat </reg>
+      <reg>Monsieur Rogat </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Rogat </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1786" to="1792" type="pensionnaire"/>
@@ -5894,11 +5741,10 @@
     <person ana="comédien.ne CF" xml:id="SIMO1">
      <idno type="base_unifiée"> 443 </idno>
      <persName>
-      <reg> Simon </reg>
+      <reg>Mademoiselle Simon </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Simon </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1786" to="1790" type="pensionnaire"/>
@@ -5906,23 +5752,21 @@
     <person ana="comédien.ne occasionnel.le" xml:id="ALLA1">
      <idno type="base_unifiée"> 637 </idno>
      <persName>
-      <reg> Allard </reg>
+      <reg>Mademoiselle Allard </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille"> Allard </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="occasionnel"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUMO4">
+    <person ana="comédien.ne CF" xml:id="DUMO1">
      <idno type="base_unifiée"> 193 </idno>
      <persName>
-      <reg> Dumont </reg>
+      <reg>Mademoiselle Dumont </reg>
       <forename> Justine </forename>
       <surname type="nom_famille"> Dumont </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1781" to="1787" type="pensionnaire"/>
@@ -5930,23 +5774,23 @@
     <person ana="comédien.ne CF" xml:id="DESM9">
      <idno type="base_unifiée"> 139 </idno>
      <persName>
-      <reg> Desmars </reg>
+      <reg>Mademoiselle Desmars </reg>
       <forename/>
       <surname/>
-      <addName type="variations"> Desmarres (Registres) / Desmares (Mouhy) / Démar (feux) </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <addName type="variations"> Desmarres (Registres)</addName>
+      <addName type="variations">Desmares (Mouhy)</addName>
+      <addName type="variations">Démar (feux) </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1769" to="1770" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GOUR5">
+    <person ana="comédien.ne CF" xml:id="DUGA1">
      <idno type="base_unifiée"> 186 </idno>
      <persName>
-      <reg> Dugazon </reg>
+      <reg>Mademoiselle Dugazon </reg>
       <forename> Marie-marguerite-Anne-Sophie </forename>
-      <surname type="nom_famille"> Gourgaud, dite </surname>
+      <surname type="nom_famille"> Gourgaud</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1767" to="1788" type="acteur.rice"/>
@@ -5955,11 +5799,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="FLEU6">
      <idno type="base_unifiée"> 222 </idno>
      <persName>
-      <reg> Fleury </reg>
-      <forename> Thérèse Eymer </forename>
-      <surname type="nom_famille"> Fleury </surname>
+      <reg>Mademoiselle Fleury </reg>
+      <forename> Thérèse  </forename>
+      <surname type="nom_famille"> Eymer </surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="occasionnel"/>
@@ -5967,23 +5810,21 @@
     <person ana="comédien.ne occasionnel.le" xml:id="CARO1">
      <idno type="base_unifiée"> 598 </idno>
      <persName>
-      <reg> Caron </reg>
+      <reg>Monsieur Caron </reg>
       <forename/>
       <surname type="nom_famille"> Caron de Chamblet </surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="BÉNA1">
+    <person ana="comédien.ne CF" xml:id="FLEU8">
      <idno type="base_unifiée"> 225 </idno>
      <persName>
-      <reg> Fleury (fils) </reg>
+      <reg>Monsieur Abraham-Joseph Fleury (fils) </reg>
       <forename> Abraham-Joseph </forename>
-      <surname type="nom_famille"> Bénard, dit </surname>
+      <surname type="nom_famille"> Bénard</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1773" to="1818" type="acteur.rice"/>
@@ -5992,11 +5833,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="GUIA1">
      <idno type="base_unifiée"> 599 </idno>
      <persName>
-      <reg> Guiardelle </reg>
+      <reg>Mademoiselle Guiardelle </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Guiardelle</surname>
       <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation type="occasionnel"/>
@@ -6004,11 +5844,10 @@
     <person ana="comédien.ne occasionnel.le" xml:id="SAIN5">
      <idno type="base_unifiée"> 618 </idno>
      <persName>
-      <reg> Sainville </reg>
+      <reg>Monsieur Sainville </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Sainville</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
@@ -6016,11 +5855,10 @@
     <person ana="comédien.ne CF" xml:id="GUIA2">
      <idno type="base_unifiée"> 260 </idno>
      <persName>
-      <reg> Guiardelle </reg>
+      <reg>Monsieur Guiardelle </reg>
       <forename/>
-      <surname/>
+      <surname type="nom_famille">Guiardelle</surname>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1771" to="1787" type="pensionnaire"/>
@@ -6028,11 +5866,10 @@
     <person ana="comédien.ne CF" xml:id="BERN3">
      <idno type="base_unifiée"> 223 </idno>
      <persName>
-      <reg> Fleury </reg>
+      <reg>Mademoiselle Fleury </reg>
       <forename> Marie-Anne Florence </forename>
-      <surname type="nom_famille"> Bernardy Nones, dite </surname>
-      <addName type="variations"> Fleury Bernardi </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Bernardy Nones</surname>
+      <addName type="nom_usage"> Chevetel </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1783" to="1807" type="acteur.rice"/>
@@ -6041,11 +5878,10 @@
     <person ana="comédien.ne CF" xml:id="COSS1">
      <idno type="base_unifiée"> 94 </idno>
      <persName>
-      <reg> Cosson père </reg>
+      <reg>Monsieur Cosson père </reg>
       <forename/>
       <surname type="nom_famille"> Cosson </surname>
       <addName type="variations"> Colson </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="pensionnaire"/>
@@ -6053,11 +5889,9 @@
     <person ana="comédien.ne CF" xml:id="FÉRA1">
      <idno type="base_unifiée"> 113 </idno>
      <persName>
-      <reg> Dantie </reg>
+      <reg>Mademoiselle Dantie </reg>
       <forename> Anette-Charlotte </forename>
-      <surname type="nom_famille"> Féraud, dite </surname>
-      <addName type="variations"/>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille"> Féraud</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1778" to="1792" type="pensionnaire"/>
@@ -6065,23 +5899,25 @@
     <person ana="comédien.ne occasionnel.le" xml:id="VALE1">
      <idno type="base_unifiée"> 457 </idno>
      <persName>
-      <reg> Valeroy </reg>
+      <reg>Monsieur Valeroy </reg>
       <forename/>
       <surname/>
       <addName type="variations"> Val-Roi </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="PINE2">
+    <person ana="comédien.ne CF" xml:id="PINE1">
      <idno type="base_unifiée"> 356 </idno>
      <persName>
-      <reg> Molé </reg>
+      <reg>Mademoiselle Molé </reg>
       <forename> Pierrette-Claudine-Hélène </forename>
-      <surname type="nom_famille"> Pinet, épouse Molé, dite mademoiselle Dépinay, puis </surname>
-      <addName type="variations"> Deypinay/Dépinay/ Dépynai </addName>
-      <addName type="titre"> Madame </addName>
+      <surname type="nom_famille"> Pinet</surname>
+      <surname type="nom_usage">Molé</surname>
+      <addName type="variations"> Deypinay</addName>
+      <addName type="variations">Dépinay</addName>
+      <addName type="variations"> Dépynai </addName>
+      <addName type="pseudonyme"> Mademoiselle Dépinay </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1761" to="1782" type="acteur.rice"/>
@@ -6090,49 +5926,47 @@
     <person ana="comédien.ne CF" xml:id="LEGR5">
      <idno type="base_unifiée"> 322 </idno>
      <persName>
-      <reg> Le Grand </reg>
+      <reg> Monsieur Marc-Antoine Le Grand </reg>
       <forename> Marc-Antoine </forename>
       <surname type="nom_famille"> Le Grand </surname>
       <addName type="variations"> Legrand </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1695" to="1728" type="acteur.rice"/>
      <occupation type="sociétariat" when="1702"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="TROC2">
+    <person ana="comédien.ne CF" xml:id="BEAU9">
      <idno type="base_unifiée"> 29 </idno>
+     <idno type="base_unifiée"> 493 </idno>
      <persName>
-      <reg> Beaubour (de) </reg>
+      <reg>Monsieur Pierre de Beaubour</reg>
       <forename> Pierre </forename>
-      <surname type="nom_famille"> Trochon, sieur de Beaubour, dit </surname>
+      <surname type="nom_famille"> Trochon</surname>
+      <addName type="titre">sieur de Beaubour</addName>
       <addName type="variations"> Beaubour/Beaubourg </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1691" to="1718" type="acteur.rice"/>
      <occupation type="sociétariat" when="1692"/>
     </person>
-    <person ana="comédien.ne occasionnel.le" xml:id="LATH1">
+    <!--<person ana="comédien.ne occasionnel.le" xml:id="LATH1">
      <idno type="base_unifiée"> 295 </idno>
      <persName>
-      <reg> La Thorillière </reg>
+      <reg>Monsieur La Thorillière </reg>
       <forename/>
       <surname/>
       <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation type="occasionnel"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="LENO4">
+    </person>-->
+    <person ana="comédien.ne CF" xml:id="LATH1">
      <idno type="base_unifiée"> 293 </idno>
      <persName>
-      <reg> La Thorillière </reg>
+      <reg>Monsieur Pierre La Thorillière </reg>
       <forename> Pierre </forename>
-      <surname type="nom_famille"> Le Noir, sieur de La Thorillière, dit </surname>
-      <addName type="variations"/>
-      <addName type="titre"> Monsieur </addName>
+      <surname type="nom_famille"> Le Noir</surname>
+      <addName type="titre">sieur de La Thorillière</addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1671" to="1731" type="acteur.rice"/>
@@ -6141,11 +5975,10 @@
     <person ana="comédien.ne CF" xml:id="BONI1">
      <idno type="base_unifiée"> 52 </idno>
      <persName>
-      <reg> Bonioli fils </reg>
+      <reg>Monsieur Bonioli fils </reg>
       <forename> Jean-Baptiste ou Jean-Jaques </forename>
       <surname type="nom_famille"> Bonioli </surname>
       <addName type="variations"> Bognoli </addName>
-      <addName type="titre"> Monsieur </addName>
      </persName>
      <gender type="masculin"/>
      <occupation from="1770" to="1774" type="pensionnaire"/>
@@ -6153,11 +5986,12 @@
     <person ana="comédien.ne CF" xml:id="VANH3">
      <idno type="base_unifiée"> 448 </idno>
      <persName>
-      <reg> Talma </reg>
+      <reg> Caroline Talma </reg>
       <forename> Charlotte </forename>
-      <surname type="nom_famille"> Vanhove, dite Mademoiselle Vanhove, puis Madame Petit-Vanhove, puis Caroline </surname>
-      <addName type="variations"> Vanhove / Petit-Vanhove / Vãhove </addName>
-      <addName type="titre"> Mademoiselle </addName>
+      <surname type="nom_famille">Vanhove</surname>
+      <surname type="nom_usage">Talma</surname>
+      <addName type="pseudonyme">Mademoiselle Vanhove</addName>
+      <addName type="pseudonyme">Madame Petit-Vanhove</addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1777" to="1811" type="acteur.rice"/>
@@ -6166,11 +6000,10 @@
     <person ana="comédien.ne CF" xml:id="BERN4">
      <idno type="base_unifiée"> 43 </idno>
      <persName>
-      <reg> Bernaut </reg>
+      <reg>Mademoiselle Bernaut </reg>
       <forename/>
       <surname/>
       <addName type="variations"> Bernault/Barnault </addName>
-      <addName type="titre"> Mademoiselle </addName>
      </persName>
      <gender type="feminin"/>
      <occupation from="1760" to="1761" type="pensionnaire"/>
@@ -6178,42 +6011,55 @@
     <person ana="auteur.rice" xml:id="FONT1">
      <idno type="base_unifiée_auteurs"> 258 </idno>
      <persName>
-      <reg> Fontenelle, Bernard le Bouvier de </reg>
+      <reg>Bernard le Bouvier de Fontenelle</reg>
+      <forename>Bernard</forename>
+      <surname type="nom_famille">le Bouvier de Fontenelle</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="PACA1">
      <idno type="base_unifiée_auteurs"> 259 </idno>
      <persName>
-      <reg> Pacarony, chevalier de </reg>
+      <reg>Chevalier de Pacarony</reg>
+      <forename/>
+      <surname type="nom_famille">Chevalier de Pacarony</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="ABEI2">
      <idno type="base_unifiée_auteurs"> 255 </idno>
      <persName>
-      <reg> Abeille, Gaspard, abbé </reg>
+      <reg>Gaspard, abbé Abeille</reg>
+      <forename>Gaspard</forename>
+      <surname type="nom_famille">Abeille</surname>
+      <addName type="titre">Abbé</addName>
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="DUCH1">
+    <person ana="auteur.rice" xml:id="DUCH4">
      <idno type="base_unifiée_auteurs"> 31 </idno>
      <persName>
-      <reg> Duché de Vancy, Joseph-François </reg>
+      <reg>Joseph-François Duché de Vancy</reg>
+      <forename>Joseph-François</forename>
+      <surname type="nom_famille">Duché de Vancy</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="ROUS2">
      <idno type="base_unifiée_auteurs"> 26 </idno>
      <persName>
-      <reg> Rousseau, Pierre de Toulouse </reg>
+      <reg>Pierre Rousseau de Toulouse</reg>
+      <forename>Pierre</forename>
+      <surname type="nom_famille">Rousseau de Toulouse</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="RIUP1">
      <idno type="base_unifiée_auteurs"> 97 </idno>
      <persName>
-      <reg> Riupeirous, Théodore de </reg>
+      <reg>Théodore de Riupeirous</reg>
+      <forename>Théodore</forename>
+      <surname type="nom_famille">de Riupeirous</surname>
      </persName>
      <gender value="masculin"/>
     </person>
@@ -6221,6 +6067,8 @@
      <idno type="base_unifiée_auteurs"> 177 </idno>
      <persName>
       <reg> Alliot </reg>
+      <forename/>
+      <surname type="nom_famille">Alliot</surname>
      </persName>
      <gender value="masculin"/>
     </person>
@@ -6228,21 +6076,46 @@
      <idno type="base_unifiée_auteurs"> 298 </idno>
      <persName>
       <reg> Gillet de La Tessonerie </reg>
+      <forename>Gillet</forename>
+      <surname type="nom_famille">de La Tessonerie</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="ROWE1">
      <idno type="base_unifiée_auteurs"> 69 </idno>
      <persName>
-      <reg> Rowe, Nicholas, auteur / Laplace, Pierre-Antoine de, ou Séran de La Tour, abbé, ou
-       Mauprié, marquis de, traducteur </reg>
+      <reg>Nicholas Rowe</reg>
+      <forename>Nicholas</forename>
+      <surname type="nom_famille">Rowe</surname>
+     </persName>
+     <gender value="masculin"/>
+    </person>
+    <person ana="auteur.rice" xml:id="SERA1">
+     <idno type="base_unifiée_auteurs"> 69 </idno>
+     <persName>
+      <reg>Abbé Séran de La Tour</reg>
+      <forename/>
+      <surname type="nom_famille">Séran de La Tour</surname>
+      <addName type="titre">Abbé</addName>
+     </persName>
+     <gender value="masculin"/>
+    </person>
+    <person ana="auteur.rice" xml:id="MAUP1">
+     <idno type="base_unifiée_auteurs"> 69 </idno>
+     <persName>
+      <reg>Marquis de Mauprié</reg>
+      <forename/>
+      <surname type="nom_famille">de Mauprié</surname>
+      <addName type="titre">Marquis</addName>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="XIMÉ1">
      <idno type="base_unifiée_auteurs"> 44 </idno>
      <persName>
-      <reg> Ximénès, Augustin-Louis de </reg>
+      <reg>Augustin-Louis de Ximénès</reg>
+      <forename>Augustin-Louis</forename>
+      <surname type="nom_famille">de Ximénès</surname>
      </persName>
      <gender value="masculin"/>
     </person>
@@ -6250,13 +6123,17 @@
      <idno type="base_unifiée_auteurs"> 48 </idno>
      <persName>
       <reg> Mauger </reg>
+      <forename/>
+      <surname type="nom_famille">Mauger</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="PORT1">
      <idno type="base_unifiée_auteurs"> 53 </idno>
      <persName>
-      <reg> Portelance, Michel </reg>
+      <reg>Michel Portelance</reg>
+      <forename>Michel</forename>
+      <surname type="nom_famille">Portelance</surname>
      </persName>
      <gender value="masculin"/>
     </person>
@@ -6264,41 +6141,53 @@
      <idno type="base_unifiée_auteurs"> 55 </idno>
      <persName>
       <reg> Baragué </reg>
+      <forename/>
+      <surname type="nom_famille">Baragué</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="BOIS4">
      <idno type="base_unifiée_auteurs"> 63 </idno>
      <persName>
-      <reg> Boistel d'Welles, Jean-Baptiste-Robert (ou Robert) </reg>
+      <reg>Jean-Baptiste-Robert (ou Robert) Boistel d'Welles</reg>
+      <forename>Jean-Baptiste-Robert</forename>
+      <surname type="nom_famille">Boistel d'Welles</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="AUNI1">
      <idno type="base_unifiée_auteurs"> 307 </idno>
      <persName>
-      <reg> Aunillon, Pierre-Charles-Fabiot </reg>
+      <reg>Pierre-Charles-Fabiot Aunillon</reg>
+      <forename>Pierre-Charles-Fabiot</forename>
+      <surname type="nom_famille">Aunillon</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="LAND1">
      <idno type="base_unifiée_auteurs"> 188 </idno>
      <persName>
-      <reg> Landon, Joseph </reg>
+      <reg>Joseph Landon</reg>
+      <forename>Joseph</forename>
+      <surname type="nom_famille">Landon</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="LAUS1">
      <idno type="base_unifiée_auteurs"> 172 </idno>
      <persName>
-      <reg> Laus de Boissy, Louis de </reg>
+      <reg>Louis de Laus de Boissy</reg>
+      <forename>Louis</forename>
+      <surname type="nom_famille">de Laus de Boissy</surname>
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="DUBO3">
+    <person ana="auteur.rice" xml:id="DUBO4">
      <idno type="base_unifiée_auteurs"> 196 </idno>
      <persName>
-      <reg> Du Bocage, Anne-Marie </reg>
+      <reg>Anne-Marie Du Bocage</reg>
+      <forename>Anne-Marie</forename>
+      <surname type="nom_famille">Du Bocage</surname>
      </persName>
      <gender value="féminin"/>
     </person>
@@ -6306,17 +6195,20 @@
      <idno type="base_unifiée_auteurs"> 283 </idno>
      <persName>
       <reg> Desmarres </reg>
+      <forename/>
+      <surname type="nom_famille">Desmarres</surname>
      </persName>
      <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="BELI2">
      <idno type="base_unifiée_auteurs"> 291 </idno>
      <persName>
-      <reg> Belin, François </reg>
+      <reg>François Belin</reg>
+      <forename>François</forename>
+      <surname type="nom_famille">Belin</surname>
      </persName>
      <gender value="masculin"/>
     </person>
-<!--    REPRENDRE ICI VERS LE HAUT-->
     <person ana="auteur.rice" xml:id="LAFF1">
      <idno type="base_unifiée_auteurs"> 293 </idno>
      <persName>
@@ -6362,15 +6254,6 @@
       <surname type="nom_famille">Barbier</surname>
      </persName>
      <gender value="féminin"/>
-    </person>
-    <person ana="auteur.rice" xml:id="RAIS5">
-     <idno type="base_unifiée_auteurs"> 302 </idno>
-     <persName>
-      <reg>Jacques Raisin</reg>
-      <forename>Jacques</forename>
-      <surname type="nom_famille">Raisin</surname>
-     </persName>
-     <gender value="masculin"/>
     </person>
     <person ana="auteur.rice" xml:id="MARI1">
      <idno type="base_unifiée_auteurs"> 103 </idno>
@@ -6436,15 +6319,6 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="GRAN3">
-     <idno type="base_unifiée_auteurs"> 297 </idno>
-     <persName>
-      <reg>Nicolas Racot de Grandval</reg>
-      <forename>Nicolas</forename>
-      <surname type="nom_famille">Racot de Grandval</surname>
-     </persName>
-     <gender value="masculin"/>
-    </person>
     <person ana="auteur.rice" xml:id="PESS1">
      <idno type="base_unifiée_auteurs"> 269 </idno>
      <persName>
@@ -6472,7 +6346,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="DANC2">
+    <person ana="auteur.rice" xml:id="DANC7">
      <idno type="base_unifiée_auteurs"> 266 </idno>
      <persName>
       <reg>Antoine Danchet</reg>
@@ -6599,12 +6473,12 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="MARC4">
+    <person ana="auteur.rice" xml:id="MARC3">
      <idno type="base_unifiée_auteurs"> 181 </idno>
      <persName>
       <reg>Abbé Marchadier</reg>
       <forename/>
-      <surname type="nom_famille"/>
+      <surname type="nom_famille">Marchadier</surname>
       <addName type="titre">Abbé</addName>
      </persName>
      <gender value="masculin"/>
@@ -6645,7 +6519,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="VILL5">
+    <person ana="auteur.rice" xml:id="VILL4">
      <idno type="base_unifiée_auteurs"> 356 </idno>
      <persName>
       <reg>Claude Villaret</reg>
@@ -6811,7 +6685,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="CORD2">
+    <person ana="auteur.rice" xml:id="CORD1">
      <idno type="base_unifiée_auteurs"> 243 </idno>
      <persName>
       <reg>Edmond Cordier de Saint-Firmin</reg>
@@ -7198,7 +7072,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="DESC6">
+    <person ana="auteur.rice" xml:id="DESC3">
      <idno type="base_unifiée_auteurs"> 252 </idno>
      <persName>
       <reg>François-Michel-Chrétien Deschamps</reg>
@@ -7240,15 +7114,6 @@
       <reg>François Tronchin</reg>
       <forename>François</forename>
       <surname type="nom_famille">Tronchin</surname>
-     </persName>
-     <gender value="masculin"/>
-    </person>
-    <person ana="auteur.rice" xml:id="RAIS6">
-     <idno type="base_unifiée_auteurs"> 326 </idno>
-     <persName>
-      <reg>Jean-Baptiste Raisin</reg>
-      <forename>Jean-Baptiste</forename>
-      <surname type="nom_famille">Raisin</surname>
      </persName>
      <gender value="masculin"/>
     </person>
@@ -7496,25 +7361,6 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="LATU1">
-     <idno type="base_unifiée_auteurs"> 76 </idno>
-     <persName>
-      <reg>Jean-François Juvenon de La Tuillerie dit La Tuillerie</reg>
-      <forename>Jean-François</forename>
-      <surname type="nom_famille">Juvenon de La Tuillerie</surname>
-     </persName>
-     <gender value="masculin"/>
-    </person>
-    <person ana="auteur.rice" xml:id="HAUT1">
-     <idno type="base_unifiée_auteurs"> 77 </idno>
-     <persName>
-      <reg>Noël Lebreton, sieur de Hauteroche</reg>
-      <forename>Noël</forename>
-      <surname type="nom_famille">Lebreton</surname>
-      <addName type="titre">sieur de Hauteroche</addName>
-     </persName>
-     <gender value="masculin"/>
-    </person>
     <person ana="auteur.rice" xml:id="REGN1">
      <idno type="base_unifiée_auteurs"> 1 </idno>
      <persName>
@@ -7551,15 +7397,6 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="RAUC2">
-     <idno type="base_unifiée_auteurs"> 93 </idno>
-     <persName>
-      <reg>Mademoiselle Raucourt</reg>
-      <forename>Françoise-Marie-Antoinette-Josèphe</forename>
-      <surname type="nom_famille">Saucerotte</surname>
-     </persName>
-     <gender value="féminin"/>
-    </person>
     <person ana="auteur.rice" xml:id="LEMI1">
      <idno type="base_unifiée_auteurs"> 58 </idno>
      <persName>
@@ -7569,7 +7406,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="LAGR3">
+    <person ana="auteur.rice" xml:id="LAGR4">
      <idno type="base_unifiée_auteurs"> 45 </idno>
      <persName>
       <reg>François-Joseph de La Grange-Chancel</reg>
@@ -7606,7 +7443,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="VILL6">
+    <person ana="auteur.rice" xml:id="VILL5">
      <idno type="base_unifiée_auteurs"> 106 </idno>
      <persName>
       <reg>François-Jean Villemain d’Abancourt</reg>
@@ -7925,7 +7762,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="GUYO2">
+    <person ana="auteur.rice" xml:id="GUYO1">
      <idno type="base_unifiée_auteurs"> 159 </idno>
      <persName>
       <reg>Michel Guyot de Merville</reg>
@@ -8066,15 +7903,6 @@
       <reg>Pierre-Germain Parisau</reg>
       <forename>Pierre-Germain</forename>
       <surname type="nom_famille">Parisau</surname>
-     </persName>
-     <gender value="masculin"/>
-    </person>
-    <person ana="auteur.rice" xml:id="MOLÉ3">
-     <idno type="base_unifiée_auteurs"> 185 </idno>
-     <persName>
-      <reg>François-René Molé</reg>
-      <forename>François-René</forename>
-      <surname type="nom_famille">Molé</surname>
      </persName>
      <gender value="masculin"/>
     </person>
@@ -8233,7 +8061,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="DUBO4">
+    <person ana="auteur.rice" xml:id="DUBO5">
      <idno type="base_unifiée_auteurs"> 202 </idno>
      <persName>
       <reg>Guillaume Dubois de Rochefort</reg>
@@ -8377,7 +8205,7 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="DUBO5">
+    <person ana="auteur.rice" xml:id="DUBO6">
      <idno type="base_unifiée_auteurs"> 88 </idno>
      <persName>
       <reg>Joseph-Gaspard Dubois-Fontanelle</reg>
@@ -8872,7 +8700,7 @@
      </persName>
      <gender value="féminin"/>
     </person>
-    <person ana="auteur.rice" xml:id="LEBR3">
+    <person ana="auteur.rice" xml:id="LEBR2">
      <idno type="base_unifiée_auteurs"> 320 </idno>
      <persName>
       <reg>Denise Lebrun</reg>
@@ -9493,7 +9321,7 @@
      <gender type="masculin"/>
      <occupation from="1880" to="1894" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LERO4">
+    <person ana="comédien.ne CF" xml:id="LERO3">
      <persName>
       <reg>Emilie Lerou </reg>
       <forename> Emilie </forename>
@@ -9583,7 +9411,7 @@
      <gender type="masculin"/>
      <occupation from="1874" to="1882" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VILL7">
+    <person ana="comédien.ne CF" xml:id="VILL6">
      <persName>
       <reg>Henri Villain </reg>
       <forename> Henri </forename>
@@ -9943,7 +9771,7 @@
      <gender type="masculin"/>
      <occupation from="1862" to="1863" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DESC7">
+    <person ana="comédien.ne CF" xml:id="DESC4">
      <persName>
       <reg>Rose Deschamps </reg>
       <forename> Rose </forename>
@@ -9979,7 +9807,7 @@
      <gender type="feminin"/>
      <occupation from="1860" to="1862" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DEVO1">
+    <person ana="comédien.ne CF" xml:id="DEVO2">
      <persName>
       <reg>Elise Devoyod </reg>
       <forename> Elise </forename>
@@ -10105,7 +9933,7 @@
      <gender type="feminin"/>
      <occupation from="1856" to="1858" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LEBR4">
+    <person ana="comédien.ne CF" xml:id="LEBR3">
      <persName>
       <reg>Pauline Lebrun </reg>
       <forename> Pauline </forename>
@@ -10222,7 +10050,7 @@
      <gender type="masculin"/>
      <occupation from="1853" to="1857" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MARC5">
+    <person ana="comédien.ne CF" xml:id="MARC4">
      <persName>
       <reg>Florentine Marcus </reg>
       <forename> Florentine </forename>
@@ -10303,7 +10131,7 @@
      <gender type="feminin"/>
      <occupation from="1851" to="1871" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUIC3">
+    <person ana="comédien.ne CF" xml:id="GUIC1">
      <persName>
       <reg>Gabriel Guichard </reg>
       <forename> Gabriel </forename>
@@ -10704,7 +10532,7 @@
      <gender type="masculin"/>
      <occupation from="1840" to="1843" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL3">
+    <person ana="comédien.ne CF" xml:id="VARL2">
      <persName>
       <reg>Henry Varlet </reg>
       <forename> Henry </forename>
@@ -10731,7 +10559,7 @@
      <gender type="feminin"/>
      <occupation from="1839" to="1848" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL4">
+    <person ana="comédien.ne CF" xml:id="VARL3">
      <persName>
       <reg>Rosalie Varlet </reg>
       <forename> Rosalie </forename>
@@ -10740,7 +10568,7 @@
      <gender type="feminin"/>
      <occupation from="1839" to="1843" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUBO6">
+    <person ana="comédien.ne CF" xml:id="DUBO7">
      <persName>
       <reg>Marie Victorine Dubois </reg>
       <forename> Marie Victorine </forename>
@@ -10848,7 +10676,7 @@
      <gender type="masculin"/>
      <occupation from="1837" to="1840" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LERO5">
+    <person ana="comédien.ne CF" xml:id="LERO4">
      <persName>
       <reg>François Hippolyte Leroy </reg>
       <forename> François Hippolyte </forename>
@@ -11013,7 +10841,7 @@
      <gender type="masculin"/>
      <occupation from="1833" to="1840" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="THIE2">
+    <person ana="comédien.ne CF" xml:id="THIE1">
      <persName>
       <reg>Madame Thierret </reg>
       <forename> Félicia</forename>
@@ -11262,7 +11090,7 @@
      <gender type="masculin"/>
      <occupation from="1824" to="1829" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUER2">
+    <person ana="comédien.ne CF" xml:id="GUER3">
      <persName>
       <reg>Claire Gabrielle Guérin </reg>
       <forename> Claire Gabrielle </forename>
@@ -11372,7 +11200,7 @@
      <gender type="masculin"/>
      <occupation from="1822" to="1823" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LEBR5">
+    <person ana="comédien.ne CF" xml:id="LEBR4">
      <persName>
       <reg>Julie-Hippolyte Lebrun </reg>
       <forename> Julie-Hippolyte </forename>
@@ -11997,7 +11825,7 @@
      <occupation from="1908" to="1944" type="acteur.rice"/>
      <occupation type="sociétariat" when="1920"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LERO6">
+    <person ana="comédien.ne CF" xml:id="LERO5">
      <persName>
       <reg>Georges-Daniel-Eugène le Roy</reg>
       <forename> Georges-Daniel-Eugène </forename>
@@ -12037,7 +11865,7 @@
      <occupation from="1907" to="1941" type="acteur.rice"/>
      <occupation type="sociétariat" when="1920"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DEVO2">
+    <person ana="comédien.ne CF" xml:id="DEVO3">
      <persName>
       <reg>Suzanne-Blanche-Julia Devoyod </reg>
       <forename> Suzanne-Blanche-Julia </forename>
@@ -12057,7 +11885,7 @@
      <occupation from="1906" to="1930" type="acteur.rice"/>
      <occupation type="sociétariat" when="1909"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GRAN4">
+    <person ana="comédien.ne CF" xml:id="GRAN5">
      <persName>
       <reg>Georges Grand </reg>
       <forename> Pierre-Louis-Valentin</forename>
@@ -12067,7 +11895,7 @@
      <occupation from="1906" to="1921" type="acteur.rice"/>
      <occupation type="sociétariat" when="1908"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GRAN5">
+    <person ana="comédien.ne CF" xml:id="GRAN6">
      <persName>
       <reg>Charles Granval </reg>
       <forename> Charles </forename>
@@ -12719,7 +12547,7 @@
      <occupation from="1858" to="1873" type="acteur.rice"/>
      <occupation type="sociétariat" when="1873"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GRAN6">
+    <person ana="comédien.ne CF" xml:id="GRAN7">
      <persName>
       <reg>Mademoiselle Granger </reg>
       <forename> Anne-Pauline</forename>
@@ -12779,7 +12607,7 @@
      <occupation from="1854" to="1877" type="acteur.rice"/>
      <occupation type="sociétariat" when="1854"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUBO7">
+    <person ana="comédien.ne CF" xml:id="DUBO8">
      <persName>
       <reg>Emilie-Désirée Dubois </reg>
       <forename> Emilie-Désirée </forename>
@@ -12929,7 +12757,7 @@
      <occupation from="1842" to="1854" type="acteur.rice"/>
      <occupation type="sociétariat" when="1843"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUYO3">
+    <person ana="comédien.ne CF" xml:id="GUYO2">
      <persName>
       <reg>Emilie-Honorine Guyon </reg>
       <forename> Emilie-Honorine </forename>
@@ -12939,7 +12767,7 @@
      <occupation from="1841" to="1878" type="acteur.rice"/>
      <occupation type="sociétariat" when="1858"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LERO7">
+    <person ana="comédien.ne CF" xml:id="LERO6">
      <persName>
       <reg>Paul-Louis Leroux </reg>
       <forename> Paul-Louis </forename>
@@ -12969,7 +12797,7 @@
      <occupation from="1840" to="1856" type="acteur.rice"/>
      <occupation type="sociétariat" when="1846"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GUYO4">
+    <person ana="comédien.ne CF" xml:id="GUYO3">
      <persName>
       <reg>J-B François-Nicolas Georges Guyon </reg>
       <forename> J-B François-Nicolas Georges </forename>
@@ -13190,7 +13018,7 @@
      <occupation from="1818" to="1841" type="acteur.rice"/>
      <occupation type="sociétariat" when="1832"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="GRAN7">
+    <person ana="comédien.ne CF" xml:id="GRAN8">
      <persName>
       <reg>Grandville</reg>
       <forename>Charles-François</forename>
@@ -13400,7 +13228,7 @@
      <occupation from="1805" to="1808" type="acteur.rice"/>
      <occupation type="sociétariat" when="1805"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DUCH2">
+    <person ana="comédien.ne CF" xml:id="DUCH5">
      <persName>
       <reg>Mademoiselle Duchesnois</reg>
       <forename>Catherine-Joséphine</forename>
