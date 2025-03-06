@@ -1,69 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+<TEI version="5.0" xmlns="http://www.tei-c.org/ns/1.0">
  <teiHeader>
   <fileDesc>
    <titleStmt>
-    <title> Title </title>
+    <title>
+     Title
+    </title>
    </titleStmt>
    <publicationStmt>
-    <p> Publication Information </p>
+    <p>
+     Publication Information
+    </p>
    </publicationStmt>
    <sourceDesc>
-    <p> Information about the source </p>
+    <p>
+     Information about the source
+    </p>
    </sourceDesc>
   </fileDesc>
-  <profileDesc>
-   <particDesc>
-    <personGrp xml:id="DANGEVILLE"/>
-    <personGrp xml:id="DESMARES"/>
-    <personGrp xml:id="BLOUIN"/>
-   </particDesc>
-  </profileDesc>
   <encodingDesc>
    <listPrefixDef>
-    <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Prosopographie.xml#$1"
-     ident="pros">
-     <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie. Il permet
-      d'utiliser l'xml:id des personnes. </p>
+    <prefixDef ident="pros" matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Prosopographie.xml#$1">
+     <p>
+      Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie. Il permet
+                        d'utiliser l'xml:id des personnes.
+     </p>
     </prefixDef>
    </listPrefixDef>
   </encodingDesc>
  </teiHeader>
  <text>
   <body>
-   <listRelation>
-    <!--  FAMILLE DANGEVILLE  -->
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="mere" passive="pros:DANG6"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="mere" passive="pros:DANG2"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="mere" passive="pros:DANG3"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG6" name="soeur" passive="pros:DANG2"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG6" name="soeur" passive="pros:DANG3"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG4" name="conjointe" passive="pros:DANG1"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="belle-soeur" passive="pros:DANG4"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="belle-soeur" passive="pros:DANG1"/>
-    
-    <!--  FAMILLE DESMARES  -->
-    <relation ref="#DESMARES" active="pros:DESM4" name="pere" passive="pros:DESM6"/>
-    <relation ref="#DESMARES" active="pros:DESM4" name="pere" passive="pros:DANG5"/>
-    <relation ref="#DESMARES" active="pros:DESM6" name="soeur" passive="pros:DANG5"/>
-    <relation ref="#DESMARES" active="pros:CHAM5" name="soeur" passive="pros:DESM4"/>
-    <relation ref="#DESMARES" active="pros:CHAM5" name="tante" passive="pros:DESM6"/>
-    <relation ref="#DESMARES" active="pros:CHAM5" name="tante" passive="pros:DANG5"/>
-    
-    <!-- FAMILLE BLOUIN -->
-    <relation ref="#BLOUIN" active="pros:DUBO10" name="pere" passive="pros:DUBO3"/>
-    <relation ref="#BLOUIN" active="pros:CEZA1" name="mere" passive="pros:DUBO3"/>
-
-    <relation active="id_nom" name="tante" passive="id_nom"/>
-    <relation active="id_nom" name="oncle" passive="id_nom"/>
-    <relation active="id_nom" name="frere" passive="id_nom"/>
-    <relation active="id_nom" name="soeur" passive="id_nom"/>
-    <relation active="id_nom" name="cousin" passive="id_nom"/>
-   </listRelation>
+   <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit dans un fichier a part. 
+               Cela permettrait de renseigner les relations entre des personnes de la CF et hors CF -->
    <listPerson>
+    <personGrp ana="Armand">
+     <persName ref="ARMA2" type="nom_famille"/>
+     <persName ref="ARMA3" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Barré">
+     <persName ref="BARR1" type="nom_famille"/>
+     <persName ref="BARR8" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Fleury">
+     <persName ref="FLEU1" type="nom_famille"/>
+     <persName ref="FLEU2" type="nom_famille"/>
+     <persName ref="FLEU3" type="nom_famille"/>
+     <persName ref="FLEU4" type="nom_famille"/>
+     <persName ref="FLEU5" type="nom_famille"/>
+     <persName ref="FLEU7" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Biet">
+     <persName ref="BIET1" type="nom_famille"/>
+     <persName ref="BONC1" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Boursault">
+     <persName ref="BOUR2" type="nom_famille"/>
+     <persName ref="BOUR5" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Charière">
+     <persName ref="CHAR1" type="nom_famille"/>
+     <persName ref="CHAR2" type="nom_famille"/>
+     <persName ref="CHAR3" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Chevalier">
+     <persName ref="CHEV1" type="nom_famille"/>
+     <persName ref="CHEV2" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Clavareau">
+     <persName ref="CLAV1" type="nom_famille"/>
+     <persName ref="CLAV4" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Clavel">
+     <persName ref="CLAV3" type="nom_famille"/>
+     <persName ref="FONP2" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Botot Dangeville">
+     <persName ref="DANG2" type="nom_famille"/>
+     <persName ref="DANG1" type="nom_famille"/>
+     <persName ref="DANG3" type="nom_famille"/>
+     <persName ref="DANG4" type="nom_usage"/>
+     <persName ref="DANG5" type="nom_usage"/>
+     <persName ref="DANG6" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Deshayes">
+     <persName ref="DESH1" type="nom_famille"/>
+     <persName ref="DANC6" type="nom_usage"/>
+     <persName ref="DESH2" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Desmarais">
+     <persName ref="DESM1" type="nom_famille"/>
+     <persName ref="DESM2" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Desmares">
+     <persName ref="DESM3" type="nom_famille"/>
+     <persName ref="DESM4" type="nom_famille"/>
+     <persName ref="CHAM5" type="nom_famille"/>
+     <persName ref="DANG5" type="nom_famille"/>
+     <persName ref="DESM6" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Dorfeuil">
+     <persName ref="DORF1" type="nom_famille"/>
+     <persName ref="DORF2" type="nom_famille"/>
+    </personGrp>
+    <personGrp ana="Dubois">
+     <persName ref="DUBO1" type="nom_famille"/>
+     <persName ref="DUBO2" type="nom_famille"/>
+     <persName ref="DUBO7" type="nom_famille"/>
+     <persName ref="DUBO8" type="nom_famille"/>
+    </personGrp>
     <personGrp ana="Durand">
      <persName ref="DURA1" type="nom_famille"/>
      <persName ref="DURA2" type="nom_famille"/>
@@ -581,8 +626,8 @@
     <personGrp ana="Regnier de la Brière">
      <persName ref="REGN3" type="nom_famille"/>
      <persName ref="TOUS1" type="nom_famille"/>
-    </personGrp></listPerson>
-    
+    </personGrp>
+   </listPerson>
   </body>
  </text>
 </TEI>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Title </title>
+            </titleStmt>
+            <publicationStmt>
+                <p> Publication Information </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p> Information about the source </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Prosopographie.xml#$1"
+                    ident="pros">
+                    <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie. Il permet
+                        d'utiliser l'xml:id des personnes. </p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- Les relations entre les personnes. Je pense qu'il faudrait que ce soit dans un fichier a part. 
+               Cela permettrait de renseigner les relations entre des personnes de la CF et hors CF -->
+            <listPerson>
+                </listPerson>
+        </body>
+    </text>
+</TEI>
