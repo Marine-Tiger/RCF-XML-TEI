@@ -3704,7 +3704,7 @@
      <occupation from="1712" to="1733" type="acteur.rice"/>
      <occupation type="sociétariat" when="1712"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="DURI2S">
+    <person ana="comédien.ne CF" xml:id="DURI2">
      <idno type="base_unifiée"> 204 </idno>
      <persName>
       <reg>Mademoiselle Du Rieu </reg>
