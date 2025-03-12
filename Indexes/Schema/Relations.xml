@@ -17,21 +17,72 @@
   </fileDesc>
   <profileDesc>
    <particDesc>
+    <!-- Id pour les familles. Mes noms de familles sont les noms de naissances/usage, non les noms de scène -->
+    <personGrp xml:id="ALZIARI"/>
+    <personGrp xml:id="BAPTISTE"/>
     <personGrp xml:id="BLOUIN"/>
+    <personGrp xml:id="BOUTET"/>
+    <personGrp xml:id="BOYRON"/>
+    <personGrp xml:id="CAIN"/>
+    <personGrp xml:id="CHANTRELLE"/>
+    <personGrp xml:id="CHEVALIER"/>
+    <personGrp xml:id="CHEMIN"/>
+    <personGrp xml:id="CHEVILLET"/>
+    <personGrp xml:id="CARTON"/>
+    <personGrp xml:id="COLSON"/>
+    <personGrp xml:id="CONTAT"/>
+    <personGrp xml:id="CORNEILLE"/>
     <personGrp xml:id="DANGEVILLE"/>
+    <personGrp xml:id="DESCHAMPS"/>
     <personGrp xml:id="DESMARES"/>
+    <personGrp xml:id="DROUIN"/>
+    <personGrp xml:id="DUCROISY"/>
     <personGrp xml:id="DURIEU"/>
     <personGrp xml:id="FELIX"/>
     <personGrp xml:id="GOURGAUD"/>
+    <personGrp xml:id="GRANDVAL"/>
     <personGrp xml:id="GUERIN"/>
+    <personGrp xml:id="GUICHON"/>
+    <personGrp xml:id="GUYOT"/>
     <personGrp xml:id="HUS"/>
+    <personGrp xml:id="JACOBMONTFLEURY"/>
+    <personGrp xml:id="JOLY"/>
     <personGrp xml:id="LAVOY"/>
     <personGrp xml:id="LEGRAND"/>
+    <personGrp xml:id="LENOIR"/>
+    <personGrp xml:id="LESAGE"/>
+    <personGrp xml:id="MOLE"/>
+    <personGrp xml:id="PITEL"/>
+    <personGrp xml:id="POISSON"/>
+    <personGrp xml:id="POQUELIN"/>
     <personGrp xml:id="PROVOST"/>
     <personGrp xml:id="QUINAULT"/>
+    <personGrp xml:id="RAISIN"/>
+    <personGrp xml:id="SALLEY"/>
+    <personGrp xml:id="SALVETAT"/>
+    <personGrp xml:id="TALMA"/>
+    <personGrp xml:id="VADE"/>
+    <personGrp xml:id="VANHOVE"/>
+    <personGrp xml:id="VARLET"/>
+    <personGrp xml:id="VILLOT"/>
    </particDesc>
   </profileDesc>
   <encodingDesc>
+   <projectDesc>
+    <p>Ce fichier recense les relations (si elles existent) entre les différentes personnes
+     présentes dans le fichier Prosopographie.xml</p>
+   </projectDesc>
+   <p>En fonction du type de relation, il est possible d'utiliser les attributs suivant:
+    <list>
+     <item><att>mutual</att> pour signifier que la relation entre les personnes est égale/réciproque ;</item>
+     <item><att>active</att> et <att>passive</att> désignent une relation réciproque avec un rapport hiérarchique.</item>
+    </list>
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+     <relation ref="id_famille" active="id_parent" name="parents" passive="id_enfants"/>
+     <relation ref="id_famille" name="conjoints" mutual="id_noms"/>
+    </egXML>
+   </p>
+   <!-- prefix définition pour récupérer les ids de la prosopographie -->
    <listPrefixDef>
     <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Prosopographie.xml#$1"
      ident="pros">
@@ -40,331 +91,204 @@
     </prefixDef>
    </listPrefixDef>
   </encodingDesc>
+  <revisionDesc>
+   <change when="2025-03-12">Ajouts familles Drouin,</change>
+   <change when="2025-03-11">Ajouts familles Baptiste, Boyron, Carton, Contat, Deschamps, Grandval, Guyot, Jacob de Montfleury
+   Molé, Pitel, Raisin.</change>
+   <change when="2025-03-10">Ajouts familles Blouin, Colson, Dangeville, Desmares, Du rieu, Félix,
+   Gourgaud, GUérin, Hus, Lavoy, Provost, Quinault.</change>
+  </revisionDesc>
  </teiHeader>
  <text>
   <body>
    <listRelation>
-    <!--  FAMILLE DANGEVILLE  -->
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="mere" passive="pros:DANG2 pros:DANG3 pros:DANG6"/>
-    <relation ref="#DANGEVILLE" name="fratrie" mutual="pros:DANG2 pros:DANG3 pros:DANG6"/>
-    <relation ref="#DANGEVILLE" mutual="pros:DANG4 pros:DANG1" name="conjoints"/>
-    <relation ref="#DANGEVILLE" active="pros:DANG5" name="belle-soeur" passive="pros:DANG1 pros:DANG4"/>
+    <!-- ALZIARI DE ROQUEFORT -->
+    <relation ref="#ALZIARI" name="fratrie" mutual="pros:ALZI1 pros:ALZI2"/>
     
-    <!--  FAMILLE DESMARES  -->
-    <relation ref="#DESMARES" active="pros:DESM4" name="pere" passive="pros:DANG5 pros:DESM6"/>
-    <relation ref="#DESMARES" name="fratrie" mutual="pros:DESM6 pros:DANG5"/>
-    <relation ref="#DESMARES" name="fratrie" mutual="pros:CHAM5 pros:DESM4"/>
-    <relation ref="#DESMARES" active="pros:CHAM5" name="tante" passive="pros:DESM6 pros:DANG5"/>
-    
-    <!-- FAMILLE BLOUIN -->
+    <!-- BAPTISTE -->
+    <relation ref="#BAPTISTE" name="fratrie" mutual="pros:BAPT2 pros:BAPT3"/>
+    <relation ref="#BAPTISTE" active="pros:BAPT2" name="pere" passive="pros:DESM12"/>
+    <relation ref="#BAPTISTE" active="pros:BAPT3" name="oncle" passive="pros:DESM12"/>
+
+    <!-- BLOUIN -->
+    <relation ref="#BLOUIN" name="conjoints" mutual="pros:CEZA1 pros:DUBO10"/>
     <relation ref="#BLOUIN" active="pros:DUBO10 pros:CEZA1" name="parents" passive="pros:DUBO3"/>
     
-    <!-- FAMILLE GOURGAUD -->
-    <relation ref="#GOURGAUD" active="pros:DUGA1" name="pere" passive="pros:DUGA2 pros:DUGA3 pros:VEST1"/>
-    <relation ref="#GOURGAUD" name="fratrie" mutual="pros:DUGA2 pros:DUGA3 pros:VESTI1"/>
+    <!-- BOUTET -->
+    <relation ref="#BOUTET" name="parents" active="pros:MARS7 pros:MONV2" passive="pros:MARS6"/>
     
-    <!-- FAMILLE FELIX -->
-    <relation ref="#FELIX" name="fratrie" mutual="pros:FELI2 pros:FELI3 pros:FELI4 pros:RACH1 pros:DINA1"/>
+    <!-- BOYRON -->
+    <relation ref="#BOYRON #LENOIR" name="conjoints" mutual="pros:BARO1 pros:BARO2"/>
+    <relation ref="#BOYRON" active="pros:BARO1 pros:BARO2" name="parents" passive="pros:BARO4"/>
+    <relation ref="#BOYRON" active="pros:BARO4" name="pere" passive="pros:BARO3 pros:BARO5"/>
+    <relation ref="#BOYRON" name="fratrie" mutual="pros:BARO3 pros:BARO5"/>
+    <relation ref="#BOYRON" active="pros:BARO1 pros:BARO2" name="grands-parents" passive="pros:BARO3 pros:BARO5"/>
     
-    <!-- FAMILLE DURIEU -->
-    <relation ref="#DURIEU" name="conjoints" mutual="pros:DURI1 pros:DURI2"/>
+    <!-- CAIN -->
+    <relation ref="#CAIN" name="conjoints" mutual="pros:CAIN1 pros:CAIN2"/>
     
-    <!-- FAMILLE GUERIN -->
+    <!-- CARTON -->
+    <relation ref="#CARTON #LENOIR" name="conjoints" mutual="pros:DANC2 pros:DANC4"/>
+    <relation ref="#CARTON" active="pros:DANC2 pros:DANC4" name="parents" passive="pros:DANC5 pros:DANC6"/>
+    
+    <!-- CHANTRELLE -->
+    <relation ref="#CHANTRELLE" name="pere" active="pros:DUBO11" passive="pros:DUBO9"/>
+    
+    <!-- CHEMIN -->
+    <relation ref="#CHEMIN" name="conjoints" mutual="pros:DUCH1 pros:DUCH2"/>
+    <relation ref="#CHEMIN" name="parents" active="pros:DUCH1 pros:DUCH2" passive="pros:DUCH3"/>
+    <relation ref="#CHEMIN" name="conjoints" mutual="pros:DUCL2 pros:DUCH3"/>
+    
+    <!-- CHEVILLET -->
+    <relation ref="#CHEVILLET #DESMARES" name="conjoints" mutual="pros:CHAM5 pros:CHAM3"/>
+    
+    <!-- CHEVALIER-PERRIN -->
+    <relation ref="#CHEVALIER" name="conjoints" mutual="pros:THEN4 pros:GRAM1"/>
+    <relation ref="#CHEVALIER" name="parents" active="pros:THEN4 pros:GRAM1" passive="pros:THEN2 pros:THEN3"/>
+    <relation ref="#CHEVALIER" name="arrieres-grands-parents" active="pros:THEN4 pros:GRAM1" passive="pros:THEN1"/>
+    
+    <!-- COLSON -->
+    <relation ref="#COLSON" name="conjoints" mutual="pros:BELL2 pros:BELL4"/>
+    
+    <!-- CONTAT -->
+    <relation ref="#CONTAT" name="fratrie" mutual="pros:CONT1 pros:CONT2"/>
+    <relation ref="#CONTAT" active="pros:CONT1" name="mere" passive="pros:CONT3"/>
+    
+    <!-- CORNEILLE -->
+    <relation ref="#CORNEILLE" name="fratrie" mutual="pros:CORN1 pros:CORN2"/>
+
+    <!-- DANGEVILLE  -->
+    <relation ref="#DANGEVILLE" active="pros:DANG5" name="mere"
+     passive="pros:DANG2 pros:DANG3 pros:DANG6"/>
+    <relation ref="#DANGEVILLE" name="fratrie" mutual="pros:DANG2 pros:DANG3 pros:DANG6"/>
+    <relation ref="#DANGEVILLE #GRANDVAL" mutual="pros:DANG4 pros:DANG1" name="conjoints"/>
+
+    <!-- DESCHAMPS/DE VILLIERS -->
+    <relation ref="#DESCHAMPS #RAISIN" name="conjoints" mutual="pros:VILL3 pros:VILL2"/>
+    <relation ref="#DESCHAMPS" active="pros:VILL2 pros:VILL3" name="parents"
+     passive="pros:DUFE1 pros:DEVI2"/>
+    <relation ref="#DESCHAMPS" name="fratrie" mutual="pros:DUFE1 pros:DEVI2"/>
+
+    <!--  DESMARES  -->
+    <relation ref="#DESMARES" name="fratrie" mutual="pros:CHAM5 pros:DESM4"/>
+    <relation ref="#DESMARES" active="pros:DESM4" name="pere" passive="pros:DANG5 pros:DESM6"/>
+    <relation ref="#DESMARES" name="fratrie" mutual="pros:DESM6 pros:DANG5"/>
+    
+    <!-- DROUIN -->
+    <relation ref="#DROUIN" name="fratrie" mutual="pros:PREV2 pros:DROU2"/>
+    <relation ref="#DROUIN" name="conjoints" mutual="pros:DROU2 pros:DROU3"/>
+    
+    <!-- DU CROISY -->
+    <relation ref="#DUCROISY" active="pros:DUCR1" name="pere" passive="pros:DUCR2"/>
+
+    <!-- DURIEU -->
+    <relation ref="#PITEL #DURIEU" name="conjoints" mutual="pros:DURI1 pros:DURI2"/>
+    <relation ref="#DURIEU" active="pros:DURI1 pros:DURI2" name="parents" passive="pros:GODE1"/>
+    
+    <!-- FELIX -->
+    <relation ref="#FELIX" name="fratrie"
+     mutual="pros:FELI2 pros:FELI3 pros:FELI4 pros:RACH1 pros:DINA1"/>
+    
+    <!-- GRANDVAL -->
+    <relation ref="#GRANDVAL" name="fratrie" mutual="pros:DANG4 pros:GRAN1"/>
+    <relation ref="#GRANDVAL" name="conjoints" mutual="pros:GRAN1 pros:GRAN2"/>
+    
+    <!-- GOURGAUD -->
+    <relation ref="#GOURGAUD" active="pros:DUGA1" name="pere"
+     passive="pros:DUGA2 pros:DUGA3 pros:VEST1"/>
+    <relation ref="#GOURGAUD" name="fratrie" mutual="pros:DUGA2 pros:DUGA3 pros:VEST1"/>
+
+    <!-- GUERIN -->
     <relation ref="#GUERIN" name="conjoints" mutual="pros:BEJA1 pros:GUER2"/>
     <relation ref="#GUERIN" active="pros:BEJA1 pros:GUER2" name="parents" passive="pros:GUER5"/>
     
-    <!-- FAMILLE HUS -->
+    <!-- GUICHON -->
+    <relation ref="#GUICHON" name="conjoints" mutual="pros:DUBR1 pros:DUBR2"/>
+    
+    <!-- GUYOT -->
+    <relation ref="#GUYOT" name="conjoints" mutual="pros:LECO4 pros:LECO5"/>
+
+    <!-- HUS -->
     <relation ref="#HUS" active="pros:HUS1" name="mère" passive="pros:HUS2"/>
     
-    <!-- FAMILLE LAVOY -->
+    <!-- JACOB DE MONTFLEURY -->
+    <relation ref="#JACOBMONTFLEURY" name="fratrie" mutual="pros:DENN1 pros:DUPI1"/>
+    
+    <!-- JOLY -->
+    <relation ref="#JOLY" name="conjoints" mutual="pros:VOLN2 pros:VOLN3"/>
+
+    <!-- LAVOY -->
     <relation ref="#LAVOY" name="conjoints" mutual="pros:LAVO1 pros:LAVO5"/>
     <relation ref="#LAVOY" active="pros:LAVO1 pros:LAVO5" name="parents" passive="pros:LAVO6"/>
     
-    <!-- FAMILLE LE GRAND -->
+    <!-- LESAGE -->
+    <relation ref="#LESAGE" name="pere" active="pros:LESA4" passive="pros:LESA3"/>
+
+    <!-- LE GRAND -->
     <relation ref="#LEGRAND" active="pros:LEGR5" name="père" passive="pros:LEGR3 pros:LEGR4"/>
     
-    <!-- FAMILLE PROVOST -->
-    <relation ref="#PROVOST" active="pros:PROV4" name="père" passive="pros:PROV3"/>
+    <!-- LE NOIR DE LA THORILLIERE -->
+    <relation ref="#LENOIR" name="fratrie" mutual="pros:LATH1 pros:BARO2 pros:DANC2"/>
+    <relation ref="#LENOIR" name="pere" active="pros:LATH1" passive="pros:LATH2"/>
     
-    <!-- FAMILLE QUINAULT -->
-    <relation ref="#QUINAULT" active="pros:QUIN2" name="père" passive="pros:QUIN1 pros:QUIN3 pros:QUIN4 pros:QUIN5 pros:QUIN6"/>
-    <relation ref="#QUINAULT" name="conjoints" mutual="pros:NESL2 pros:QUIN1"/>
-    
- 
+    <!-- MOLE -->
+    <relation ref="#MOLE" name="fratrie" mutual="pros:DALA2 pros:MOLE2"/>
+    <relation ref="#MOLE" name="conjoints" mutual="pros:MOLE3 pros:MOLE2"/>
 
-    <relation active="id_nom" name="tante" passive="id_nom"/>
-    <relation active="id_nom" name="oncle" passive="id_nom"/>
-    <relation active="id_nom" name="frere" passive="id_nom"/>
-    <relation active="id_nom" name="soeur" passive="id_nom"/>
-    <relation active="id_nom" name="cousin" passive="id_nom"/>
+    <!-- PITEL -->
+    <relation ref="#PITEL" name="conjoints" mutual="pros:BEAU12 pros:BEAU4"/>
+    <relation ref="#PITEL" active="pros:BEAU12 pros:BEAU4" name="parents" passive="pros:BEAU3"/>
+    <relation ref="#PITEL" active="pros:LONG1" name="mere" passive="pros:DURI2 pros:RAIS3"/>
+    <relation ref="#PITEL" name="fratrie" mutual="pros:DURI2 pros:RAIS3"/>
+    
+    <!-- POISSON -->
+    <relation ref="#POISSON" active="pros:POIS2" name="pere" passive="pros:POIS3"/>
+    <relation ref="#DUCROISY #POISSON" name="conjoints" mutual="pros:DUCR2 pros:POIS3"/>
+    <relation ref="#POISSON" active="pros:DUCR2 pros:POIS3" name="parents" passive="pros:POIS4 pros:POIS5 pros:GOME1"/>
+    <relation ref="#POISSON" name="conjoints" mutual="pros:POIS6 pros:POIS5"/>
+    
+    <!-- POQUELIN -->
+    <relation ref="#POQUELIN" name="conjoints" mutual="pros:BEJA1 pros:MOLI1"/>
+
+    <!-- PROVOST -->
+    <relation ref="#PROVOST" active="pros:PROV4" name="père" passive="pros:PROV3"/>
+
+    <!-- QUINAULT -->
+    <relation ref="#QUINAULT" active="pros:QUIN2" name="père"
+     passive="pros:QUIN1 pros:QUIN3 pros:QUIN4 pros:QUIN5 pros:QUIN6"/>
+    <relation ref="#QUINAULT" name="conjoints" mutual="pros:NESL2 pros:QUIN1"/>
+    <relation ref="#QUINAULT" name="conjoints" mutual="pros:DUPR1 pros:QUIN6"/>
+    
+    <!-- RAISIN -->
+    <relation ref="#RAISIN" name="fratrie" mutual="pros:RAIS1 pros:RAIS2 pros:VILL3"/>
+    <relation ref="#PITEL #RAISIN" name="conjoints" mutual="pros:RAIS3 pros:RAIS2"/>
+    
+    <!-- SALLEY -->
+    <relation ref="#SALLEY" name="conjoints" mutual="pros:SALL1 pros:SALL2"/>
+    
+    <!-- SALVETAT -->
+    <relation ref="#SALVETAT" name="fratrie" mutual="pros:MARS4 pros:MARS7"/>
+    
+    <!-- TALMA -->
+    <relation ref="#TALMA #VANHOVE" name="conjoints" mutual="pros:TALM1 pros:TALM2"/>
+    
+    <!-- VADÉ -->
+    <relation ref="#VADE" name="pere" active="pros:VADE2" passive="pros:VADE1"/>
+    
+    <!-- VANHOVE -->
+    <relation ref="#VANHOVE" name="fratrie" mutual="pros:VANH1 pros:VANH2"/>
+    <relation ref="#VANHOVE" name="pere" active="pros:VANH1 pros:TALM2"/>
+    
+    <!-- VARLET -->
+    <relation ref="#VARLET" name="fratrie" mutual="pros:LAGR1 pros:VARL1"/>
+    <relation ref="#VARLET" name="conjoints" mutual="pros:LAGR5 pros:LAGR1"></relation>
+    
+    <!-- VILLOT -->
+    <relation ref="#VILLOT" name="conjoints" mutual="pros:DUFE1 pros:DUFE2"/>
+    
+
    </listRelation>
    <listPerson>
-    <personGrp ana="Deschamps">
-     <persName ref="VILL2" type="nom_famille"/>
-     <persName ref="DEVI2" type="nom_famille"/>
-     <persName ref="DESC2" type="nom_famille"/>
-     <persName ref="DESC3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Raisin">
-     <persName ref="VILL3" type="nom_famille"/>
-     <persName ref="RAIS1" type="nom_famille"/>
-     <persName ref="RAIS3" type="nom_usage"/>
-     <persName ref="RAIS2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Aubert">
-     <persName ref="AUBE1" type="nom_famille"/>
-     <persName ref="ANAI1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Anselme">
-     <persName ref="BAPT2" type="nom_famille"/>
-     <persName ref="BAPT3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Boyron">
-     <persName ref="BARO1" type="nom_famille"/>
-     <persName ref="BARO2" type="nom_usage"/>
-     <persName ref="BARO3" type="nom_famille"/>
-     <persName ref="BARO4" type="nom_famille"/>
-     <persName ref="BARO5" type="nom_famille"/>
-     <persName ref="BOYR5" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Desbrosses">
-     <persName ref="BARO3" type="nom_usage"/>
-     <persName ref="DESB1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Pitel">
-     <persName ref="BEAU3" type="nom_famille"/>
-     <persName ref="BEAU4" type="nom_famille"/>
-     <persName ref="BEAU12" type="nom_usage"/>
-    </personGrp>
-    <personGrp ana="Colson">
-     <persName ref="BELL2" type="nom_famille"/>
-     <persName ref="BELL4" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Chevillet">
-     <persName ref="CHAM5" type="nom_usage"/>
-     <persName ref="CHAM3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Bonioli">
-     <persName ref="BONI1" type="nom_usage"/>
-     <persName ref="BONI2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Contat">
-     <persName ref="CONT1" type="nom_famille"/>
-     <persName ref="CONT2" type="nom_famille"/>
-     <persName ref="CONT3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Molé">
-     <persName ref="DALA2" type="nom_famille"/>
-     <persName ref="MOLE2" type="nom_famille"/>
-     <persName ref="PINE1" type="nom_usage"/>
-    </personGrp>
-    <personGrp ana="Carton">
-     <persName ref="DANC4" type="nom_famille"/>
-     <persName ref="DANC5" type="nom_famille"/>
-     <persName ref="DANC6" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Racot de Grandval">
-     <persName ref="DANG4" type="nom_famille"/>
-     <persName ref="GRAN1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Jacob de Montfleury">
-     <persName ref="DENN1" type="nom_famille"/>
-     <persName ref="DUPI1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Guyot">
-     <persName ref="LECO4" type="nom_famille"/>
-     <persName ref="LECO3" type="nom_usage"/>
-    </personGrp>
-    <personGrp ana="Drouin">
-     <persName ref="DROU2" type="nom_famille"/>
-     <persName ref="GAUL1" type="nom_usage"/>
-     <persName ref="PREV2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Guichon">
-     <persName ref="DUBR1" type="nom_famille"/>
-     <persName ref="DUBR2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Poisson">
-     <persName ref="DUCR2" type="nom_usage"/>
-     <persName ref="CATI1" type="nom_usage"/>
-     <persName ref="POIS2" type="nom_famille"/>
-     <persName ref="POIS3" type="nom_famille"/>
-     <persName ref="POIS4" type="nom_famille"/>
-     <persName ref="POIS5" type="nom_famille"/>
-     <persName ref="POIS6" type="nom_famille"/>
-     <persName ref="POIS7" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Boutet">
-     <persName ref="MONV2" type="nom_famille"/>
-     <persName ref="MARS6" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Villot">
-     <persName ref="DUFE1" type="nom_usage"/>
-     <persName ref="DUFE2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Chantrelle">
-     <persName ref="DUBO11" type="nom_famille"/>
-     <persName ref="DUBO9" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Blouin">
-     <persName ref="DUBO10" type="nom_famille"/>
-     <persName ref="DUBO3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Chemin">
-     <persName ref="DUCH1" type="nom_famille"/>
-     <persName ref="DUCH2" type="nom_usage"/>
-     <persName ref="DUCH3" type="nom_famille"/>
-     <persName ref="DUCL2" type="nom_usage"/>
-    </personGrp>
-    <personGrp ana="Marchand">
-     <persName ref="DUME2" type="nom_famille"/>
-     <persName ref="MARC2" type="nom_famille"/>
-     <persName ref="MONL1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Feulie">
-     <persName ref="FEUL1" type="nom_famille"/>
-     <persName ref="FEUL2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Gautier">
-     <persName ref="GAUT1" type="nom_famille"/>
-     <persName ref="GAUT2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Dupré">
-     <persName ref="GRAN2" type="nom_famille"/>
-     <persName ref="DUPR1" type="nom_famille"/>
-    </personGrp>
-   
-    <personGrp ana="Poquelin">
-     <persName ref="BEJA1" type="nom_usage"/>
-     <persName ref="MOLI1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Joly">
-     <persName ref="JOLY1" type="nom_famille"/>
-     <persName ref="VOLN3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Varlet">
-     <persName ref="LAGR1" type="nom_famille"/>
-     <persName ref="RAGU1" type="nom_usage"/>
-     <persName ref="VARL1" type="nom_famille"/>
-     <persName ref="VARL2" type="nom_famille"/>
-     <persName ref="VARL3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Le Noir">
-     <persName ref="LATH1" type="nom_famille"/>
-     <persName ref="LATH2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Laurent">
-     <persName ref="LAUR1" type="nom_famille"/>
-     <persName ref="LAUR2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Cain">
-     <persName ref="CAIN2" type="nom_usage"/>
-     <persName ref="CAIN1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Salvétat">
-     <persName ref="MARS7" type="nom_famille"/>
-     <persName ref="MARS4" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Montroze">
-     <persName ref="MONT2" type="nom_famille"/>
-     <persName ref="MONT3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Ribou">
-     <persName ref="RIBO2" type="nom_famille"/>
-     <persName ref="RIBO3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Alziari de Roquefort">
-     <persName ref="ALZI1" type="nom_famille"/>
-     <persName ref="ALZI2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Salley">
-     <persName ref="SALL1" type="nom_famille"/>
-     <persName ref="THOU1" type="nom_usage"/>
-    </personGrp>
-    <personGrp ana="Talma">
-     <persName ref="TALM1" type="nom_famille"/>
-     <persName ref="VANH3" type="nom_usage"/>
-    </personGrp>
-    <personGrp ana="Chevalier-Perrin">
-     <persName ref="THEN4" type="nom_famille"/>
-     <persName ref="THEN3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Vanhove">
-     <persName ref="VANH1" type="nom_famille"/>
-     <persName ref="VANH2" type="nom_famille"/>
-     <persName ref="VANH3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Abeille">
-     <persName ref="ABEI1" type="nom_famille"/>
-     <persName ref="ABEI2" type="nom_famille"/>
-     <persName ref="NICO1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Baron">
-     <persName ref="BARO6" type="nom_famille"/>
-     <persName ref="VOLN2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Vadé">
-     <persName ref="VADE1" type="nom_famille"/>
-     <persName ref="VADE2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Simon">
-     <persName ref="SIMO1" type="nom_famille"/>
-     <persName ref="SIMO2" type="nom_famille"/>
-     <persName ref="LOCK1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Guiardelle">
-     <persName ref="GUIA1" type="nom_famille"/>
-     <persName ref="GUIA2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Cosson">
-     <persName ref="COSS1" type="nom_famille"/>
-     <persName ref="COSS3" type="nom_famille"/>
-     <persName ref="COLS2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Rousseau">
-     <persName ref="ROUS4" type="nom_famille"/>
-     <persName ref="ROUS5" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Pousset de Montauban">
-     <persName ref="MONT5" type="nom_famille"/>
-     <persName ref="POUS1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Martel">
-     <persName ref="MART2" type="nom_famille"/>
-     <persName ref="MART3" type="nom_famille"/>
-     <persName ref="MART4" type="nom_famille"/>
-     <persName ref="MART5" type="nom_famille"/>
-     <persName ref="NATH1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Jolly">
-     <persName ref="JOLL1" type="nom_famille"/>
-     <persName ref="LLOY1" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Leblanc">
-     <persName ref="LEBL1" type="nom_famille"/>
-     <persName ref="LEBL3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Boyer">
-     <persName ref="BOYE1" type="nom_famille"/>
-     <persName ref="BOYE2" type="nom_famille"/>
-     <persName ref="BOYE3" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Legrand">
-     <persName ref="LONG1" type="nom_famille"/>
-     <persName ref="LEGR6" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Bernard">
-     <persName ref="BERN6" type="nom_famille"/>
-     <persName ref="BERN7" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Corneille">
-     <persName ref="CORN1" type="nom_famille"/>
-     <persName ref="CORN2" type="nom_famille"/>
-    </personGrp>
-    <personGrp ana="Lesage">
-     <persName ref="LESA4" type="nom_famille"/>
-     <persName ref="LESA5" type="nom_famille"/>
-    </personGrp>
     <personGrp ana="Lebrun">
      <persName ref="LEBR2" type="nom_famille"/>
      <persName ref="LEBR3" type="nom_famille"/>
@@ -496,8 +420,9 @@
     <personGrp ana="Regnier de la Brière">
      <persName ref="REGN3" type="nom_famille"/>
      <persName ref="TOUS1" type="nom_famille"/>
-    </personGrp></listPerson>
-    
+    </personGrp>
+   </listPerson>
+
   </body>
  </text>
 </TEI>
