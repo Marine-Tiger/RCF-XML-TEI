@@ -8123,15 +8123,6 @@
      </persName>
      <gender value="masculin"/>
     </person>
-    <person ana="auteur.rice" xml:id="GODA2">
-     <idno type="base_unifiée_auteurs"> 114 </idno>
-     <persName>
-      <reg>Claude Godard d’Aucour</reg>
-      <forename>Claude</forename>
-      <surname type="nom-famille">Godard d’Aucour</surname>
-     </persName>
-     <gender value="masculin"/>
-    </person>
     <person ana="auteur.rice" xml:id="SEDA1">
      <idno type="base_unifiée_auteurs"> 121 </idno>
      <persName>
@@ -11508,16 +11499,6 @@
      <occupation from="1908" to="1936" type="acteur.rice"/>
      <occupation type="sociétariat" when="1929"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="ALEX3">
-     <persName>
-      <reg>René Alexandre </reg>
-      <forename> René </forename>
-      <surname type="nom_famille">Alexandre</surname>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1908" to="1944" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1920"/>
-    </person>
     <person ana="comédien.ne CF" xml:id="LERO4">
      <persName>
       <reg>Georges-Daniel-Eugène le Roy</reg>
@@ -11557,126 +11538,6 @@
      <gender type="feminin"/>
      <occupation from="1907" to="1941" type="acteur.rice"/>
      <occupation type="sociétariat" when="1920"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="DEVO3">
-     <persName>
-      <reg>Suzanne-Blanche-Julia Devoyod </reg>
-      <forename> Suzanne-Blanche-Julia </forename>
-      <surname type="nom_famille">Devoyod</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1907" to="1936" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1920"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="CERN1">
-     <persName>
-      <reg>Berthe Cerny </reg>
-      <forename> Hélène-Lucie</forename>
-      <surname type="nom_famille">de Choudens</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1906" to="1930" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1909"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="GRAN5">
-     <persName>
-      <reg>Georges Grand </reg>
-      <forename> Pierre-Louis-Valentin</forename>
-      <surname type="nom_famille">MacLeod</surname>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1906" to="1921" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1908"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="GRAN6">
-     <persName>
-      <reg>Charles Granval </reg>
-      <forename> Charles </forename>
-      <surname type="nom_famille">Granval</surname>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1904" to="1934" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1922"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="DUSS2">
-     <persName>
-      <reg>Dussane</reg>
-      <forename>Béatrix</forename>
-      <surname type="nom_famille">Dussan</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1903" to="1941" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1922"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="ROCH3">
-     <persName>
-      <reg>Madeleine-Julienne Roch</reg>
-      <forename> Madeleine-Julienne </forename>
-      <surname type="nom_famille">Roch</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1903" to="1930" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1912"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="BRUN2">
-     <persName>
-      <reg>André-François-Gilbert Brunot </reg>
-      <forename> André-François-Gilbert </forename>
-      <surname type="nom_famille">Brunot</surname>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1903" to="1944" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1910"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="SIBL1">
-     <persName>
-      <reg>Charles-Louis-Adrien Siblot </reg>
-      <forename> Charles-Louis-Adrien </forename>
-      <surname type="nom_famille">Siblot</surname>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1903" to="1931" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1909"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="PIER1">
-     <persName>
-      <reg>Marie-Thérèse Pierat </reg>
-      <forename> Marie-Thérèse</forename>
-      <surname type="nom_famille">Panot</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1902" to="1934" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1905"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="SILV1">
-     <persName>
-      <reg>Louise-Julie-Marthe Hartman Silvain </reg>
-      <forename> Louise-Julie-Marthe Hartman </forename>
-      <surname type="nom_famille">Silvain</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1901" to="1924" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1910"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="MAYE1">
-     <persName>
-      <reg>Henry Mayer </reg>
-      <forename> Henry </forename>
-      <surname type="nom_famille">Mayer</surname>
-     </persName>
-     <gender type="masculin"/>
-     <occupation from="1901" to="1922" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1905"/>
-    </person>
-    <person ana="comédien.ne CF" xml:id="SORE1">
-     <persName>
-      <reg>Cécile Sorel </reg>
-      <forename> Céline </forename>
-      <surname type="nom_famille">Seurre</surname>
-     </persName>
-     <gender type="feminin"/>
-     <occupation from="1901" to="1933" type="acteur.rice"/>
-     <occupation type="sociétariat" when="1904"/>
     </person>
     <person ana="comédien.ne CF" xml:id="CROU1">
      <persName>
@@ -12025,6 +11886,7 @@
       <reg>Marie-Rose-Blanche-Héloïse Barretta </reg>
       <forename> Marie-Rose-Blanche-Héloïse </forename>
       <surname type="nom_famille">Barretta</surname>
+      <surname type="nom_usage">Worms</surname>
      </persName>
      <gender type="feminin"/>
      <occupation from="1875" to="1901" type="acteur.rice"/>
