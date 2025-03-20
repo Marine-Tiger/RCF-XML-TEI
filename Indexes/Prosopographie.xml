@@ -3358,11 +3358,11 @@
      <occupation from="1671" to="1694" type="acteur.rice"/>
      <occupation type="sociétariat" when="1680"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="MONV2">
+    <person ana="auteur.rice comédien.ne CF" xml:id="MONV2">
      <idno type="base_unifiée"> 366 </idno>
      <idno type="base_unifiée_auteurs"> 72 </idno>
      <persName>
-      <reg> Monvel</reg>
+      <reg>Monvel</reg>
       <forename> Jaques-Marie </forename>
       <surname type="nom_famille"> Boutet </surname>
       <addName type="variations"> Montvel </addName>
@@ -3599,7 +3599,7 @@
      <occupation from="1785" to="1813" type="acteur.rice"/>
      <occupation type="sociétariat" when="1799"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="LATU1">
+    <person ana="auteur.rice comédien.ne CF" xml:id="LATU1">
      <idno type="base_unifiée"> 298 </idno>
      <idno type="base_unifiée_auteurs"> 76 </idno>
      <persName>
@@ -7469,15 +7469,6 @@
       <reg>Louis de Cahusac</reg>
       <forename>Louis</forename>
       <surname type="nom_famille">de Cahusac</surname>
-     </persName>
-     <gender value="masculin"/>
-    </person>
-    <person ana="auteur.rice" xml:id="PALA2">
-     <idno type="base_unifiée_auteurs"> 157 </idno>
-     <persName>
-      <reg>Jean de Palaprat</reg>
-      <forename>Jean</forename>
-      <surname type="nom_famille">de Palaprat</surname>
      </persName>
      <gender value="masculin"/>
     </person>
