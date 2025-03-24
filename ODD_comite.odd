@@ -35,7 +35,7 @@
 
           <!-- Règles d'encodage pour le header -->
           <moduleRef key="header"
-            include="calendar calendarDesc edition editionStmt encodingDesc fileDesc idno listChange listPrefixDef namespace prefixDef profileDesc publicationStmt rendition revisionDesc schemaRef sourceDesc teiHeader titleStmt"/>
+            include="calendar calendarDesc change edition editionStmt encodingDesc fileDesc idno listChange listPrefixDef namespace prefixDef profileDesc publicationStmt rendition revisionDesc schemaRef sourceDesc teiHeader titleStmt"/>
           <!-- Le module "msdescription" permet de décrire les registres. Comme le portail Lagrange fournit déjà une notice détaillée, la description se limite à la provenance, série et cote -->
           <moduleRef key="msdescription" include="institution msDesc msIdentifier repository source"/>
 
@@ -58,7 +58,7 @@
               <memberOf mode="add" key="att.datable"/>
             </classes>
             <!-- Contrainte pour obliger un attribut pour dater les séances -->
-            <constraintSpec ident="date" scheme="schematron">
+            <constraintSpec ident="dateDiv1" scheme="schematron">
               <constraint>
                 <sch:rule context="tei:div1">
                   <sch:assert test="@when | @notBefore | @notAfter" role="error">La date doit être
@@ -114,9 +114,14 @@
                   </valItem>
                 </valList>
               </attDef>
+            </attList>
+          </elementSpec>
 
-              <!-- Liste (non-exhaustive) pour @ana-->
-              <attDef ident="ana" mode="replace" usage="req">o
+          <!--LISTE DE VALEURS DANS DIV2-->
+          <elementSpec ident="div2" mode="change" module="textstructure">
+            <!-- Liste (non-exhaustive) pour @ana-->
+            <attList>
+              <attDef ident="ana" mode="change" usage="rec">
                 <valList type="closed">
                   <!-- trouver un moyen afin de pouvoir continuer de mettre plusieurs valeurs à la fois? -->
                   <valItem ident="admission"/>
@@ -127,6 +132,7 @@
                   <valItem ident="bibliotheque"/>
                   <valItem ident="billet"/>
                   <valItem ident="chauffage"/>
+                  <valItem ident="correspondance"/>
                   <valItem ident="conges"/>
                   <valItem ident="costumes"/>
                   <valItem ident="debuts"/>
@@ -146,11 +152,33 @@
                   <valItem ident="representation a benefice"/>
                   <valItem ident="retraite"/>
                   <valItem ident="secours"/>
+                  <valItem ident="signification"/>
                   <valItem ident="travaux"/>
                 </valList>
               </attDef>
             </attList>
           </elementSpec>
+
+          <!-- CONTRAINTES DATES DIV3 -->
+          <elementSpec ident="div3" mode="change" module="textstructure">
+            <!-- On ajoute l'attribut @when dans l'élément <div> -->
+            <classes mode="change">
+              <memberOf mode="add" key="att.datable"/>
+            </classes>
+            <!-- Contrainte pour obliger un attribut pour dater les séances -->
+            <constraintSpec ident="date" scheme="schematron">
+              <constraint>
+                <sch:rule context="tei:div3">
+                  <sch:assert test="@when | @notBefore | @notAfter" role="error">La date doit être
+                    indiquée par l'attribut @when. Si la date n'est pas connue, indiquer la date de
+                    la séance précédente dans @notBefore, et la date de la séance suivante dans
+                    @notAfter.</sch:assert>
+                </sch:rule>
+              </constraint>
+            </constraintSpec>
+          </elementSpec>
+
+
         </schemaSpec>
       </div>
 

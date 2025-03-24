@@ -100,7 +100,7 @@
    </p>
    <!-- prefix définition pour récupérer les ids de la prosopographie -->
    <listPrefixDef>
-    <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Prosopographie.xml#$1"
+    <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Prosopographie.xml#$1"
      ident="pros">
      <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie. Il permet
       d'utiliser l'xml:id des personnes. </p>

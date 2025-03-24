@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../ODD_comite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD_comite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Feuillets des années <date from="1677">1677</date>-<date to="1681"/> coté
+               R52_0</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Transcription encodée par <name>Marine Tiger</name></edition>
+            <respStmt>
+               <!-- Crédit aux transcripteur.rices, on peut ajouter @ref pour faire un lien vers le mémoire -->
+               <resp source="https://enc.hal.science/hal-04131960">Transcription tirée de la thèse
+                  de <name>Morgan Spinec</name>.</resp>
+               <name/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Edition numérique de la transcription des feuillets des années 1677 à 1681.</p>
+            <!-- Edition numérique de la transcription du registre -->
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Description du registre. Lien vers le registre numérisé. -->
+            <msDesc source="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/1/mode/1up">
+               <!-- On peut mettre un lien vers la description du registre sur le portail Lagrange -->
+               <msIdentifier>
+                  <institution>Bibliothèque-musée de la Comédie-Française</institution>
+                  <!-- La série et sous-série permettra d'identifier le type de registre, notamment pour la fin du 18ème siècle et le 19ème siècle -->
+                  <repository>Assemblées (délibérations</repository>
+                  <idno>R52_0_1677</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- Le profileDesc est normalement utilisé pour décrire les "participants" dans un texte, définir des termes etc...
+         Pour le moment,je ne sais pas si cela est utile pour nous. -->
+         <!-- <particDesc> -->
+         <!-- <calendarDesc> pour le registre avec le calendrier républicain? -->
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Prosopographie.xml#$1" ident="pros">
+               <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie.
+                  Il permet d'utiliser l'xml:id des personnes. </p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Pièces.xml#$1"
+               ident="piec">
+               <p>Le préfix "piec" pointe vers le fichier Pièces.</p>
+            </prefixDef>
+            <prefixDef matchPattern="([aA-zZ]+)" replacementPattern="./Indexes/Lieux.xml#$1"
+               ident="lieu">
+               <p>Le préfix "lieu" pointe vers les éléments place dans le fichier Lieu.</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Glossaire.xml#$1" ident="glos"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-03-24">Création du fichier. Début d'encodage. Quel tag @ana dans l'élément measure?</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 type="ass_ord" when="1677-05-17">
+            <p>
+               <date when="1677-05-17">17 may 1677</date></p>
+            <p>La Compagnie s'estant assemblée ce jour d'hui <date when="1677-05-17">17e may 1677</date>, a délibéré de rassepter
+               les <measure>cent cinquante livres</measure> de rente qui restent deubee a Monsieur Boudet et dix sept
+               cent livres de rente qui luy ont esté constituez le quinziesme juillet mil six cent
+               soixante seize et de lui en payer les arrérages qui en sont deubs depuis le quatre
+               avril mil six cent soixante quinze, montant jusques a ce jourd'huy a la somme de
+               troix cent dix sept livres dix huict soles quatre deniers ; comme aussy, a delibéré
+               de payer a Mademoiselle de Molière les interests des unze mil livres qu'elle a receue
+               de M. de Lully depuis le vingt deux may mil six cent soixante seize jusques au dit
+               jour quinze juillet mile six cent soixante seize montant a la somme de quatre vingt
+               deux livres dix solz. Touttes les dittes sommes, principalle, arrerages et interests,
+               revenants ensemble a celle de troix mil quatre cent livres huict solz quatre
+               deniers417, pour le payement de laquelle, il sera emprunté de l'un dix a mise de
+               Monsieur Hubert, la somme de seize cent cinquante livres et le surplus, montant a dix
+               sept cent cinquante livres huict solz quatre deniers, sera fourny par Monsieur De La
+               Grange tan des deniers qu'il a receus pour la Compagnie que de ceux qu'il recepvra
+               après, laquelle somme de dix sept cinquante livres huict solz quatre deniers sera
+               incessamment remplacée par la Compagnie sur les receptes journallieres, attendu que
+               ces deniers-là sont destinés pour le payement des loges de nostre hostel et autres
+               despenses communes. C.V. DELAGRANGE, HUBERT, DESTRICHET, DE VERNEUIL, ARMANDE
+               GRESINDE BEJART, DU CROISY, D'AUVILLIERS, DE LA ROSE </p>
+         </div1>
+      </body>
+   </text>
+</TEI>

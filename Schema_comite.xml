@@ -70,21 +70,21 @@
          <!-- I. 17EME-18EME SIECLE -->
 
          <!-- Exemple tiré de Spinec, R52_0_1688 https://flipbooks.cfregisters.org/R52_0_1688/index.html#page/1/mode/1up -->
-         <div type="Ass_ord" when="1688-01-12">
+         <div1 type="ass_ord" when="1688-01-12">
             <!-- A. PREAMBULE (optionnel) -->
 
-            <div type="preambule">
+            <div2 type="preambule">
                <p>Ce jour d'huy <date when="1688-01-12">lundy 12e janvier 1688</date> la Compagnie
                   s'est assemblée a son ordinaire dans la salle commune de son <placeName
                      ref="id_lieux">hostel</placeName> pour y dellibérer de ses affaires les présens
                   a l'assemblée ont signé avant <!-- avant = notAfter, ISO 8601 --><time
                      notAfter="10:00:00">dix heures</time> pour le droit de <term ref="glos:JETO1"
                      >jetton</term>></p>
-            </div>
+            </div2>
 
             <!-- B. PRESENTS ET ABSENTS (optionnel) -->
             <!-- 1. Présents -->
-            <div type="signature">
+            <div2 type="signature">
                <signed>
                   <persName ref="id_nom">De Champmeslé</persName>
                   <lb/>
@@ -115,10 +115,10 @@
                   <persName ref="id_nom">Raisin</persName>
                   <lb/>
                </signed>
-            </div>
+            </div2>
 
             <!-- 2. Absents (optionnel) -->
-            <div type="absents">
+            <div2 type="absents">
                <head>Mrs</head>
                <!-- Dans les registres du 17e-18e, les absents sont divisés entre les hommes et les femmes, donc on aura deux listes -->
                <list>
@@ -129,11 +129,11 @@
                   <head>Mlles</head>
                   <item ref="id_nom">Nom</item>
                </list>-->
-            </div>
+            </div2>
 
             <!-- C. DELIBERATION (optionnel) -->
             <!-- Un élément <div> pour chaque deliberation avec un @ref et l'id du sujet abordé. On peut indiqué plusieurs thématiques-->
-            <div ana="id_sujet" type="délibération">
+            <div2 ana="emplois" type="délibération">
                <p>On a nommé pour <term ref="id_glossaire">quinzainiers</term> Mrs<persName
                      ref="id_nom">De la Grange</persName> et <persName ref="id_nom">La
                      Torilière</persName>. On a fait un répertoire. On a dellibéré de <del
@@ -158,9 +158,9 @@
                <lb/>
                <p>Arresté en présence et du consentement de <orgName ref="id_org">la
                      Compagnie</orgName></p>
-            </div>
+            </div2>
             <!-- Parfois signature pour conclure la séance-->
-            <div type="signature">
+            <div2 type="signature">
                <signed>
                   <persName ref="id_nom">De la Grange</persName>
                   <persName ref="id_nom">Delathorilliere</persName>
@@ -168,8 +168,8 @@
                </signed>
                <p><measure ana="id_glossaire" type="total">28 <term ref="id_glossaire"
                         >Jettons</term></measure></p>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
 
          <!-- ____________________________________________ -->
@@ -177,14 +177,14 @@
          <!-- II. 19EME SIECLE (à partir du R415) -->
 
          <!-- Exemple avec comité du 29/04/1830 (R420) https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24254#page/28/mode/2up -->
-         <div type="type_assemblee" when="1830-04-29">
+         <div1 type="comite_adm" when="1830-04-29">
 
             <!-- A. TITRE -->
             <head rend="margin-right">Comité du <date when="1830-04-29">jeudi 29 avril
                1830</date></head>
 
             <!-- B. DELIBERATIONS -->
-            <div ana="id_sujet" type="délibération">
+            <div2 ana="correspondance" type="délibération">
                <!-- ORDRE DU JOUR (optionnel) -->
                <!-- Si l'ordre du jour est dans la marge, on respecte les règles de transcription établies -->
                <head type="agenda">[Lettre et remerciements à <persName ref="id_nom">M. de la
@@ -206,8 +206,8 @@
                      type="nobility">S. A. Mgr le Duc d’Orléans</roleName> propriétaire de la salle
                   une somme de <measure ana="id_sujet" type="somme">25 000 F</measure> exigible
                   depuis le 1er avril. </p>
-            </div>
-            <div ana="id_sujet" type="délibération">
+            </div2>
+            <div2 ana="signification" type="délibération">
                <head type="agenda">[Signification de <persName ref="id_nom">Mlle Ross
                      Despréaux</persName>]</head>
                <p>Le comité arrête que la signification faite à la <orgName ref="id_org"
@@ -219,8 +219,8 @@
                      <persName ref="id_nom">M. Dejoly</persName>, président du conseil, qui sera
                   prié de vouloir bien prendre la peine de mettre la <orgName ref="id_org"
                      >Comédie</orgName> en règle à cet égard par la voie convenable. </p>
-            </div>
-            <div type="signature">
+            </div2>
+            <div2 type="signature">
                <signed>
                   <persName ref="id_nom">Michelot</persName>
                   <persName ref="id_nom">Desmousseaux</persName>
@@ -228,8 +228,8 @@
                   <persName ref="id_nom">Monrose</persName>
                   <persName ref="id_nom">Joanny</persName>
                </signed>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
          <!-- ______________________________________________ -->
 
@@ -238,10 +238,10 @@
          <!--Liste de présents (fin du 19ème)-->
          <!-- Au 19eme siecle, lorsque les personnes présentes sont rapportées, elles ne signent plus (sauf dans le R415), mais sont sous forme de liste: -->
          <!-- Extrait https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24945#page/2/mode/2up-->
-         <div type="type_assemblee" when="1882-01-05">
+         <div1 type="comite_adm" when="1882-01-05">
             <head>Comité d’administration</head>
             <head>du <date when="1882-01-05">jeudi 5 janvier 1882</date></head>
-            <div type="preambule">
+            <div2 type="preambule">
                <p>À <time when="15:00:00">3 heures</time> de relevée, les membres du comité
                   d’administration se sont réunis, sous la présidence de M. <persName ref="id_nom"
                      >Émile Perrin</persName>, <term ref="id_glossaire">administrateur
@@ -258,8 +258,8 @@
                   <item><persName ref="id_nom">Laroche</persName>.</item>
                </list>
                <p>La séance est ouverte.</p>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
          <!-- ______________________________________________________________________________________________________ -->
 
@@ -268,16 +268,16 @@
          <!-- I. LECTURE DU REPERTOIRE / REPETITIONS (17ème-18ème) -->
 
          <!-- Exemple tiré de Spinec du R52_0_1681  https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/5/mode/1up-->
-         <div type="type_assemblee" when="1682-09-28">
-            <div type="preambule">
+         <div1 type="ass_ord" when="1682-09-28">
+            <div2 type="preambule">
                <p>Ce jour d'huy <date when="1682-09-28">lundy 28 septembre</date>, la Trouppe s'est
                   assemblée ; les présens sont :</p>
-            </div>
+            </div2>
             <!--<signed>
                <persName></persName>
                <persName></persName>
             </signed>-->
-            <div type="signature">
+            <div2 type="signature">
                <signed>
                   <persName ref="id_nom">Hubert</persName>
                   <persName ref="id_nom">De Champmeslé</persName>
@@ -308,8 +308,8 @@
                <lb/>
                <p>Présens a l'assemblée <time notAfter="10:00:00">avant dix heures</time> au nombre
                   de <measure ana="id_glossaire" type="total">25</measure></p>
-            </div>
-            <div ana="id_sujet" type="deliberation">
+            </div2>
+            <div2 ana="repertoire" type="deliberation">
                <list>
                   <head>Repertoire</head>
                   <item><date when="1682-09-29">29 mardy</date>
@@ -352,8 +352,8 @@
                      <title ref="id_piece">La Mère coquette</title></item>
                </list>
                <p>[...]</p>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
          <!-- ______________________________________________ -->
 
@@ -363,7 +363,7 @@
          <!-- autre exemple: https://flipbooks.cfregisters.org/R52_0_1686/index.html#page/29/mode/1up-->
 
          <!-- Cette séance n'est pas datée, peut-être mettre @notBefore date de la précédente séance et @notAfter date de la suivante-->
-         <div ana="id_sujet" notAfter="1756-05-03" notBefore="1756-04-30" type="type_assemblee">
+         <div1 ana="finance" notAfter="1756-05-03" notBefore="1756-04-30" type="ass_ord">
             <!-- Dans cet exemple particulier du r52_21, il n'y a pas de découpage par thématique, il est décidé de ne pas mettre de <div> -->
             <p>Ce Jourd’huy La Troupe s’est assemblée et apres avoir examinée ses affaires par
                raport à l’établissement, dont le fond monte à <measure ana="pension" type="total"
@@ -429,21 +429,20 @@
             </list>
             <p rend="margin-right"><measure ana="id_sujet" type="total">266307lt. 19s.
                8d.</measure></p>
-         </div>
+         </div1>
 
          <!-- ______________________________________________ -->
 
          <!-- III. VOTES -->
          <!-- https://flipbooks.cfregisters.org/R52_0_1692/index.html#page/5/mode/1up-->
-         <div type="type_assemblee" when="1692-01-07">
-            <div type="preambule">
+         <div1 type="ass_ord" when="1692-01-07">
+            <div2 type="preambule">
                <p>Aujourd'huy <date when="1692-01-07">7me janvier 1692</date>: la compagnie s'est
                   assemblée pour rendre reponse a monsieur <persName ref="id_nom">de Brie</persName>
                   sur la lecture de la tragédie des <title ref="id_piece">Heraclides</title>, les
                   voix recüeilluye comme il en suit:</p>
-            </div>
-            <div ana="id_sujet" type="délibération">
-               <div ana="id_piece" type="vote">
+            </div2>
+            <div2 ana="repertoire" type="vote">
                   <cb n="1"/>
                   <list type="vote_pour">
                      <head>la pièce est joüable</head>
@@ -471,18 +470,17 @@
                      <item><persName ref="id_nom">Raisin</persName></item>
                      <item>elle n'est point jouable <persName ref="id_nom">Desmare</persName></item>
                   </list>
-               </div>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
          <!-- ______________________________________________ -->
 
          <!-- IV. LETTRES -->
          <!-- Exemple du R52_26 https://flipbooks.cfregisters.org/R52_26/index.html#page/9/mode/1up -->
-         <div ana="id_sujet" type="type_assemblee" when="1784-03-03">
+         <div1 ana="id_sujet" type="ass_ord" when="1784-03-03">
             <head>Du <date when="1784-03-03">mercredi 3 mars.</date></head>
             <head>Asssemblée pour les <term ref="id_sujet">Comptes</term>.</head>
-            <div ana="id_sujet id_nom" type="lettre_reçue">
+            <div2 ana="correspondance" type="lettre_reçue">
                <head>Lettre de <persName ref="id_nom">M.e Vestris</persName>.</head>
                <p>Mes chers Camarades, j’ai eu la fièvre toute la nuit : la douleur de côté que j’ai
                   depuis trois Semaines est si fort augmentée que l’on sera peut être obligé de me
@@ -498,8 +496,8 @@
                      Vestris.</persName>
                   <placeName ref="id_lieux">Paris</placeName>, ce <date when="1784-03-03">mercredi 3
                      mars 1784</date>.</closer>
-            </div>
-            <div ana="id_sujet id_nom" type="lettre_envoyée">
+            </div2>
+            <div2 ana="correspondance" type="lettre_envoyée">
                <head>Réponse de la <orgName ref="id_org">Comédie</orgName> à <persName ref="id_nom"
                      >M.e Vestris</persName> faite à la d.e assemblée et signée des présents.</head>
                <opener>Madame et chère Camarade,</opener>
@@ -514,8 +512,8 @@
                <closer>Rétablissez votre santé, ayez du courage ; et soyez persuadée que tous vos
                   Camarades sont avec la plus sincère amitié, Madame et chère Camarade, Vos très
                   humbles et très… <date when="1784-03-03">Ce 3 mars 1784</date>.</closer>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
 
          <!-- ______________________________________________ -->
@@ -523,10 +521,10 @@
          <!-- V. AUDITIONS -->
 
          <!-- Extrait du R425: https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=24946#page/40/mode/2up -->
-         <div  type="type_assemblee" when="1888-08-01">
+         <div1  type="comite_adm" when="1888-08-01">
             <head>Auditions annuelles</head>
             <head>Séance du <date when="1888-08-01">mercredi 1er août 1888</date></head>
-            <div type="preambule">
+            <div2 type="preambule">
                <p>À <time when="13:30:00">une heure et demie</time>, le comité d’administration,
                   présidé par M. J. Claretie, administrateur général, et composé de MM.</p>
                <list type="presents">
@@ -541,8 +539,8 @@
                <p>*Adjoints en qualité de <term ref="id_glossaire">semainiers</term>.</p>
                <p>S’est transporté dans la salle pour procéder à l’audition des aspirants dont les
                   noms suivent :</p>
-            </div>
-            <div ana="id_sujet" type="délibération">
+            </div2>
+            <div2 ana="audition" type="délibération">
                <list>
                   <item n="1">1° <persName ref="id_nom">M. Rouvenat</persName>
                      <title ref="id_piece" type="piece">Le Lion amoureux</title> – acte II, scène
@@ -567,15 +565,15 @@
                      <term ref="id_glossaire" type="emploi">amoureuses</term>, mais les deux <term
                      ref="id_glossaire">emplois</term> étant encombrés en ce moment, il n’y a pas
                   lieu d’engager ces deux artistes.</p>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
          <!-- ______________________________________________ -->
 
          <!-- VI. DISTRIBUTION DES ROLES (optionnel, dans le cas où la distribution des rôles n'est pas contenue dans une assemblée) -->
 
          <!-- Exemple tire du R52_4 https://flipbooks.cfregisters.org/R52_4/index.html#page/256/mode/1up-->
-         <div ana="id_sujet id_piece" notAfter="1716-03-18" notBefore="1716-03-16"
+         <div1 ana="id_sujet id_piece" notAfter="1716-03-18" notBefore="1716-03-16"
             type="distribution_roles">
             <head>Disposition de <title ref="id_piece">La Princesse d'Elide</title></head>
             <castList>
@@ -589,17 +587,17 @@
                </castItem>
                <p>[...]</p>
             </castList>
-         </div>
+         </div1>
 
          <!-- ______________________________________________ -->
 
          <!-- VII. ENCODAGE D'UNE SEANCE DONT LE SUJET EST DANS LE TITRE (R52_24-26, R425) -->
 
          <!-- https://flipbooks.cfregisters.org/R52_25/index.html#page/6/mode/1up-->
-         <div ana="id_sujet" type="type_assemblée" when="1775-05-21">
+         <div1 ana="id_sujet" type="ass_ord" when="1775-05-21">
             <head>Du <date when="1775-05-21">Dimanche 21 mai</date>.</head>
             <head>Assemblée pour <term ref="id_sujet">Lectures</term>.</head>
-            <div ana="id_piece" type="vote">
+            <div2 ana="repertoire" type="vote">
                <p>
                   <title ref="id_piece">Le Couronnement de Télemaque</title>, Comédie en un Acte, en
                   Vers De M. <list>
@@ -607,25 +605,25 @@
                      <item>1 Voix de Corrections.</item>
                      <item>3. Voix de Refus.</item>
                   </list>} Reçue <lb/>__________</p>
-            </div>
-         </div>
+            </div2>
+         </div1>
 
          <!-- ______________________________________________ -->
 
          <!-- VIII. ARRÊTS -->
 
          <!--         Exemple tiré du R416: https://comedie-francaise.bibli.fr/visionneuse.php?lvl=afficheur&explnum=23873#page/12/mode/2up-->
-         <div type="type_assemblee" when="1813-02-10">
+         <div1 type="comite_adm" when="1813-02-10">
             <p>[...]</p>
             <!-- Cas où on a plusieurs arrêtés. -->
-            <div type="arrêts">
+            <div2 type="arrets">
                <p>Le <roleName ref="id_glossaire">commissaire impérial</roleName> notifie au comité
                   deux arrêtés de <roleName ref="id_glossaire id_nom">M. le surintendant des
                      spectacles</roleName> relatifs à <persName ref="id_nom">M.
                      Saint-Prix</persName> et à <persName ref="id_nom">Mlle Devienne</persName> qui
                   doivent se retirer au <date when="1813-04-01">1er avril</date> prochain.</p>
                <p>Ces deux arrêtés sont ainsi conçus :</p>
-               <div ana="id_nom id_sujet" type="arrêté" when="1813-01-15">
+               <div3 ana="id_nom id_sujet" type="arrêté" when="1813-01-15">
                   <head>[Arrêté de <roleName ref="id_glossaire id_nom">M. le surintendant</roleName>
                      sur la demande de <persName ref="id_nom">M. Saint-Prix</persName>. Sa retraite
                      lui est accordée.] </head>
@@ -652,8 +650,8 @@
                      <lb/>
                      <signed>Signé, le <persName ref="id_nom">comte de Rémusat.</persName></signed>
                   </closer>
-               </div>
-               <div ana="id_nom id_sujet" type="arrêté" when="1813-01-15">
+               </div3>
+               <div3 ana="id_nom id_sujet" type="arrêté" when="1813-01-15">
                   <head>[Arrêté de <roleName ref="id_glossaire">M. le surintendant</roleName> sur la
                      demande de <persName ref="id_nom">Mlle Devienne</persName>. Sa retraite lui est
                      accordée.]</head>
@@ -680,9 +678,9 @@
                      <lb/>
                      <signed>Signé, le <persName ref="id_nom">comte de Rémusat.</persName></signed>
                   </closer>
-               </div>
-            </div>
-         </div>
+               </div3>
+            </div2>
+         </div1>
       </body>
    </text>
 </TEI>
