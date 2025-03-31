@@ -6,8 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Feuillets des années <date from="1677">1677</date>-<date to="1681"/> coté
-               R52_0</title>
+            <title>Feuillets des années <date from="1677">1677</date>-<date to="1681">1681</date>
+               coté R52_0</title>
          </titleStmt>
          <editionStmt>
             <edition>Transcription encodée par <name>Marine Tiger</name></edition>
@@ -24,7 +24,7 @@
          </publicationStmt>
          <sourceDesc>
             <!-- Description du registre. Lien vers le registre numérisé. -->
-            <msDesc source="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/1/mode/1up">
+            <msDesc facs="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/1/mode/1up">
                <!-- On peut mettre un lien vers la description du registre sur le portail Lagrange -->
                <msIdentifier>
                   <institution>Bibliothèque-musée de la Comédie-Française</institution>
@@ -58,39 +58,142 @@
             </prefixDef>
             <prefixDef matchPattern="([a-zA-Z0-20]+)"
                replacementPattern="./Indexes/Glossaire.xml#$1" ident="glos"/>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Relations.xml#$1" ident="rela"/>
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
          <listChange>
-            <change when="2025-03-24">Création du fichier. Début d'encodage. Quel tag @ana dans l'élément measure?</change>
+            <change when="2025-03-31">Fin encodage. Comment encoder les personnes inconnues?</change>
+            <change when="2025-03-24">Création du fichier. Début d'encodage. Quel tag @ana dans
+               l'élément measure?</change>
          </listChange>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
          <div1 type="ass_ord" when="1677-05-17">
+            <pb facs="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/3/mode/1up"/>
             <p>
                <date when="1677-05-17">17 may 1677</date></p>
-            <p>La Compagnie s'estant assemblée ce jour d'hui <date when="1677-05-17">17e may 1677</date>, a délibéré de rassepter
-               les <measure>cent cinquante livres</measure> de rente qui restent deubee a Monsieur Boudet et dix sept
-               cent livres de rente qui luy ont esté constituez le quinziesme juillet mil six cent
-               soixante seize et de lui en payer les arrérages qui en sont deubs depuis le quatre
-               avril mil six cent soixante quinze, montant jusques a ce jourd'huy a la somme de
-               troix cent dix sept livres dix huict soles quatre deniers ; comme aussy, a delibéré
-               de payer a Mademoiselle de Molière les interests des unze mil livres qu'elle a receue
-               de M. de Lully depuis le vingt deux may mil six cent soixante seize jusques au dit
-               jour quinze juillet mile six cent soixante seize montant a la somme de quatre vingt
-               deux livres dix solz. Touttes les dittes sommes, principalle, arrerages et interests,
-               revenants ensemble a celle de troix mil quatre cent livres huict solz quatre
-               deniers417, pour le payement de laquelle, il sera emprunté de l'un dix a mise de
-               Monsieur Hubert, la somme de seize cent cinquante livres et le surplus, montant a dix
-               sept cent cinquante livres huict solz quatre deniers, sera fourny par Monsieur De La
-               Grange tan des deniers qu'il a receus pour la Compagnie que de ceux qu'il recepvra
-               après, laquelle somme de dix sept cinquante livres huict solz quatre deniers sera
-               incessamment remplacée par la Compagnie sur les receptes journallieres, attendu que
-               ces deniers-là sont destinés pour le payement des loges de nostre hostel et autres
-               despenses communes. C.V. DELAGRANGE, HUBERT, DESTRICHET, DE VERNEUIL, ARMANDE
-               GRESINDE BEJART, DU CROISY, D'AUVILLIERS, DE LA ROSE </p>
+            <div2 type="deliberation" ana="finances">
+               <p>La <term ref="glos:COMP1">Compagnie</term> s'estant assemblée ce jour d'hui <date
+                     when="1677-05-17">17e may 1677</date>, a délibéré de rassepter<note
+                     type="footnote">Un terme manquant</note> les <measure type="glos:RENT1">cent
+                     cinquante livres</measure> de rente qui restent deubee a Monsieur
+                     <persName>Boudet</persName> et <measure type="glos:RENT1">dix sept cent
+                     livres</measure> de rente qui luy ont esté constituez le <date
+                     when="1676-07-15">quinziesme juillet mil six cent soixante seize</date> et de
+                  lui en payer les <term ref="glos:ARRE1">arrérages</term> qui en sont deubs depuis
+                  le <date when="1675-04-04">quatre avril mil six cent soixante quinze</date>,
+                  montant jusques a ce jourd'huy a la somme de <measure type="glos:RENT1">troix cent
+                     dix sept livres dix huict soles quatre deniers</measure> ; comme aussy, a
+                  delibéré de payer a <persName ref="pers:BEJA1">Mademoiselle de Molière</persName>
+                  les interests des <measure type="glos:INTE2">unze mil livres</measure> qu'elle a
+                  receue de <persName ref="pers:LULL1">M. de Lully</persName> depuis le <date
+                     when="1676-05-22">vingt deux may mil six cent soixante seize</date> jusques au
+                  dit jour <date when="1676-07-15">quinze juillet mile six cent soixante
+                     seize</date> montant a la somme de <measure type="glos:INTE2">quatre vingt deux
+                     livres dix solz</measure>. Touttes les dittes sommes, principalle, <term
+                     ref="glos:ARRE1">arrerages</term> et <term ref="glos:INTE2">interests</term>,
+                  revenants ensemble a celle de <measure>troix mil quatre cent livres huict solz
+                     quatre deniers</measure><note type="footnote">Il manque trois mille livres à
+                     cette équation</note>, pour le payement de laquelle, il sera emprunté de l'un
+                  dix a mise de <persName ref="pers:HUBE1">Monsieur Hubert</persName>, la somme de
+                     <measure type="glos:EMPR1">seize cent cinquante livres</measure> et le surplus,
+                  montant a <measure type="glos:EMPR1">dix sept cent cinquante livres huict solz
+                     quatre deniers</measure>, sera fourny par <persName ref="pers:LAGR1">Monsieur
+                     De La Grange</persName>
+                  <pb facs="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/4/mode/1up"
+                  /> tan des deniers qu'il a receus pour la <term ref="glos:COMP1">Compagnie</term>
+                  que de ceux qu'il recepvra après, laquelle somme de <measure>dix sept cinquante
+                     livres huict solz quatre deniers</measure> sera incessamment remplacée par la
+                     <term ref="glos:COMP1">Compagnie</term> sur les receptes journallieres, attendu
+                  que ces deniers-là sont destinés pour le payement des <term ref="glos:LOGE2"
+                     >loges</term> de nostre <placeName ref="lieu:GUEN1">hostel</placeName> et
+                  autres despenses communes.</p>
+            </div2>
+            <div2 type="signatures">
+               <signed>
+                  <persName ref="pros:LAGR1">C.V. DELAGRANGE</persName>
+                  <persName ref="pros:HUBE1">HUBERT</persName>
+                  <persName ref="pros:GUER3">DESTRICHET</persName>
+                  <persName ref="pros:VERN2">DE VERNEUIL</persName>
+                  <persName ref="pros:BEJA1">ARMANDE GRESINDE BEJART</persName>
+                  <persName ref="pros:DUCR1">DU CROISY</persName>
+                  <persName ref="pros:DAUV1">D'AUVILLIERS</persName>
+                  <persName ref="pros:ROSI5">DE LA ROSE</persName>
+               </signed>
+            </div2>
+         </div1>
+         <div1 type="ass_ord" when="1681-07-19">
+            <pb facs="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/7/mode/1up"/>
+            <!--<p>Arguments pour se décharger de la pension au marquis de Sourdéac.</p>-->
+            <!--<p>Dellibération de toutte la troupe depuis la jonction pour le procès qu'elle a contre
+               le sieur</p>
+            <p>marquis de Sourdéac, du 19 juillet 1681</p>-->
+            <div2 type="deliberation" ana="pension">
+               <p>Ce jour d'huy <date when="1681-07-19">samedy dix neufiesme juillet mil six cent
+                     quatre vingt un</date>, nous soubz signez seuls Commédiens du Roy, assemblés en
+                  nostre <placeName ref="glos:GUEN1">hostel <address>
+                        <addrLine>seiz rüe Mazarine</addrLine>
+                     </address>
+                  </placeName>, sommes convenus et avons délibéré entre nous, suivant le conseil qui
+                  nous a esté ce dict jour donné par <persName>Monsieur Taultieradac</persName><note
+                     type="footnote">Lecture incertaine</note>en la Cour et messieurs <persName>de
+                     Lagardet</persName> et <persName>Legrand</persName>, procureurs en la dicte
+                  Cour, de présenter requeste incessamment en la dicte cour contre les sieurs
+                     <persName>marquis de Sourdéac</persName> et <persName>Champeron</persName> pour
+                  estre deschargez de la <term ref="glos:PENS2">pension</term> de <measure
+                     type="glos:PENS2">cinq cent livres</measure> par an que nous debvons leur
+                  payer, suivant l'arrest de la Cour du <date when="1677-07-29">vingt neuf juillet
+                     mil six cent soixante dix sept</date>, attendu que les ordres du <persName
+                     ref="pros:LOUI1">Roy</persName> en dattes des <date when="1680-08-22">vingt
+                     deux</date> et <date when="1680-08-29">vingt neuf aoust mil six cent quatre
+                     vingt</date> et lettre de cachet de <persName ref="pros:LOUI1">Sa
+                     Majesté</persName> du <date when="1680-10-21">vingt un octobre</date> ensuivant
+                  ont changé la trouppe, en sorte que ce n'est plus la mesme que celle qui a traicté
+                  avec les dicts sieurs <persName>de Sourdéac</persName> et <persName>de
+                     Champeron</persName>. Et pour cet effect, sera passé telle procuration que nous
+                  jugerons a propos, et les frais qu'il conviendra faire seront payés en commun et,
+                  en cas que nous soyons debouttés de nostre requeste, nous payerons la dite <term
+                     ref="glos:PENS2">pension</term> de <measure type="glos:PENS2">cinq cent
+                     livres</measure> a chacun desdits sieurs <persName>de Sourdéac</persName> et
+                     <persName>de Champeron</persName> ainsy qu'il avoit esté convenu entre
+                  nous.</p>
+               <p>Faict et déliberré <date when="1681-07-19">le dit jour</date> et an <time
+                     notBefore="12:00:00">après midy</time>,</p>
+            </div2>
+            <div2 type="signatures">
+               <signed>
+                  <persName ref="pros:DAUV1">DAUVILLIERS</persName>
+                  <persName ref="pros:HUBE1">HUBERT</persName>
+                  <persName ref="pros:DUPI1">LOUISE JACOB</persName>
+                  <persName ref="pros:GUER3">GUERIN</persName>
+                  <persName ref="pros:DENN1">FRANCOISE JACOB</persName>
+                  <persName ref="pros:LAGR1">C.V. DELAGRANGE</persName>
+                  <persName ref="pros:VERN2">DE VERNEUIL</persName>
+                  <persName ref="BRIE1">CATERINE LECLER</persName>
+                  <persName ref="pros:BEAU4">LABAUVAL</persName>
+                  <!-- Quel "Le Conte"? -->
+                  <persName ref="rela:GUYOT">LE CONTE</persName>
+                  <persName ref="pros:ROSI5">ROSIMOND</persName>
+                  <persName ref="pros:CHAM3">DE CHAMPMESLE</persName>
+                  <persName ref="pros:RAIS2">RAISIN</persName>
+                  <persName ref="pros:BARO1">BARON</persName>
+                  <persName ref="pros:VILL2">DEVILLIERS</persName>
+                  <persName ref="pros:RAIS3">LA RAISIN</persName>
+                  <persName ref="pros:GUIO1">GUIOT</persName>
+                  <persName ref="pros:LATU1">LA TUILLERIE</persName>
+                  <persName ref="pros:DUCR1">DU CROISY</persName>
+                  <persName ref="pros:DUCR2">MARIANGELIQUE DU CROISY</persName>
+                  <persName ref="pros:BARO2">LENOIR</persName><note type="footnote">Charlotte Le Noir, épouse Baron</note>
+                  <persName ref="pros:POIS2">POISSON</persName>
+                  <persName ref="pros:HAUT1">DE HAUTEROCHE</persName>
+                  <persName ref="pros:CHAM5">M DESMARES</persName>
+                  <persName ref="pros:BEJA1">GUERIN</persName>
+               </signed>
+            </div2>
          </div1>
       </body>
    </text>

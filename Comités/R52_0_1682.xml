@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Feuillets de l'année <date when="1682">1682</date> coté R52_0</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Transcription encodée par <name>Marine Tiger</name></edition>
+            <respStmt>
+               <!-- Crédit aux transcripteur.rices, on peut ajouter @ref pour faire un lien vers le mémoire -->
+               <resp source="https://enc.hal.science/hal-04131960">Transcription tirée de la thèse
+                  de <name>Morgan Spinec</name>.</resp>
+               <name/>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <p>Edition numérique de la transcription des feuillets des années 1677 à 1681.</p>
+            <!-- Edition numérique de la transcription du registre -->
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Description du registre. Lien vers le registre numérisé. -->
+            <msDesc facs="https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/1/mode/1up">
+               <!-- On peut mettre un lien vers la description du registre sur le portail Lagrange -->
+               <msIdentifier>
+                  <institution>Bibliothèque-musée de la Comédie-Française</institution>
+                  <!-- La série et sous-série permettra d'identifier le type de registre, notamment pour la fin du 18ème siècle et le 19ème siècle -->
+                  <repository>Assemblées (délibérations</repository>
+                  <idno>R52_0_1682</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <!-- Le profileDesc est normalement utilisé pour décrire les "participants" dans un texte, définir des termes etc...
+         Pour le moment,je ne sais pas si cela est utile pour nous. -->
+         <!-- <particDesc> -->
+         <!-- <calendarDesc> pour le registre avec le calendrier républicain? -->
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Prosopographie.xml#$1" ident="pros">
+               <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie.
+                  Il permet d'utiliser l'xml:id des personnes. </p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Pièces.xml#$1"
+               ident="piec">
+               <p>Le préfix "piec" pointe vers le fichier Pièces.</p>
+            </prefixDef>
+            <prefixDef matchPattern="([aA-zZ]+)" replacementPattern="./Indexes/Lieux.xml#$1"
+               ident="lieu">
+               <p>Le préfix "lieu" pointe vers les éléments place dans le fichier Lieu.</p>
+            </prefixDef>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Glossaire.xml#$1" ident="glos"/>
+            <prefixDef matchPattern="([a-zA-Z0-20]+)"
+               replacementPattern="./Indexes/Relations.xml#$1" ident="rela"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-03-31">Création du fichier.</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+<!--         [14 septembre 1682]
+Horaires de répétitions
+
+Aujourd'huy 14e septembre 1682, la Compagnie a arresté que les jours de répétition, on se
+trouvera a dix heures pour les grandes pièces et a dix heures et demye pour les petites a
+peine d'un escu d'amande pris sur la première part que l'on appliquera a toute charité que la
+Compagnie trouvera a propos et a signé :
+LE COMTE, BRECOURT, DE AUVILLIERS, DE CHAMPMESLE, GUERIN,
+DE VERNEUIL, HUBERT, DE ROSIMOND, DEVILLIERS, DU CROISY,
+DE LA GRANGE, LOUISE JACOB, LA TUILLERIE
+
+
+[reçu le 18 septembre 1682]
+Jetons d'argent
+
+Mémoire des jettons d'argent que la Troupe a faict faire le 15 aoust 1682 par Monsieur
+l'abé Bizot aux galleries du Louvre.
+
+Trois cent cinquante quatre jettons pesant
+ensemble 17 marcs 7 onzes 1 gros           518 £:          14 solz
+façon a 5 £ : le marc                              79 £:
+poinçon faict exprès                              55 £:
+aux ouvriers pour leur vin                          3£
+pour passer le batteau                                       7S
+à l'hommes qui a porté les jettons                         10 solz
+                                                  656 £:   11 S
+
+Il y a des jettons pour douze assemblées a 29 jettons ; et six de reste des 354
+29x12 = 58+290 = 348
+six de reste 6
+                                             354 jettons
+
+Les 29 jettons reviennent pour chaque assemblée a cinquante et quatre livres cy 54£:
+54x12 = 108+540 = 648
+Le six de reste, valeur a peu de choses près 8 £:11 S
+                                          656 £: 11 S
+
+Les 29 jettons pèsent un marc et 7 onze moins 1 gros 2/1 s a 34 £ le marc, sans y comprendre la
+valeur du poinçon, valeur cinquante et une livres, et avec led. poinçon et frais, a 54 £.
+
+Monsieur de Brécourt a manqué à la répétition le jeudy 17e septembre.
+
+
+
+
+
+[28 septembre 1682]
+Répertoire et chandelles
+
+Ce jour d'huy lundy 28 septembre, la Trouppe s'est assemblée ; les présens sont :
+DE LA GRANGE, DE CHAMPMESLE, HUBERT, LE COMTE, DE VERNEUIL,
+BRECOURT, [Mlle] LECONTE, [Mlle] LAGRANGE, [Mlle] BARON, DEBRIE,
+HAUTEROCHE, BARON, POISSON, BEAUVAL, [Mlle] CHEMESLE, DENNEBAULT,
+LATUILLERIE, LOUISE JACOB, RAISIN, GUERIN, D'AUVILLIERS, LA RAISIN,
+BEJARD, ROSIMOND, [Mlle]BAUVALL
+Présens a l'assemblée avant dix heures au nombre de 25
+
+Répertoire
+
+           294 - mardy               Andromède5
+           30 - mercredy             Agamemnon ; Crispin bel esprit
+           16 - jeudy                Misanthrope
+           2 - vendredy              Othon, Carrosses ou Andromède
+           3 - samedy                L’Étourdi
+           4 - dimanche              Othon, Carrosses ou Andromède
+           5 - lundi                 Le Menteur7
+           6 - mardy                 Hercule et le Deuil
+           7 - mercredy              La Devineresse8
+           8 - jeudy                 Othon ou Cinna et le Cocu imaginaire
+           9 - vendredy              La Devineresse
+                          9
+           10 - samedy               La Jalouse d'elle même
+           11 - dimanche             Othon ou le Cid
+           12 - lundy                La Mère coquette
+
+On repasse jeudy 1er octobre Othon, en cas que l'on le joue vendredy 2e, sinon la répétition sera
+pour le mardy 7e octobre ; les amandes qui sont payées par ceux qui manquent aux répétitions
+estant chacune de 3 £ pour les defaillans et destinées10
+Il a esté arresté par la Compagnie que les acteurs seront obligés de se trouver aux lectures des pièces
+des autheurs sous peyne de l'amande de trente sols destinée aux pauvres de la parroisse ; les actrices
+s'y trouveront si bon leur semble, sans obligation, dont personne ne sera exempt que les malades
+alictés.
+
+4     Septembre 1682.
+5     Andromède barrée
+6     Octobre 1682.
+7    Hercule et le Deuil remplacés
+8    La Jalouse d'elle même a été remplacée
+9    Interligne barré : dimanche. Inattention
+10   Article interrompu
+                                                                                                      19
+
+
+On avertira tous les acteurs la veille de la lecture et on se trouvera à l'assemblée à dix heures
+précises, à moins qu'il ne soit réglé comme il ensuit sur le répertoire.
+On s'assemble11 demain mardy 29e septembre pour la lecture de Crispin Apollon, proposée par
+Monsieur Poisson à dix heures et demye.
+On     lira   mercredy       30e      Virginie   de    Monsieur       Capistron à   dix   heures.
+On lira jeudy 1er octobre Téléphonte de Monsieur de la Chappelle à 10 heures.
+On lira samedy 3e octobre Nitocris de Monsieur de la Tuillerie à 10 heures.
+On lira lundy 5e octobre12 Agrippine de Monsieur de St-Ussans.
+On lira mardy les Intéressés , comédie en 5 actes de Monsieur de Chaudebois
+On lira mercredy 7e les Amours de Céphale et de Procris de Monsieur de Chosiroirt a 10 heures.
+
+La Troupe a réglé pour le bois et la chandelle que les acteurs bruslent dans leurs loges pour
+s'habiller ce qui ensuit, sçavoir que chaque acteur 13 qui joueront auront touttes les fois qu'ils seront
+employés sept sols et demy, sçavoir cinq sols pour le bois ou chauffage et deux sols six deniers pour
+la chandelle ; lequel règlement aura lieu le 1er jour de novembre 1682.
+On a réglé que la porte de l'entrée des loges aura pour son chauffage sept sols et demy ; la porte du
+parterre aura aussy sept sols et demy ; le bureau de la recepte, cinq sols.
+
+On a résolu d'attendre l'assignation des peintres pour Andromède.
+On a résolu que chacun entretiendra sa loge de menus réparations à ses despens.
+On a résolu de tirer sur la chambrée de chaque jour 3 £ pour les jettons d'argent que la trouppe a
+faict faire à Monsieur l'abé Bizot.
+
+Ce jour d' huy, on a partagé les jettons des trois premières assemblées.
+Les assemblées commenceront à dix heures précises. Ceux qui viendront après qu'elles seront
+sonnées à l'horloge de la Compagnie perdront leurs jettons ; on sera obligés d'estre presens à
+l'assemblée jusques à onze heures et demye, après quoy on est libre de sortir et le droit de présence
+est acquis.
+
+
+[10 octobre 1682]
+Répertoires et assemblées de quinzaines
+
+La Compagnie s'est assemblée ce jour d'huy samedy 10e octobre 1682. Messieurs et
+Mesdemoiselles qui ont signé présent :
+DE CHAMPMESLE, RAISIN, BEAUVAL, LECOMTE, [Mlle] LECONTE, GUIOT,
+POISSON, LABEAUVAL, DEVERNEUIL, ANGELIQUE P[oisson], BEJARD,
+ROSIMOND, HUBERT, DEBRIE, [Mlle] RAISIN, DAUVILLIERS, GUERIN,
+LATUILLERIE, DELAGRANGE, DENNEBAULT, DUPIN, [Mlle] DELAGRANGE,
+HAUTEROCHE, BARON, [Mlle] BARON, BRECOURT14.
+
+La Compagnie a résolu de pretter 20 louis d'or à Monsieur de Villiers, qui les demande à cause de sa
+maladie.
+
+
+11   Ajout dans l'interligne
+12   Date précise ajoutée en interligne
+13   'a forfaice' à moitié illisible
+14   Le nom de Brécourt apparaît avant le corps du texte.
+                                                                                                       20
+
+
+
+Répertoire pour la Cour à Fontainebleau
+              1er           Bajazet ; le Deuil
+                  2e                    Mithridate ; Souper mal apprêté
+                  3e                    Cléopâtre ; Crispin Médecin
+                  4e                    Hercule
+                  5e                    Britannicus
+                  6e                    Phèdre
+
+Acteurs et actrices qui partent lundy 12 octobre
+
+*Messieurs Champmeslé, Beauval, Baron, La Tuillerie, Poisson, Hauteroche, Raisin ; Lecomte
+partira mercredy.
+*Mesdemoiselles Champmeslé, Dennebault, Raisin, Poisson, Beauval.
+
+Répertoire pour Paris
+
+               Lundy 12 octobre
+               Mardy 13 octobre Le Cid ; Mariage de rien
+               14 octobre                 Amphitryon
+               15 [ - ]                   Ariane et Mariage forcé
+               16 [ - ]                   Bourgeois gentilhomme
+               17 [ - ]                   Bérénice
+               18 [ - ]                   Bourgeois gentilhomme
+
+La Troupe a résolu de faire faire un théastre fermé avec un plaffond pour l'hyver. Messieurs Hubert
+et Lagrange ont pris la commission de le faire faire pour le mieux, fait avis des expers qu'ils
+appelleront pour en faire le dessin et pour l'exécuter au plustost.
+
+On a résolu que s'il est nécessaire, l'assemblée où il y a des 15 jettons sera continuée a la quinzaine et
+qu'il n'y aura qu'autant de jettons qu'il reste d'acteurs à Paris et qu'on retranchera les jettons des
+acteurs qui sont à Fontainebleau.
+
+On a résolu que les amandes de ceux qui manquent aux lectures et répétitions seront continuées
+régulièremen a estre payées par les deffaillans pour les pauvres de la parroisse.
+On a résolu que la porte de l'amphithéatre sera deffendue a tous nos domestiques et qu'ils prendront
+place au paradis ou dans les loges du fond.
+
+On a résolu qu'il y aura deux gagistes les jours d'assemblée l'un à la porte de la rue et l'autre au
+théastre.
+
+Les jettons ont esté partagés aux présens qui ont signe cy-dessus au nombre de 26 ; les 3 jettons
+restans ont esté partagés : chaque présent a eu 3 sols.
+15 Oubli du des ajouté en interligne.
+                                                                                                    21
+
+
+Pièces que la Compagnie doit représenter a Fontainebleau
+
+               1er       Bajazet
+               2e        Mithridate ; Souper mal apprêté
+               3e16      Cléopâtre ; Crispin Médecin
+               4e17      Hercule
+               5e18      Britannicus
+               6e        Phèdre
+
+
+
+[24 octobre 1682]
+Clôture du théâtre
+
+Le samedy 24e octobre 1682, la Compagnie s'est assemblée dans la salle commune de
+l'hostel pour les affaires communes suivant la dellibération de la dernière assemblée : les
+présents sont 14.
+DELAGRANGE, BRECOURT, GUERIN, DEVERNEUIL, DEBRIE, HUBERT,
+DUCROISY, ROSIMOND, [Mlle] DELAGRANGE, GUERIN, DAUVILLIERS, GUIOT,
+BARON, DUPIN
+
+La Compagnie a résolu de faire fermer le théastre avec des nattes garnies de toilles, de faire faire le
+plaffonds qui doit estre au dessus du balcon, de despenser pour la peinture dudit plaffons la somme
+de deux cent livres et de faire faire un grand voile de toille bleue pour couvrir les 4 ou 5 aisles du
+fons, lequel voile sera porté sur des frises que nous avons, tant du theastre du Festin de pierre que
+de celuy de la Devineresse ; touttes lesquelles toilles et nattes et journées d'ouvriers ne peuvent
+revenir a trois cent livres, qui, avec deux cent livres pour les peintres, font 500 £, a quoy la
+Compagnie se restraint pour fermer led. Théastre.
+
+On n'a partagé que quinze jettons à cause que le surplus de nos camarades sont à Fontainebleau.
+15 jettons partagés à 14 ; Monsieur de Villiers ne s'est pas trouvé à l'assemblée.
+
+
+[9 novembre 1682]
+La Comédie à cinq heures et quart
+
+La Compagnie s'est assemblée ce jour d'huy lundy 9e novembre 1682, suivant
+l'establissement des assemblées de quinzaine en quinzaine pour dellibérer des affaires
+présentes de la Compagnie ; les présens a l'assemblée ont signé et sont treize présens :
+DE LA GRANGE, DEBRIE, DE VERNEUIL, DUPIN, GUIOT, ROSIMOND,
+[Mlle] DE LA GRANGE, GUERIN, [Mlle] GUERIN, HUBERT, DU CROISY,
+ANGELIQUE, BRECOURT
+
+16 Britannicus remplacé
+17 Hercule remplacé par Hercule
+18 Cléopâtre remplacée
+                                                                                                   22
+
+La Compagnie a résolu de représenter demain l'Étourdi et mercredy l'Inconnu ; après quoy plusieurs
+de nos camarades devant revenir de Fontainebleau, on jouera les pièces qui n'ont point esté
+représentées depuis19 le voyage de Fontainebleau.
+
+On a résolu de commencer la comédie tous les jours à cinq heures et un quart et que 20 celuy ou
+celle21 qui ne seront point preist22 ou qui feront manquer la scène payeront l'amande d'un escu ; et à
+la première assemblée générale, la présente dellibération de commencer à 5 heures et un quart sera
+rapportée pour estre ratifiée par tous générallement.
+
+On a résolu qu'il y aura un huyssier qui sera nommé entre nos gagistes tour à tour pour garder la
+porte de l'assemblée.
+
+On a résolu de deffendre aux décorateurs souffler les chandelles avec leur chapeau à la fin de la
+comédie parce que les personnes de qualité s'en sont plaintes, mais ils les esteindront de manière
+qu'elles ne fument point et il laisse une chandelle dans chaque lustre sur peyne de l'amande qui est
+de perdre leur journée applicable aux pauvres.
+
+Arresté en présence et par ordre de l'assemblée,
+BRECOURT*
+
+Les présens à l'assemblée sont treize ; les absens sont Mademoiselle Baron et Monsieur de Villiers,
+qui font en tout quinze jettons.
+
+
+[23 novembre 1682]
+Du bois et un petit cheval dans Andromède
+
+Ce jour d'huy lundy 23 novembre 1682, la Compagnie s'est assemblée pour dellibérer des
+affaires présentes, les présens a l'assemblée sont :
+DE LA GRANGE, DELAGRANGE, DEBRIE, LABAUVALL, ANGELIQUE, RAISIN
+cadet, LA RAISIN, [Mlle] GUERIN, [Mlle] BARON, LECOMTE, [Mlle] LECONTE,
+POISSON, DEVILLIERS, BARON, DUPIN, DEVERNEUIL, BEAUVAL, LA
+TUILLERIE, DU CROISY, DAUVILLIERS, BRECOURT, GUERIN, ROSIMOND,
+HUBERT, [Mlle]CHAMMESLAY, DE CHAMPMESLE, DENNEBAULT, HAUTEROCHE
+
+Répertoire
+              24- mardy         Artaxercès
+              25- mercredy      La Devineresse23
+              26- jeudy         Artaxercès
+              27- vendredy      L'Inconnu24
+              28- samedy        Artaxercès
+
+19   Correction
+20   Ajout interlinéaire
+21   Correction
+22   Correction
+23   Muse coquette remplacée
+24   Crispin médecin remplacé
+                                                                                                 23
+
+              29- dimanche     L'Inconnu
+              30- lundy        Artaxercès
+              Décembre 1er    La Rapinière
+
+La Compagnie a approuvé la résolution qui a esté prise dans l'assemblée précédente de commencer
+a 5 heures et un quart a peyne d'un escu d'amande tant contre ceux qui ne sont pas près pour
+commencer que contre ceux qui manquent a leur scène.
+
+La Compagnie a résolu d'achepter du bois de compte de 25 aistres a 52 buches la voye pour le
+chauffage de la salle commune avec deux cents de coterets et deux cents de fagots.
+On a résolu d'augmenter les gages de Mousset qui porte les hardes des acteurs de cinq solz par jour.
+
+On a résolu de mettre le petit cheval qui a servy a la pièce d'Andromède chez Monsieur le Baron qui
+veut bien que son cocher en aye soin et en mesme tems, on donne congé a Lucas qui pensoit led.
+petit cheval.
+
+On a résolu que26 un de la Compagnie se chargera des restes des chambrées qui se mettaient cy
+devant entre les mains de Monsieur Mainart ; Monsieur le Comte s'en est chargé jusques à Pasques
+et Mademoiselle Mainart rendra son compte au plustost de ce qu'elle a receu jusques à présent.
+On commance demain mardy la répétition de la pièce nouvelle de la Rapinière.
+Dimanche 29e novembre, on fera la lecture d'une pièce nouvelle de Monsieur de Champmeslé à dix
+heures.
+
+Arresté en présence et du consentement de toute la Compagnie ce 29e novembre 1682,
+GUERIN, DE CHAMPMESLE*
+Partagé 29 jettons entre 28 présens à l'assemblée
+
+
+[7 décembre 1682]
+Restructuration de la rue de Guénégaud
+
+8e assemblée
+Ce jour d'huy lundy 7 décembre 1682, la Compagnie s'est assemblée à l'hostel pour
+delliberer des affaires présentes ; les présens a l'assemblée ont signé
+RAISIN, [Mlle] RAISIN, DE LA GRANGE, HAUTEROCHE, ROSIMOND, LE
+COMTE, [Mlle] LE COMTE, BRECOURT, ANGELIQUE, BEAUVAL, [Mlle] BAUVAL,
+GUERIN, DE VERNEUIL, DEVILLIERS, DU CROISY, HUBERT, DEBRIE,
+DAUVILLIERS, DUPIN, DE CHAMPMESLE, POISSON, BARON
+
+On a résolu de présenter requeste a Monsieur le prévost des marchands pour oster ou racomoder
+l'esgoust qui est dans la rue de Guénégault, attendu que les chevaux y tombent souvent qu'ils sy
+cassent les jambes et que les personnes de qualitée s'en plaignent.
+
+On a résolu que les gens qui se disent comédiens des campagnes n'entreront point à la comédie, a
+moins qu'ils soient parens de quelqu'un de la Compagnie ou que ce soit pendant le Caresme auquel
+
+25 Un terme raturé.
+26 Monsieur le C... raturé
+                                                                                                        24
+
+tous27 les comédiens entrent.
+
+On a résolu que l'on marquera sur tous les bancs à l’amphithéâtre hors le premier et le second banc.
+On donnera ordre aux ouvreurs de loges de ne point laisser entrer dans les fons que les enfans et
+femmes de chambre de la Compagnie, lors qu'il n'y aura point de ---- et qu'on n'y laisra entrer aucun
+ouvrier ou.... qui n'appartiendrait point à la trouppe.
+
+Arresté en présence et du consentement de la Compagnie,
+BRECOURT*
+Partagé 29 jettons entre 23 présens28
+
+
+[21 décembre 1682]
+Loges et pain béni
+
+9e assemblée
+Ce jour d'huy lundy 21 décembre 1682, la Compagnie s'est assemblée à l'hostel dans la
+salle commune pour dellibérer des affaires présentes. Les présens à l'assemblée ont signé :
+DE LA GRANGE, RAISIN, LA RAISIN, DE VERNEUIL, BRECOURT, HAUTEROCHE,
+BEAUVAL, D'AUVILLIERS, GUERIN, GUERIN, ROSIMOND, BEAUVAL, LE
+COMTE, DEBRIE, [Mlle] DELAGRANGE, BARON, HUBERT, LECONTE,
+ANGELIQUE POISSON, POISSON, DU CROISY, DENNEBAULT, LA TUILLERIE,
+DUPIN
+[Dix heures sonnées, les absens ont esté : MM. de Champmeslé, Baron, de Villiers ; Mlles de
+Champmeslé, Guyot]
+
+On a résolu de placer dans les loges les premiers qui arriveront affin d'éviter l'inconvénient qui
+arrive d'ordinaire que les derniers venus ont les premières loges.
+
+On a résolu de faire rendre compte à Madame Maincart ; les Sieurs Hubert, Verneuil et La Grange
+ont esté commis pour cet effet.
+
+On a résolu de faire faire des loges pour ceux qui n'en ont point ; Monsieur Hubert a offert son
+logement pour Pasques pour y faire des loges.
+
+On a résolu de faire la despense cy-dessous pour le pain bény que la Compagnie vend a la parroisse
+à la messe de minuict : le pain bény de 9 l. à l'offrande, 22 £ 16 S ; à la cuière, un louis d'or ou 11 £
+8 S, six cierges de demy livre chacun et un cierge d'une livre à la main aux bedeaux, un escu.
+Mademoiselle de Brie vendra led. pain bény.
+
+Arresté en présence et du consentement de toute la Compagnie,
+BRECOURT
+partagé 29 jettons entre 24 présens.-->
+      </body>
+   </text>
+</TEI>

@@ -5307,7 +5307,7 @@
      <gender type="masculin"/>
      <occupation from="1791" to="1792" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL1">
+    <person ana="comédien.ne CF" xml:id="VERN2">
      <idno type="base_unifiée"> 465 </idno>
      <persName>
       <reg>Monsieur Verneuil </reg>
@@ -10206,7 +10206,7 @@
      <gender type="masculin"/>
      <occupation from="1840" to="1843" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL2">
+    <person ana="comédien.ne CF" xml:id="VARL1">
      <persName>
       <reg>Henry Varlet </reg>
       <forename> Henry </forename>
@@ -10233,7 +10233,7 @@
      <gender type="feminin"/>
      <occupation from="1839" to="1848" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VARL3">
+    <person ana="comédien.ne CF" xml:id="VARL2">
      <persName>
       <reg>Rosalie Varlet </reg>
       <forename> Rosalie </forename>
@@ -10893,7 +10893,7 @@
      <gender type="feminin"/>
      <occupation from="1821" to="1823" type="pensionnaire"/>
     </person>
-    <person ana="comédien.ne CF" xml:id="VERN2">
+    <person ana="comédien.ne CF" xml:id="VERN3">
      <persName>
       <reg>Eliza Verneuil </reg>
       <forename> Eliza </forename>
@@ -12864,6 +12864,23 @@
      <gender type="masculin"/>
      <occupation from="1794" to="1809" type="acteur.rice"/>
      <occupation type="sociétariat" when="1799"/>
+    </person>
+    
+    <!-- Ajouts de personnes -->
+    <person ana="compositeur.rice" xml:id="LULL1">
+     <persName>
+      <reg>Jean-Baptiste De Lully</reg>
+      <forename>Jean-Baptiste</forename>
+      <surname type="nom_famille">De Lully</surname>
+     </persName>
+     <gender type="masculin"/>
+    </person>
+    
+    <person ana="souverain.e" xml:id="LOUI1">
+     <persName>
+      <reg>Louis XIV</reg>
+     </persName>
+     <occupation from="1643" to="1715" type="roi_france"/>
     </person>
    </listPerson>
   </body>

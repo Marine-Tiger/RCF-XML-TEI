@@ -349,7 +349,7 @@
     <relation ref="#VANHOVE" name="pere" active="pros:VANH1 pros:TALM2"/>
 
     <!-- VARLET -->
-    <relation ref="#VARLET" name="fratrie" mutual="pros:LAGR1 pros:VARL1"/>
+    <relation ref="#VARLET" name="fratrie" mutual="pros:LAGR1 pros:VERN2"/>
     <relation ref="#VARLET" name="conjoints" mutual="pros:LAGR5 pros:LAGR1"/>
 
     <!-- VERDELLET -->

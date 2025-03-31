@@ -47,6 +47,8 @@
             include="addName event eventName forename gender listPerson occupation person persName orgName placeName roleName surname"/>
           <!-- Le module "analysis" permet d'ajouter @ana-->
           <moduleRef key="analysis"/>
+          <!-- Le module "transcr" permet d'ajouter @facs-->
+          <moduleRef key="transcr"/>
           <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
           <moduleRef key="drama" include="actor castItem castList role"/>
 
@@ -116,12 +118,14 @@
               </attDef>
             </attList>
           </elementSpec>
+          
+          
 
           <!--LISTE DE VALEURS DANS DIV2-->
           <elementSpec ident="div2" mode="change" module="textstructure">
             <!-- Liste (non-exhaustive) pour @ana-->
             <attList>
-              <attDef ident="ana" mode="change" usage="rec">
+              <attDef ident="ana" mode="replace" usage="rec">
                 <valList type="closed">
                   <!-- trouver un moyen afin de pouvoir continuer de mettre plusieurs valeurs à la fois? -->
                   <valItem ident="admission"/>

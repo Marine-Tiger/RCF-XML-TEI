@@ -1,489 +1,698 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>A TEI file automatically converted from CSV</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>No publication statement</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>A TEI file automatically converted from a CSV file.</p>
-         </sourceDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-      <body>
-         <div type="glossaire">
-            <div type="A">
-               <list>
-                  <item xml:id="AFFI1">
-                     <label source="https://www.cfregisters.org/#!/encyclopedie/mots/a/affiches"
-                        >Affiches</label>
-                  </item>
-                  <item xml:id="AGRE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/agr%C3%A9ment%20(pi%C3%A8ce%20d')"
-                        >Pièce d'agrément</label></item>
-                  <item xml:id="AILE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/ailes%20(du%20th%C3%A9%C3%A2tre)"
-                        >Ailes (du théâtre)</label></item>
-                  <item xml:id="AMEN1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amende"
-                        >Amendes</label></item>
-                  <item xml:id="AMPH1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amphith%C3%A9%C3%A2tre"
-                        >Amphithéâtre</label></item>
-                  <item xml:id="ARCH1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/archer"
-                        >Archer</label></item>
-                  <item xml:id="ARRE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/arr%C3%A9rages"
-                        >Arrérages</label></item>
-                  <item xml:id="ARTI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/artisan"
-                        >Artisan</label></item>
-                  <item xml:id="ASSE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/assembl%C3%A9e"
-                        >Assemblée</label></item>
-                  <item xml:id="ASSI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/assistant%20(muet%7Cparlant)"
-                        >Assistant</label></item>
-                  <item xml:id="AUMO1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/a/aum%C3%B4ne"
-                        >Aumône</label></item>
-               </list>
-            </div>
-            <div type="B">
-               <list>
-                  <item xml:id="BAIG1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/baignoire"
-                        >Baignoire</label></item>
-                  <item xml:id="BALC1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/balcon"
-                        >Balcon</label></item>
-                  <item xml:id="BALL1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/ballet"
-                        >Ballet</label></item>
-                  <item xml:id="BARB1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/barbier"
-                        >Barbier</label></item>
-                  <item xml:id="BILL1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/billet"
-                        >Billet</label></item>
-                  <item xml:id="BOIS1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/bois"
-                        >Bois</label></item>
-                  <item xml:id="BOUE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/boues%20et%20lanternes"
-                        >Boues et lanternes</label></item>
-                  <item xml:id="BOUG1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/b/bougie"
-                        >Bougie</label></item>
-               </list>
-            </div>
-            <div type="C">
-               <list>
-                  <item xml:id="CAIS1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/caissier,%20caissi%C3%A8re"
-                        >Caissier, caissière</label></item>
-                  <item xml:id="CARR1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/carosse%20(frais%20de)"
-                        >Carrosse (frais de)</label></item>
-                  <item xml:id="CERE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/c%C3%A9r%C3%A9monie%20du%20malade%20imaginaire"
-                        >Cérémonie du Malade imaginaire </label></item>
-                  <item xml:id="CHAI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chaise%20(frais%20de)"
-                        >Chaise (frais de)</label></item>
-                  <item xml:id="CHAM1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chambr%C3%A9e"
-                        >Chambrée</label></item>
-                  <item xml:id="CHAN1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chandelle%20(ordinaire,%20extraordinaire,%20des%20acteurs...)%20"
-                        >Chandelle (ordinaire, extraordinaire, des acteurs…)</label></item>
-                  <item xml:id="CHAN2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chandelle%20des%20religieux"
-                        >Chandelle des religieux</label></item>
-                  <item xml:id="CHAR1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/charpentier"
-                        >Charpentier</label></item>
-                  <item xml:id="CHEM1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chemin%C3%A9es%20(ramonage%20des)"
-                        >Cheminées (ramonage des)</label></item>
-                  <item xml:id="CINT1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cintre"
-                        >Cintre </label></item>
-                  <item xml:id="CLOT1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cl%C3%B4ture%20(du%20th%C3%A9%C3%A2tre)"
-                        >Clôture (du théâtre)</label></item>
-                  <item xml:id="COCH1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cocher"
-                        >Cocher</label></item>
-                  <item xml:id="COME1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9die"
-                        >Comédie</label></item>
-                  <item xml:id="COME2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9die-ballet"
-                        >Comédie-ballet</label></item>
-                  <item xml:id="COME3"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9dien-fran%C3%A7ais%20ou%20com%C3%A9dien%20ordinaire%20du%20roi"
-                        >Comédien-Français ou comédien ordinaire du roi</label></item>
-                  <item xml:id="COME4"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9die-fran%C3%A7aise"
-                        >Comédie-Française</label></item>
-                  <item xml:id="COMI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/comit%C3%A9%20d'assembl%C3%A9e"
-                        >Comité d'assemblée</label></item>
-                  <item xml:id="COMI2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/comit%C3%A9%20de%20lecture"
-                        >Comité de lecture </label></item>
-                  <item xml:id="COMP1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/compagnie"
-                        >Compagnie</label></item>
-                  <item xml:id="COMP2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/compliment%20d'ouverture"
-                        >Compliment d’ouverture </label></item>
-                  <item xml:id="COMP3"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/compliment%20de%20cl%C3%B4ture"
-                        >Compliment de clôture </label></item>
-                  <item xml:id="CONC1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/concierge"
-                        >Concierge</label></item>
-                  <item xml:id="CONF1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/confident,%20confidente"
-                        >Confident ou confidente</label></item>
-                  <item xml:id="CONG1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cong%C3%A9"
-                        >Congé </label></item>
-                  <item xml:id="CONT1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/contremarque"
-                        >Contremarque</label></item>
-                  <item xml:id="CONT2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/contr%C3%B4leur,%20contr%C3%B4leuse"
-                        >Contrôleur</label></item>
-                  <item xml:id="COPI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/copie%20des%20r%C3%B4les"
-                        >Copies des rôles </label></item>
-                  <item xml:id="COTR1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cotret"
-                        >Cotret</label></item>
-                  <item xml:id="CROC1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/c/crocheteur"
-                        >Crocheteur</label></item>
-               </list>
-            </div>
-            <div type="D">
-               <list>
-                  <item xml:id="DANS1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/danseur,%20danseuse"
-                        >Danseur, danseuse</label></item>
-                  <item xml:id="DEBU1"><label source="url">Début (second
-                        début)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="DECO1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%A9corateur"
-                        >Décorateur</label></item>
-                  <item xml:id="DEFA1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%A9falque"
-                        >Défalque</label></item>
-                  <item xml:id="DENI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/denier"
-                        >Denier</label></item>
-                  <item xml:id="DEPE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%A9penses"
-                        >Dépense</label></item>
-                  <item xml:id="DETT1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/dette"
-                        >Dette</label></item>
-                  <item xml:id="DOUB1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/double%20%7C%20doubl%C3%A9%20%7C%20faire%20payer%20au%20double"
-                        >Double – doublé - faire payer au double</label></item>
-                  <item xml:id="DOYE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/doyen"
-                        >Doyen </label></item>
-                  <item xml:id="DRAG1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/dragon"
-                        >Dragon</label></item>
-                  <item xml:id="DRAM1"><label source="url">Drame</label><desc>Définition à
-                        venir.</desc></item>
-                  <item xml:id="DROI1"><label source="url">Droits des
-                        auteurs </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="DROI2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/droit%20des%20pauvres"
-                        >Droit des pauvres</label></item>
-                  <item xml:id="DUAU1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%BB%20aux%20frais"
-                        >Dû aux frais</label></item>
-               </list>
-            </div>
-            <div type="E">
-               <list>
-                  <item xml:id="EMPL1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/emploi"
-                        >Emploi</label></item>
-                  <item xml:id="EMPR1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/emprunt"
-                        >Emprunt</label></item>
-                  <item xml:id="ENFA1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/enfant"
-                        >Enfant</label></item>
-                  <item xml:id="ENTR1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/entr%C3%A9e"
-                        >Entrée</label></item>
-                  <item xml:id="ERRE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/erreur%20dans%20les%20comptes"
-                        >Erreur dans les comptes</label></item>
-                  <item xml:id="ETAB1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/%C3%A9tablissement"
-                        >Établissement</label></item>
-                  <item xml:id="ETRE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/e/%C3%A9trennes"
-                        >Etrennes</label></item>
-               </list>
-            </div>
-            <div type="F">
-               <list>
-                  <item xml:id="FAGO1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/fagot"
-                        >Fagot</label></item>
-                  <item xml:id="FAMI1"><label source="url">Famille d’acteurs et
-                        d’actrices </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="FERB1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/ferblantier"
-                        >Ferblantier</label></item>
-                  <item xml:id="FEUX1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/feu(x)%20d'acteur%20(feux%20d'enfant)"
-                        >Feu(x) d'acteur (feux d'enfant)</label></item>
-                  <item xml:id="FOIR1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/foire"
-                        >Foire</label></item>
-                  <item xml:id="FRAI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frais%20de%20la%20pi%C3%A8ce"
-                        >Frais de la pièce</label></item>
-                  <item xml:id="FRAI2"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frais%20extraordinaires"
-                        >Frais extraordinaires</label></item>
-                  <item xml:id="FRAI3"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frais%20ordinaires"
-                        >Frais ordinaires</label></item>
-                  <item xml:id="FROT1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frotteur"
-                        >Frotteur</label></item>
-               </list>
-            </div>
-            <div type="G">
-               <list>
-                  <item xml:id="GAGE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gages%20(appointements)"
-                        >Gages, gagistes</label></item>
-                  <item xml:id="GAGI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gagiste"
-                        >Gagiste</label></item>
-                  <item xml:id="GALE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/g/galerie"
-                        >Galerie</label></item>
-                  <item xml:id="GARC1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gar%C3%A7on%20(de%20th%C3%A9%C3%A2tre)"
-                        >Garçon (de théâtre)</label></item>
-                  <item xml:id="GARD1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/g/garde%20militaire%20%7C%20garde%20fran%C3%A7aise"
-                        >Garde militaire/garde française</label></item>
-                  <item xml:id="GONT1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gont%20(gon%7Cgond)"
-                        >Gont (Gon / Gond)</label></item>
-                  <item xml:id="GUID1"><label source="url"
-                        >https://www.cfregisters.org/#!/encyclopedie/mots/g/guide</label></item>
-               </list>
-            </div>
-            <div type="H">
-               <list>
-                  <item xml:id="HABI1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/h/habits%20%7C%20hardes%20%7C%20habits%20extraordinaires%20"
-                        >Habits / hardes / habits extraordinaires </label></item>
-                  <item xml:id="HOTE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/h/h%C3%B4tel-dieu%20(neuvi%C3%A8me%20de,%20dixi%C3%A8me%20de)"
-                        >Hotel-Dieu (neuvième de, dixième de)</label></item>
-               </list>
-            </div>
-            <div type="I">
-               <list>
-                  <item xml:id="INST1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/i/instrumentiste"
-                        >Instrumentiste</label></item>
-                  <item xml:id="INTE1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/i/intendant%20des%20menus%20plaisirs"
-                        >Intendant des Menus Plaisirs</label></item>
-                  <item xml:id="INTE2"><label source="url">Intermèdes /
-                        ornements </label><desc>Définition à venir.</desc></item>
-               </list>
-            </div>
-            <div type="J">
-               <list>
-                  <item xml:id="JETO1"><label
-                        source="https://www.cfregisters.org/#!/encyclopedie/mots/j/jeton%20(d%E2%80%99assembl%C3%A9e,%20des%20semainiers,%20de%20lecture,%20de%20comit%C3%A9),%20ou%20jeton%20de%20pr%C3%A9sence"
-                        >Jeton (d’assemblée, des semainiers, de lecture, de comité), ou jeton de
-                        présence</label></item>
-               </list>
-            </div>
-            <div type="L">
-               <list>
-                  <item xml:id="LAMP1"><label source="url">Lampion</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="LECT1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/lecture">Lecture </label></item>
-                  <item xml:id="LIEU1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/lieutenant%20de%20police">Lieutenant général de
-                     police</label></item>
-                  <item xml:id="LIVR1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/livre">Livre</label></item>
-                  <item xml:id="LOGE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loges%20(premi%C3%A8res,%20deuxi%C3%A8mes,%20basses,%20hautes...)">Loges (premières, deuxièmes, basses,
-                        hautes...)</label></item>
-                  <item xml:id="LOGE2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loge%20d'acteur">Loge d’acteur</label></item>
-                  <item xml:id="LOGE3"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loge%20de%20la%20limonade">Loge de la limonade </label></item>
-                  <item xml:id="LOGE4"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loges%20lou%C3%A9es%20sur%20abonnement%20(petites%20loges)">Loges louées sur abonnement (petites
-                        loges)</label></item>
-                  <item xml:id="LOYE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loyer">Loyer</label></item>
-                  <item xml:id="LUST1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/l/lustres%20et%20d%C3%A9corations">Lustres et décorations</label></item>
-               </list>
-            </div>
-            <div type="M">
-               <list>
-                  <item xml:id="MACH1"><label source="url">Machines (pièce à)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="MACH2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/machiniste">Machiniste</label></item>
-                  <item xml:id="MAGA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/magasin%20de%20costumes">Magasin de costumes </label></item>
-                  <item xml:id="MAGA2"><label source="url">Magasin des décors </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="MAIT1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/ma%C3%AEtre%20de%20ballet">Maître de ballet</label></item>
-                  <item xml:id="MALA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/maladies%20non%20permises">Maladies non permises</label></item>
-                  <item xml:id="MARC1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/marcheur,%20marcheuse">Marcheur, marcheuse</label></item>
-                  <item xml:id="MEMO1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/m%C3%A9moire">Mémoire</label></item>
-                  <item xml:id="MENU1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/menuisier">Menuisier</label></item>
-                  <item xml:id="MENU2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/menus%20frais">Menus frais</label></item>
-                  <item xml:id="MERE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/m%C3%A8re">Mère</label></item>
-                  <item xml:id="MISE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/mise%20%C3%A0%20l'%C3%A9tude">Mise à l’étude </label></item>
-                  <item xml:id="MONN1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/monnaie">Monnaie</label></item>
-                  <item xml:id="MUSI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/m/musicien,%20musicienne%20%7C%20chanteur,%20chanteuse">Musicien, musicienne / Chanteur,
-                        chanteuse</label></item>
-               </list>
-            </div>
-            <div type="N">
-               <list>
-                  <item xml:id="NOTA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/n/notaire">Notaire</label></item>
-               </list>
-            </div>
-            <div type="O">
-               <list>
-                  <item xml:id="OCCA1"><label source="url">Occasionnel (acteur)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="OING1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/oing%20(vieux)">Oing (vieux)</label></item>
-                  <item xml:id="OPER1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/op%C3%A9ra">Opéra </label></item>
-                  <item xml:id="ORAT1"><label source="url">Orateur</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="ORCH1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/orchestre">Orchestre</label></item>
-                  <item xml:id="ORDR1"><label source="url">Ordre d’essai </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="ORDR2"><label source="url">Ordre de début </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="ORDR3"><label source="url">Ordre de réception </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="ORDR4"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ordre%20des%20pi%C3%A8ces">Ordre des pièces</label></item>
-                  <item xml:id="OUVE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ouverture%20(du%20th%C3%A9%C3%A2tre)">Ouverture (du théâtre)</label></item>
-                  <item xml:id="OUVR1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ouvreur,%20ouvreuse">Ouvreur, ouvreuse de loge </label></item>
-                  <item xml:id="OUVR2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ouvrier,%20ouvri%C3%A8re">Ouvrier, ouvrière</label></item>
-               </list>
-            </div>
-            <div type="P">
-               <list>
-                  <item xml:id="PALA1"><label source="url">Palais-Royal (frais du)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="PARA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/paradis">Paradis</label></item>
-                  <item xml:id="PARQ1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/parquet">Parquet</label></item>
-                  <item xml:id="PART1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20d'acteur">Part d’acteur</label></item>
-                  <item xml:id="PART2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20d'auteur">Part d’auteur</label></item>
-                  <item xml:id="PART3"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20de%20l'ann%C3%A9e">Part de l'année</label></item>
-                  <item xml:id="PART4"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20des%20pauvres">Part des pauvres</label></item>
-                  <item xml:id="PART5"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20du%20mois">PArt du mois</label></item>
-                  <item xml:id="PART6"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/parterre">Parterre</label></item>
-                  <item xml:id="PENS1"><label source="url">Pension des comédiens
-                     retirés </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="PENS2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pension%20royale">Pension royale</label></item>
-                  <item xml:id="PENS3"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pensionnaire">Pensionnaire </label></item>
-                  <item xml:id="PENS4"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pensionnaire">Pensionnaire (= comédien retiré ayant une
-                        pension)</label></item>
-                  <item xml:id="PENS5"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pension">Pension</label></item>
-                  <item xml:id="PENS6"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pension%20de%20retraite%20des%20com%C3%A9diens-fran%C3%A7ais">Pension de retraite des
-                        Comédiens-Français</label></item>
-                  <item xml:id="PETI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/petite%20oye">Petite oye </label></item>
-                  <item xml:id="PETI2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/petites%20loges">Petites loges</label></item>
-                  <item xml:id="PIEC2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pi%C3%A8ce">Pièce</label></item>
-                  <item xml:id="PLAC1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/place">Place</label></item>
-                  <item xml:id="PORT1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/portes%20et%20bureau">Portes et bureau</label></item>
-                  <item xml:id="PORT2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/porte-flambeau">Porte-flambeau</label></item>
-                  <item xml:id="PORT3"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/portier">Portier</label></item>
-                  <item xml:id="POST1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/postes%20surnum%C3%A9raires%20et%20monnaie">Postes surnuméraires et
-                     monnaie</label></item>
-                  <item xml:id="PREC1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pr%C3%A9ciput">Préciput</label></item>
-                  <item xml:id="PREM1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/premiers%20gentilshommes%20de%20la%20chambre">Premiers Gentilshommes de la
-                        Chambre</label></item>
-                  <item xml:id="PREU1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/p/preuve">Preuve</label></item>
-               </list>
-            </div>
-            <div type="Q">
-               <list>
-                  <item xml:id="QUAR1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/q/quart%20des%20pauvres">Quart des pauvres</label></item>
-               </list>
-            </div>
-            <div type="R">
-               <list>
-                  <item xml:id="RECE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/recettes">Recette</label></item>
-                  <item xml:id="RECE2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/receveur,%20receveuse">Receveur, receveuse</label></item>
-                  <item xml:id="REGI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/registre%20journalier%20(registre%20double)">Registre journalier (registre
-                        double)</label></item>
-                  <item xml:id="REGL1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%A8glement(s)">Règlement(s)</label></item>
-                  <item xml:id="RELA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/rel%C3%A2che">Relâche</label></item>
-                  <item xml:id="RELI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/religieux">Religieux</label></item>
-                  <item xml:id="REPE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/repr%C3%A9sentation">Répertoire (faire le répertoire, de la
-                     semaine, général)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="REPE2"><label source="url">Répétition</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="REPR1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/repr%C3%A9sentation">Représentation</label></item>
-                  <item xml:id="REPR2"><label source="url">Reprise</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="REST1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/reste">Reste</label></item>
-                  <item xml:id="ROLE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%B4le%20%C3%A0%20manteau">Rôle à manteau </label></item>
-                  <item xml:id="ROLE2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%B4le%20d'homme%20(premier%20r%C3%B4le%20d'homme)">Rôle d'homme (premier rôle
-                        d'homme)</label></item>
-                  <item xml:id="ROLE3"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%B4le%20d'homme%20(jeune%20premier%20r%C3%B4le%20d'homme)">Rôle d'homme (jeune premier rôle
-                        d'homme)</label></item>
-               </list>
-            </div>
-            <div type="S">
-               <list>
-                  <item xml:id="SAIS1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/saison">Saison</label></item>
-                  <item xml:id="SALL1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/salle">Salle</label></item>
-                  <item xml:id="SAUT1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/sauteur">Sauteur</label></item>
-                  <item xml:id="SAVO1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/savoyard">Savoyard</label></item>
-                  <item xml:id="SEMA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/semainier">Semainier</label></item>
-                  <item xml:id="SIGN1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/signature">Signature</label></item>
-                  <item xml:id="SIXI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/sixi%C3%A8me%20des%20pauvres">Sixième des pauvres</label></item>
-                  <item xml:id="SOCI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/soci%C3%A9taire">Sociétaire </label></item>
-                  <item xml:id="SOIR1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/soir%C3%A9e">Soirée</label></item>
-                  <item xml:id="SOL1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/sol">Sol</label></item>
-                  <item xml:id="SOLD1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/soldat%20assistant%20%7C%20garde%20assistant">Soldat assistant / garde
-                        assistant</label></item>
-                  <item xml:id="SOUF1"><label source="url">Souffleur/souffleuse </label><desc>Définition à venir.</desc></item>
-                  <item xml:id="STAL1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/stalle">Stalle</label></item>
-                  <item xml:id="SUIF1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/suif">Suif</label></item>
-                  <item xml:id="SYMP1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/s/symphoniste">Symphoniste</label></item>
-               </list>
-            </div>
-            <div type="T">
-               <list>
-                  <item xml:id="TAIL1"><label source="url">Tailleur (costumier)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="TAPI1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/t/tapissier">Tapissier</label></item>
-                  <item xml:id="THEA1"><label source="url">Théâtre (places sur le)</label><desc>Définition à venir.</desc></item>
-                  <item xml:id="TOMB1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/t/tomber%20dans%20les%20r%C3%A8gles">Tomber dans les règles </label></item>
-                  <item xml:id="TRAG1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/t/trag%C3%A9die">Tragédie</label></item>
-               </list>
-            </div>
-            <div type="V">
-               <list>
-                  <item xml:id="VALE1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/v/valet">Valet</label></item>
-                  <item xml:id="VIOL1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/v/violon">Violon</label></item>
-                  <item xml:id="VOIT1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/v/voiture%20(frais%20de)">Voiture (frais de)</label></item>
-                  <item xml:id="VOYA1"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/v/voyages%20%C3%A0%20la%20cour">Voyages à la cour</label></item>
-                  <item xml:id="VOYA2"><label source="https://www.cfregisters.org/#!/encyclopedie/mots/v/voyages%20%C3%A0%20la%20cour%20(frais%20des)">Voyages à la cour (frais
-                     des)</label></item>
-               </list>
-            </div>
-         </div>
-      </body>
-   </text>
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>A TEI file automatically converted from CSV</title>
+                  </titleStmt>
+                  <publicationStmt>
+                        <p>No publication statement</p>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <p>A TEI file automatically converted from a CSV file.</p>
+                  </sourceDesc>
+            </fileDesc>
+      </teiHeader>
+      <text>
+            <body>
+                  <div type="glossaire">
+                        <div type="A">
+                              <list>
+                                    <item xml:id="AFFI1">
+                                          <label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/affiches"
+                                                >Affiches</label>
+                                    </item>
+                                    <item xml:id="AGRE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/agr%C3%A9ment%20(pi%C3%A8ce%20d')"
+                                                >Pièce d'agrément</label></item>
+                                    <item xml:id="AILE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/ailes%20(du%20th%C3%A9%C3%A2tre)"
+                                                >Ailes (du théâtre)</label></item>
+                                    <item xml:id="AMEN1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amende"
+                                                >Amendes</label></item>
+                                    <item xml:id="AMPH1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/amphith%C3%A9%C3%A2tre"
+                                                >Amphithéâtre</label></item>
+                                    <item xml:id="ARCH1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/archer"
+                                                >Archer</label></item>
+                                    <item xml:id="ARRE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/arr%C3%A9rages"
+                                                >Arrérages</label></item>
+                                    <item xml:id="ARTI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/artisan"
+                                                >Artisan</label></item>
+                                    <item xml:id="ASSE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/assembl%C3%A9e"
+                                                >Assemblée</label></item>
+                                    <item xml:id="ASSI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/assistant%20(muet%7Cparlant)"
+                                                >Assistant</label></item>
+                                    <item xml:id="AUMO1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/a/aum%C3%B4ne"
+                                                >Aumône</label></item>
+                              </list>
+                        </div>
+                        <div type="B">
+                              <list>
+                                    <item xml:id="BAIG1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/baignoire"
+                                                >Baignoire</label></item>
+                                    <item xml:id="BALC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/balcon"
+                                                >Balcon</label></item>
+                                    <item xml:id="BALL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/ballet"
+                                                >Ballet</label></item>
+                                    <item xml:id="BARB1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/barbier"
+                                                >Barbier</label></item>
+                                    <item xml:id="BILL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/billet"
+                                                >Billet</label></item>
+                                    <item xml:id="BOIS1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/bois"
+                                                >Bois</label></item>
+                                    <item xml:id="BOUE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/boues%20et%20lanternes"
+                                                >Boues et lanternes</label></item>
+                                    <item xml:id="BOUG1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/b/bougie"
+                                                >Bougie</label></item>
+                              </list>
+                        </div>
+                        <div type="C">
+                              <list>
+                                    <item xml:id="CAIS1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/caissier,%20caissi%C3%A8re"
+                                                >Caissier, caissière</label></item>
+                                    <item xml:id="CARR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/carosse%20(frais%20de)"
+                                                >Carrosse (frais de)</label></item>
+                                    <item xml:id="CERE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/c%C3%A9r%C3%A9monie%20du%20malade%20imaginaire"
+                                                >Cérémonie du Malade imaginaire </label></item>
+                                    <item xml:id="CHAI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chaise%20(frais%20de)"
+                                                >Chaise (frais de)</label></item>
+                                    <item xml:id="CHAM1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chambr%C3%A9e"
+                                                >Chambrée</label></item>
+                                    <item xml:id="CHAN1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chandelle%20(ordinaire,%20extraordinaire,%20des%20acteurs...)%20"
+                                                >Chandelle (ordinaire, extraordinaire, des
+                                                acteurs…)</label></item>
+                                    <item xml:id="CHAN2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chandelle%20des%20religieux"
+                                                >Chandelle des religieux</label></item>
+                                    <item xml:id="CHAR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/charpentier"
+                                                >Charpentier</label></item>
+                                    <item xml:id="CHEM1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/chemin%C3%A9es%20(ramonage%20des)"
+                                                >Cheminées (ramonage des)</label></item>
+                                    <item xml:id="CINT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cintre"
+                                                >Cintre </label></item>
+                                    <item xml:id="CLOT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cl%C3%B4ture%20(du%20th%C3%A9%C3%A2tre)"
+                                                >Clôture (du théâtre)</label></item>
+                                    <item xml:id="COCH1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cocher"
+                                                >Cocher</label></item>
+                                    <item xml:id="COME1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9die"
+                                                >Comédie</label></item>
+                                    <item xml:id="COME2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9die-ballet"
+                                                >Comédie-ballet</label></item>
+                                    <item xml:id="COME3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9dien-fran%C3%A7ais%20ou%20com%C3%A9dien%20ordinaire%20du%20roi"
+                                                >Comédien-Français ou comédien ordinaire du
+                                                roi</label></item>
+                                    <item xml:id="COME4"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/com%C3%A9die-fran%C3%A7aise"
+                                                >Comédie-Française</label></item>
+                                    <item xml:id="COMI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/comit%C3%A9%20d'assembl%C3%A9e"
+                                                >Comité d'assemblée</label></item>
+                                    <item xml:id="COMI2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/comit%C3%A9%20de%20lecture"
+                                                >Comité de lecture </label></item>
+                                    <item xml:id="COMP1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/compagnie"
+                                                >Compagnie</label></item>
+                                    <item xml:id="COMP2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/compliment%20d'ouverture"
+                                                >Compliment d’ouverture </label></item>
+                                    <item xml:id="COMP3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/compliment%20de%20cl%C3%B4ture"
+                                                >Compliment de clôture </label></item>
+                                    <item xml:id="CONC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/concierge"
+                                                >Concierge</label></item>
+                                    <item xml:id="CONF1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/confident,%20confidente"
+                                                >Confident ou confidente</label></item>
+                                    <item xml:id="CONG1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cong%C3%A9"
+                                                >Congé </label></item>
+                                    <item xml:id="CONT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/contremarque"
+                                                >Contremarque</label></item>
+                                    <item xml:id="CONT2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/contr%C3%B4leur,%20contr%C3%B4leuse"
+                                                >Contrôleur</label></item>
+                                    <item xml:id="COPI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/copie%20des%20r%C3%B4les"
+                                                >Copies des rôles </label></item>
+                                    <item xml:id="COTR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/cotret"
+                                                >Cotret</label></item>
+                                    <item xml:id="CROC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/c/crocheteur"
+                                                >Crocheteur</label></item>
+                              </list>
+                        </div>
+                        <div type="D">
+                              <list>
+                                    <item xml:id="DANS1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/danseur,%20danseuse"
+                                                >Danseur, danseuse</label></item>
+                                    <item xml:id="DEBU1"><label source="url">Début (second
+                                                début)</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="DECO1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%A9corateur"
+                                                >Décorateur</label></item>
+                                    <item xml:id="DEFA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%A9falque"
+                                                >Défalque</label></item>
+                                    <item xml:id="DENI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/denier"
+                                                >Denier</label></item>
+                                    <item xml:id="DEPE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%A9penses"
+                                                >Dépense</label></item>
+                                    <item xml:id="DETT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/dette"
+                                                >Dette</label></item>
+                                    <item xml:id="DOUB1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/double%20%7C%20doubl%C3%A9%20%7C%20faire%20payer%20au%20double"
+                                                >Double – doublé - faire payer au
+                                          double</label></item>
+                                    <item xml:id="DOYE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/doyen"
+                                                >Doyen </label></item>
+                                    <item xml:id="DRAG1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/dragon"
+                                                >Dragon</label></item>
+                                    <item xml:id="DRAM1"><label source="url"
+                                                >Drame</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="DROI1"><label source="url">Droits des
+                                                auteurs </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="DROI2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/droit%20des%20pauvres"
+                                                >Droit des pauvres</label></item>
+                                    <item xml:id="DUAU1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/d/d%C3%BB%20aux%20frais"
+                                                >Dû aux frais</label></item>
+                              </list>
+                        </div>
+                        <div type="E">
+                              <list>
+                                    <item xml:id="EMPL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/emploi"
+                                                >Emploi</label></item>
+                                    <item xml:id="EMPR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/emprunt"
+                                                >Emprunt</label></item>
+                                    <item xml:id="ENFA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/enfant"
+                                                >Enfant</label></item>
+                                    <item xml:id="ENTR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/entr%C3%A9e"
+                                                >Entrée</label></item>
+                                    <item xml:id="ERRE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/erreur%20dans%20les%20comptes"
+                                                >Erreur dans les comptes</label></item>
+                                    <item xml:id="ETAB1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/%C3%A9tablissement"
+                                                >Établissement</label></item>
+                                    <item xml:id="ETRE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/e/%C3%A9trennes"
+                                                >Etrennes</label></item>
+                              </list>
+                        </div>
+                        <div type="F">
+                              <list>
+                                    <item xml:id="FAGO1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/fagot"
+                                                >Fagot</label></item>
+                                    <item xml:id="FAMI1"><label source="url">Famille d’acteurs et
+                                                d’actrices </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="FERB1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/ferblantier"
+                                                >Ferblantier</label></item>
+                                    <item xml:id="FEUX1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/feu(x)%20d'acteur%20(feux%20d'enfant)"
+                                                >Feu(x) d'acteur (feux d'enfant)</label></item>
+                                    <item xml:id="FOIR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/foire"
+                                                >Foire</label></item>
+                                    <item xml:id="FRAI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frais%20de%20la%20pi%C3%A8ce"
+                                                >Frais de la pièce</label></item>
+                                    <item xml:id="FRAI2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frais%20extraordinaires"
+                                                >Frais extraordinaires</label></item>
+                                    <item xml:id="FRAI3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frais%20ordinaires"
+                                                >Frais ordinaires</label></item>
+                                    <item xml:id="FROT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/f/frotteur"
+                                                >Frotteur</label></item>
+                              </list>
+                        </div>
+                        <div type="G">
+                              <list>
+                                    <item xml:id="GAGE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gages%20(appointements)"
+                                                >Gages, gagistes</label></item>
+                                    <item xml:id="GAGI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gagiste"
+                                                >Gagiste</label></item>
+                                    <item xml:id="GALE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/g/galerie"
+                                                >Galerie</label></item>
+                                    <item xml:id="GARC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gar%C3%A7on%20(de%20th%C3%A9%C3%A2tre)"
+                                                >Garçon (de théâtre)</label></item>
+                                    <item xml:id="GARD1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/g/garde%20militaire%20%7C%20garde%20fran%C3%A7aise"
+                                                >Garde militaire/garde française</label></item>
+                                    <item xml:id="GONT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/g/gont%20(gon%7Cgond)"
+                                                >Gont (Gon / Gond)</label></item>
+                                    <item xml:id="GUID1"><label source="url"
+                                                >https://www.cfregisters.org/#!/encyclopedie/mots/g/guide</label></item>
+                              </list>
+                        </div>
+                        <div type="H">
+                              <list>
+                                    <item xml:id="HABI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/h/habits%20%7C%20hardes%20%7C%20habits%20extraordinaires%20"
+                                                >Habits / hardes / habits
+                                          extraordinaires </label></item>
+                                    <item xml:id="HOTE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/h/h%C3%B4tel-dieu%20(neuvi%C3%A8me%20de,%20dixi%C3%A8me%20de)"
+                                                >Hotel-Dieu (neuvième de, dixième de)</label></item>
+                              </list>
+                        </div>
+                        <div type="I">
+                              <list>
+                                    <item xml:id="INST1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/i/instrumentiste"
+                                                >Instrumentiste</label></item>
+                                    <item xml:id="INTE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/i/intendant%20des%20menus%20plaisirs"
+                                                >Intendant des Menus Plaisirs</label></item>
+                                    <item xml:id="INTE2"><label>Intérêts</label></item>
+                                    <item xml:id="INTE3"><label source="url">Intermèdes /
+                                                ornements </label><desc>Définition à
+                                          venir.</desc></item>
+                              </list>
+                        </div>
+                        <div type="J">
+                              <list>
+                                    <item xml:id="JETO1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/j/jeton%20(d%E2%80%99assembl%C3%A9e,%20des%20semainiers,%20de%20lecture,%20de%20comit%C3%A9),%20ou%20jeton%20de%20pr%C3%A9sence"
+                                                >Jeton (d’assemblée, des semainiers, de lecture, de
+                                                comité), ou jeton de présence</label></item>
+                              </list>
+                        </div>
+                        <div type="L">
+                              <list>
+                                    <item xml:id="LAMP1"><label source="url"
+                                                >Lampion</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="LECT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/lecture"
+                                                >Lecture </label></item>
+                                    <item xml:id="LIEU1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/lieutenant%20de%20police"
+                                                >Lieutenant général de police</label></item>
+                                    <item xml:id="LIVR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/livre"
+                                                >Livre</label></item>
+                                    <item xml:id="LOGE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loges%20(premi%C3%A8res,%20deuxi%C3%A8mes,%20basses,%20hautes...)"
+                                                >Loges (premières, deuxièmes, basses,
+                                                hautes...)</label></item>
+                                    <item xml:id="LOGE2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loge%20d'acteur"
+                                                >Loge d’acteur</label></item>
+                                    <item xml:id="LOGE3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loge%20de%20la%20limonade"
+                                                >Loge de la limonade </label></item>
+                                    <item xml:id="LOGE4"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loges%20lou%C3%A9es%20sur%20abonnement%20(petites%20loges)"
+                                                >Loges louées sur abonnement (petites
+                                          loges)</label></item>
+                                    <item xml:id="LOYE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/loyer"
+                                                >Loyer</label></item>
+                                    <item xml:id="LUST1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/l/lustres%20et%20d%C3%A9corations"
+                                                >Lustres et décorations</label></item>
+                              </list>
+                        </div>
+                        <div type="M">
+                              <list>
+                                    <item xml:id="MACH1"><label source="url">Machines (pièce
+                                                à)</label><desc>Définition à venir.</desc></item>
+                                    <item xml:id="MACH2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/machiniste"
+                                                >Machiniste</label></item>
+                                    <item xml:id="MAGA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/magasin%20de%20costumes"
+                                                >Magasin de costumes </label></item>
+                                    <item xml:id="MAGA2"><label source="url">Magasin des
+                                                décors </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="MAIT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/ma%C3%AEtre%20de%20ballet"
+                                                >Maître de ballet</label></item>
+                                    <item xml:id="MALA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/maladies%20non%20permises"
+                                                >Maladies non permises</label></item>
+                                    <item xml:id="MARC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/marcheur,%20marcheuse"
+                                                >Marcheur, marcheuse</label></item>
+                                    <item xml:id="MEMO1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/m%C3%A9moire"
+                                                >Mémoire</label></item>
+                                    <item xml:id="MENU1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/menuisier"
+                                                >Menuisier</label></item>
+                                    <item xml:id="MENU2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/menus%20frais"
+                                                >Menus frais</label></item>
+                                    <item xml:id="MERE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/m%C3%A8re"
+                                                >Mère</label></item>
+                                    <item xml:id="MISE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/mise%20%C3%A0%20l'%C3%A9tude"
+                                                >Mise à l’étude </label></item>
+                                    <item xml:id="MONN1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/monnaie"
+                                                >Monnaie</label></item>
+                                    <item xml:id="MUSI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/m/musicien,%20musicienne%20%7C%20chanteur,%20chanteuse"
+                                                >Musicien, musicienne / Chanteur,
+                                          chanteuse</label></item>
+                              </list>
+                        </div>
+                        <div type="N">
+                              <list>
+                                    <item xml:id="NOTA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/n/notaire"
+                                                >Notaire</label></item>
+                              </list>
+                        </div>
+                        <div type="O">
+                              <list>
+                                    <item xml:id="OCCA1"><label source="url"
+                                                >Occasionnel (acteur)</label><desc>Définition à
+                                                venir.</desc></item>
+                                    <item xml:id="OING1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/oing%20(vieux)"
+                                                >Oing (vieux)</label></item>
+                                    <item xml:id="OPER1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/op%C3%A9ra"
+                                                >Opéra </label></item>
+                                    <item xml:id="ORAT1"><label source="url"
+                                                >Orateur</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="ORCH1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/orchestre"
+                                                >Orchestre</label></item>
+                                    <item xml:id="ORDR1"><label source="url">Ordre
+                                                d’essai </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="ORDR2"><label source="url">Ordre de
+                                                début </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="ORDR3"><label source="url">Ordre de
+                                                réception </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="ORDR4"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ordre%20des%20pi%C3%A8ces"
+                                                >Ordre des pièces</label></item>
+                                    <item xml:id="OUVE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ouverture%20(du%20th%C3%A9%C3%A2tre)"
+                                                >Ouverture (du théâtre)</label></item>
+                                    <item xml:id="OUVR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ouvreur,%20ouvreuse"
+                                                >Ouvreur, ouvreuse de loge </label></item>
+                                    <item xml:id="OUVR2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/o/ouvrier,%20ouvri%C3%A8re"
+                                                >Ouvrier, ouvrière</label></item>
+                              </list>
+                        </div>
+                        <div type="P">
+                              <list>
+                                    <item xml:id="PALA1"><label source="url">Palais-Royal (frais
+                                                du)</label><desc>Définition à venir.</desc></item>
+                                    <item xml:id="PARA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/paradis"
+                                                >Paradis</label></item>
+                                    <item xml:id="PARQ1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/parquet"
+                                                >Parquet</label></item>
+                                    <item xml:id="PART1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20d'acteur"
+                                                >Part d’acteur</label></item>
+                                    <item xml:id="PART2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20d'auteur"
+                                                >Part d’auteur</label></item>
+                                    <item xml:id="PART3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20de%20l'ann%C3%A9e"
+                                                >Part de l'année</label></item>
+                                    <item xml:id="PART4"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20des%20pauvres"
+                                                >Part des pauvres</label></item>
+                                    <item xml:id="PART5"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/part%20du%20mois"
+                                                >PArt du mois</label></item>
+                                    <item xml:id="PART6"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/parterre"
+                                                >Parterre</label></item>
+                                    <item xml:id="PENS1"><label source="url">Pension des comédiens
+                                                retirés </label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="PENS2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pension%20royale"
+                                                >Pension royale</label></item>
+                                    <item xml:id="PENS3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pensionnaire"
+                                                >Pensionnaire </label></item>
+                                    <item xml:id="PENS4"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pensionnaire"
+                                                >Pensionnaire (= comédien retiré ayant une
+                                                pension)</label></item>
+                                    <item xml:id="PENS5"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pension"
+                                                >Pension</label></item>
+                                    <item xml:id="PENS6"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pension%20de%20retraite%20des%20com%C3%A9diens-fran%C3%A7ais"
+                                                >Pension de retraite des
+                                          Comédiens-Français</label></item>
+                                    <item xml:id="PETI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/petite%20oye"
+                                                >Petite oye </label></item>
+                                    <item xml:id="PETI2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/petites%20loges"
+                                                >Petites loges</label></item>
+                                    <item xml:id="PIEC2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pi%C3%A8ce"
+                                                >Pièce</label></item>
+                                    <item xml:id="PLAC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/place"
+                                                >Place</label></item>
+                                    <item xml:id="PORT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/portes%20et%20bureau"
+                                                >Portes et bureau</label></item>
+                                    <item xml:id="PORT2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/porte-flambeau"
+                                                >Porte-flambeau</label></item>
+                                    <item xml:id="PORT3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/portier"
+                                                >Portier</label></item>
+                                    <item xml:id="POST1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/postes%20surnum%C3%A9raires%20et%20monnaie"
+                                                >Postes surnuméraires et monnaie</label></item>
+                                    <item xml:id="PREC1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/pr%C3%A9ciput"
+                                                >Préciput</label></item>
+                                    <item xml:id="PREM1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/premiers%20gentilshommes%20de%20la%20chambre"
+                                                >Premiers Gentilshommes de la Chambre</label></item>
+                                    <item xml:id="PREU1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/p/preuve"
+                                                >Preuve</label></item>
+                              </list>
+                        </div>
+                        <div type="Q">
+                              <list>
+                                    <item xml:id="QUAR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/q/quart%20des%20pauvres"
+                                                >Quart des pauvres</label></item>
+                              </list>
+                        </div>
+                        <div type="R">
+                              <list>
+                                    <item xml:id="RECE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/recettes"
+                                                >Recette</label></item>
+                                    <item xml:id="RECE2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/receveur,%20receveuse"
+                                                >Receveur, receveuse</label></item>
+                                    <item xml:id="REGI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/registre%20journalier%20(registre%20double)"
+                                                >Registre journalier (registre
+                                          double)</label></item>
+                                    <item xml:id="REGL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%A8glement(s)"
+                                                >Règlement(s)</label></item>
+                                    <item xml:id="RELA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/rel%C3%A2che"
+                                                >Relâche</label></item>
+                                    <item xml:id="RELI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/religieux"
+                                                >Religieux</label></item>
+                                    <item xml:id="RENT1"><label>Rente</label></item>
+                                    <item xml:id="REPE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/repr%C3%A9sentation"
+                                                >Répertoire (faire le répertoire, de la semaine,
+                                                général)</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="REPE2"><label source="url"
+                                                >Répétition</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="REPR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/repr%C3%A9sentation"
+                                                >Représentation</label></item>
+                                    <item xml:id="REPR2"><label source="url"
+                                                >Reprise</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="REST1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/reste"
+                                                >Reste</label></item>
+                                    <item xml:id="ROLE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%B4le%20%C3%A0%20manteau"
+                                                >Rôle à manteau </label></item>
+                                    <item xml:id="ROLE2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%B4le%20d'homme%20(premier%20r%C3%B4le%20d'homme)"
+                                                >Rôle d'homme (premier rôle d'homme)</label></item>
+                                    <item xml:id="ROLE3"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/r/r%C3%B4le%20d'homme%20(jeune%20premier%20r%C3%B4le%20d'homme)"
+                                                >Rôle d'homme (jeune premier rôle
+                                          d'homme)</label></item>
+                              </list>
+                        </div>
+                        <div type="S">
+                              <list>
+                                    <item xml:id="SAIS1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/saison"
+                                                >Saison</label></item>
+                                    <item xml:id="SALL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/salle"
+                                                >Salle</label></item>
+                                    <item xml:id="SAUT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/sauteur"
+                                                >Sauteur</label></item>
+                                    <item xml:id="SAVO1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/savoyard"
+                                                >Savoyard</label></item>
+                                    <item xml:id="SEMA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/semainier"
+                                                >Semainier</label></item>
+                                    <item xml:id="SIGN1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/signature"
+                                                >Signature</label></item>
+                                    <item xml:id="SIXI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/sixi%C3%A8me%20des%20pauvres"
+                                                >Sixième des pauvres</label></item>
+                                    <item xml:id="SOCI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/soci%C3%A9taire"
+                                                >Sociétaire </label></item>
+                                    <item xml:id="SOIR1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/soir%C3%A9e"
+                                                >Soirée</label></item>
+                                    <item xml:id="SOL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/sol"
+                                                >Sol</label></item>
+                                    <item xml:id="SOLD1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/soldat%20assistant%20%7C%20garde%20assistant"
+                                                >Soldat assistant / garde assistant</label></item>
+                                    <item xml:id="SOUF1"><label source="url"
+                                                >Souffleur/souffleuse </label><desc>Définition à
+                                                venir.</desc></item>
+                                    <item xml:id="STAL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/stalle"
+                                                >Stalle</label></item>
+                                    <item xml:id="SUIF1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/suif"
+                                                >Suif</label></item>
+                                    <item xml:id="SYMP1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/s/symphoniste"
+                                                >Symphoniste</label></item>
+                              </list>
+                        </div>
+                        <div type="T">
+                              <list>
+                                    <item xml:id="TAIL1"><label source="url">Tailleur
+                                                (costumier)</label><desc>Définition à
+                                          venir.</desc></item>
+                                    <item xml:id="TAPI1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/t/tapissier"
+                                                >Tapissier</label></item>
+                                    <item xml:id="THEA1"><label source="url">Théâtre (places sur
+                                                le)</label><desc>Définition à venir.</desc></item>
+                                    <item xml:id="TOMB1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/t/tomber%20dans%20les%20r%C3%A8gles"
+                                                >Tomber dans les règles </label></item>
+                                    <item xml:id="TRAG1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/t/trag%C3%A9die"
+                                                >Tragédie</label></item>
+                              </list>
+                        </div>
+                        <div type="V">
+                              <list>
+                                    <item xml:id="VALE1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/v/valet"
+                                                >Valet</label></item>
+                                    <item xml:id="VIOL1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/v/violon"
+                                                >Violon</label></item>
+                                    <item xml:id="VOIT1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/v/voiture%20(frais%20de)"
+                                                >Voiture (frais de)</label></item>
+                                    <item xml:id="VOYA1"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/v/voyages%20%C3%A0%20la%20cour"
+                                                >Voyages à la cour</label></item>
+                                    <item xml:id="VOYA2"><label
+                                                source="https://www.cfregisters.org/#!/encyclopedie/mots/v/voyages%20%C3%A0%20la%20cour%20(frais%20des)"
+                                                >Voyages à la cour (frais des)</label></item>
+                              </list>
+                        </div>
+                  </div>
+            </body>
+      </text>
 </TEI>

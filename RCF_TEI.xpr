@@ -10,11 +10,31 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Indexes/Relations.xml</String>
+                                    <String>ODD_comite.odd</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>6/tei/teip5.framework/TEI P5/TEI P5 XHTML</String>
+                                        <String>6/tei/teip5odd.framework/TEI ODD/TEI ODD to RELAX NG XML</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>ANT</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Indexes/Prosopographie.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Prosopographie</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -50,31 +70,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>ODD_comite.odd</String>
+                                    <String>Indexes/Relations.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>6/tei/teip5odd.framework/TEI ODD/TEI ODD to RELAX NG XML</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>ANT</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Indexes/Prosopographie.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Prosopographie</String>
+                                        <String>6/tei/teip5.framework/TEI P5/TEI P5 XHTML</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
