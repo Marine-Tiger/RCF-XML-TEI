@@ -51,6 +51,7 @@
           <moduleRef key="transcr"/>
           <!-- Le module drama est ajouté afin de pouvoir encoder les distributions des rôles -->
           <moduleRef key="drama" include="actor castItem castList role"/>
+          <moduleRef key="figures" include="formula table cell row"/>
 
 
           <!-- Pour la <div1> -->
@@ -152,6 +153,7 @@
                   <valItem ident="pension"/>
                   <valItem ident="quinzainiers"/>
                   <valItem ident="repertoire"/>
+                  <valItem ident="repetition"/>
                   <valItem ident="representations externes"/>
                   <valItem ident="representation a benefice"/>
                   <valItem ident="retraite"/>
@@ -181,7 +183,32 @@
               </constraint>
             </constraintSpec>
           </elementSpec>
-
+          
+          <!-- Ajout @target à <measure>, <persName> et <placeName> -->
+          
+          <elementSpec ident="measure" mode="change" module="core">
+            <classes mode="change">
+              <memberOf mode="add" key="att.pointing"/>
+            </classes>
+          </elementSpec>
+          
+          <elementSpec ident="persName" mode="change" module="namesdates">
+            <classes mode="change">
+              <memberOf mode="add" key="att.pointing"/>
+            </classes>
+          </elementSpec>
+          
+          <elementSpec ident="placeName" mode="change" module="namesdates">
+            <classes mode="change">
+              <memberOf mode="add" key="att.pointing"/>
+            </classes>
+          </elementSpec>
+          
+          <elementSpec ident="title" mode="change" module="core">
+            <classes mode="change">
+              <memberOf mode="add" key="att.pointing"/>
+            </classes>
+          </elementSpec>
 
         </schemaSpec>
       </div>

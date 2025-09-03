@@ -12882,6 +12882,15 @@
      </persName>
      <occupation from="1643" to="1715" type="roi_france"/>
     </person>
+    
+    <person ana="auteur.rice" xml:id="BIZO1">
+     <persName>
+      <reg>Abbé Bizot</reg>
+      <forename>Denis</forename>
+      <surname type="nom_famille">De Bizot</surname>
+     </persName>
+    </person>
+    
    </listPerson>
   </body>
  </text>

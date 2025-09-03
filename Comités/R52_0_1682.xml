@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+<?xml-model href="../ODD_comite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD_comite.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
@@ -69,69 +69,191 @@
    </teiHeader>
    <text>
       <body>
-<!--         [14 septembre 1682]
-Horaires de répétitions
+         <div1 type="ass_ord" when="1682-09-18">
+            <pb facs="https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/1/mode/1up"/>
+            <div2 type="deliberation" ana="finances">
+               <head>Mémoire des <term target="glos:JETO1">jettons</term> d'argent que la Troupe a
+                  faict faire le <date when="1682-08-15">15 aoust 1682</date> par Monsieur
+                     l'<persName target="glos:BIZO1">abé Bizot</persName> aux <placeName
+                     target="glos:LOUV1">galleries du Louvre</placeName>.</head>
+               <p>
+                  <table ana="jeton" rows="7" cols="2">
+                     <row>
+                        <cell>Trois cent cinquante quatre jettons pesant ensemble 17 marcs 7 onzes 1
+                           gros</cell>
+                        <cell>518 £: 14 solz</cell>
+                     </row>
+                     <row>
+                        <cell>façon a 5 £ : le marc</cell>
+                        <cell>79 £:</cell>
+                     </row>
+                     <row>
+                        <cell>poinçon faict exprès</cell>
+                        <cell>55 £:</cell>
+                     </row>
+                     <row>
+                        <cell>aux ouvriers pour leur vin</cell>
+                        <cell>3£</cell>
+                     </row>
+                     <row>
+                        <cell>pour passer le batteau</cell>
+                        <cell>7S</cell>
+                     </row>
+                     <row>
+                        <cell>à l'hommes qui a porté les jettons </cell>
+                        <cell>10 solz</cell>
+                     </row>
+                     <row ana="total">
+                        <cell/>
+                        <cell>656 £:11 S</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>Il y a des <term target="glos:JETO1">jettons</term> pour <measure ana="assemblee"
+                     >douze</measure>
+                  <term target="glos:ASSE1">assemblées</term> a <measure ana="jeton">29</measure>
+                  <term target="glos:JETO1">jettons</term> ; et <formula>six de reste des 354 29x12
+                     = 58+290 = 348</formula> six de reste 6 354 <term target="glos:JETO1"
+                     >jettons</term>
+               </p>
 
-Aujourd'huy 14e septembre 1682, la Compagnie a arresté que les jours de répétition, on se
-trouvera a dix heures pour les grandes pièces et a dix heures et demye pour les petites a
-peine d'un escu d'amande pris sur la première part que l'on appliquera a toute charité que la
-Compagnie trouvera a propos et a signé :
-LE COMTE, BRECOURT, DE AUVILLIERS, DE CHAMPMESLE, GUERIN,
-DE VERNEUIL, HUBERT, DE ROSIMOND, DEVILLIERS, DU CROISY,
-DE LA GRANGE, LOUISE JACOB, LA TUILLERIE
+               <p>Les 29 <term target="glos:JETO1">jettons</term> reviennent pour chaque <term
+                     target="glos:ASSE1">assemblée</term> a <formula ana="jeton">cinquante et quatre
+                     livres cy 54£: 54x12 = 108+540 = 648</formula> Le six de reste, valeur a peu de
+                  choses près <measure ana="somme jeton">8 £:11 S 656 £: 11 S</measure></p>
 
+               <p>Les <measure ana="jeton">29</measure>
+                  <term target="glos:JETO1">jettons</term> pèsent <measure ana="somme jeton">un marc
+                     et 7 onze moins 1 gros 2/1 s a 34 £ le marc</measure>, sans y comprendre la
+                  valeur du poinçon, valeur cinquante et une livres, et avec led. poinçon et frais,
+                  a 54 £.</p>
+            </div2>
+         </div1>
 
-[reçu le 18 septembre 1682]
-Jetons d'argent
+         <div1 type="ass_ord" when="1682-09-14">
+            <pb facs="https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/3/mode/1up"/>
+            <div2 type="deliberation" ana="repetition">
+               <p>Aujourd'huy <date when="1682-09-14">14e septembre 1682</date>, la <term
+                     target="glos:COMP1">Compagnie</term> a arresté que les jours de <term
+                     target="glos:REPE2">répétition</term>, on se trouvera a <time when="10:00:00"
+                     >dix heures</time> pour les grandes <term target="glos:PIEC1">pièces</term> et
+                  a <time when="10:30:00">dix heures et demye</time> pour les petites a peine
+                     d'<measure ana="amende">un escu</measure> d'<term target="glos:AMEN1"
+                     >amande</term> pris sur la première <term target="glos:PART1">part</term> que
+                  l'on appliquera a toute charité que la <term target="glos:COMP1">Compagnie</term>
+                  trouvera a propos et a signé :</p>
+            </div2>
+            <div2 type="signature">
+               <signed>
+                  <!-- Quel "Le Comte"? -->
+                  <persName target="rela:GUYOT">LE COMTE</persName>
+                  <persName target="pros:BREC1">BRECOURT</persName>
+                  <persName target="pros:DAUV1">DAUVILLIERS</persName>
+                  <persName target="pros:CHAM3">DE CHAMPMESLE</persName>
+                  <persName target="rela:GUERIN">GUERIN</persName>
+                  <persName target="pros:VERN2">DE VERNEUIL</persName>
+                  <persName target="pros:HUBE1">HUBERT</persName>
+                  <persName target="pros:ROSI5">DE ROSIMOND</persName>
+                  <persName target="pros:VILL2">DEVILLIERS</persName>
+                  <persName target="pros:DUCR1">DU CROISY</persName>
+                  <persName target="pros:LAGR1">C.V. DELAGRANGE</persName>
+                  <persName target="pros:DUPI1">LOUISE JACOB</persName>
+                  <persName target="pros:LATU1">LA TUILLERIE</persName>
+               </signed>
+            </div2>
+         </div1>
 
-Mémoire des jettons d'argent que la Troupe a faict faire le 15 aoust 1682 par Monsieur
-l'abé Bizot aux galleries du Louvre.
-
-Trois cent cinquante quatre jettons pesant
-ensemble 17 marcs 7 onzes 1 gros           518 £:          14 solz
-façon a 5 £ : le marc                              79 £:
-poinçon faict exprès                              55 £:
-aux ouvriers pour leur vin                          3£
-pour passer le batteau                                       7S
-à l'hommes qui a porté les jettons                         10 solz
-                                                  656 £:   11 S
-
-Il y a des jettons pour douze assemblées a 29 jettons ; et six de reste des 354
-29x12 = 58+290 = 348
-six de reste 6
-                                             354 jettons
-
-Les 29 jettons reviennent pour chaque assemblée a cinquante et quatre livres cy 54£:
-54x12 = 108+540 = 648
-Le six de reste, valeur a peu de choses près 8 £:11 S
-                                          656 £: 11 S
-
-Les 29 jettons pèsent un marc et 7 onze moins 1 gros 2/1 s a 34 £ le marc, sans y comprendre la
-valeur du poinçon, valeur cinquante et une livres, et avec led. poinçon et frais, a 54 £.
-
-Monsieur de Brécourt a manqué à la répétition le jeudy 17e septembre.
-
-
-
-
-
-[28 septembre 1682]
-Répertoire et chandelles
-
-Ce jour d'huy lundy 28 septembre, la Trouppe s'est assemblée ; les présens sont :
-DE LA GRANGE, DE CHAMPMESLE, HUBERT, LE COMTE, DE VERNEUIL,
-BRECOURT, [Mlle] LECONTE, [Mlle] LAGRANGE, [Mlle] BARON, DEBRIE,
-HAUTEROCHE, BARON, POISSON, BEAUVAL, [Mlle] CHEMESLE, DENNEBAULT,
-LATUILLERIE, LOUISE JACOB, RAISIN, GUERIN, D'AUVILLIERS, LA RAISIN,
-BEJARD, ROSIMOND, [Mlle]BAUVALL
-Présens a l'assemblée avant dix heures au nombre de 25
-
-Répertoire
-
-           294 - mardy               Andromède5
-           30 - mercredy             Agamemnon ; Crispin bel esprit
-           16 - jeudy                Misanthrope
-           2 - vendredy              Othon, Carrosses ou Andromède
+         <div1 type="ass_ord" when="1682-09-17">
+            <pb facs="https://flipbooks.cfregisters.org/R52_0_1682/index.html#page/4/mode/1up"/>
+            <p rend="italique">Monsieur <persName target="pros:BREC1">de Brécourt</persName> a
+               manqué à la <term target="glos:REPE2">répétition</term> le <date when="1682-09-17"
+                  >jeudy 17e septembre</date>.</p>
+         </div1>
+         
+         <div1 type="ass_ord" when="1682-09-28">
+            <div2 type="preambule">
+               <p>Ce jour d'huy <date when="1682-09-28">lundy 28 septembre</date>, la Trouppe s'est assemblée ; les présens sont :</p>
+            </div2>
+            <div2 type="signature">
+               <signed>
+                  <persName target="pros:LAGR1">DE LA GRANGE</persName>
+                  <persName target="pros:CHAM3">DE CHAMPMESLE</persName>
+                  <persName target="pros:HUBE1">HUBERT</persName>
+                  <persName target="pros:LECO4">LE COMTE</persName>
+                  <persName target="pros:VERN2">DE VERNEUIL</persName>
+                  <persName target="pros:BREC1">BRECOURT</persName>
+                  <persName target="pros:LECO3">[Mlle] LE CONTE</persName>
+                  <persName target="pros:LAGR5">[Mlle] LAGRANGE</persName>
+                  <persName target="pros:BARO2">[Mlle] BARON</persName>
+                  <persName target="pros:BRIE1">DEBRIE</persName>
+                  <persName target="pros:HAUT1">HAUTEROCHE</persName>
+                  <persName target="pros:BARO1">BARON</persName>
+                  <!-- Du Croizy ou Poisson? -->
+                  <persName target="rela:POISSON">POISSON</persName>
+                  <persName target="pros:BEAU4">BEAUVAL</persName>
+                  <!-- Doute sur la personne, Mlle Champmeslé? -->
+                  <persName target="pros:CHAM5">[Mlle] CHEMESLE</persName>
+                  <persName target="pros:DENN1">DENNEBAULT</persName>
+                  <persName target="pros:LATU1">LATUILLERIE</persName>
+                  <persName target="pros:DUPI1">LOUISE JACOB</persName>
+                  <persName target="pros:RAIS2">RAISIN</persName>
+                  <persName target="pros:GUER3">GUERIN</persName>
+                  <persName target="pros:DAUV1">DAUVILLIERS</persName>
+                  <persName target="pros:RAIS3">LA RAISIN</persName>
+                  <persName target="pros:BEJA1">BEJARD</persName>
+                  <persName target="pros:ROSI5">DE ROSIMOND</persName>
+                  <persName target="pros:BEAU12">[Mlle]BAUVALL</persName>
+               </signed>
+               <p>Présens a l'assemblée avant <time when="10:00:00">dix heures</time> au nombre de <measure ana="societaires">25</measure></p>
+            </div2>
+            <div2 type="deliberation" ana="repertoire">
+               <head>Répertoire</head>
+               <table>
+                  <row>
+                     <cell>29<note type="footnote">Septembre 1682</note> - mardy</cell>
+                     <cell><title target="piec:ANDROMEDE1">Andromède</title><note type="footnote">Andromède barrée</note></cell>
+                  </row>
+                  <row>
+                     <cell>30 - mercredy</cell>
+                     <cell>Agamemnon ; Crispin bel esprit</cell>
+                  </row>
+                  <row>
+                     <cell>1<note type="footnote">Octobre 1682</note> - jeudy</cell>
+                     <cell>Misanthrope</cell>
+                  </row>
+                  <row>
+                     <cell>2 - vendredy</cell>
+                     <cell>Othon, Carrosses ou Andromède</cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+                  <row>
+                     <cell></cell>
+                  </row>
+               </table>
+            </div2>
+         </div1>
+         <!--
+           294 - mardy               
+                        
+                           
+                         
            3 - samedy                L’Étourdi
            4 - dimanche              Othon, Carrosses ou Andromède
            5 - lundi                 Le Menteur7
@@ -159,7 +281,6 @@ alictés.
 8    La Jalouse d'elle même a été remplacée
 9    Interligne barré : dimanche. Inattention
 10   Article interrompu
-                                                                                                      19
 
 
 On avertira tous les acteurs la veille de la lecture et on se trouvera à l'assemblée à dix heures
@@ -211,7 +332,6 @@ maladie.
 12   Date précise ajoutée en interligne
 13   'a forfaice' à moitié illisible
 14   Le nom de Brécourt apparaît avant le corps du texte.
-                                                                                                       20
 
 
 
@@ -258,7 +378,6 @@ théastre.
 Les jettons ont esté partagés aux présens qui ont signe cy-dessus au nombre de 26 ; les 3 jettons
 restans ont esté partagés : chaque présent a eu 3 sols.
 15 Oubli du des ajouté en interligne.
-                                                                                                    21
 
 
 Pièces que la Compagnie doit représenter a Fontainebleau
@@ -307,7 +426,6 @@ ANGELIQUE, BRECOURT
 16 Britannicus remplacé
 17 Hercule remplacé par Hercule
 18 Cléopâtre remplacée
-                                                                                                   22
 
 La Compagnie a résolu de représenter demain l'Étourdi et mercredy l'Inconnu ; après quoy plusieurs
 de nos camarades devant revenir de Fontainebleau, on jouera les pièces qui n'ont point esté
@@ -357,7 +475,6 @@ Répertoire
 22   Correction
 23   Muse coquette remplacée
 24   Crispin médecin remplacé
-                                                                                                 23
 
               29- dimanche     L'Inconnu
               30- lundy        Artaxercès
@@ -407,13 +524,12 @@ moins qu'ils soient parens de quelqu'un de la Compagnie ou que ce soit pendant l
 
 25 Un terme raturé.
 26 Monsieur le C... raturé
-                                                                                                        24
 
 tous27 les comédiens entrent.
 
 On a résolu que l'on marquera sur tous les bancs à l’amphithéâtre hors le premier et le second banc.
 On donnera ordre aux ouvreurs de loges de ne point laisser entrer dans les fons que les enfans et
-femmes de chambre de la Compagnie, lors qu'il n'y aura point de ---- et qu'on n'y laisra entrer aucun
+femmes de chambre de la Compagnie, lors qu'il n'y aura point de et qu'on n'y laisra entrer aucun
 ouvrier ou.... qui n'appartiendrait point à la trouppe.
 
 Arresté en présence et du consentement de la Compagnie,

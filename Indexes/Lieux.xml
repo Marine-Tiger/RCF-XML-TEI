@@ -22,6 +22,9 @@
             <place xml:id="GUEN1">
                <placeName>Théâtre du Guénédaud</placeName>
             </place>
+            <place xml:id="LOUV1">
+               <placeName>Galeries du Louvre</placeName>
+            </place>
          </listPlace>
       </body>
   </text>

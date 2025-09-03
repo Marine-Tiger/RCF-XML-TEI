@@ -44,22 +44,22 @@
       <encodingDesc>
          <listPrefixDef>
             <prefixDef matchPattern="([a-zA-Z0-20]+)"
-               replacementPattern="./Indexes/Prosopographie.xml#$1" ident="pros">
+               replacementPattern="../Indexes/Prosopographie.xml#$1" ident="pros">
                <p> Le préfix "pros" pointe vers les éléments person dans le fichier Prosopographie.
                   Il permet d'utiliser l'xml:id des personnes. </p>
             </prefixDef>
-            <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="./Indexes/Pièces.xml#$1"
+            <prefixDef matchPattern="([a-zA-Z0-20]+)" replacementPattern="../Indexes/Pièces.xml#$1"
                ident="piec">
                <p>Le préfix "piec" pointe vers le fichier Pièces.</p>
             </prefixDef>
-            <prefixDef matchPattern="([aA-zZ]+)" replacementPattern="./Indexes/Lieux.xml#$1"
+            <prefixDef matchPattern="([aA-zZ]+)" replacementPattern="../Indexes/Lieux.xml#$1"
                ident="lieu">
                <p>Le préfix "lieu" pointe vers les éléments place dans le fichier Lieu.</p>
             </prefixDef>
             <prefixDef matchPattern="([a-zA-Z0-20]+)"
-               replacementPattern="./Indexes/Glossaire.xml#$1" ident="glos"/>
+               replacementPattern="../Indexes/Glossaire.xml#$1" ident="glos"/>
             <prefixDef matchPattern="([a-zA-Z0-20]+)"
-               replacementPattern="./Indexes/Relations.xml#$1" ident="rela"/>
+               replacementPattern="../Indexes/Relations.xml#$1" ident="rela"/>
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
@@ -77,7 +77,7 @@
             <p>
                <date when="1677-05-17">17 may 1677</date></p>
             <div2 type="deliberation" ana="finances">
-               <p>La <term ref="glos:COMP1">Compagnie</term> s'estant assemblée ce jour d'hui <date
+               <p>La <term target="glos:COMP1">Compagnie</term> s'estant assemblée ce jour d'hui <date
                      when="1677-05-17">17e may 1677</date>, a délibéré de rassepter<note
                      type="footnote">Un terme manquant</note> les <measure type="glos:RENT1">cent
                      cinquante livres</measure> de rente qui restent deubee a Monsieur
@@ -88,9 +88,9 @@
                   le <date when="1675-04-04">quatre avril mil six cent soixante quinze</date>,
                   montant jusques a ce jourd'huy a la somme de <measure type="glos:RENT1">troix cent
                      dix sept livres dix huict soles quatre deniers</measure> ; comme aussy, a
-                  delibéré de payer a <persName ref="pers:BEJA1">Mademoiselle de Molière</persName>
+                  delibéré de payer a <persName ref="pros:BEJA1">Mademoiselle de Molière</persName>
                   les interests des <measure type="glos:INTE2">unze mil livres</measure> qu'elle a
-                  receue de <persName ref="pers:LULL1">M. de Lully</persName> depuis le <date
+                  receue de <persName ref="pros:LULL1">M. de Lully</persName> depuis le <date
                      when="1676-05-22">vingt deux may mil six cent soixante seize</date> jusques au
                   dit jour <date when="1676-07-15">quinze juillet mile six cent soixante
                      seize</date> montant a la somme de <measure type="glos:INTE2">quatre vingt deux
@@ -102,7 +102,7 @@
                   dix a mise de <persName ref="pers:HUBE1">Monsieur Hubert</persName>, la somme de
                      <measure type="glos:EMPR1">seize cent cinquante livres</measure> et le surplus,
                   montant a <measure type="glos:EMPR1">dix sept cent cinquante livres huict solz
-                     quatre deniers</measure>, sera fourny par <persName ref="pers:LAGR1">Monsieur
+                     quatre deniers</measure>, sera fourny par <persName ref="pros:LAGR1">Monsieur
                      De La Grange</persName>
                   <pb facs="https://flipbooks.cfregisters.org/R52_0_1677/index.html#page/4/mode/1up"
                   /> tan des deniers qu'il a receus pour la <term ref="glos:COMP1">Compagnie</term>
