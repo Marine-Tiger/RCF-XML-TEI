@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../ODD_comite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../ODD_comite.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Feuillets des années 1699, coté R52_0</title>
+            </titleStmt>
+            <sourceDesc>
+                <msDesc facs="https://flipbooks.cfregisters.org/R52_0_1699/index.html">
+                    <msIdentifier>
+                        <institution>Bibliothèque-musée de la Comédie-Française</institution>
+                        <repository>Assemblées (délibérations)</repository>
+                        <idno>R52_0_1699</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <listPrefixDef>
+                <prefixDef matchPattern="([a-zA-Z0-20]+)"
+                    replacementPattern="../Indexes/Prosopographie.xml#$1" ident="pros">
+                    <p>Le préfix 'pros' pointe vers les éléments person dans le fichier
+                        Prosopographie.</p>
+                </prefixDef>
+                <prefixDef matchPattern="([a-zA-Z0-20]+)"
+                    replacementPattern="../Indexes/Lieux.xml#$1" ident="lieu">
+                    <p>Le préfix 'lieu' pointe vers les éléments place dans le fichier Lieux.</p>
+                </prefixDef>
+            </listPrefixDef>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Fait à <placeName>Marseille</placeName> le <date when="2025-09-04">4 septembre 2025</date>
+                à <time when="11:00:00">11 heure du matin</time>.</p>
+        </body>
+    </text>
+</TEI>
