@@ -1,0 +1,51 @@
+{
+  "file": "textes/demo",
+  "entities": {
+    "names": [
+      "Marseille"
+    ],
+    "dates": [
+      {
+        "original": "4 septembre 2025",
+        "iso_format": "2025-09-04"
+      }
+    ],
+    "times": [
+      {
+        "original": "11 heure du matin",
+        "iso_format": "11:00:00"
+      }
+    ],
+    "places": [
+      {
+        "original": "Marseille"
+      }
+    ]
+  },
+  "matches": {
+    "names": {
+      "exact": [],
+      "fuzzy": [],
+      "unmatched": [
+        "Marseille"
+      ]
+    },
+    "places": {
+      "exact": [],
+      "fuzzy": [],
+      "unmatched": [
+        "Marseille"
+      ]
+    }
+  },
+  "tei_file": "demo.xml",
+  "summary": {
+    "total_names": 1,
+    "total_dates": 1,
+    "total_times": 1,
+    "total_places": 1,
+    "exact_matches": 0,
+    "fuzzy_matches": 0,
+    "unmatched": 2
+  }
+}
