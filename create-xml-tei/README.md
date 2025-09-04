@@ -1,14 +1,17 @@
-# LLM NER to XML TEI
+# Script Overview: NER Extraction & TEI XML Generation
 
-1) extract NER (dates, times, palces, names) using LLM and structured output
-2) match NER occurences against dictionnaries (Lieux.xml, Prosopographie.xml)
-3) write XML TEI
+## Purpose
+Extracts named entities (names, dates, times, places) from text using LLM-powered NER and generates structured TEI XML output.
 
-# usage
+## Technology Stack
+- **LLM**: Groq API (via `groq` client)
+- **Structured Output**: Pydantic models for entity validation
+- **XML Processing**: ElementTree for TEI XML generation
+- **Entity Matching**: Fuzzy matching against prosopography and places indexes
+- **Input**: French historical texts
+- **Output**: JSON results + TEI XML with annotated entities
 
-1) fill `.env` with `GROQ_API_KEY` (you can use any openai compatible provider --> replace `self.client` in `ner_matcher.py`)
-2)
-```python
-python main.py textes/demo  --places ./Indexes/Lieux.xml --prosopography ./Indexes/Prosopographie.xml
-```
-3) see XML TEI output at `demo.xml`
+## Core Functionality
+- Named Entity Recognition via LLM
+- Entity matching against prosopography (Prosopographie.xml) and places (Lieux.xml)
+- Automatic TEI XML markup generation
